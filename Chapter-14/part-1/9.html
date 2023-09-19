@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 10px;
+       }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+       }
+       td{
+           border: 2px solid black; width: 55px; height: 30px;
+       }
+       th{
+           border: 2px solid black; width: 100px;text-align:center;height:50px;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <h2>(Q9). A survey was conducted by a group of students as a part of their environment awareness programme, in which they collected the following data regarding the number of plants in 20 houses in a locality. Find the mean number of plants per house.</h2>
+        <div>
+            <table>
+                <tr>
+                    <td style="width: 160px;">Number of plants</td>
+                    <td>0-2</td>
+                    <td>2-4</td>
+                    <td>4-6</td>
+                    <td>6-8</td>
+                    <td>8-10</td>
+                    <td>10-12</td>
+                    <td>12-14</td>
+                </tr>
+                <tr>
+                    <td>Number of houses</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div id="answer">
+        <h4>Solution: </h4>
+        <div>
+            <table>
+                <tr>
+                    <th style="width: 150px;">Number of plants(Class Interval)</th>
+                    <th>Number of houses(f<sub>i</sub>)</th>
+                    <th>Class marks (x<sub>i</sub>)</th>
+                    <th>f<sub>i</sub>x<sub>i</sub></th>
+                </tr>
+                <tr>
+                    <td>0-2</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td><input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="1"/></td>
+                </tr>
+                <tr>
+                    <td>2-4</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td><input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="6"/></td>
+                </tr>
+                <tr>
+                    <td>4-6</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td><input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="5"/></td>
+                </tr>
+                <tr>
+                    <td>6-8</td>
+                    <td>5</td>
+                    <td>7</td>
+                    <td><input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="35"/></td>
+                </tr>
+                <tr>
+                    <td>8-10</td>
+                    <td>6</td>
+                    <td>9</td>
+                    <td><input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="54"/></td>
+                </tr>
+                <tr>
+                    <td>10-12</td>
+                    <td>2</td>
+                    <td>11</td>
+                    <td><input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="22"/></td>
+                </tr>
+                <tr>
+                    <td>12-14</td>
+                    <td>3</td>
+                    <td>13</td>
+                    <td><input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="39"/></td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>&#8721;f<sub>i</sub> = 20</td>
+                    <td>-</td>
+                    <td>&#8721;f<sub>i</sub>x<sub>i</sub> = <input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="162"/></td>
+                </tr>
+            </table>
+        </div>
+        <p>Since f<sub>i</sub> and x<sub>i</sub> are of small values we use direct method.</p>
+        <div>
+            <span>&#8756; x&#772; =</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">&#8721;f<sub>i</sub>x<sub>i</sub></div>
+                <div style="text-align: center;">&#8721;f<sub>i</sub></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="162"/></div>
+                <div style="text-align: center;">20</div>
+            </span>
+            <span> = <input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="8"/>.1</span>
+        </div>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h2>(Q1). Solve the following pair of equations</h2>
+    <h3>
+        <div>
+            <span> </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">2</div>
+                <div style="text-align: center;">x</div>
+            </span>
+            <span> + </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">3</div>
+                <div style="text-align: center;">y</div>
+            </span>
+            <span> = 13 </span>
+        </div>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">5</div>
+                <div style="text-align: center;">x</div>
+            </span>
+            <span> - </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">4</div>
+                <div style="text-align: center;">y</div>
+            </span>
+            <span> = -2 </span>
+        </div>
+    </h3>
+    <div style="margin-left: 20px;">
+        <p>Observe the given pair of equations. They are not linear equations. (Why?)</p>
+        <div>
+            <span>We have 2(</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">x</div>
+            </span>
+            <span>) + 3(</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">y</div>
+            </span>
+            <span>) = 13 ..............(1)</span>
+        </div>
+        <div>
+            <span>5(</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">x</div>
+            </span>
+            <span>) - 4(</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">y</div>
+            </span>
+            <span>) = -2 ..............(2)</span>
+        </div>
+        <div>
+            <span>If we substitute</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">x</div>
+            </span>
+            <span>= <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="p"> and</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">y</div>
+            </span>
+            <span>= <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="q">, we get the following pair of linear equations:</span>
+        </div>
+        <p><input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="2">p + <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="3">q = <input type="text" class="answer" id="input5" maxlength="2" size="2" data-answer="13"> .................(3)</p>
+        <p><input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="5">p - <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="4">q = -<input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="2"> .................(4)</p>
+        <p>Coefficients of q are 3 and 4 and their LCM is <input type="text" class="answer" id="input9" maxlength="2" size="2" data-answer="12">. Using the elimination method:</p>
+        <div>
+            <span>Equation (3) × <input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="4"> ⇒</span>
+            <span><input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="8">p + <input type="text" class="answer" id="input12" maxlength="2" size="2" data-answer="12">q = <input type="text" class="answer" id="input13" maxlength="2" size="2" data-answer="52"></span>
+        </div>
+        <div>
+            <span>Equation (4) × <input type="text" class="answer" id="input14" maxlength="1" size="1" data-answer="3"> ⇒</span>
+            <span> <input type="text" class="answer" id="input15" maxlength="2" size="2" data-answer="15">p - <input type="text" class="answer" id="input16" maxlength="2" size="2" data-answer="12">q = -<input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="6"></span>
+            <span> 'q' terms have opposite sign, so we add the two equations.</span>
+        </div>
+        <hr style="width: 270px; margin-left: 200px;">
+        <div style="margin-left: 210px;">
+            <span><input type="text" class="answer" id="input18" maxlength="2" size="2" data-answer="23">p</span>
+            <span style="margin-left: 85px;"> = <input type="text" class="answer" id="input19" maxlength="2" size="2" data-answer="46"> </span>
+        </div>
+        <div>
+            <span> p = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input20" maxlength="2" size="2" data-answer="46"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input21" maxlength="2" size="2" data-answer="23"></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input22" maxlength="1" size="1" data-answer="2"> </span>
+        </div>
+        <p>Substitute the value of p = <input type="text" class="answer" id="input23" maxlength="1" size="1" data-answer="2"> in equation (3)</p>
+        <p>2(<input type="text" class="answer" id="input24" maxlength="1" size="1" data-answer="2">) +3q = 13</p>
+        <p>3q = 13 - <input type="text" class="answer" id="input25" maxlength="1" size="1" data-answer="4"> = <input type="text" class="answer" id="input26" maxlength="1" size="1" data-answer="9"></p>
+        <div>
+            <span> q = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input27" maxlength="1" size="1" data-answer="9"></div>
+                <div style="text-align: center;">3</div>
+            </span>
+            <span> = <input type="text" class="answer" id="input28" maxlength="1" size="1" data-answer="3"> </span>
+        </div>
+        <div>
+            <span> But, </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">x</div>
+            </span>
+            <span> = p = <input type="text" class="answer" id="input29" maxlength="1" size="1" data-answer="2"> </span>
+            <span> ⇒  x =  </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input30" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+        </div>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">y</div>
+            </span>
+            <span> = q = <input type="text" class="answer" id="input31" maxlength="1" size="1" data-answer="3"> </span>
+            <span> ⇒  y =  </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input32" maxlength="1" size="1" data-answer="3"></div>
+            </span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

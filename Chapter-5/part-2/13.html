@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>
+       (Q13) A motor boat heads upstream a distance of 24km on a river whose current is running at 3 km per hour. The trip up and back takes
+        6 hours. Assuming that the motor boat maintained a constant speed, what was its speed?
+    </h2>
+    <div id="answer">
+        <h4><u>Answer</u></h4>
+        <p>Let the speed of the boat in still water be x kmph. </p>
+        <p>Speed of the current = 3 kmph</p>
+        <p>Then speed of the boat in upstream = (x - 3) kmph</p>
+        <p>Speed of the boat in downstream = (x + 3) kmph</p>
+        <p>By problem total time taken = 6h.</p>
+        <div>
+            <span> &there4; </span>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">24</div>
+                <div style="text-align: center;">x - 3</div>
+            </span> + <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">24</div>
+                <div style="text-align: center;">x + 3</div>
+            </span> = 6
+        </div>
+        <div>
+            24[ <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">x - 3</div>
+            </span> + <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">x + 3</div>
+            </span>] = 6
+        </div>
+        <div>
+            24[ <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">x + 3 + x - 3</div>
+                <div style="text-align: center;">(x + 3)(x - 3)</div>
+            </span>] = 6
+        </div>
+        <p>24(2x) = 6(x<sup>2</sup> - 9)</p>
+        <p>8x = x<sup>2</sup> - 9</p>
+        <p>x<sup>2</sup> - 8x - 9 = 0</p>
+        <p>x<sup>2</sup> - <input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="9"/>x + x-9 = 0</p>
+        <p>x(x - <input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="9"/>) + 1(x - <input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="9"/>) = 6</p>
+        <p>(x - <input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="9"/>)(x + 1) = 0</p>
+        <p>x-<input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="9"/> = 0 or x + 1 = 0</p>
+        <p>x can't be negative,</p>
+        <p>&there4; x = <input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="9"/></p>
+        <p>speed of the boat in still water = <input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="9"/> kmph</p>
+
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

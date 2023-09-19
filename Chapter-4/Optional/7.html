@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        table, th, td {
+          border:1px solid black; 
+          border-collapse: collapse;
+          padding: 15px;
+          margin-bottom: 15px;
+          margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>(Q7).Animals in an experiment are to be kept on a strict diet. Each animal is to receive among other things 20g of protein and 6g of fat. The laboratory technicians purchased two food mixes, A and B. Mix A has 10% protein and 6% fat. Mix B has 20% protein and 2% fat. How many grams of each mix should be used?</h2>
+    <div>
+        <p>Let x gms of mix A and y gms of mix B are to be mixed, then</p>
+        <table>
+            <tr>
+              <th> </th>
+              <th>Proteins</th>
+              <th>Fat</th>
+            </tr>
+            <tr>
+              <td>Mix A x gms</td>
+              <td>
+                <span>x gms of 10% = </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">10x</div>
+                    <div style="text-align: center;">100</div>
+                </span>
+                <span> = </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">x</div>
+                    <div style="text-align: center;">10</div>
+                </span>
+              </td>
+              <td>
+                <span>x gms of 6% = </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">x.6</div>
+                    <div style="text-align: center;">100</div>
+                </span>
+                <span> = </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">3x</div>
+                    <div style="text-align: center;">50</div>
+                </span>
+              </td>
+            </tr>
+            <tr>
+                <td>Mix B y gms</td>
+                <td>
+                  <span>y gms of 20% = </span>
+                  <span style="display: inline-block;vertical-align: middle;">
+                      <div style="text-align: center; border-bottom: 1px solid black;">y.20</div>
+                      <div style="text-align: center;">100</div>
+                  </span>
+                  <span> = </span>
+                  <span style="display: inline-block;vertical-align: middle;">
+                      <div style="text-align: center; border-bottom: 1px solid black;">y</div>
+                      <div style="text-align: center;">5</div>
+                  </span>
+                </td>
+                <td>
+                  <span>y gms of 2% = </span>
+                  <span style="display: inline-block;vertical-align: middle;">
+                      <div style="text-align: center; border-bottom: 1px solid black;">y.2</div>
+                      <div style="text-align: center;">100</div>
+                  </span>
+                  <span> = </span>
+                  <span style="display: inline-block;vertical-align: middle;">
+                      <div style="text-align: center; border-bottom: 1px solid black;">y</div>
+                      <div style="text-align: center;">50</div>
+                  </span>
+                </td>
+            </tr>
+            <tr>
+                <td> Total </td>
+                <td>
+                    <div>
+                        <span style="display: inline-block;vertical-align: middle;">
+                            <div style="text-align: center; border-bottom: 1px solid black;">x</div>
+                            <div style="text-align: center;">10</div>
+                        </span>
+                        <span> + </span>
+                        <span style="display: inline-block;vertical-align: middle;">
+                            <div style="text-align: center; border-bottom: 1px solid black;">y</div>
+                            <div style="text-align: center;">5</div>
+                        </span>
+                        <span> = 20 ⇒ </span>
+                        <span style="display: inline-block;vertical-align: middle;">
+                            <div style="text-align: center; border-bottom: 1px solid black;">x+<input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="2">y</div>
+                            <div style="text-align: center;"><input type="text" class="answer" id="input2" maxlength="2" size="2" data-answer="10"></div>
+                        </span>
+                        <span> = 20</span>
+                    </div>
+                    <p> x + <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="2">y = <input type="text" class="answer" id="input4" maxlength="3" size="3" data-answer="200"> .......(1)</p>
+                </td>
+                <td>
+                    <div>
+                        <span style="display: inline-block;vertical-align: middle;">
+                            <div style="text-align: center; border-bottom: 1px solid black;">3x</div>
+                            <div style="text-align: center;">50</div>
+                        </span>
+                        <span> + </span>
+                        <span style="display: inline-block;vertical-align: middle;">
+                            <div style="text-align: center; border-bottom: 1px solid black;">y</div>
+                            <div style="text-align: center;">50</div>
+                        </span>
+                        <span> = 6 ⇒ </span>
+                        <span style="display: inline-block;vertical-align: middle;">
+                            <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="3">x+y</div>
+                            <div style="text-align: center;"><input type="text" class="answer" id="input6" maxlength="2" size="2" data-answer="50"></div>
+                        </span>
+                        <span> = 6</span>
+                    </div>
+                    <p> <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="3">x + y = <input type="text" class="answer" id="input8" maxlength="3" size="3" data-answer="300"> ......(2)</p>
+                </td>
+            </tr>
+          </table>
+        <div>
+            <span>equation (1) &times; (<input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="3">) ⇒</span>
+            <span> <input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="3">x + <input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="6">y = <input type="text" class="answer" id="input12" maxlength="3" size="3" data-answer="600"></span>
+        </div>
+        <div>
+            <span>equation (2) &emsp; &emsp; &ensp; &ensp; ⇒</span>
+            <span> <input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="3">x + &emsp; &emsp; y = <input type="text" class="answer" id="input14" maxlength="3" size="3" data-answer="300"></span>
+        </div>
+        <hr style="width: 280px; margin-left: 190px;">
+        <div style="margin-left: 300px;">
+            <span> <input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="5">y </span>
+            <span style="margin-left: 0px;">  = <input type="text" class="answer" id="input16" maxlength="3" size="3" data-answer="300"></span>
+        </div>
+        <div>
+            <span> ⇒ y = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input17" maxlength="3" size="3" data-answer="300"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input18" maxlength="1" size="1" data-answer="5"></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input19" maxlength="2" size="2" data-answer="60"> gm</span>
+        </div>
+        <p>Substituting y = <input type="text" class="answer" id="input20" maxlength="2" size="2" data-answer="60"> in equation (1)</p>
+        <p>we get x + 2 × <input type="text" class="answer" id="input21" maxlength="2" size="2" data-answer="60"> = 200</p>
+        <p>⇒ x + <input type="text" class="answer" id="input22" maxlength="3" size="3" data-answer="120"> = 200</p>
+        <p>⇒ x = 200 – <input type="text" class="answer" id="input23" maxlength="3" size="3" data-answer="120"> = <input type="text" class="answer" id="input24" maxlength="2" size="2" data-answer="80"> gm</p>
+        <p>∴ Quantity of mix. A = <input type="text" class="answer" id="input25" maxlength="2" size="2" data-answer="80"> gms.</p>
+        <p>Quantity of mix. B = <input type="text" class="answer" id="input26" maxlength="2" size="2" data-answer="60"> gms.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

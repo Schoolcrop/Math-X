@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+   <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q18) The line joining points A(6,9) and B(-6, -9) is given.</h2>
+    <h2>In which ratio does the point Q(-2,-3) divide <span class="overline">AB</span> ? </h2>
+    <div id="answer">
+        <p>Let Q divide <span class="overline">AB</span> in the ratio say k:1 internally, then </p>
+        <div>
+            <span> Q(-2 , -3) = (</span>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">kx<sub>2</sub>+x<sub>1</sub></div>
+                <div style="text-align: center;">k+1</div>
+            </span> 
+            <span>,</span>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">ky<sub>2</sub>+y<sub>1</sub></div>
+                <div style="text-align: center;">k+1</div>
+            </span> )
+        </div>
+        <p>[By second formula]</p>
+        <div>
+            <span>(-2 , -3) = ( </span>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">k(-6)+<input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="6"/></div>
+                <div style="text-align: center;">k+1</div>
+            </span> 
+            <span>,</span>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">k(-9)+<input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="9"/></div>
+                <div style="text-align: center;">k+1</div>
+            </span> 
+            <span>)</span>
+        </div>
+        <div>
+            <span>- 2 =</span>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-6k+<input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="6"/></div>
+                <div style="text-align: center;">k+1</div>
+            </span> 
+            <span>and</span>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-9k+<input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="9"/></div>
+                <div style="text-align: center;">k+1</div>
+            </span> 
+            <span> = -3</span>
+        </div>
+        <p>-6k+<input type="text" class="answer" id="input5" maxlength="2" size="1" data-answer="6"/> = -2k-2 and -9k+<input type="text" class="answer" id="input6" maxlength="2" size="1" data-answer="9"/> = -3k-3</p>
+        <p>-6k+2k = -2-<input type="text" class="answer" id="input7" maxlength="2" size="1" data-answer="6"/> and -9k+3k = -3-<input type="text" class="answer" id="input8" maxlength="2" size="1" data-answer="9"/></p>
+        <p>-4k = -<input type="text" class="answer" id="input9" maxlength="2" size="1" data-answer="8"/> and -6k = -<input type="text" class="answer" id="input10" maxlength="2" size="1" data-answer="12"/></p>
+        <div>
+            <span> k = </span>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input11" maxlength="2" size="1" data-answer="8"/></div>
+                <div style="text-align: center;">-4</div>
+            </span> 
+            <span>= <input type="text" class="answer" id="input12" maxlength="2" size="1" data-answer="2"/> and k =</span>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input13" maxlength="2" size="1" data-answer="12"/></div>
+                <div style="text-align: center;">-6</div>
+            </span>
+            <span>= <input type="text" class="answer" id="input14" maxlength="2" size="1" data-answer="2"/></span>
+        </div>
+        <p>The ratio is k:1 = <input type="text" class="answer" id="input15" maxlength="2" size="1" data-answer="2"/>:1</p> 
+        
+    </div>
+
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+   <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

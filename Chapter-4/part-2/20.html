@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h2>(Q20).The sum of a two digit number and the number obtained by reversing the digits is 66. If the digits of the number differ by 2, find the number. How many such numbers are there?</h2>
+    <div style="margin-left: 20px;">
+        <p>Let the digit in units place be x</p>
+        <p>and the digit in tens place be y</p>
+        <p>then the value of the number = <input type="text" class="answer" id="input1" maxlength="2" size="2" data-answer="10">y + x</p>
+        <p>Number obtained by reversing the digits = <input type="text" class="answer" id="input2" maxlength="2" size="2" data-answer="10">x + y</p>
+        <p>By problem,</p>
+        <p>(<input type="text" class="answer" id="input3" maxlength="2" size="2" data-answer="10">y + x) + (<input type="text" class="answer" id="input4" maxlength="2" size="2" data-answer="10">x + y) = <input type="text" class="answer" id="input5" maxlength="2" size="2" data-answer="66"></p>
+        <p>and x – y = <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="2"></p>
+        <p>⇒ <input type="text" class="answer" id="input7" maxlength="2" size="2" data-answer="11">x – <input type="text" class="answer" id="input8" maxlength="2" size="2" data-answer="11">y = <input type="text" class="answer" id="input9" maxlength="2" size="2" data-answer="66"> and x – y = <input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="2"></p>
+        <p>⇒ x + y = <input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="6"> and x – y = <input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="2"></p>
+        <p>Solving these two equations</p>
+        <p>x + y = 6</p>
+        <p>x – y = 2</p>
+        <hr style="width: 100px; margin-left: 0px;">
+        <p>(+) <input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="2">x = <input type="text" class="answer" id="input14" maxlength="1" size="1" data-answer="8"></p>
+        <div>
+            <span> x = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="8"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input16" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="4"></span>
+        </div>
+        <p>Substituting x = <input type="text" class="answer" id="input18" maxlength="1" size="1" data-answer="4"> in x + y = 6</p>
+        <p>we get <input type="text" class="answer" id="input19" maxlength="1" size="1" data-answer="4"> + y = 6 ⇒ y = <input type="text" class="answer" id="input20" maxlength="1" size="1" data-answer="2"></p>
+        <p>Substituting x, y values in equations (10y + x) & (10x + y),</p>
+        <p>We get 10y + x</p>
+        <p>= 10(<input type="text" class="answer" id="input21" maxlength="1" size="1" data-answer="2">) + <input type="text" class="answer" id="input22" maxlength="1" size="1" data-answer="4"> = <input type="text" class="answer" id="input23" maxlength="2" size="2" data-answer="20"> + <input type="text" class="answer" id="input24" maxlength="1" size="1" data-answer="4"> = <input type="text" class="answer" id="input25" maxlength="2" size="2" data-answer="24"></p>
+        <p>and 10x + y = 10(<input type="text" class="answer" id="input26" maxlength="1" size="1" data-answer="4">) + <input type="text" class="answer" id="input27" maxlength="1" size="1" data-answer="2"></p>
+        <p>= <input type="text" class="answer" id="input28" maxlength="2" size="2" data-answer="40"> + <input type="text" class="answer" id="input29" maxlength="1" size="1" data-answer="2"> = <input type="text" class="answer" id="input30" maxlength="2" size="2" data-answer="42"></p>
+        <p>∴ The number is <input type="text" class="answer" id="input31" maxlength="2" size="2" data-answer="42"> or <input type="text" class="answer" id="input32" maxlength="2" size="2" data-answer="24"></p>
+        <p>Thus we have two such numbers.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

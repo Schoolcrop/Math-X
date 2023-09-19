@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{padding: 10px;}
+    </style>
+</head>
+<body>
+    <div>
+        <h2>(Q23)You have a single deck of well shuffled cards.</h2>
+        <h3> What is the probability that it is a face card? </h3>
+    </div>
+    <div>
+        <p><b>Answer : </b></p>
+        <p>Face cards are J, Q, K.</p>
+        <p>&#8756; Number of outcomes favourable to face card = 4 &times; 3 = 12</p>
+        <p>No. of all possible outcomes = 52</p>
+        <div>
+            <span>&#8756; Probability P(E) = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">No. of favourable outcomes</div>
+                <div style="text-align: center;">Total No. of outcomes</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">12</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="52"/></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">3</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="13"/></div>
+            </span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <div>
+        <h2>(Q15).Show that one and only one out of n, n + 2 or n + 4 is divisible by 3, where n is any positive integer?</h2>
+        <p>Let n be any positive <input type="text" class="answer" id="input1" maxlength="3" size="3" data-answer="odd"> integer</p>
+        <p>Let b = 3</p>
+        <p>By dividing algorithm rule for n and b : n = 3q + r, for m > 0,and 0 ≤ r < <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="3"></p>
+        <p>The possible remainders are 0, 1, <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="2"> and 3</p>
+        <p>So, n = 3q , 3q+1, 3q+2, 3q+3, where q is the <input type="text" class="answer" id="input4" maxlength="8" size="8" data-answer="quotient">.</p>
+        <p>Let us consider n, n+2, n+4</p>
+        <p>Let r = 1, n+2</p>
+        <p>n = 3q + 1</p>
+        <p>n+2 = 3q + <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="3"></p>
+        <p>n+3 = 3q + <input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="4"></p>
+        <p>Consider n+2 it is divisible by <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="3"> in the format of 3q+1</p>
+        <p>However only n+2 is divisible by 3 remaining are not divisible by <input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="3">.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

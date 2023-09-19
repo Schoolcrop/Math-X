@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 10px;
+       }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+       }
+       td{
+           border: 2px solid black; width: 55px; height: 30px;
+       }
+       th{
+           border: 2px solid black; width: 240px;text-align:center;height:50px;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <h2>(Q1). The annual profits earned by 30 shops in Sangareddy locality give rise to the following distribution :</h2>
+        <table>
+            <tr>
+                <th>Profit(in lakhs)</th>
+                <th>Number of shops(frequency)</th>
+            </tr>
+            <tr>
+                <td>More than or equal to 5</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>More than or equal to 10</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>More than or equal to 15</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>More than or equal to 20</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>More than or equal to 25</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>More than or equal to 30</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>More than or equal to 35</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <h2>Draw both ogives for the data above. Hence obtain the median profit. </h2>
+    </div>
+    <div>
+        <p><b>Solution :</b> We first draw the coordinate axes, with lower limits of the profit along the horizontal axis, and the cumulative frequency along the vertical axes. Then, we plot the points (5, 30), (10, 28), (15, 16), (20, 14), (25, 10), (30, 7) and (35, 3). We join these points with a smooth curve to get the more than ovive, as shown in the figure below</p>
+        <img src="../../Assets/images/14-4(1).png" height="250" width="250"/>
+        <p>Now, let us obtain the classes, their frequencies and the cumulative frequency from the table above.</p>
+        <div>
+            <table>
+                <tr>
+                    <td style="width: 150px;">classes</td>
+                    <td>5-10</td>
+                    <td>10-15</td>
+                    <td>15-20</td>
+                    <td>20-25</td>
+                    <td>25-30</td>
+                    <td>30-35</td>
+                    <td>35-40</td>
+                </tr>
+                <tr>
+                    <td>Number of shops</td>
+                    <td><input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="2"/></td>
+                    <td><input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="12"/></td>
+                    <td><input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="2"/></td>
+                    <td><input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="4"/></td>
+                    <td><input type="text" class="answer" id="input5" maxlength="2" size="1" data-answer="3"/></td>
+                    <td><input type="text" class="answer" id="input6" maxlength="2" size="1" data-answer="4"/></td>
+                    <td><input type="text" class="answer" id="input7" maxlength="2" size="1" data-answer="3"/></td>
+                </tr>
+                <tr>
+                    <td>Cumulative Frequency</td>
+                    <td><input type="text" class="answer" id="input8" maxlength="2" size="1" data-answer="2"/></td>
+                    <td><input type="text" class="answer" id="input9" maxlength="2" size="1" data-answer="14"/></td>
+                    <td><input type="text" class="answer" id="input10" maxlength="2" size="1" data-answer="16"/></td>
+                    <td><input type="text" class="answer" id="input11" maxlength="2" size="1" data-answer="20"/></td>
+                    <td><input type="text" class="answer" id="input12" maxlength="2" size="1" data-answer="23"/></td>
+                    <td><input type="text" class="answer" id="input13" maxlength="2" size="1" data-answer="27"/></td>
+                    <td><input type="text" class="answer" id="input14" maxlength="2" size="1" data-answer="30"/></td>
+                </tr>
+
+            </table>
+        </div>
+        <p>Using these values, we plot the points (10, 2), (15, 14), (20, 16), (25, 20), (30, 23), (35, 27),(40, 30) on the same axes as in last figure to get the less than ogive, as shown in figure below.</p>
+        <p>The abcissa of their point of intersection is nearly 17.5, which is the median. This can also be verified by using the formula. Hence, the median profit (in lakhs) is &#8377;17.5</p>
+        <img src="../../Assets/images/14-4(1(2)).png" height="300" width="300"/>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers()">clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

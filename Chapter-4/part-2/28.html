@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h2>(Q28).Suppose you have Rs. 12000 to invest. You have to invest some amount at 10% and the rest at 15%. How much should be invested at each rate to yield 12% on the total amount invested ?</h2>
+    <div>
+        <p>Let the amount to be invested @ 10% be Rs. x</p>
+        <p>and the amount to be invested @ 15% be Rs. y</p>
+        <p>By problem x + y = <input type="text" class="answer" id="input1" maxlength="5" size="5" data-answer="12000"> ……. (1)</p>
+        <p>Also 10% of x + 15% of y = 12% of 12000</p>
+        <div>
+            <span> ⇒ </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input2" maxlength="2" size="2" data-answer="10"></div>
+                <div style="text-align: center;">100</div>
+            </span>
+            <span>x + </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input3" maxlength="2" size="2" data-answer="15"></div>
+                <div style="text-align: center;">100</div>
+            </span>
+            <span>y = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input4" maxlength="2" size="2" data-answer="12"></div>
+                <div style="text-align: center;">100</div>
+            </span>
+            <span> &times; <input type="text" class="answer" id="input5" maxlength="5" size="5" data-answer="12000"> </span>
+        </div>
+        <p>⇒ <input type="text" class="answer" id="input6" maxlength="2" size="2" data-answer="10">x + <input type="text" class="answer" id="input7" maxlength="2" size="2" data-answer="15">y = <input type="text" class="answer" id="input8" maxlength="6" size="6" data-answer="144000"> ............(2)</p>
+        <div>
+            <span>equation (1) &times; <input type="text" class="answer" id="input9" maxlength="2" size="2" data-answer="10"> ⇒</span>
+            <span> <input type="text" class="answer" id="input10" maxlength="2" size="2" data-answer="10">x + <input type="text" class="answer" id="input11" maxlength="2" size="2" data-answer="10">y = <input type="text" class="answer" id="input12" maxlength="6" size="6" data-answer="120000"></span>
+        </div>
+        <div>
+            <span>equation (2) &emsp; &emsp; &emsp; &nbsp;⇒</span>
+            <span> <input type="text" class="answer" id="input13" maxlength="2" size="2" data-answer="10">x + <input type="text" class="answer" id="input14" maxlength="2" size="2" data-answer="15">y = <input type="text" class="answer" id="input15" maxlength="6" size="6" data-answer="144000"></span>
+        </div>
+        <hr style="width: 300px; margin-left: 200px;">
+        <div style="margin-left: 300px;">
+            <span>-<input type="text" class="answer" id="input16" maxlength="1" size="1" data-answer="5">y</span>
+            <span style="margin-left: 50px;"> = -<input type="text" class="answer" id="input17" maxlength="5" size="5" data-answer="24000"></span>
+        </div>
+        <div>
+            <span>⇒ y = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input18" maxlength="5" size="5" data-answer="24000"></div>
+                <div style="text-align: center;">-<input type="text" class="answer" id="input19" maxlength="1" size="1" data-answer="5"></div>
+            </span>
+            <span> = Rs. <input type="text" class="answer" id="input20" maxlength="4" size="4" data-answer="4800"></span>
+        </div>
+        <p>Substituting y = <input type="text" class="answer" id="input21" maxlength="4" size="4" data-answer="4800"> in equation (1) we get</p>
+        <p>x + <input type="text" class="answer" id="input22" maxlength="4" size="4" data-answer="4800"> = 12000</p>
+        <p>⇒ x = 12000 – <input type="text" class="answer" id="input23" maxlength="4" size="4" data-answer="4800"> = <input type="text" class="answer" id="input24" maxlength="4" size="4" data-answer="7200"></p>
+        <p>The invested @ 10% = Rs. <input type="text" class="answer" id="input25" maxlength="4" size="4" data-answer="7200"></p>
+        <p>@ 15% = Rs. <input type="text" class="answer" id="input26" maxlength="4" size="4" data-answer="4800"></p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>(Q10) Find the probability of getting a head when a coin is tossed once. Also find the probability of getting a tail.</h2>
+    </div>
+    <div id="answer">
+        <b>Solution : </b>
+        <p>In the experiment of tossing a coin once, the number of possible outcomes is two - Head (H) and Tail (T). Let E be the event 'getting a head'. The number of outcomes favourable to E, (i.e., of getting a head) is 1.Therefore,</p>
+        <div>
+            <span>P(E) = P(Head) = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">Number of outcomes favourable to E</div>
+                <div style="text-align: center;">Number of all possible outcomes</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="1"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="2"/></div>
+            </span>
+        </div>
+        <p>Similarly, if F is the event 'getting a tail', then</p>
+        <div>
+            <span>P(F) = P(Tail) = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="1"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="2"/></div>
+            </span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

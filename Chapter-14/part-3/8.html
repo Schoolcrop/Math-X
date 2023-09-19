@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 10px;
+       }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+       }
+       td{
+           border: 2px solid black; width: 90px; height: 30px;
+       }
+       th{
+           border: 2px solid black; width: 260px;text-align:center;height:50px;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <h2>(Q8) 100 surnames were randomly picked up from a local telephone directory and the frequency distribution of the number of letters in the English alphabet in the surnames was obtained as follows.</h2>
+        <table>
+            <tr>
+                <td style="width: 150px;">Number of letters</td>
+                <td>1-4</td>
+                <td>4-7</td>
+                <td>7-10</td>
+                <td>10-13</td>
+                <td>13-16</td>
+                <td>16-19</td>
+            </tr>
+            <tr>
+                <td>Number of surnames</td>
+                <td>6</td>
+                <td>30</td>
+                <td>40</td>
+                <td>16</td>
+                <td>4</td>
+                <td>4</td>
+            </tr>
+        </table>
+        <h2>Determine the median number of letters in the surnames. Find the mean number of letters in the surnames ? Also, find the modal size of the surnames.</h2>
+    </div>  
+    <div>
+        <h4>Answer : </h4>
+        <p>Number of letters in the surnames.</p>
+        <p>Also find the modal size of the surnames.</p>
+        <div>
+            <span>a =</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">highest value</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>=</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input41" maxlength="3" size="1" data-answer="19"/></div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span><input type="text" class="answer" id="input42" maxlength="3" size="1" data-answer="8.5"/></span>
+        </div>
+        <table>
+            <tr>
+                <th>Number of Letters (C.I.)</th>
+                <th>Number of surnames(f<sub>i</sub>)</th>
+                <th>c.f.</th>
+                <th>Class marks(x<sub>i</sub>)</th>
+                <th>d<sub>i</sub> = x<sub>i</sub> - a</th>
+                <th>f<sub>i</sub>d<sub>i</sub></th>
+            </tr>
+            <tr>
+                <td>1-4</td>
+                <td>6</td>
+                <td>6</td>
+                <td>2.5</td>
+                <td>-<input type="text" class="answer" id="input43" maxlength="3" size="1" data-answer="6"/></td>
+                <td>-<input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="36"/></td>
+            </tr>
+            <tr>
+                <td>4-7</td>
+                <td>30</td>
+                <td>cf 36</td>
+                <td>5.5</td>
+                <td>-<input type="text" class="answer" id="input44" maxlength="3" size="1" data-answer="3"/></td>
+                <td>-<input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="90"/></td>
+            </tr>
+            <tr>
+                <td>7-10 (l)</td>
+                <td>40 f</td>
+                <td>76</td>
+                <td>8.5 (a)</td>
+                <td><input type="text" class="answer" id="input45" maxlength="3" size="1" data-answer="0"/></td>
+                <td><input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="0"/></td>
+            </tr>
+            <tr>
+                <td>10-13</td>
+                <td>16</td>
+                <td>92</td>
+                <td>11.5</td>
+                <td><input type="text" class="answer" id="input46" maxlength="3" size="1" data-answer="3"/></td>
+                <td><input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="48"/></td>
+            </tr>
+            <tr>
+                <td>13-16</td>
+                <td>4</td>
+                <td>96</td>
+                <td>14.5</td>
+                <td><input type="text" class="answer" id="input47" maxlength="3" size="1" data-answer="6"/></td>
+                <td><input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="24"/></td>
+            </tr>
+            <tr>
+                <td>16-19</td>
+                <td>4</td>
+                <td>100</td>
+                <td>17.5</td>
+                <td><input type="text" class="answer" id="input48" maxlength="3" size="1" data-answer="9"/></td>
+                <td><input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="36"/></td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>&#8721;f<sub>i</sub> = 100 </td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>&#8721;f<sub>i</sub>d<sub>i</sub> = -<input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="18"/></td>
+            </tr>
+        </table>
+        <p>Total observations are n = <input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="100"/>.</p>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="100"/></div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span> = <input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="50"/></span>
+        </div>
+        <p>50 lies in the class 7-10</p>
+        <p>&#8756; Median Class = 7-10</p>
+        <p>l - lower boundary = <input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="7"/></p>
+        <p>f - frequency of the median class = 40 </p>
+        <p>cf = 36 , Class size h = 3</p>
+        <div>
+            <span>Median = l + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">
+                    <span> ( </span>
+                    <span style="display: inline-block;vertical-align: middle;"> 
+                        <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                        <div style="text-align: center;">2</div>
+                    </span>
+                    <span> - cf )</span>
+                </div>
+                <div style="text-align: center;vertical-align: middle;">f</div>
+            </span>
+            <span> &times; h</span>
+        </div>
+        <div>
+            <span> Median = <input type="text" class="answer" id="input12" maxlength="3" size="1" data-answer="7"/> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input13" maxlength="3" size="1" data-answer="50"/> - <input type="text" class="answer" id="input14" maxlength="3" size="1" data-answer="36"/></div>
+                <div style="text-align: center;">40</div>
+            </span>
+            <span> &times; <input type="text" class="answer" id="input15" maxlength="3" size="1" data-answer="3"/></span>
+        </div>
+        <div>
+            <span> Median = <input type="text" class="answer" id="input16" maxlength="3" size="1" data-answer="7"/> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input17" maxlength="3" size="1" data-answer="14"/></div>
+                <div style="text-align: center;">40</div>
+            </span>
+            <span>&times; <input type="text" class="answer" id="input18" maxlength="3" size="1" data-answer="3"/></span>
+        </div>
+        <p> Median = <input type="text" class="answer" id="input19" maxlength="3" size="1" data-answer="7"/> + <input type="text" class="answer" id="input20" maxlength="4" size="1" data-answer="1.05"/></p>
+        <p>&#8756; Median = <input type="text" class="answer" id="input21" maxlength="4" size="1" data-answer="8.05"/></p>
+        <p>Assumed mean, a = 8.5</p>
+        <div>
+            <span>Mean = x&#772; = a + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">&#8721;f<sub>i</sub>d<sub>i</sub></div>
+                <div style="text-align: center;">&#8721;f<sub>i</sub></div>
+            </span>
+        </div>
+        <div>
+            <span> Mean x&#772; = 8.5 + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input22" maxlength="3" size="1" data-answer="18"/></div>
+                <div style="text-align: center;">100</div>
+            </span>
+            <span> = 8.5 - <input type="text" class="answer" id="input23" maxlength="4" size="1" data-answer="0.18"/> = <input type="text" class="answer" id="input24" maxlength="4" size="1" data-answer="8.32"/></span>
+        </div>
+        <p>&#8756; Mean = <input type="text" class="answer" id="input25" maxlength="4" size="1" data-answer="8.32"/></p>
+        <p>Mode :</p>
+        <p>Maximum number of surnames = 40</p>
+        <p>Modal class = 7-10</p>
+        <p>l - lower boundary of the modal class = <input type="text" class="answer" id="input26" maxlength="3" size="1" data-answer="7"/></p>
+        <p>l = <input type="text" class="answer" id="input27" maxlength="3" size="1" data-answer="7"/>; f<sub>1</sub> = 40, f<sub>0</sub> = 30, f<sub>2</sub> = 16, h = 3</p>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">f<sub>1</sub> - f<sub>0</sub> </div>
+                <div style="text-align: center;">2f<sub>1</sub> - f<sub>0</sub> - f<sub>2</sub></div>
+            </span>
+            <span>  &#215; h </span>
+        </div>
+        <div>
+            <span>&#8756;Mode = <input type="text" class="answer" id="input28" maxlength="3" size="1" data-answer="7"/> +  </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input29" maxlength="3" size="1" data-answer="40"/> - <input type="text" class="answer" id="input30" maxlength="3" size="1" data-answer="30"/></div>
+                <div style="text-align: center;">2  &#215; <input type="text" class="answer" id="input31" maxlength="3" size="1" data-answer="40"/> - (<input type="text" class="answer" id="input32" maxlength="3" size="1" data-answer="30"/> + <input type="text" class="answer" id="inpu33" maxlength="3" size="1" data-answer="16"/>)</div>
+            </span>
+            <span>  &#215; <input type="text" class="answer" id="input34" maxlength="3" size="1" data-answer="3"/> = <input type="text" class="answer" id="input35" maxlength="3" size="1" data-answer="7"/> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input36" maxlength="3" size="1" data-answer="10"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input37" maxlength="3" size="1" data-answer="34"/></div>
+            </span>
+            <span>  &#215; <input type="text" class="answer" id="input38" maxlength="1" size="1" data-answer="3"/> = <input type="text" class="answer" id="input39" maxlength="3" size="1" data-answer="7"/>.882</span>
+        </div>
+        <p>Median = <input type="text" class="answer" id="input40" maxlength="4" size="4" data-answer="8.05"/>; Mean = <input type="text" class="answer" id="input41" maxlength="4" size="4" data-answer="8.32"/>; Modal size = <input type="text" class="answer" id="input42" maxlength="1" size="1" data-answer="7"/>.88.</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

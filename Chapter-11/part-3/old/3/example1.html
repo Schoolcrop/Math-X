@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+<body>
+    <h2>Evaluate <span style="display: inline-block;vertical-align: middle; text-align: center;">
+        <div style="text-align: center; border-bottom: 1px solid black;"> sec 35&#176;</div>
+        <div style="text-align: center;"> cosec55&#176;</div>
+    </span></h2>
+    <div id="answer">
+        <h4><u>answer:</u></h4>
+        <p>cosec A=sec(90&#176;-A)</p>
+        <p>cosec 55&#176;=cosec(90&#176;-<input type="text" class="answer" id="input1" maxlength="8" size="1" data-answer="35" />&#176;)</p>
+        <p>cosec 55&#176;=sec <input type="text" class="answer" id="input2" maxlength="8" size="1" data-answer="35" />&#176;</p>
+        Now <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> sec 35&#176;</div>
+            <div style="text-align: center;"> cosec 55&#176;</div>
+        </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> sec 35&#176;</div>
+            <div style="text-align: center;"><input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="sec 35" />&#176; </div>
+        </span>=<input type="text" class="answer" id="input4" maxlength="8" size="1" data-answer="1" />
+     </div>
+     <div class="button-container">
+        <button id="check-button" onclick="checkAnswers()">check Answer</button>
+        <button id="clear-button" onclick="clearAnswers()">clear</button>
+        </div>
+        <script src="../../Assets/js/javascript.js"></script>
+    
+</body>
+</html>

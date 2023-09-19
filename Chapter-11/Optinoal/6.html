@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>
+        (Q6)Prove that  (<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">  sec A - 1</div>
+            <div style="text-align: center;">sec A +1</div>
+        </span>) = ( <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> 1 - cos A</div>
+            <div style="text-align: center;">1 + cos A </div>
+        </span>)
+    </h2>
+    <div id="answer">
+        <h2><u>Answer</u></h2>
+        <div>
+            L.H.S= <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  sec A - 1</div>
+                <div style="text-align: center;">sec A + 1 </div>
+            </span>
+        </div><br/>
+        <div>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">   <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"> 1</div>
+                    <div style="text-align: center;"><input type="text" class="answer"  maxlength="4" size="1" data-answer="cos"/> A </div>
+                </span> - 1</div>
+                <div style="text-align: center;"> <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"> 1</div>
+                    <div style="text-align: center;"><input type="text" class="answer"  maxlength="4" size="1" data-answer="cos"/> A</div>
+                </span>+1</div>
+            </span>  =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"> 1 - <input type="text" class="answer"  maxlength="4" size="1" data-answer="cos"/> A</div>
+                    <div style="text-align: center;"><input type="text" class="answer"  maxlength="4" size="1" data-answer="cos"/> A </div>
+                </span></div>
+                <div style="text-align: center;"> <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">  1 + <input type="text" class="answer"  maxlength="4" size="1" data-answer="cos"/> A</div>
+                    <div style="text-align: center;"><input type="text" class="answer"  maxlength="4" size="1" data-answer="cos"/> A</div>
+                </span> </div>
+            </span> =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> 1 - cos A</div>
+                <div style="text-align: center;">1 + cos A </div>
+            </span> = R.H.S
+        </div><br/>
+        
+        <p>L.H.S=R.H.S</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers();clear_Answers();">clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+    
+</body>
+</html>

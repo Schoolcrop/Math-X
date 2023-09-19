@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>(Q16). A box contains 90 discs which are numbered from 1 to 90. If one disc is drawn at random from the box, find the probability that it bears </h2>
+        <h3>(i) a two digit number</h3>
+        <h3>(ii) a perfect square number</h3>
+        <h3>(iii) a number divisible by 5.</h3>
+        
+    </div>
+    <div>
+        <p><b>Answer : </b></p>
+        <p>Total number of discs in the box = 90</p>
+        <p>&#8756; Number of total outcomes in drawing a disc at random from the box = 90.</p>
+        <p>(i) Number of 2-digit numbers in the box  = <input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="81"/></p>
+        <p>i.e., Number of favourable outcomes in drawing a 2 - digit numbers = <input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="81"/></p>
+        <p>&#8756; Probability of selecting a disc bearing a 2 - digit number</p>
+        <div>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">No. of favourable outcomes</div>
+                <div style="text-align: center;">No. of total outcomes</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="81"/></div>
+                <div style="text-align: center;">90</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="9"/></div>
+                <div style="text-align: center;">10</div>
+            </span>
+            <span> = <input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="0.9"/> </span>
+        </div>
+        <p>(ii) Number of perfect squares in the box  = <input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="9"/></p>
+        <p> i.e., Number of favourable out-comes in drawning a disc bearing a perfect square = <input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="9"/></p>
+        <div>
+            <span>&#8756; Probability of drawning a disc with a perfect square =  </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">No. of favourable outcomes</div>
+                <div style="text-align: center;">No. of total outcomes</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="9"/></div>
+                <div style="text-align: center;">90</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="1"/></div>
+                <div style="text-align: center;">10</div>
+            </span>
+        </div>
+        <p>(iii) Number of multiples of 5 from 1 to 90 are  = <input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="18"/></p>
+        <p>i.e., Number of favourable outcomes in drawing a disc with a multiple of 5 =<input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="18"/></p>
+        <div>
+            <span>&#8756; Probability of drawning a disc bearing a number divisible by 5 =  </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">No. of favourable outcomes</div>
+                <div style="text-align: center;">No. of total outcomes</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input12" maxlength="3" size="1" data-answer="18"/></div>
+                <div style="text-align: center;">90</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input13" maxlength="3" size="1" data-answer="1"/></div>
+                <div style="text-align: center;">5</div>
+            </span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

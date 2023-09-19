@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{ padding: 10px;}
+    </style>
+</head>
+<body>
+    <div>
+        <h2>(Q20). A game consists of tossing a one rupee coin 3 times and noting its outcome each time. Hanif wins if all the tosses give the same result i.e., three heads or three tails, and loses otherwise. Calculate the probability that Hanif will lose the game.</h2>
+    </div>
+    <div>
+        <p><b>Answer : </b></p>
+        <p>When a coin is tossed for n - times, the total number of outcomes = 2<sup>n</sup>.</p>
+        <p>&#8756; If a coin is tossed for 3 - times, then the total number of outcomes  = <input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="8"/></p>
+        <p>Of the above, no. of outcomes with different results = <input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="6"/>.</p>
+        <div>
+            <span>Probability of losing the game = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">No. of favourable outcomes to lose</div>
+                <div style="text-align: center;">No. of total outcomes</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="6"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="8"/></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">3</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input5" maxlength="2" size="1" data-answer="4"/></div>
+            </span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h2>(Q3).A man travels 370 km partly by train and partly by car. If he covers 250 km by train and the rest by car, it takes him 4 hours. But if he travels 130 km by train and the rest by car, it takes 18 minutes more. Find the speed of the train and that of the car.</h2>
+    <div style="margin-left: 20px;">
+        <p> Let the speed of the train be x km. per hour and that of the car be y km. per hour.</p>
+        <div>
+            <span>Also, we know that time =</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input1" maxlength="8" size="8" data-answer="Distance"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input2" maxlength="5" size="5" data-answer="speed"></div>
+            </span>
+        </div>
+        <div>
+            <span>In situation 1, time spent travelling by train =</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input3" maxlength="3" size="3" data-answer="250"></div>
+                <div style="text-align: center;">x</div>
+            </span> hrs.
+        </div>
+        <div>
+            <span>And time spent travelling by car =</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input4" maxlength="3" size="3" data-answer="120"></div>
+                <div style="text-align: center;">y</div>
+            </span> hrs.
+        </div>
+        <div>
+            <span>So, total time taken = time spent in train + time spent in car =</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input5" maxlength="3" size="3" data-answer="250"></div>
+                <div style="text-align: center;">x</div>
+            </span>
+            <span> + </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input6" maxlength="3" size="3" data-answer="120"></div>
+                <div style="text-align: center;">y</div>
+            </span>
+        </div>
+        <p>But, total time of journey is 4 hours, so</p>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input7" maxlength="3" size="3" data-answer="250"></div>
+                <div style="text-align: center;">x</div>
+            </span>
+            <span> + </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input8" maxlength="3" size="3" data-answer="120"></div>
+                <div style="text-align: center;">y</div>
+            </span>
+            <span> = <input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="4"> </span>
+        </div>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input10" maxlength="3" size="3" data-answer="125"></div>
+                <div style="text-align: center;">x</div>
+            </span>
+            <span> + </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input11" maxlength="2" size="2" data-answer="60"></div>
+                <div style="text-align: center;">y</div>
+            </span>
+            <span> = <input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="2"> ..................(1) </span>
+        </div>
+        <p>Again, when he travels 130 km by train and the rest by car</p>
+        <div>
+            <span>Time taken by him to travel 130 km by train =</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input13" maxlength="3" size="3" data-answer="130"></div>
+                <div style="text-align: center;">x</div>
+            </span> hrs.
+        </div>
+        <div>
+            <span>Time taken by him to travel 240 km (370 - 130) by car =</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input14" maxlength="3" size="3" data-answer="240"></div>
+                <div style="text-align: center;">y</div>
+            </span> hrs.
+        </div>
+        <div>
+            <span>Total time taken =</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input15" maxlength="3" size="3" data-answer="130"></div>
+                <div style="text-align: center;">x</div>
+            </span>
+            <span> + </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input16" maxlength="3" size="3" data-answer="240"></div>
+                <div style="text-align: center;">y</div>
+            </span>
+        </div>
+        <div>
+            <span>But given, time of journey is 4 hrs 18 min i.e., 4</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><del>18</del></div>
+                <div style="text-align: center;"><del>60</del></div>
+            </span> 
+            <span> hrs. = 4 </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="3"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input18" maxlength="2" size="2" data-answer="10"></div>
+            </span> hrs.
+        </div>
+        <div>
+            <span> So,</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input19" maxlength="3" size="3" data-answer="130"></div>
+                <div style="text-align: center;">x</div>
+            </span>
+            <span> + </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input20" maxlength="3" size="3" data-answer="240"></div>
+                <div style="text-align: center;">y</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input21" maxlength="2" size="2" data-answer="43"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input22" maxlength="2" size="2" data-answer="10"></div>
+            </span> ...............(2)
+        </div>
+        <div>
+            <span>Substitute</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">x</div>
+            </span> 
+            <span> = <input type="text" class="answer" id="input23" maxlength="1" size="1" data-answer="a"> and </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">y</div>
+            </span>
+            <span> = <input type="text" class="answer" id="input24" maxlength="1" size="1" data-answer="b"> in equations (1) and (2)</span>
+        </div>
+        <p><input type="text" class="answer" id="input25" maxlength="3" size="3" data-answer="125">a + <input type="text" class="answer" id="input26" maxlength="2" size="2" data-answer="60">b = <input type="text" class="answer" id="input27" maxlength="1" size="1" data-answer="2"> ................(3)</p>
+        <div>
+            <span><input type="text" class="answer" id="input28" maxlength="3" size="3" data-answer="130">a+ <input type="text" class="answer" id="input29" maxlength="3" size="3" data-answer="240">b =</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input30" maxlength="2" size="2" data-answer="43"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input31" maxlength="2" size="2" data-answer="10"></div>
+            </span>.............(4)
+        </div>
+        <p>For 60 and 240, LCM is <input type="text" class="answer" id="input32" maxlength="3" size="3" data-answer="240">. Using the elimination method,</p>
+        <div>
+            <span>Equation (3) × ⇒ <input type="text" class="answer" id="input33" maxlength="1" size="1" data-answer="4"> </span>
+            <span><input type="text" class="answer" id="input34" maxlength="3" size="3" data-answer="500">a+<input type="text" class="answer" id="input35" maxlength="3" size="3" data-answer="240">b= <input type="text" class="answer" id="input36" maxlength="1" size="1" data-answer="8"></span>
+        </div>
+        <div>
+            <span>Equation (4) × ⇒ <input type="text" class="answer" id="input37" maxlength="1" size="1" data-answer="1"> </span>
+            <span> <input type="text" class="answer" id="input38" maxlength="3" size="3" data-answer="130">a+<input type="text" class="answer" id="input39" maxlength="3" size="3" data-answer="240">b =<span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input40" maxlength="2" size="2" data-answer="43"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input41" maxlength="2" size="2" data-answer="10"></div>
+            </span></span>
+            <span>(Same sign, so subtract)</span>
+        </div>
+        <div style="margin-left: 210px;">
+            <span>(-)</span>
+            <span style="margin-left: 50px;">(-)</span>
+            <span style="margin-left: 60px;">(-)</span>
+        </div>
+        <hr style="width: 300px; margin-left: 200px;">
+        <div style="margin-left: 200px;">
+            <span><input type="text" class="answer" id="input42" maxlength="3" size="3" data-answer="370">a = <input type="text" class="answer" id="input43" maxlength="1" size="1" data-answer="8"> - </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input44" maxlength="2" size="2" data-answer="43"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input45" maxlength="2" size="2" data-answer="10"></div>
+            </span> 
+        </div>
+        <div style="margin-left: 280px;">
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input46" maxlength="2" size="2" data-answer="80">- <input type="text" class="answer" id="input47" maxlength="2" size="2" data-answer="43"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input48" maxlength="2" size="2" data-answer="10"></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input49" maxlength="2" size="2" data-answer="37"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input50" maxlength="2" size="2" data-answer="10"></div>
+            </span>
+        </div>
+        <div>
+            <span> a = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input51" maxlength="2" size="2" data-answer="37"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input52" maxlength="2" size="2" data-answer="10"></div>
+            </span> 
+            <span> &times; </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><del><input type="text" class="answer" id="input53" maxlength="3" size="3" data-answer="370"></del></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input54" maxlength="3" size="3" data-answer="100"></div>
+            </span>
+        </div>
+        <div>
+            <span> Substitute a = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input55" maxlength="3" size="3" data-answer="100"></div>
+            </span> 
+            <span> in equation (3) </span>
+        </div>
+        <div>
+            <span> ( 125 &times;</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input56" maxlength="3" size="3" data-answer="100"></div>
+            </span>
+            <span> ) + 60b = 2</span>
+        </div>
+        <div>
+            <span>60b = 2 -</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input57" maxlength="1" size="1" data-answer="5"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input58" maxlength="1" size="1" data-answer="4"></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input59" maxlength="1" size="1" data-answer="8">-<input type="text" class="answer" id="input60" maxlength="1" size="1" data-answer="5"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input61" maxlength="1" size="1" data-answer="4"></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input62" maxlength="1" size="1" data-answer="3"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input63" maxlength="1" size="1" data-answer="4"></div>
+            </span>
+        </div>
+        <div>
+            <span> b = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input64" maxlength="1" size="1" data-answer="3"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input65" maxlength="1" size="1" data-answer="4"></div>
+            </span>
+            <span> &times; </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">60</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input66" maxlength="2" size="2" data-answer="80"></div>
+            </span>
+        </div>
+        <div>
+            <span> So a = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input67" maxlength="3" size="3" data-answer="100"></div>
+            </span>
+            <span> and b = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input68" maxlength="2" size="2" data-answer="80"></div>
+            </span>
+        </div>
+        <div>
+            <span> So </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">x</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input69" maxlength="3" size="3" data-answer="100"></div>
+            </span>
+            <span> and </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">y</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input70" maxlength="2" size="2" data-answer="80"></div>
+            </span>
+        </div>
+        <p>x = <input type="text" class="answer" id="input71" maxlength="3" size="3" data-answer="100"> km/hr and y = <input type="text" class="answer" id="input72" maxlength="2" size="2" data-answer="80"> km/hr.</p>
+        <p>So, speed of the train was <input type="text" class="answer" id="input73" maxlength="3" size="3" data-answer="100"> km/hr and speed of the car was <input type="text" class="answer" id="input74" maxlength="2" size="2" data-answer="80"> km/hr.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

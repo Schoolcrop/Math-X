@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+    body{
+        padding: 10px;
+     }
+     table {
+        border: 2px solid black;border-collapse: collapse; text-align: center;
+     }
+     td{
+        border: 2px solid black; width: 55px; height: 30px;
+     }
+     th{
+        border: 2px solid black; width: 350px;text-align:center;height:50px;
+     }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>(Q11). The following distribution shows the daily pocket allowance of children of a locality. The mean pocket allowance is Rs. 18. Find the missing frequency f.</h2>
+        <table>
+            <tr>
+                <td style="width: 200px;">Daily pocket allowance (in Rupees )</td>
+                <td>11-13</td>
+                <td>13-15</td>
+                <td>15-17</td>
+                <td>17-19</td>
+                <td>19-21</td>
+                <td>21-23</td>
+                <td>23-25</td>
+            </tr>
+            <tr>
+                <td>Number of Children</td>
+                <td>7</td>
+                <td>6</td>
+                <td>9</td>
+                <td>13</td>
+                <td>f</td>
+                <td>5</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+    <div id="answer">
+        <h4>Solution: </h4>
+        <table>
+            <tr>
+                <th>Daily pocket allowance (Rupees) (C.I.)</th>
+                <th>Number of children (f<sub>i</sub>)</th>
+                <th>Class Marks (x<sub>i</sub>)</th>
+                <th>f<sub>i</sub>x<sub>i</sub></th>
+            </tr>
+            <tr>
+                <td>11-13</td>
+                <td>7</td>
+                <td>12</td>
+                <td><input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="84"/></td>
+            </tr>
+            <tr>
+                <td>13-15</td>
+                <td>6</td>
+                <td>14</td>
+                <td><input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="84"/></td>
+            </tr>
+            <tr>
+                <td>15-17</td>
+                <td>9</td>
+                <td>16</td>
+                <td><input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="144"/></td>
+            </tr>
+            <tr>
+                <td>17-19</td>
+                <td>13</td>
+                <td>18</td>
+                <td><input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="234"/></td>
+            </tr>
+            <tr>
+                <td>19-21</td>
+                <td>f</td>
+                <td>20</td>
+                <td><input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="20"/> f</td>
+            </tr>
+            <tr>
+                <td>21-23</td>
+                <td>5</td>
+                <td>22</td>
+                <td><input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="110"/></td>
+            </tr>
+            <tr>
+                <td>23-25</td>
+                <td>4</td>
+                <td>24</td>
+                <td><input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="96"/></td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>&#8721;f<sub>i</sub> = 44 + f</td>
+                <td>-</td>
+                <td>&#8721;f<sub>i</sub>x<sub>i</sub> = <input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="752"/> + <input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="20"/>f</td>
+            </tr>
+        </table>
+        <div>
+            <span>&#8756; x&#772; =</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">&#8721;f<sub>i</sub>x<sub>i</sub></div>
+                <div style="text-align: center;">&#8721;f<sub>i</sub></div>
+            </span>
+        </div>
+        <p>x<sub>i</sub> = 18 (given)</p>
+        <div>
+            <span>18 = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="752"/> + <input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="20"/>f</div>
+                <div style="text-align: center;">44 + f</div>
+            </span>
+        </div>
+        <p>18 (44 + f) = <input type="text" class="answer" id="input12" maxlength="3" size="1" data-answer="752"/> + <input type="text" class="answer" id="input13" maxlength="3" size="1" data-answer="20"/>f</p>
+        <p>20f - 18f = 792-<input type="text" class="answer" id="input14" maxlength="3" size="1" data-answer="752"/></p>
+        <p>2f = <input type="text" class="answer" id="input15" maxlength="3" size="1" data-answer="40"/></p>
+        <p>&#8756; f = <input type="text" class="answer" id="input16" maxlength="3" size="1" data-answer="20"/>.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

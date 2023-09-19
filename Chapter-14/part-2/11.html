@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 15px;
+       }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+       }
+       td{
+           border: 2px solid black; width: 65px; height: 30px;
+       }
+       th{
+           border: 2px solid black; width: 180px;text-align:center;height:50px;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <h2>(Q11) The following data gives the information on the observed lifetimes (in hours) of 225 electrical components:</h2>
+        <table>
+            <tr>
+                <td style="width: 140px;">Lifetime (in hours)</td>
+                <td>0-20</td>
+                <td>20-40</td>
+                <td>40-60</td>
+                <td>60-80</td>
+                <td>80-100</td>
+                <td>100-120</td>
+            </tr>
+            <tr>
+                <td>Frequency</td>
+                <td>10</td>
+                <td>35</td>
+                <td>52</td>
+                <td>61</td>
+                <td>38</td>
+                <td>29</td>
+            </tr>
+        </table>
+        <h2>Determine the modal lifetimes of the components.</h2>
+    </div>
+    <div>
+        <h4>Answer :</h4>
+        <table>
+            <tr>
+                <th>Class Interval</th>
+                <th>Frequencies</th>
+            </tr>
+            <tr>
+                <td>0-20</td>
+                <td>10 f<sub>0</sub></td>
+            </tr>
+            <tr>
+                <td>20-40</td>
+                <td>35 f<sub>1</sub></td>
+            </tr>
+            <tr>
+                <td>40-60</td>
+                <td>52 f<sub>2</sub></td>
+            </tr>
+            <tr>
+                <td>60-80 (l)</td>
+                <td>61</td>
+            </tr>
+            <tr>
+                <td>80-100</td>
+                <td>38</td>
+            </tr>
+            <tr>
+                <td>100-120</td>
+                <td>29</td>
+            </tr>
+        </table>
+        <p>Since the maximum frequency 61 is in the class 60-80, this is the required modal class.</p>
+        <p>Modal class frequency, f<sub>1</sub> = 61.</p>
+        <p>Frequency of the class preceding the modal class f<sub>2</sub> = 52</p>
+        <p>Lower boundary of the modal class, l = 60</p>
+        <p>Height of the class, h = 20</p>
+        <div>
+            <span>&#8756; Mode (Z) = l + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">f<sub>1</sub> - f<sub>0</sub> </div>
+                <div style="text-align: center;">2f<sub>1</sub> - f<sub>0</sub> - f<sub>2</sub></div>
+            </span>
+            <span>  &#215; h </span>
+        </div>
+        <div>
+            <span>Mode = <input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="60"/> +  </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="61"/> - <input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="52"/></div>
+                <div style="text-align: center;">2  &#215; <input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="61"/> - (<input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="52"/> + <input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="38"/>)</div>
+            </span>
+            <span>  &#215; <input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="20"/> = <input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="60"/> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="9"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="32"/></div>
+            </span>
+            <span>  &#215; <input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="20"/>  = <input type="text" class="answer" id="input12" maxlength="3" size="1" data-answer="65"/>.625 hours</span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+
+</body>
+</html>

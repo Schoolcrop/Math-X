@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q8). In a flower bed, there are 23 rose plants in the first row, 21 in the second, 19 in the third, and so on. There are 5 rose plants in the last row. How many rows are there in the flower bed?</h2>
+    <div style="margin-left: 20px;">
+        <p>The number of rose plants in the 1st, 2nd, 3rd, . . ., rows are : 23, 21, 19, . . ., 5</p>
+        <p>It forms an AP (Why?).</p>
+        <p>Let the number of rows in the flower bed be n</p>
+        <p>Then a = <input type="text" class="answer" id="input1" maxlength="2" size="2" data-answer="23">, d = <input type="text" class="answer" id="input2" maxlength="2" size="2" data-answer="21"> – <input type="text" class="answer" id="input3" maxlength="2" size="2" data-answer="23"> = – <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="2">, a<sub>n</sub> = <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="5"></p>
+        <p>As, a<sub>n</sub> = a + (n – 1) d</p>
+        <p>We have, <input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="5"> = <input type="text" class="answer" id="input7" maxlength="2" size="2" data-answer="23"> + (n – 1)(– <input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="2">)</p>
+        <p>i.e., – <input type="text" class="answer" id="input9" maxlength="2" size="2" data-answer="18"> = (n – 1)(– <input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="2">)</p>
+        <p>i.e., n = <input type="text" class="answer" id="input11" maxlength="2" size="2" data-answer="10"> </p>
+        <p>So, there are <input type="text" class="answer" id="input12" maxlength="2" size="2" data-answer="10"> rows in the flower bed.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>(Q12). Suppose we throw a die once. (i) What is the probability of getting a number greater than 4? (ii) What is the probability of getting a number less than or equal to 4?</h2>
+    </div>
+    <div>
+        <h4>Solution :</h4>
+        <p>(i) In rolling an unbiased dic</p>
+        <p>Sample space, S = {1, 2, 3, 4, 5, 6}</p>
+        <p>No. of outcomes, n(S) = <input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="6"/></p>
+        <p>Favourable outcomes number greater than 4, E = {<input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="5"/>,<input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="6"/>}</p>
+        <p>No. of favourable outcomes, n(E) = 2</p>
+        <div>
+            <span>probability, P(E) = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">2</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="6"/></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="3"/></div>
+            </span>
+        </div>
+        <p>(ii) Let F be the event 'getting a number less than or equal to 4'</p>
+        <p>Sample Space, S = {1, 2, 3, 4, 5, 6}</p>
+        <p>No of outcomes, n(s) = <input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="6"/></p>
+        <p>Favourable outcomes for number less or equal to 4, F = {<input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="1"/>,<input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="2"/>,<input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="3"/>,<input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="4"/>}</p>
+        <p>No. of favourable outcomes, n(F) = 4</p>
+        <div>
+            <span>Probability, P(F) = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">4</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="6"/></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">2</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input12" maxlength="3" size="1" data-answer="3"/></div>
+            </span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

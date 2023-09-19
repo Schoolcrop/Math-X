@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{padding: 10px;}
+    </style>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <div>
+        <h2>(Q9) ABC is a right triangle right angled at C. Let BC = a, CA = b, AB = c and let p be the length of perpendicular from C on AB.</h2>
+        <h2>
+            <span> Prove that (i) pc = ab (ii)</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">p<sup>2</sup></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">a<sup>2</sup></div>
+            </span>
+            <span> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">b<sup>2</sup></div>
+            </span>
+        </h2>
+    </div>
+    <div>
+        <img src="" alt="image">
+        <p><b>Solution :</b></p>
+        <p><b>(i)</b> CD &#8869; AB and CD = p</p>
+        <span>Area of &#8710;ABC = </span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+            <div style="text-align: center;">2</div>
+        </span>
+        <span> &times; <input type="text" class="answer" id="input1" maxlength="2" size="2"data-answer="AB,BA"> &times; <input type="text" class="answer" id="input2" maxlength="2" size="2"data-answer="CD,DC"> = </span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+            <div style="text-align: center;">2</div>
+        </span>
+        <span>cp</span> <br>
+        <span>also Area of &#8710;ABC = </span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+            <div style="text-align: center;">2</div>
+        </span>
+        <span> &times; <input type="text" class="answer" id="input3" maxlength="2" size="2"data-answer="BC,CB"> &times; <input type="text" class="answer" id="input4" maxlength="2" size="2"data-answer="AC,CA"> = </span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+            <div style="text-align: center;">2</div>
+        </span>
+        <span>ab</span> <br>
+        <span>&rArr;</span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+            <div style="text-align: center;">2</div>
+        </span>
+        <span>cp = </span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+            <div style="text-align: center;">2</div>
+        </span>
+        <span>ab</span>
+        <p>&#8756; pc = ab</p>
+        <p><b>(ii)</b> Since &#8710;ABC is a right triangle right angled at C.</p>
+        <p>AB<sup>2</sup> = <input type="text" class="answer" id="input5" maxlength="2" size="2"data-answer="BC,CB"> <sup>2</sup> + <input type="text" class="answer" id="input6" maxlength="2" size="2"data-answer="AC,CA"><sup>2</sup></p>
+        <p>c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup></p>
+        <span>[</span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input7" maxlength="2" size="2"data-answer="ab,ba"></div>
+            <div style="text-align: center;"><input type="text" class="answer" id="input8" maxlength="1" size="1"data-answer="p"></div>
+        </span>
+        <span>]<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup></span> <br>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+            <div style="text-align: center;">( <input type="text" class="answer" id="input9" maxlength="1" size="1"data-answer="p"> )<sup>2</sup></div>
+        </span>
+        <span> = </span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">a<sup>2</sup> + b<sup>2</sup></div>
+            <div style="text-align: center;">a<sup>2</sup>b<sup>2</sup></div>
+        </span>
+        <span> = </span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+            <div style="text-align: center;">a<sup>2</sup></div>
+        </span>
+        <span> + </span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+            <div style="text-align: center;">b<sup>2</sup></div>
+        </span>
+    </div>
+    <div class="button-container">
+        <button id="check-button" onclick="checkAnswers()">Check Answer</button>
+        <button id="clear-button" onclick="clearAnswers()">Clear</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 10px;
+       }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+       }
+       td{
+           border: 2px solid black; width: 55px; height: 30px;
+       }
+       th{
+           border: 2px solid black; width: 100px;text-align:center;height:50px;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <h2>(Q8). The below distribution shows the number of wickets taken by bowlers in one-day cricket matches. Find the mean number of wickets by choosing a suitable method. What does the mean signify ?</h2>
+        <table id="first" >
+            <tr>
+                <td style="width: 170px; text-align: left;" >Number of wickets</td>
+                <td>20-60</td>
+                <td>60-100</td>
+                <td>100-150</td>
+                <td>150-250</td>
+                <td>250-350</td>
+                <td>350-450</td>
+            </tr>
+            <tr>
+                <td style="width: 170px; text-align: left;">Number of bowlers</td>
+                <td>7</td>
+                <td>5</td>
+                <td>16</td>
+                <td>12</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p><b>Solution :</b> Here, the class size varies, and the x<sub>i</sub>'s are large. Let us still apply the step deviation method with a = 200 and h = 20. Then, we obtain the data as given in the table.</p>
+    </div>
+    <div style="padding: 20px;">
+        <table>
+            <tr>
+                <th>Number of Wickets</th>
+                <th>Number of bowlers (f<sub>i</sub>)</th>
+                <th>x<sub>i</sub></th>
+                <th>d<sub>i</sub> = x<sub>i</sub> - a</th>
+                <th>
+                    <span>u<sub>i</sub> = </span>
+                    <span style="display: inline-block;vertical-align: middle;"> 
+                        <div style="text-align: center; border-bottom: 1px solid black;">x<sub>i</sub> - a </div>
+                        <div style="text-align: center;">h</div>
+                    </span><br>
+                    <span>(h = 20)</span>    
+                </th>
+                <th>f<Sub>i</Sub>u<sub>i</sub></th>
+            </tr>
+            <tr>
+                <td>20-60</td>
+                <td>7</td>
+                <td>40</td>
+                <td>-<input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="160"/></td>
+                <td>-<input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="8"/></td>
+                <td>-<input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="56"/></td>
+            </tr>
+            <tr>
+                <td>60-100</td>
+                <td>5</td>
+                <td>80</td>
+                <td>-<input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="120"/></td>
+                <td>-<input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="6"/></td>
+                <td>-<input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="30"/></td>
+            </tr>
+            <tr>
+                <td>100-150</td>
+                <td>16</td>
+                <td>125</td>
+                <td>-<input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="75"/></td>
+                <td>-<input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="3"/>.75</td>
+                <td>-<input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="60"/></td>
+            </tr>
+            <tr>
+                <td>150-250</td>
+                <td>12</td>
+                <td>200(a)</td>
+                <td><input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="0"/></td>
+                <td><input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="0"/></td>
+                <td><input type="text" class="answer" id="input12" maxlength="3" size="1" data-answer="0"/></td>
+            </tr>
+            <tr>
+                <td>250-350</td>
+                <td>2</td>
+                <td>300</td>
+                <td><input type="text" class="answer" id="input13" maxlength="3" size="1" data-answer="100"/></td>
+                <td><input type="text" class="answer" id="input14" maxlength="3" size="1" data-answer="5"/></td>
+                <td><input type="text" class="answer" id="input15" maxlength="3" size="1" data-answer="10"/></td>
+            </tr>
+            
+            <tr>
+                <td>350-450</td>
+                <td>3</td>
+                <td>400</td>
+                <td><input type="text" class="answer" id="input19" maxlength="3" size="1" data-answer="200"/></td>
+                <td><input type="text" class="answer" id="input20" maxlength="3" size="1" data-answer="10"/></td>
+                <td><input type="text" class="answer" id="input21" maxlength="3" size="1" data-answer="30"/></td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>45</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-<input type="text" class="answer" id="input22" maxlength="3" size="1" data-answer="106"/></td>
+            </tr>
+        </table>
+        <span>So, x&#772; = a + [</span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">&#8721;f<sub>i</sub>u<sub>i</sub></div>
+            <div style="text-align: center;">&#8721;f<sub>i</sub></div>
+        </span>
+        <span>] &#215; h = 200 + </span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input23" maxlength="3" size="1" data-answer="106"/></div>
+            <div style="text-align: center;">45</div>
+        </span>
+        <span>&#215;  = <input type="text" class="answer" id="input24" maxlength="3" size="1" data-answer="152"/>.89 </span>
+    </div>
+    <p>Thus, the average number of wickets taken by these 45 bowlers in one-day cricket is <input type="text" class="answer" id="input25" maxlength="3" size="1" data-answer="152"/>.89</p>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

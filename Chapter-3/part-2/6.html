@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style type="text/css">
+        td{
+            text-align:center;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>(Q6)Draw the graphs of the given polynomial and find the zeros justify the answer x<sup>2</sup>-6x+9.</h2>
+    <div id="answer">
+        <p>Given polynomial p(x)=x<sup>2</sup>-6x+9</p>
+        <p>list of values of p(x):</p>
+        <table border="1">
+            <tr>
+                <td>x</td>
+                <td>-1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+
+            <tr>
+                <td>x<sup>2</sup></td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>4</td>
+                <td>9</td>
+                <td>16</td>
+            </tr>
+             
+            <tr>
+                <td>6x</td>
+                <td>-6</td>
+                <td>0</td>
+                <td>6</td>
+                <td>12</td>
+                <td>18</td>
+                <td>24</td>
+            </tr>
+
+            <tr>
+                <td>x<sup>2</sup>-6x</td>
+                <td>7</td>
+                <td>0</td>
+                <td>-5</td>
+                <td>-8</td>
+                <td>-9</td>
+                <td>-8</td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>9</td>
+                <td>9</td>
+                <td>9</td>
+                <td>9</td>
+                <td>9</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <td>p(x)</td>
+                <td>16</td>
+                <td>9</td>
+                <td>4</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td>(x,y)</td>
+                <td>(-1,16)</td>
+                <td>(0,9)</td>
+                <td>(1,4)</td>
+                <td>(2,1)</td>
+                <td>(3,0)</td>
+                <td>(4,1)</td>
+            </tr>
+        </table>
+        <p>Now,lets locate the points listed above on a graph paper</p>
+         <img src="../../Assets/images/3-2(6).png" height="300" width="400"/>
+         <p>Result:We observe that the graph cuts the X-axis at(3,0).</p>
+         <p>So,the zeros of the given polynomial are same i.e,3</p>
+         <p>Justification:</p>
+         <P>Given p(x)=x<sup>2</sup>-6x+9</P>
+         <p>x<sup>2</sup>-3x-<input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="3"/>x+9=0</p>
+         <p>x(x-3)-<input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="3"/>(x-<input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="3"/>)=0</p>
+         <p>x-3=0 and x-<input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="3"/>=0</p>
+         <p>x=3 and x=<input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="3"/></p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

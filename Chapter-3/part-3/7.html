@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q7)Find the quadratic polynomial, whose sum and product of the zeros are -3 and 2 respectively.</h2>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>Let the quadratic polynomial be ax<sup>2</sup>+bx+c, and its zeros be &#x3B1; and &#x3B2; we have </p>
+        <div>
+            &#x3B1;+&#x3B2;=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">-b</div>
+            <div style="text-align: center;">a</div>
+            </span>
+        </div>
+        <div> 
+            &#x3B1;&#x3B2;=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">c</div>
+            <div style="text-align: center;">a</div>
+            </span>
+        </div>
+        <p>
+            If we take a = 1 then b = 3 and c = 2 
+        </p>
+        <p>So, one quadratic polynomial which fits the given conditions is x<sup>2</sup> + 3x + 2</p>
+        <div>
+            similarly, we can take 'a' to be any real number.Let us say it is k.this gives <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-b</div>
+                <div style="text-align: center;">k</div>
+                </span> = - <input type="text" class="answer" id="input1" maxlength="5" size="1" data-answer="3"/> or b=<input type="text" class="answer" id="input2" maxlength="5" size="1" data-answer="3"/>k and <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">c</div>
+                    <div style="text-align: center;">k</div>
+                    </span>=<input type="text" class="answer" id="input3" maxlength="5" size="1" data-answer="2"/> or c=<input type="text" class="answer" id="input4" maxlength="5" size="1" data-answer="2"/>k Subsituting the values of a,b and c we get the polynomial is kx<sup>2</sup>+<input type="text" class="answer" id="input5" maxlength="5" size="1" data-answer="3"/>kx+<input type="text" class="answer" id="input6" maxlength="5" size="1" data-answer="2"/>k
+        </div>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+    
+</body>
+</html>

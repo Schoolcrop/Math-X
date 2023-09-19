@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q22).The 17<sup>th</sup> term of an A.P exceeds its 10 term by 7. Find the common difference.</h2>
+    <div style="margin-left: 20px;">
+        <p>Given an A.P in which a<sub>17</sub> = a<sub>10</sub> + 7</p>
+        <p>⇒ a<sub>17</sub> – a<sub>10</sub> = 7</p>
+        <p>We know that a<sub>n</sub> = a + (n – 1)d</p>
+        <p>a<sub>17</sub> = a + <input type="text" class="answer" id="input1" maxlength="2" size="2" data-answer="16">d</p>
+        <p>a<sub>10</sub> = a + <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="9">d</p>
+        <hr width="120px" style="margin-left: 40px;">
+        <p style="margin-left: 80px;">-<input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="7">d = <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="7"></p>
+        <div>
+            <span> ⇒ d = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="7"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="7"></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="1"> </span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

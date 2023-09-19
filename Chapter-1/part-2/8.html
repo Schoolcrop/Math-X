@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q8).Show that 3<sup>n</sup>&times; 4<sup>m</sup> cannot end with the digit 0 or 5 for any natural numbers "n" and "m"?</h2>
+    <div style="padding-left: 20px;">
+        <p>For a number to end woth 0, the number</p>
+        <p>must have 2 & 5 as factors.</p>
+        <p>10=2&times;<input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="5"></p>
+        <p>100=2<sup>2</sup>&times;<input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="5"><sup>2</sup></p>
+        <p>For a number to end with 5, the number must have <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="5"> as a factor</p>
+        <p>30=5&times;<input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="6"></p>
+        <p>3<sup>n</sup>&times;4<sup>m</sup>= 3<sup>n</sup>&times;<input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="2"><sup>2m</sup></p>
+        <p>As we see from the above examples we can say that.</p>
+        <p>This number doesn't have 5 or 5 and 2 as its factors. Therefore the number can't end with 0 or <input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="5">.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

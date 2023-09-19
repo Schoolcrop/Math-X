@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        .first{
+            margin-left: 60px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>
+       (Q10) Check in which case the first polynomial is a factor of the second polynomial by dividing the second polynomial by the first polynomial
+        x<sup>3</sup>-3x+1, x<sup>5</sup>-4x<sup>3</sup>+x<sup>2</sup>+3x+1
+    </h2>
+    <div id="answer">
+        <h4><u>Answer</u></h4>
+        <p>Given first polynomial  x<sup>3</sup>-3x+1,</p>
+        <p>Second polynomial  x<sup>5</sup>-4x<sup>3</sup>+x<sup>2</sup>+3x+1</p>
+        <p>Let us divide x<sup>5</sup>-4x<sup>3</sup>+x<sup>2</sup>+3x+1</p> by  x<sup>3</sup>-3x+1, we get</p>
+        <div style="text-align: center;">
+            <div style="margin-right:40px;">
+                <span><input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="x"/><sup>2</sup>-<input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="1"/></span>
+            </div>
+            <div class="first">
+                <hr width="380px"  >
+            </div>
+            <div>
+                <span>x<sup>3</sup>-3x+1)</span>
+                <span style="margin-left: 5px;"><input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="x"/><sup>5</sup>-<input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="4"/>x<sup>3</sup>+<input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="x"/><sup>2</sup>+<input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="3"/>x+<input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="1"/></span>
+                <span style="margin-left: 10px;"> 
+            </div>
+            <div style="margin-right:50px;">
+                <span><input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="x"/><sup>5</sup>-<input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="3"/>x<sup>3</sup>+<input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="x"/><sup>2</sup></span>
+            </div>
+            <div style="margin-right:120px;">
+                <span>-&emsp;&emsp;&emsp;&emsp;+&emsp;&emsp;&emsp;-</span>
+            </div>
+            <div class="first">
+                <hr width="380px"  >
+            </div>
+            <div style="margin-right:80px;">
+                <span>-<input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="x"/><sup>3</sup>+<input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="3"/>x+<input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="1"/></span>
+            </div>
+            <div style="margin-right:80px;">
+                <span>-<input type="text" class="answer" id="input14" maxlength="1" size="1" data-answer="x"/><sup>3</sup>+<input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="3"/>x-<input type="text" class="answer" id="input16" maxlength="1" size="1" data-answer="1"/></span>
+            </div>
+            <div style="margin-right:120px;">
+                <span>+&emsp;&emsp;&emsp;&emsp;-&emsp;&emsp;&emsp;+</span>
+            </div>
+            <div class="first">
+                <hr width="380px"  >
+            </div>
+            <div style="margin-right:120px;">
+                <span>+<input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="2"/></span>
+            </div>
+
+           
+        </div>
+        <p>Here remainder is <input type="text" class="answer" id="input18" maxlength="4" size="1" data-answer="2"/>(&#8800;0)</p>
+        <p>Therefore x<sup>3</sup>-3x+1 is not a factor of x<sup>5</sup>-4x<sup>3</sup>+x<sup>2</sup>+3x+1</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

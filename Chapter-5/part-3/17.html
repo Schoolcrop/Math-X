@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q17)Find the roots of the quadratic equations given by applying the quadratic formula,</h2>
+    <h3>(ii) 4x<sup>2</sup> + 4&radic;3x + 3 = 0</h3>
+    <div id="answer">
+        <h4><u>Answer;</u></h4>
+        <p>Given:4x<sup>2</sup> + 4&radic;3x + 3 = 0</p>
+        <p>Here a = 4; b = 4&radic;3; c = 3</p>
+        <div>
+            x = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-b &#xB1; &radic;( b<sup>2</sup> - 4ac )</div>
+                <div style="text-align: center;">2a</div>
+            </span>
+        </div>
+        <div>
+            = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input1" maxlength="5" size="1" data-answer="4"/>&radic;3 &#xB1; (&radic;(4&radic;3)<sup>2</sup>-4(4)(3))</div>
+                <div style="text-align: center;">2 &times; 4</div>
+            </span>
+        </div>
+        <div>
+            = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input2" maxlength="5" size="1" data-answer="4"/>&radic;3 &#xB1; &radic;( <input type="text" class="answer" id="input3" maxlength="5" size="1" data-answer="48"/> - <input type="text" class="answer" id="input5" maxlength="5" size="1" data-answer="48"/>)</div>
+                <div style="text-align: center;">8</div>
+            </span>
+        </div>
+        <div>
+            = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input6" maxlength="5" size="1" data-answer="4"/>&radic;3</div>
+                <div style="text-align: center;">8</div>
+            </span> = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-&radic;3</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input7" maxlength="5" size="1" data-answer="2"/></div>
+            </span> and <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-&radic;3</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input8" maxlength="5" size="1" data-answer="2"/></div>
+            </span>
+        </div>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

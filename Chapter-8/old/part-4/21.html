@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h2>(Q21) ABC is an isosceles triangle right angled at B. Equilateral triangles ACD and ABE are constructed on sides AC and AB. Find the ratio between the areas of &#8710;ABE and &#8710;ACD.</h2>
+    </div>
+    <div>
+        <p><b>Solution : </b></p>
+        <img src="" alt="image">
+        <p><b>Given :</b> &#8710;ABC, AB = BC and &#8736;B = 90&deg;</p>
+        <p>&#8710;ABE on AB; &#8710;ACD on AC are equiangular triangles.</p>
+        <p>Let equal sides of the isosceles right triangle, AB = BC = a (say)</p>
+        <p>Then, in &#8710;ABC, &#8736;B = 90&deg;</p>
+        <p>AC<sup>2</sup> - AB<sup>2</sup> + BC<sup>2</sup></p>
+        <p>[hypotenuse<sup>2</sup> = side<sup>2</sup> + side<sup>2</sup> -- Pythagoras theorem]</p>
+        <p>&emsp; = a<sup>2</sup> + <input type="text" class="answer" id="input1" maxlength="1" size="2" data-answer="a"><sup>2</sup> = <input type="text" class="answer" id="input2" maxlength="2" size="2" data-answer="2a"><sup>2</sup></p>
+        <p>Since, &#8710;ABE &#8764; &#8710;ACD</p>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">&#8710;ABE</div>
+                <div style="text-align: center;">&#8710;ACD</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input3" maxlength="2" size="2" data-answer="AB"><sup>2</sup></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="2" size="2" data-answer="AC"><sup>2</sup></div>
+            </span>
+        </div>
+        <p>[&#8757; Ratio of areas of two similar tri-angles is equal to the ratio of squares of their corresponding sides]</p>
+        <div>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">a<sup>2</sup></div>
+                <div style="text-align: center;">2a<sup>2</sup></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input5" maxlength="2" size="2" data-answer="1"></div>
+                <div style="text-align: center;">2</div>
+            </span>
+        </div>
+        <p>&#8710;ABE : &#8710;ACD = <input type="text" class="answer" id="input6" maxlength="1" size="2" data-answer="1"> : <input type="text" class="answer" id="input7" maxlength="1" size="2" data-answer="2">.</p>
+        <div class="button-container">
+            <button id="check-button" onclick="checkAnswers()">check Answer</button>
+            <button id="clear-button" onclick="clearAnswers()">clear</button>
+        </div> 
+    </div>
+</body>
+</html>

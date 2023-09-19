@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q12)Is it possible to design a rectangular park of perimeter 80 m and area 400 m<sup>2</sup>?If so, find its length and breadth.</h2>
+    <div id="answer">
+        <h4><u>Answer</u></h4>
+        <p>Given: Perimeter of a rectangle 2(1 + b) = 80</p>
+        <div>
+            6 + b = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">80</div>
+                <div style="text-align: center;">2</div>
+            </span> = 40
+        </div>
+        <p>Area of the rectangle, l &times; b = 400</p>
+        <p>If possible, let us suppose that length of the rectangle = x m say</p>
+        <p>Then its breadth by equation (1) = 40 - x</p>
+        <p>By problem area = x.(40 - x) = <input type="text" class="answer" id="input1" maxlength="6" size="1" data-answer="400"/></p>
+        <p>40x - x<sup>2</sup>=<input type="text" class="answer" id="input2" maxlength="6" size="1" data-answer="400"/></p>
+        <p>x<sup>2</sup> - 40x + <input type="text" class="answer" id="input3" maxlength="6" size="1" data-answer="400"/> = 0</p>
+        <p>Here a = 1; b = -40; c = <input type="text" class="answer" id="input4" maxlength="6" size="1" data-answer="400"/></p>
+        <p>b<sup>2</sup> - 4ac = (-40)<sup>2</sup> - 4(1)(<input type="text" class="answer" id="input5" maxlength="6" size="1" data-answer="400"/>)</p>
+        <p>= 1600 - <input type="text" class="answer" id="input6" maxlength="6" size="1" data-answer="1600"/> = 0</p>
+        <p>The roots are real and equal.</p>
+        <div>
+            They are  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-b</div>
+                <div style="text-align: center;">2a</div>
+            </span> ,  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-b</div>
+                <div style="text-align: center;">2a</div>
+            </span>
+        </div><br/>
+        <div>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-(-40)</div>
+                <div style="text-align: center;">2 &times; <input type="text" class="answer" id="input7" maxlength="6" size="1" data-answer="1"/></div>
+            </span> =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">40</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input8" maxlength="6" size="1" data-answer="2"/></div>
+            </span> = <input type="text" class="answer" id="input9" maxlength="6" size="1" data-answer="20"/>
+        </div>
+        <p>&there4;The dimensions are <input type="text" class="answer" id="input10" maxlength="6" size="1" data-answer="20"/>m,<input type="text" class="answer" id="input11" maxlength="6" size="1" data-answer="20"/>m.</p>
+        <p>(&there4;The park is in square shape)</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers()">clear</button>
+
+    </div>
+    <script  src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

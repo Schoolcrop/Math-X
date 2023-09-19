@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h2>(Q.42).In X class, if three students sit on each bench, one student will be left. If four students sit on each bench, one bench will be left. Find the number of students and the number of benches in that class.</h2>
+    <div>
+      <img src="../../Assets/images/4-1(43).png">
+    </div>
+    <div>
+        <p>Let the number of benches = x say and the number of students = y</p>
+        <p>By problem</p>
+        <p>y = <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="3">x + <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="1"> ⇒ <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="3">x – y + <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="1"> = 0</p>
+        <p>and y = <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="4">(x – <input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="1">) ⇒ <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="4">x – y – <input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="4"> = 0</p>
+        <div style="display: flex; margin-bottom: 10px;">
+            <div style="padding-left: 10px;">
+                <table style="text-align: center; width: 310px;">
+                  <tr style="height: 50px;">
+                    <th colspan="5"> 3x - y = -1</th>
+                  </tr>
+                  <tr style="height: 50px;">
+                    <td style="width: 100px;">x</td>
+                    <td style="width: 100px;">y</td>
+                    <td>(x,y)</td>
+                  </tr>
+                  <tr style="height: 50px;">
+                    <td>0</td>
+                    <td><input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="1"></td>
+                    <td>(0,<input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="1">)</td>
+                  </tr>
+                  <tr style="height: 50px;">
+                    <td>1</td>
+                    <td><input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="4"></td>
+                    <td>(1,<input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="4">)</td>
+                  </tr>
+                </table>
+            </div>
+            <div style="padding-left: 10px;">
+                <table style="text-align: center; width: 310px;">
+                  <tr style="height: 50px;">
+                    <th colspan="5">4x - y = 4 </th>
+                  </tr>
+                  <tr style="height: 50px;">
+                    <td style="width: 100px;">x</td>
+                    <td  style="width: 100px;">y</td>
+                    <td>(x,y)</td>
+                  </tr>
+                  <tr style="height: 50px;">
+                    <td>0</td>
+                    <td>-<input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="4"></td>
+                    <td>(0,-<input type="text" class="answer" id="input14" maxlength="1" size="1" data-answer="4">)</td>
+                  </tr> 
+                  <tr style="height: 50px;">
+                    <td>1</td>
+                    <td><input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="0"></td>
+                    <td>(1,<input type="text" class="answer" id="input16" maxlength="1" size="1" data-answer="0">)</td>
+                  </tr>  
+                </table>
+            </div>
+        </div>
+        <p>The two lines intersect at (<input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="5">, <input type="text" class="answer" id="input18" maxlength="2" size="2" data-answer="16">).</p>
+        <P>∴ The solution of the equation is x = <input type="text" class="answer" id="input19" maxlength="1" size="1" data-answer="5"> and y = <input type="text" class="answer" id="input20" maxlength="2" size="2" data-answer="16"></P>
+        <P>i.e., Number of benches = <input type="text" class="answer" id="input21" maxlength="1" size="1" data-answer="5"> and the number of students = <input type="text" class="answer" id="input22" maxlength="2" size="2" data-answer="16"></P>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

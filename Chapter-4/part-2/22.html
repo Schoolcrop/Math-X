@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h2>(Q22).The taxi charges in Hyderabad are fixed, along with the charge for the distance covered. For a distance of 10 km., the charge paid is Rs. 220. For a journey of 15 km. the charge paid is Rs. 310.</h2>
+    <h3>(i) What are the fixed charges and charge per km?</h3>
+    <h3>(ii) How much does a person have to pay for travelling a distance of 25km?</h3>
+    <div style="margin-left: 20px;">
+        <p>Let the fixed charge be = Rs. x.</p>
+        <p>and the charge per one km = Rs. y.</p>
+        <p>By problem, x + <input type="text" class="answer" id="input1" maxlength="2" size="2" data-answer="10">y = <input type="text" class="answer" id="input2" maxlength="3" size="3" data-answer="220"> , x + <input type="text" class="answer" id="input3" maxlength="2" size="2" data-answer="15">y = <input type="text" class="answer" id="input4" maxlength="3" size="3" data-answer="310"></p>
+        <p>Solving (1) and (2) we get</p>
+        <p>x + <input type="text" class="answer" id="input5" maxlength="2" size="2" data-answer="10">y = <input type="text" class="answer" id="input6" maxlength="3" size="3" data-answer="220"></p>
+        <p>x + <input type="text" class="answer" id="input7" maxlength="2" size="2" data-answer="15">y = <input type="text" class="answer" id="input8" maxlength="3" size="3" data-answer="310"></p>
+        <p>(-)</p>
+        <hr style="width: 100px; margin-left: 1px;">
+        <div>
+            <span>-<input type="text" class="answer" id="input9" maxlength="" size="1" data-answer="5">y</span>
+            <span>= -<input type="text" class="answer" id="input10" maxlength="2" size="2" data-answer="90"></span>
+        </div>
+        <div>
+            <span>∴ y = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input11" maxlength="2" size="2" data-answer="90"></div>
+                <div style="text-align: center;">-<input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="5"></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input13" maxlength="2" size="2" data-answer="18"></span>
+        </div>
+        <p>i.e., charge per one km = Rs. <input type="text" class="answer" id="input14" maxlength="2" size="2" data-answer="18"></p>
+        <p>Substituting y = 18 in equation (1) we get</p>
+        <p>x + 10 × <input type="text" class="answer" id="input15" maxlength="2" size="2" data-answer="18"> = 220</p>
+        <p>⇒ x = 220 – <input type="text" class="answer" id="input16" maxlength="3" size="3" data-answer="180"></p>
+        <p>⇒ x = Rs. <input type="text" class="answer" id="input17" maxlength="2" size="2" data-answer="40"></p>
+        <p>∴ Fixed charge = Rs. <input type="text" class="answer" id="input18" maxlength="2" size="2" data-answer="40">;</p>
+        <p>Charge per km = Rs. <input type="text" class="answer" id="input19" maxlength="2" size="2" data-answer="18">.</p>
+        <p>(ii) Now, the charge for travelling a distance of 25 km</p>
+        <p>= 25 × <input type="text" class="answer" id="input20" maxlength="2" size="2" data-answer="18"></p>
+        <p>= Rs. <input type="text" class="answer" id="input21" maxlength="3" size="3" data-answer="450"> + 40</p>
+        <p>= Rs. <input type="text" class="answer" id="input22" maxlength="3" size="3" data-answer="490"></p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

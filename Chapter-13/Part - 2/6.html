@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 10px;
+       }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+       }
+       td{
+           border: 2px solid black; width: 50px; height: 25px;
+       }
+       th{
+           border: 2px solid black; width: 50px;text-align:center;height:25px;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <h2>(Q6) Two dice, one red and one yellow, are thrown at the same time. Write down all the possible outcomes. What is the probability that the sum of the two numbers appearing on the top of the dice is </h2>
+        <h3>Q(i) 8 (ii) 13 (iii) less than or equal to 12? </h3>
+    </div>
+    <div>
+        <b>Solution : </b>
+        <p>When the red dice shows '1', the yellow dice could show any one of the numbers 1, 2, 3, 4, 5, 6. The same is true when the red dice shows '2', '3', '4', '5' or '6'. The possible outcomes of the experiment are shown in the figure; the first number in each ordered pair is the number appearing on the red dice and the second number is that on the white dice.</p>
+        <table>
+            <tr>
+                <td>-</td>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+            </tr>
+            <tr>
+                <td><b>1</b></td>
+                <td>1,1</td>
+                <td>1,2</td>
+                <td>1,3</td>
+                <td>1,4</td>
+                <td>1,5</td>
+                <td>1,6</td>
+            </tr>
+            <tr>
+                <td><b>2</b></td>
+                <td>2,1</td>
+                <td>2,2</td>
+                <td>2,3</td>
+                <td>2,4</td>
+                <td>2,5</td>
+                <td>2,6</td>
+            </tr>
+            <tr>
+                <td><b>3</b></td>
+                <td>3,1</td>
+                <td>3,2</td>
+                <td>3,3</td>
+                <td>3,4</td>
+                <td>3,5</td>
+                <td>3,6</td>
+            </tr>
+            <tr>
+                <td><b>4</b></td>
+                <td>4,1</td>
+                <td>4,2</td>
+                <td>4,3</td>
+                <td>4,4</td>
+                <td>4,5</td>
+                <td>4,6</td>
+            </tr>
+            <tr>
+                <td><b>5</b></td>
+                <td>5,1</td>
+                <td>5,2</td>
+                <td>5,3</td>
+                <td>5,4</td>
+                <td>5,5</td>
+                <td>5,6</td>
+            </tr>
+            <tr>
+                <td><b>6</b></td>
+                <td>6,1</td>
+                <td>6,2</td>
+                <td>6,3</td>
+                <td>6,4</td>
+                <td>6,5</td>
+                <td>6,6</td>
+            </tr>
+        </table>
+        <p>Note that the pair (1, 4) is different from (4, 1).</p>
+        <p>So, the number of possible outcomes n(S) = <input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="36"/></p>
+        <p>(i) The outcomes favourable to the event 'the sum of the two numbers is 8' denoted by E, </p>
+        <p>&emsp; i.e., the number of outcomes favourable to E is n(E) = <input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="5"/></p>
+        <div>
+            <span>&emsp; Hence, P(E) = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">n(E)</div>
+                <div style="text-align: center;">n(S)</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="5"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="36"/></div>
+            </span>
+        </div>
+        <p>(ii) As there is no outcome favourable to the event F, 'the sum of two numbers is 13'</p>
+        <div>
+            <span>&emsp; So, P(F) = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="0"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="36"/></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="0"/></span>
+        </div>
+        <p>(iii) As all the outcomes are favourable to the event G, 'sum of two numbers is less than are equal to 12'</p>
+        <div>
+            <span>&emsp; So, P(G) = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="36"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="36"/></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="1"/></span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

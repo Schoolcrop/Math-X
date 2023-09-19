@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <div id="question">
+        <h3>(Q7)In a right angled triangle &#9651;ABC,right angle is at C.BC+CA=23cm and BC-CA=7cm,then find sin A and tan B</h3>
+    </div>
+    <div id="answer">
+        <h4><u>Given:</u></h4>
+        <p> BC+CA=23cm</p>
+        <p>BC-CA=7cm</p>
+        <h4><u>To find:</u></h4>
+        <P>The value of sin A and tan B</p>
+        <h4><u>Solution:</u></h4>
+        <p>According to the question,</p>
+        <p>BC+CA=23cm -------equation 1</p>
+        <p>BC-CA=7cm --------equation 2</p>
+        <p>Adding these two equations,we will get</p>
+        <p>2BC=<input type="text" class="answer" id="input1" maxlength="2" size="2" data-answer="30" />cm</p>
+        <p>BC=<input type="text" class="answer" id="input2" maxlength="2" size="2" data-answer="15" />cm</p>
+        <p>putting the value of BC in equation 1,</p>
+        <p>BC+CA=23cm -------equation 1</p>
+        <p><input type="text" class="answer" id="input3" maxlength="8" size="1" data-answer="15 " />+CA=23cm</p>
+        <p>CA=<input type="text" class="answer" id="input4" maxlength="8" size="1" data-answer="8" />cm</p>
+        <p>using the Pythagoras theorem in &#9651;ABC,</p>
+        <p>AB<sup>2</sup>=BC<sup>2</sup>+CA<sup>2</sup></p>
+        <p>
+            AB<sup>2</sup>=<input type="text" class="answer" id="input5" maxlength="8" size="1" data-answer="15" /><sup>2</sup>+
+           <input type="text" class="answer" id="input6" maxlength="8" size="1" data-answer="8" /><sup>2</sup>
+        </p>
+        <p>AB=<input type="text" class="answer" id="input7" maxlength="8" size="1" data-answer="17" />cm</p>
+        
+        <p>so,for angle A,</p>
+        <p>The perpendicular will be BC and the hypotenuse will be AB.</p>
+        <p>we know that  sin is perpendicular /hypotenuse</p>
+        <p>therefore,</p>
+        <div>sin A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> BC</div>
+            <div style="text-align: center;"> AB</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input8" maxlength="8" size="1" data-answer="15" /> </div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input9" maxlength="8" size="1" data-answer="17" /></div>
+            </span>
+        </div>
+        <p>For angle B,</p>
+        <p>The perpendicular will be CA and the base will be BC</p>
+        <p>therefor,</p>
+        <div>Tan B=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> CA</div>
+            <div style="text-align: center;"> BC</div>
+             </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input10" maxlength="8" size="1" data-answer="8" /></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input11" maxlength="8" size="1" data-answer="15" /></div>
+            </span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers();clear_Answers();">clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+    
+</body>
+</html>

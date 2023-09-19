@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        table{
+        border: 2px solid black;border-collapse: collapse;}
+        th {
+            border: 2px solid black;border-collapse: collapse;width: 250px;
+        }
+        td {
+            border: 2px solid black;border-collapse: collapse;text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>
+       (Q4) Write three quadratic equations one having two distinct real solutions, one having no real solution and one having exactly one real solution.
+    </h2>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <table>
+            <tr>
+              <th style="width: 30px;">&nbsp;</th>
+              <th>Q.E</th>
+              <th>b<sup>2</sup> - 4ac</th>
+              <th>Nature</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>4x<sup>2</sup> + 7x + 3 = 0</td>
+                <td>49 - 44.3 &#62; 0</td>
+                <td>distinct,<input type="text" class="answer" id="input1" maxlength="6" size="1" data-answer="real"/></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>9x<sup>2</sup> + 24x + 16 = 0</td>
+                <td>24<sup>2</sup> - 4 &times; 9 &times; 16 = 0</td>
+                <td>equal roots  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">-b</div>
+                    <div style="text-align: center;">2a</div>
+                   </span><br/><span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">-24</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input2" maxlength="6" size="1" data-answer="18"/></div>
+                </span> , <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">-24</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input3" maxlength="6" size="1" data-answer="18"/></div>
+                </span> = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">-4</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="6" size="1" data-answer="3"/></div>
+                </span> ,  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">-4</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input5" maxlength="6" size="1" data-answer="3"/></div>
+                </span> 
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>5x<sup>2</sup> + 2x + 8 = 0</td>
+                <td>2<sup>2</sup> - 4 &times; 5 &times; 8 &#60; 0</td>
+                <td>no real roots</td>
+            </tr>
+
+
+        </table>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

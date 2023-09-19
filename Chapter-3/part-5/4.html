@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q4)If the zeros of the polynomial x<sup>3</sup>-3x<sup>2</sup> + x + 1 are a-b, a, a+b, find a and b.</h2>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>Given polynomial x<sup>3</sup>-3x<sup>2</sup>+x+1</p>
+        <p>Since,(a-b),a,(a+b) are three zeros of the polynomial x<sup>3</sup>-3x<sup>2</sup>+x+1</p>
+        <p>Therefore, sum of the zeros</p>
+        <div>
+            = (a-b)+a+(a+b)=  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-(-<input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="3"/>)</div>
+                <div style="text-align: center;">1</div>
+                </span> = <input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="3"/>
+        </div>
+        <p>So, 3a=<input type="text" class="answer" id="input4" maxlength="4" size="1" data-answer="3"/> a=<input type="text" class="answer" id="input4" maxlength="4" size="1" data-answer="1"/></p>
+        <p>Sum of the products of its zeros taken two at a time </p>
+        <div>
+            a(a-b)+a(a+b)+(a+b)(a-b)= <input type="text" class="answer" id="input5" maxlength="4" size="1" data-answer="1"/>
+        </div>
+        <p>a<sup>2</sup>-ab+a<sup>2</sup>+ab+a<sup>2</sup>-b<sup>2</sup>=<input type="text" class="answer" id="input6" maxlength="4" size="1" data-answer="1"/></p>
+        <p>3a<sup>2</sup>-b<sup>2</sup>=<input type="text" class="answer" id="input7" maxlength="4" size="1" data-answer="1"/></p>
+        <p>So, 3(1)<sup>2</sup>-b<sup>2</sup>=<input type="text" class="answer" id="input8" maxlength="4" size="1" data-answer="1"/></p>
+        <p>3-b<sup>2</sup>=<input type="text" class="answer" id="input9" maxlength="4" size="1" data-answer="1"/></p>
+        <p>b<sup>2</sup>=<input type="text" class="answer" id="input10" maxlength="4" size="1" data-answer="2"/></p>
+        <p>b= &radic;<input type="text" class="answer" id="input11" maxlength="4" size="1" data-answer="2"/></p>
+        <p>Here a=<input type="text" class="answer" id="input12" maxlength="4" size="1" data-answer="1"/> and b=&radic;<input type="text" class="answer" id="input13" maxlength="4" size="1" data-answer="2"/></p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q10).State the reasons for the following :</h2>
+    <div style="padding-left: 20px;">
+        <h4>(i) {1, 2, 3, …., 10} ≠ {x : x ∈ N and 1 < x < 10}</h4>
+        <p>In R.H.S ‘x’ is <input type="text" class="answer" id="input1" maxlength="7" size="7" data-answer="greater"> than 1 and <input type="text" class="answer" id="input2" maxlength="4" size="4" data-answer="less"> than 10 but L.H.S is having both 1 and <input type="text" class="answer" id="input3" maxlength="2" size="2" data-answer="10">.</p>
+        <h4>(ii) {2, 4, 6, 8, 10} ≠ {x : x = 2n+1 and x ∈ N}</h4>
+        <p>L.H.S ≠ R.H.S</p>
+        <p>R.H.S: x = 2n + 1 is definition of <input type="text" class="answer" id="input4" maxlength="3" size="3" data-answer="odd"> numbers.</p>
+        <p>L.H.S: Given set is <input type="text" class="answer" id="input5" maxlength="4" size="4" data-answer="even"> numbers set.</p>
+        <h4>(iii) {5, 15, 30, 45} ≠ {x : x is a multiple of 15}</h4>
+        <p>x is a multiple of <input type="text" class="answer" id="input6" maxlength="2" size="2" data-answer="15">.</p>
+        <p>So <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="5"> does not exist.</p>
+        <h4>(iv) {2, 3, 5, 7, 9} ≠ {x : x is a prime number}</h4>
+        <p>x is a <input type="text" class="answer" id="input8" maxlength="5" size="5" data-answer="prime"> number but 9 is not a <input type="text" class="answer" id="input9" maxlength="5" size="5" data-answer="prime"> number.</p>
+    </div>    
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

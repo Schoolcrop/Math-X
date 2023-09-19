@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q8)Represent the following situations in the form of quadratic equations: </h2>
+        <h3>Rohan's mother is 26 years older than him.The product of their ages after 3 years will be 360 years. We need to find Rohan's present age. </h3>
+    <div id="answer">
+        <h4><u>Answer</u></h4>
+        <p>Let the present age of Rohan be x years</p>
+        <p>Then age of Rohan's mother = x + 26</p>
+        <p>After 3 years:</p>
+        <p>Age of Rohan would be = x + 3</p>
+        <p>Rohan's mother's age would be = (x + 26) + 3 = x + 29</p>
+        <p>
+            By problem (x + 3)(x + 29) = 360<br/>
+            x(x + 29) + 3(x + 29) = 360<br/>
+            x<sup>2</sup> + 29x + 3x + 87 = 360<br/>
+            x<sup>2</sup> + 32x + 87 - 360<br/>
+            x<sup>2</sup> + 32x - 273 = 0<br/>
+            x<sup>2</sup> + 39x -<input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="7"/>x - 273 = 0<br/>
+            x(x + 39) - <input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="7"/>(x + 39) = 0<br/>
+            (x - <input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="7"/>)(x + <input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="39"/>) = 0<br/>
+            x = <input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="7"/> or x = -<input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="39"/> 'x' being age can not be negative.<br/>
+            &there4;x = Present age of Rohan = <input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="7"/> years.<br/>
+        </p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers()">clear</button>
+    
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

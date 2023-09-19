@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q5)If two zeros of the polynomial x<sup>4</sup>-6x<sup>3</sup>-26x<sup>2</sup>+138x-35 are 2&#177;&radic;3 find other zeros.</h2>
+   
+    <div id="answer">
+        <h4><u>Answer</u></h4>
+        <p>Let the other, two zeros are &alpha;,&#x3B2;</p>
+         <p>Then the sum of the zeros of given polynomial = 2+&radic;3+2-&radic;3+&alpha;+&#x3B2;</p>
+        <div>
+          =<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">-b</div>
+            <div style="text-align: center;">a</div>
+            </span> = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-(-<input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="6"/>)</div>
+                <div style="text-align: center;">1</div>
+                </span> = <input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="6"/>
+        </div>
+        <p>4+&alpha;+&#x3B2;=<input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="6"/></p>
+        <p>&alpha;+&#x3B2;=<input type="text" class="answer" id="input4" maxlength="4" size="1" data-answer="2"/>----------(1)</p>
+        <p>Now product of the zeros is</p>
+        <div>
+            (2+&radic;3)(2-&radic;3)(&alpha;)(&#x3B2;) = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">e</div>
+                <div style="text-align: center;">a</div>
+                </span> = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input5" maxlength="4" size="1" data-answer="35"/></div>
+                    <div style="text-align: center;">1</div>
+                    </span> 
+        </div>
+        <p>(4-3)(&alpha;&#x3B2;)= -<input type="text" class="answer" id="input6" maxlength="4" size="1" data-answer="35"/></p>
+        <p>&alpha;&#x3B2;= -<input type="text" class="answer" id="input7" maxlength="4" size="1" data-answer="35"/>-----------(2)</p>
+        <p>Now (&alpha;-&#x3B2;)<sup>2</sup>= (&alpha;+&#x3B2;)<sup>2</sup> - 4&alpha;&#x3B2;</p>
+        <p>(2)<sup>2</sup> - 4(-35)=<input type="text" class="answer" id="input8" maxlength="4" size="1" data-answer="144"/></p>
+        <p>(&alpha;-&#x3B2;)=&#177;<input type="text" class="answer" id="input9" maxlength="4" size="1" data-answer="12"/>---------(3)</p>
+        <p>Now solving (1) & (3) we get </p>
+        <div>
+            &alpha; + &#x3B2; = <input type="text" class="answer" id="input10" maxlength="4" size="1" data-answer="2"/>
+        </div>
+        <div>
+            &alpha; - &#x3B2; = <input type="text" class="answer" id="input11" maxlength="4" size="1" data-answer="12"/>
+        </div>
+        <hr style="margin-right:1400px" width="100">
+        <div>
+            2&alpha;  = <input type="text" class="answer" id="input12" maxlength="4" size="1" data-answer="14"/>
+        </div>
+        <p>&alpha;=<input type="text" class="answer" id="input13" maxlength="4" size="1" data-answer="7"/>; then  &alpha; + &#x3B2;= <input type="text" class="answer" id="input14" maxlength="4" size="1" data-answer="7"/> + &#x3B2;=2</p>
+        <p>&#x3B2;= -<input type="text" class="answer" id="input15" maxlength="4" size="1" data-answer="5"/></p>
+        <p>The remaining zeros are &alpha;,&#x3B2; = <input type="text" class="answer" id="input16" maxlength="4" size="1" data-answer="7"/>, -  <input type="text" class="answer" id="input17" maxlength="4" size="1" data-answer="5"/></p>
+        <p>So total zeros of given polynomial are</p>
+        <p>2+&radic;3, 2-&radic;3, <input type="text" class="answer" id="input18" maxlength="4" size="1" data-answer="7"/>, -<input type="text" class="answer" id="input19" maxlength="4" size="1" data-answer="5"/></p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+    
+    
+</body>
+</html>

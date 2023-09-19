@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>
+       (Q2) A pole has to be erected at a point on the boundary of a circular park of diameter 13 meters in such a way that the differences of its distances from two diametrically opposite
+        fixed gates A and B on the boundary is 7 meters. Is it possible to do so? If yes, at what distances from the two gates should the pole be erected?
+    </h2>
+    <div id="answer">
+        <h4><u>Answer</u></h4>
+        <p>Let us first draw the diagram.</p>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="661.6000366210938" height="301.6000061035156" style="
+        width:661.6000366210938px;
+        height:301.6000061035156px;
+        background: #FFF;
+        fill: none;
+               ">
+        <svg xmlns="http://www.w3.org/2000/svg"/>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" class="role-diagram-draw-area"><g class="shapes-region" style="stroke: black; fill: none;"><g class="composite-shape"><path class="real" d=" M89.4,182.6 C89.4,135.1 127.9,96.6 175.4,96.6 C222.9,96.6 261.4,135.1 261.4,182.6 C261.4,230.1 222.9,268.6 175.4,268.6 C127.9,268.6 89.4,230.1 89.4,182.6 Z" style="stroke-width: 1; stroke: rgb(0, 0, 0); fill: none; fill-opacity: 1;"/></g><g class="composite-shape"><path class="real" d=" M117.67,252.42 L221.5,107.6 L229.71,245.77 Z" style="stroke-width: 1; stroke: rgb(0, 0, 0); fill: none; fill-opacity: 1;"/></g><g/></g><g/><g/><g/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="660" height="300" style="width:660px;height:300px;font-family:Asana-Math, Asana;background:#FFF;"><g><g><g><text x="106.79998779296875" y="249.40000915527344" style="white-space:pre;stroke:none;fill:rgb(0,0,0);fill-opacity:1;font-size:15px;font-family:Arial, Helvetica, sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none solid rgb(0, 0, 0);">A</text></g></g></g><g><g><g><text x="232.5" y="248.16249084472656" style="white-space:pre;stroke:none;fill:rgb(0,0,0);fill-opacity:1;font-size:15px;font-family:Arial, Helvetica, sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none solid rgb(0, 0, 0);">P</text></g></g></g><g><g><g><text x="219.79998779296875" y="93.40000915527344" style="white-space:pre;stroke:none;fill:rgb(0,0,0);fill-opacity:1;font-size:15px;font-family:Arial, Helvetica, sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none solid rgb(0, 0, 0);">B</text></g></g></g><g transform="matrix(0.5441998334946455,-0.8389556253011241,0.8389556253011241,0.5441998334946455,-79.05890325526661,212.5824822187057)"><g><g><text x="139.4375" y="170.15000915527344" style="white-space:pre;stroke:none;fill:rgb(0,0,0);fill-opacity:1;font-size:15px;font-family:Arial, Helvetica, sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none solid rgb(0, 0, 0);">13m</text></g></g></g></svg>
+        </svg>
+
+        <p>
+            Let P be the required location of the pole. Let the distance of the pole from the gate B be x m, i.e BP = x m. Now the difference of the distances
+            of the pole from the two gates = AP - BP (or,BP - AP)= 7 m. <br/> Therefore, AP =(x+7)m
+        </p>
+        <p>Now, AB=13m, and since AB is a diameter,</p>
+        <p>&#8736;APB=90<sup>0</sup></p>
+        <p>By pythagoras theorem</p>
+        <p>AP<sup>2</sup> + PB<sup>2</sup> = AB<sup>2</sup></p>
+        <p>(x + 7)<sup>2</sup>+x<sup>2</sup>=<input type="text" class="answer" id="inpu1" maxlength="4" size="1" data-answer="13"/><sup>2</sup></p>
+        <p>x<sup>2</sup> + 14x + 49 + x<sup>2</sup> = <input type="text" class="answer" id="inpu2" maxlength="4" size="1" data-answer="169"/></p>
+        <p>2x<sup>2</sup>+14x-<input type="text" class="answer" id="inpu3" maxlength="4" size="1" data-answer="120"/> = 0</p>
+        <p>So, the distance 'x' of the pole from gate B satisfies the equation </p>
+        <p>x<sup>2</sup> + 7x - <input type="text" class="answer" id="inpu4" maxlength="4" size="1" data-answer="60"/> = 0</p>
+        <p>So, it would be possible to place the pole if this equattion has real roots. To see if this so or not, let us consider its discriminant.The discriminant is</p>
+        <p>b<sup>2</sup> - 4ac = 7<sup>2</sup>-4&times;1&times;(-<input type="text" class="answer" id="inpu5" maxlength="4" size="1" data-answer="60"/>)=<input type="text" class="answer" id="inpu6" maxlength="4" size="1" data-answer="289"/> &#62; 0</p>
+        <p>So, the given quadratic equations has two real roots, and it is possible to erect the pole on the boundary of the park.</p>
+        <div>
+            Solving the quadratic equation x<sup>2</sup> + 7x - <input type="text" class="answer" id="inpu7" maxlength="4" size="1" data-answer="60"/> = 0, by the quadratic formula, we get <br/>
+            x = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-7&#177;&radic;<input type="text" class="answer" id="inpu8" maxlength="4" size="1" data-answer="289"/></div>
+                <div style="text-align: center;">2</div>
+            </span> =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-7&#177;<input type="text" class="answer" id="inpu9" maxlength="4" size="1" data-answer="17"/></div>
+                <div style="text-align: center;">2</div>
+            </span> 
+        </div>
+        <p>Therfore, x = <input type="text" class="answer" id="inpu10" maxlength="4" size="1" data-answer="5"/> or -<input type="text" class="answer" id="inpu11" maxlength="4" size="1" data-answer="12"/></p>
+        <p>Since x is the distance between the pole and the gate B, it must be positive. </p>
+        <p>Therefore, x = -<input type="text" class="answer" id="inpu12" maxlength="4" size="1" data-answer="12"/> will have to be ignored. So, x = <input type="text" class="answer" id="inpu13" maxlength="4" size="1" data-answer="5"/>.</p>
+        <p>Thus, the pole has to be erected on the boundary of the park at a distance of 5m from the gate B and 12m from the gate A.</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

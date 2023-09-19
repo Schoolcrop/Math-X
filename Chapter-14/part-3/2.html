@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 15px;
+       }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+       }
+       td{
+           border: 2px solid black; width: 100px; height: 30px;
+       }
+       th{
+           border: 2px solid black; width: 220px;text-align:center;height:50px;
+       }
+   </style>
+</head>
+<body>
+    <div style="padding: 15px;">
+    <h2>(Q2)The median of the following data is 525. Find the values of x and y, if the total frequency is 100. Here, CI stands for class interval and Fr for frequency</h2>
+    <table>
+        <tr>
+            <td>CI</td>
+            <td>0-100</td>
+            <td>100-200</td>
+            <td>200-300</td>
+            <td>300-400</td>
+            <td>400-500</td>
+            <td>500-600</td>
+            <td>600-700</td>
+            <td>700-800</td>
+            <td>800-900</td>
+            <td>900-1000</td>
+        </tr>
+        <tr>
+            <td>Fr</td>
+            <td>2</td>
+            <td>5</td>
+            <td>x</td>
+            <td>12</td>
+            <td>17</td>
+            <td>20</td>
+            <td>y</td>
+            <td>9</td>
+            <td>7</td>
+            <td>4</td>
+        </tr>
+    </table>
+    </div>
+    <div style="padding: 15px;">
+        <table>
+            <tr>
+              <th>Class Intervals</th>
+              <th>Frequency</th>
+              <th>Cumulative Frequency</th>
+            </tr>
+            <tr>
+                <td>0-100</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>100-200</td>
+                <td>5</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>200-300</td>
+                <td>x</td>
+                <td>7+x</td>
+            </tr>
+            <tr>
+                <td>300-400</td>
+                <td>12</td>
+                <td>19+x</td>
+            </tr>
+            <tr>
+                <td>400-500</td>
+                <td>17</td>
+                <td>36+x</td>
+            </tr>
+            <tr>
+                <td>500-600</td>
+                <td>20</td>
+                <td>56+x</td>
+            </tr>
+            <tr>
+                <td>600-700</td>
+                <td>y</td>
+                <td>56+x+y</td>
+            </tr>
+            <tr>
+                <td>700-800</td>
+                <td>9</td>
+                <td>65+x+y</td>
+            </tr>
+            <tr>
+                <td>800-900</td>
+                <td>7</td>
+                <td>72+x+y</td>
+            </tr>
+            <tr>
+                <td>900-1000</td>
+                <td>4</td>
+                <td>76+x+y</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <P><b>Solution : </b></P>
+        <p>It is given that n = 100</p>
+        <p>So, 76+x+y = 100,i.e., x+y=24 </p>
+        <p>The median is 525, which lies in the class 500-600</p>
+        <p>So, l = 500, f = 20, cf = 36 + x, h = 100</p>
+    </div>
+    <div>
+        <span>Using the formula, Median = l + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">
+                    <span> ( </span>
+                    <span style="display: inline-block;vertical-align: middle;"> 
+                        <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                        <div style="text-align: center;">2</div>
+                    </span>
+                    <span> - cf )</span>
+                </div>
+                <div style="text-align: center;vertical-align: middle;">f</div>
+        </span>
+        <span> &times; h</span><br>
+        <span><input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="525"/> = <input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="500"/> + </span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">(<input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="50"/> - 36 - x)</div>
+                <div style="text-align: center;">20</div>
+        </span>
+        <span> &times; <input type="text" class="answer" id="input4" maxlength="4" size="1" data-answer="100"/></span><br>
+        <p>i.e.,&emsp; <input type="text" class="answer" id="input5" maxlength="4" size="1" data-answer="525"/> - <input type="text" class="answer" id="input6" maxlength="4" size="1" data-answer="500"/> = (<input type="text" class="answer" id="input7" maxlength="4" size="1" data-answer="14"/> - x)&times; <input type="text" class="answer" id="input8" maxlength="4" size="1" data-answer="5"/></p>
+        <p>i.e.,&emsp; <input type="text" class="answer" id="input9" maxlength="4" size="1" data-answer="25"/> = <input type="text" class="answer" id="input10" maxlength="4" size="1" data-answer="70"/> - 5x</p>
+        <p>i.e.,&emsp; 5x = <input type="text" class="answer" id="input11" maxlength="4" size="1" data-answer="70"/> - <input type="text" class="answer" id="input12" maxlength="4" size="1" data-answer="25"/> = <input type="text" class="answer" id="input13" maxlength="4" size="1" data-answer="45"/></p>
+        <p>So,&emsp; x = <input type="text" class="answer" id="input14" maxlength="4" size="1" data-answer="9"/></p>
+        <p>Therefore, from (1), we get <input type="text" class="answer" id="input15" maxlength="4" size="1" data-answer="9"/> + y = <input type="text" class="answer" id="input16" maxlength="4" size="1" data-answer="24"/></p>
+        <p>i.e., y = <input type="text" class="answer" id="input17" maxlength="4" size="1" data-answer="15"/></p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

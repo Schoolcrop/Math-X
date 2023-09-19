@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../../Assets/css/styles.css">
+    <style>
+        body{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>(Q1) Two customers Shyam and Ekta are visiting a particular shop in the same week (Tuesday to Saturday). Each is equally likely to visit the shop on any day as on another day. What is the probability that both will visit the shop on</h2>
+        <h3>(i) the same day?</h3>
+        <h3>(ii) consecutive days?</h3>
+        <h3>(iii) different days?</h3>
+    </div>
+    <div>
+        <p><b>Answer : </b></p>
+        <p>Shyam and Ekta can visit the shop in the following combination: </p>
+        <p>(T Tu) (W, Tu) (Th, Tu) (F, Tu) (S, Tu) (Tu, W) (W, W) (Th, W) (F, W) (S, W) (Tu, Th) (W, Th) <br> (Th, F) (F, Th) (S, Th) (Tu, F) (W, F) (Th, S) (F, F) (S, F) (Tu, S) (W, S) (Th, Th) (F, S) (S, S)</p>
+        <p>&#8756; Number of total outcomes = 5 &times; 5 = 5<sup>2</sup> = <input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="25"/> [also from the above table]</p>
+        <p>(i) Number of favourable outcomes to that of visiting on the same day = <input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="5"/></p>
+        <div>
+            <span>&#8756; Probability of visiting the shop on the same day = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"> No. of favourable outcomes</div>
+                <div style="text-align: center;">Total no. of outcomes</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="5"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="25"/></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input5" maxlength="2" size="1" data-answer="1"/></div>
+                <div style="text-align: center;">5</div>
+            </span>
+        </div>
+        <p>(ii) Number of outcomes favourable to consecutive days =<input type="text" class="answer" id="input6" maxlength="2" size="1" data-answer="8"/></p>
+        <span>&#8756; Probability of visiting the shop on consecutive days =</span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input7" maxlength="2" size="1" data-answer="8"/></div>
+            <div style="text-align: center;"><input type="text" class="answer" id="input8" maxlength="2" size="1" data-answer="25"/></div>
+        </span>
+        <p>(iii) If P(E) is the probability of visiting the shop on the same day,then P(E&#772;) is the probability of visiting the shop not on the same day.</p>
+        <p>i.e., P(E&#772;) is the probability of visiting the shop on different days.</p>
+        <p>Such that P(E) + P(E&#772;) = 1</p>
+        <div>
+            <span>P(E&#772;) = 1 - P(E) = 1 - </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input9" maxlength="2" size="1" data-answer="1"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input10" maxlength="2" size="1" data-answer="5"/></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input11" maxlength="2" size="1" data-answer="4"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input12" maxlength="2" size="1" data-answer="5"/></div>
+            </span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

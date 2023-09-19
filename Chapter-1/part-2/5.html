@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q5). Find the HCF and LCF of the following given pairs of numbers by prime factorisation method 120,90.</h2>
+    <div style="padding-left: 20px;">
+        <p>HCF of numbers = Product of the smallest power of each common - prime factors of the number</p>
+        <p>LCM of numbers = Product of greatest power of each prime factors of the number.</p>
+        <p>120 = <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="2">&times;2&times;2&times;3&times;5</p>
+        <p style="padding-left: 40px;"> = <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="2"><sup>3</sup>&times;3&times;5</p>
+        <p>90 = 2&times;<input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="3">&times;3&times;5</p>
+        <p style="padding-left: 30px;"> = 2&times;<input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="3"><sup>2</sup>&times;5</p>
+        <p>HCF = 2 &times; 3 &times; 5 = <input type="text" class="answer" id="input5" maxlength="2" size="2" data-answer="30"></p>
+        <p>LCM = 2<sup>3</sup> &times; 3<sup>2</sup> &times; 5 = <input type="text" class="answer" id="input6" maxlength="3" size="3" data-answer="360"> </p>
+        <p>HCF = <input type="text" class="answer" id="input7" maxlength="2" size="2" data-answer="30"></p>
+        <p>LCM = <input type="text" class="answer" id="input8" maxlength="3" size="3" data-answer="360"></p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

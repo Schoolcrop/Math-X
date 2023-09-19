@@ -1,0 +1,75 @@
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+input[type=text] {
+    padding: 0.4em 0.4em;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    color: #333;
+    position: relative;
+    top: 0px;
+    text-align: center;
+    font-weight: bold;
+       
+}
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
+
+.correct_r {
+    color: green;
+}
+  
+.incorrect_r {
+    color: red;
+}
+.correct-answer {
+    color: green;
+}
+.answer-text {
+  font-weight: bold;
+}
+img{
+    width: 350px;
+    height: 200px;
+}
+
+.overline {
+    margin-top: 15px;
+    display: inline-block;
+    position: relative;
+}
+.overline::before {
+    content: "";
+    position: absolute;
+    top: -0.3em;
+    left: 0;
+    right: 0;
+    border-top: 1px solid black; 
+}
+
+#check-button #clear-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #clear-button:hover {
+    background-color: orange;
+  }
+  #check-button:hover {
+    background-color: orange;
+  }
+  

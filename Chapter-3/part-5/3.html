@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q3)Find a cubic polyomial with the sum, sum of the product of its zeros taken two at a time, and the product of its zeros as 2, -7, -14 respectively</h2>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>Let the cubic polynomial be ax<sup>3</sup>+bx<sup>2</sup>+cx+d, and its zeros be &alpha;,&#x3B2; and &#x3B3;</p>
+        <p>Then</p>
+        <div>
+            &alpha;+&#x3B2;+&#x3B3; =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-(-<input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="2"/>)</div>
+                <div style="text-align: center;">1</div>
+                </span> =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">-b</div>
+                    <div style="text-align: center;">a</div>
+                    </span>
+        </div>
+        <div>
+            &alpha;&#x3B2;+&#x3B2;&#x3B3;+&#x3B3;&alpha;= -<input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="7"/> =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="7"/></div>
+                <div style="text-align: center;">1</div>
+                </span> =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">c</div>
+                    <div style="text-align: center;">a</div>
+                    </span>
+        </div>
+        <div>
+            &alpha;&#x3B2;&#x3B3; = -<input type="text" class="answer" id="input4" maxlength="4" size="1" data-answer="14"/>=  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input5" maxlength="4" size="1" data-answer="14"/></div>
+                <div style="text-align: center;">1</div>
+                </span> = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">-d</div>
+                    <div style="text-align: center;">a</div>
+                    </span>
+        </div>
+        <p>a=<input type="text" class="answer" id="input6" maxlength="4" size="1" data-answer="1"/> then b= -<input type="text" class="answer" id="input7" maxlength="4" size="1" data-answer="2"/> and c= -<input type="text" class="answer" id="input8" maxlength="4" size="1" data-answer="7"/>and d=<input type="text" class="answer" id="input9" maxlength="4" size="1" data-answer="14"/></p>
+        <p>So, one cubic polynomial which satisfies the given conditions will be x<sup>3</sup> - 2x<sup>2</sup> - 7x+14</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

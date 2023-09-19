@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/styles.css">
+</head>
+<body>
+    <div style="padding-left: 20px;">
+        <h2>Evaluate sin 60° cos 30° + sin 30° cos 60°. What is the value of sin (60° + 30°). What can you conclude?</h2>
+        <div style="padding-left: 20px;">
+            <p>Take sin 60° cos 30° + sin 30° cos 60°</p>
+            <div>
+                <span> = </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">&#8730;<input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="3"></div>
+                    <div style="text-align: center;">2</div>
+                </span>.
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">&#8730;<input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="3"></div>
+                    <div style="text-align: center;">2</div>
+                </span> + 
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="2"></div>
+                </span>.
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="2"></div>
+                </span>
+            </div>
+            <div>
+                <span> = </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">(&#8730;<input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="3">)<sup>2</sup></div>
+                    <div style="text-align: center;">4</div>
+                </span> + 
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="4"></div>
+                </span>
+            </div>
+            <div>
+                <span> = </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="3"></div>
+                    <div style="text-align: center;">4</div>
+                </span> + 
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="4"></div>
+                </span>
+            </div>
+            <div>
+                <span> = </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="3"> + 1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="4"></div>
+                </span>
+            </div>
+            <div>
+                <span> = </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="4"></div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="4"></div>
+                </span>
+                <span> = <input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="1"> ............(1)</span>
+            </div>
+            <p>Now take sin (60&deg; + 30&deg;)</p>
+            <p> = sin <input type="text" class="answer" id="input14" maxlength="2" size="2" data-answer="90">&deg; = <input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="1"> ..........(2)</p>
+            <p>From equations (1) and (2), I conclude that</p>
+            <p>sin (60&deg; + 30&deg;) = sin 60&deg; . cos <input type="text" class="answer" id="input16" maxlength="2" size="2" data-answer="30">&deg; + sin 30&deg; . cos <input type="text" class="answer" id="input17" maxlength="2" size="2" data-answer="60">&deg;.</p>
+            <p>i.e., sin (A + B) = sin <input type="text" class="answer" id="input18" maxlength="1" size="1" data-answer="A"> . cos B + cos A . sin <input type="text" class="answer" id="input19" maxlength="1" size="1" data-answer="B"></p>
+        <!-- <img src="../Assets/image-1.jpg.png" alt="" width="250px" height="250px"> -->
+        </div>
+        <div class="button-container">
+            <button id="check-button" onclick="checkAnswers()">Check Answer</button>
+            <button id="clear-button" onclick="clearAnswers()">Clear</button>
+        </div>
+    </div>
+    <script src="../../Assets/javascript.js"></script>
+</body>
+</html>

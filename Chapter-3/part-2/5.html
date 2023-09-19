@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style type="text/css">
+        td{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>(Q5)Draw the graphs of the given polynomial and find the zeros justify the answer. p(x) = x<sup>2</sup> -x -12</h2>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>Given polynomial p(x)=x<sup>2</sup>-x-12.</p>
+        <p>List of values of p(x):</p>
+        <table border="1" >
+            <tr>
+                <td >x</td>
+                <td >-3</td>
+                <td >-2</td>
+                <td >-1</td>
+                <td >0</td>
+                <td >1</td>
+                <td >2</td>
+                <td >3</td>
+                <td >4</td>
+            </tr>
+
+            <tr>
+                <td>x<sup>2</sup></td>
+                <td >9</td>
+                <td>4</td>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td >4</td>
+                <td>9</td>
+                <td>16</td> 
+            </tr>
+
+            <tr>
+                <td >x</td>
+                <td >-3</td>
+                <td >-2</td>
+                <td >-1</td>
+                <td >0</td>
+                <td>1</td>
+                <td >2</td>
+                <td >3</td>
+                <td >4</td>
+            </tr>
+
+            <tr>
+                <td >x<sup>2</sup>-x</td>
+                <td>12</td>
+                <td>6</td>
+                <td>2</td>
+                <td >0</td>
+                <td >0</td>
+                <td >2</td>
+                <td >6</td>
+                <td >12</td>
+            </tr>
+
+            <tr>
+                <td>12</td>
+                <td>12</td>
+                <td>12</td>
+                <td>12</td>
+                <td>12</td>
+                <td>12</td>
+                <td>12</td>
+                <td>12</td>
+                <td>12</td>
+            </tr>
+
+            <tr>
+                <td>p(x)</td>
+                <td>0</td>
+                <td>-6</td>
+                <td>-10</td>
+                <td>-12</td>
+                <td >-12</td>
+                <td>-10</td>
+                <td >-6</td>
+                <td>0</td>
+            </tr>
+
+            <tr>
+                <td style="text-align:center">(x,y)</td>
+                <td >(-3,0)</td>
+                <td>(-2,-6)</td>
+                <td>(-1,-10)</td>
+                <td>(0,-12)</td>
+                <td>(1,-12)</td>
+                <td>(2,-10)</td>
+                <td >(3,-16)</td>
+                <td>(4,0)</td>
+            </tr>
+
+        </table>
+        <p>Now,lets locate the points listed above on a graph paper </p>
+        <img src="../../Assets/images/3-2(5).png" height="250" width="300"/>
+        <p>Result:We observe that the graph cuts the X - axis at(-3,0)and (4,0).</p>
+        <p>so, the zeros of the polynomial are -3 and 4.</p>
+        <h4><u>justification:</u></h4>
+        <p>Given:p(x)=x<sup>2</sup>-x-12=0</p>
+        <p>x<sup>2</sup>-4x+3x-12=0</p>
+        <p>
+            x(x-<input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="4"/>)+3(x-<input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="4"/>)=0
+        </p>
+        <p>(x-<input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="4"/>)(x+3=0)</p>
+        <p>x-<input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="4"/>=0 and x+3=0 </p>
+        <p>x=<input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="4"/>and x=-3</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers();clear_Answers();">clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+    
+</body>
+</html>

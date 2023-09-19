@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>
+        (Q2)Prove that <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">sin &theta; - cos &theta;+1</div>
+            <div style="text-align: center;"> sin &theta; +cos &theta;-1</div>
+        </span> =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> 1</div>
+            <div style="text-align: center;">sec &theta; - tan &theta;</div>
+        </span>
+           using identity sec<sup>2</sup>&theta;=1+tan <sec>2</sec>&theta;
+    </h2>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <div>L.H.S=
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">sin &theta; - cos &theta;+1</div>
+                <div style="text-align: center;"> sin &theta; +cos &theta;-1</div>
+            </span> =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> 1</div>
+                <div style="text-align: center;">sec &theta; - tan &theta;</div>
+            </span>
+
+        </div>
+        <p>On dividing Nr & Dr by cos &theta;, we get</p>
+        <div>=
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"> sin &theta;</div>
+                    <div style="text-align: center;">cos &theta;</div>
+                </span> - <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"> cos &theta;</div>
+                    <div style="text-align: center;">cos &theta;</div>
+                </span>+<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"> 1</div>
+                    <div style="text-align: center;"> cos &theta;</div>
+                </span></div>
+                <div style="text-align: center;"><span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"> sin &theta;</div>
+                    <div style="text-align: center;">cos &theta;</div>
+                </span>+ <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"> cos &theta;</div>
+                    <div style="text-align: center;">cos &theta;</div>
+                </span> - <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"> 1</div>
+                    <div style="text-align: center;">cos &theta;</div>
+                </span></div>
+            </span>
+        </div><br/>
+        <div>=
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input1" maxlength="6" size="1" data-answer="tan"/>&theta;+sec &theta; - 1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input2" maxlength="6" size="1" data-answer="tan"/> &theta; - sec &theta; + 1</div>
+            </span>
+
+        </div>
+        <p>[<input type="text" class="answer" id="input1" maxlength="6" size="1" data-answer="sec"/><sup>2</sup>&theta; - tan<sup>2</sup>&theta;=1]</p>
+        <div>=
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> (<input type="text" class="answer" id="input3" maxlength="6" size="1" data-answer="tan"/> &theta;+sec &theta;) - (<input type="text" class="answer" id="input1" maxlength="6" size="1" data-answer="sec"/><sup>2</sup>&theta; - tan<sup>2</sup>&theta;)</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="6" size="1" data-answer="tan"/> &theta; - sec &theta; + 1</div>
+            </span>
+
+        </div><br/>
+        <p>[a<sup>2</sup>-b<sup>2</sup>=(a+b)(a-b)]</p>
+        <div>=
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> (<input type="text" class="answer" id="input5" maxlength="6" size="1" data-answer="tan"/> &theta;+sec &theta;) - [(<input type="text" class="answer" id="input1" maxlength="6" size="1" data-answer="sec"/> &theta;+tan&theta;)(<input type="text" class="answer" id="input1" maxlength="6" size="1" data-answer="sec"/> &theta;-tan &theta;)]</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input6" maxlength="6" size="1" data-answer="tan"/> &theta; - sec &theta; + 1</div>
+            </span>
+        </div><br/>
+        <div>=
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> (<input type="text" class="answer" id="input7" maxlength="6" size="1" data-answer="tan"/> &theta;+sec &theta;)(1-<input type="text" class="answer" id="input8" maxlength="6" size="1" data-answer="sec"/> &theta;+tan &theta;)</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input9" maxlength="6" size="1" data-answer="tan"/> &theta; - sec &theta; + 1</div>
+            </span> = <input type="text" class="answer" id="input10" maxlength="6" size="1" data-answer="tan"/> &theta; + sec &theta; ---------(1)
+        </div><br/>
+        <div>
+            R.H.S=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  1</div>
+                <div style="text-align: center;">sec &theta; - tan &theta; </div>
+            </span>
+        </div>
+        <p>[By rationalising R.F of sec &theta; - tan &theta; is sec &theta; + tan &theta;]</p>
+        <div>=
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  1</div>
+                <div style="text-align: center;">sec &theta; - tan &theta; </div>
+            </span> &times; <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  sec &theta; + tan &theta;</div>
+                <div style="text-align: center;">sec &theta; + tan &theta; </div>
+            </span>
+        </div><br/>
+        <div>=
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  sec &theta; + tan &theta;</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input11" maxlength="6" size="1" data-answer="sec"/><sup>2</sup> &theta; - tan<sup>2</sup>&theta; </div>
+            </span>
+        </div>
+        <p>[<input type="text" class="answer" id="input12" maxlength="6" size="1" data-answer="sec"/><sup>2</sup>&theta; - tan<sup>2</sup>&theta; =1]</p>
+        <p>= sec &theta; + tan &theta; --------(2)</p>
+        <p>from (1) and (2),we get L.H.S=R.H.S<br/>Hence proved</p>
+
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers();clear_Answers();">clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+    
+</body>
+</html>

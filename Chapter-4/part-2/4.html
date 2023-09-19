@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h2>(Q4).Solve each pair of equations by using the substitution method.</h2>
+    <h3>2x + 3y = 9</h3>
+    <h3>3x + 4y = 5</h3>
+    <div>
+        <p>Given: 2x + 3y – 9 …….. (1)</p>
+        <p>3x + 4y = 5 ……. (2)</p>
+        <p>From equation (1);</p>
+        <p>2x = <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="9"> – <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="3">y</p>
+        <div>
+            <span>x = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="9">-<input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="3">y</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+        </div>
+        <div>
+            <span>Substituting x = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="9">-<input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="3">y</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+            <span>in equation (2)</span>
+        </div>
+        <p>we get</p>
+        <div>
+            <span> 3 ( </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="9">-<input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="3">y</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+            <span>) + 4y = 5</span>
+        </div>
+        <div>
+            <span> ⇒ </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input12" maxlength="2" size="2" data-answer="27"> - <input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="9">y + <input type="text" class="answer" id="input14" maxlength="1" size="1" data-answer="2"> &times; 4y</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+            <span> = 5</span>
+        </div>
+        <p>⇒ <input type="text" class="answer" id="input16" maxlength="2" size="2" data-answer="27"> - <input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="9">y + <input type="text" class="answer" id="input18" maxlength="1" size="1" data-answer="8">y = 5 &times; <input type="text" class="answer" id="input19" maxlength="1" size="1" data-answer="2"></p>
+        <p>⇒ -y = <input type="text" class="answer" id="input20" maxlength="2" size="2" data-answer="10"> - <input type="text" class="answer" id="input21" maxlength="2" size="2" data-answer="27"></p>
+        <p>y = + <input type="text" class="answer" id="input22" maxlength="2" size="2" data-answer="17"></p>
+        <p>Substituting y = + <input type="text" class="answer" id="input23" maxlength="2" size="2" data-answer="17"> in equation (1) we get</p>
+        <p>2x + 3 (+ <input type="text" class="answer" id="input24" maxlength="2" size="2" data-answer="17">) = 9</p>
+        <p>⇒ 2x = 9 – <input type="text" class="answer" id="input25" maxlength="2" size="2" data-answer="51"></p>
+        <p>⇒ 2x = -<input type="text" class="answer" id="input26" maxlength="2" size="2" data-answer="42"></p>
+        <p>⇒ x = -<input type="text" class="answer" id="input27" maxlength="2" size="2" data-answer="21"></p>
+        <p>∴ The solution is (-<input type="text" class="answer" id="input28" maxlength="2" size="2" data-answer="21">, <input type="text" class="answer" id="input29" maxlength="2" size="2" data-answer="17">)</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

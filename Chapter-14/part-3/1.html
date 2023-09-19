@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 10px;
+       }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+       }
+       td{
+           border: 2px solid black; width: 55px; height: 30px;
+       }
+       th{
+           border: 2px solid black; width: 150px;text-align:center;height:50px;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <h2>(Q1) A survey regarding the heights (in cm) of 51 girls of Class X of a school was conducted and data was obtained as shown in table. Find their median.</h2>
+        <table>
+            <tr>
+                <th>Height(in cm)</th>
+                <th>Number of girls</th>
+            </tr>
+            <tr>
+                <td>Less than 140</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Less than 145</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>Less than 150</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>Less than 155</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Less than 160</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td>Less than 165</td>
+                <td>51</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p><b>Solution :</b> To calculate the median height, we need to find the class intervals and their corresponding frequencies. The given distribution being of the less than type, 140, 145, 150, . . ., 165 give the upper limits of the corresponding class intervals. So, the classes should be below 140, 140 - 145, 145 - 150, . . ., 160 - 165.</p>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>Class Intervals</th>
+                <th>Frequency</th>
+                <th>Cumulative Frequency</th>
+            </tr>
+            <tr>
+                <td>Below 140</td>
+                <td>4</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>140-145</td>
+                <td>7</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>145-150</td>
+                <td>18</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>150-155</td>
+                <td>11</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>155-160</td>
+                <td>6</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td>160-165</td>
+                <td>5</td>
+                <td>51</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p>Observe that from the given distribution, we find that there are 4 girls with height less than 140, i.e., the frequency of class interval below 140 is 4 . Now, there are 11 girls with heights less than 145 and 4 girls with height less than 140. Therefore, the number of girls with height in the interval 140 - 145 is 11 - 4 = 7. Similarly, the frequencies can be calculated as shown in table.</p>
+        <p>Number of observations, n = 51</p>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">51</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span> = 25.5<sup>th</sup> observation, which lies in the class 145-150.</span>
+        </div>
+        <p>&#8756; 145-150 is the Median Class</p>
+        <p>Then, l (the lower boundary) = 145,</p>
+        <p>cf (the cumulative frequency of the class preceding 145-150) = 11</p>
+        <p>f(the frequency of the median class 145-150) = 18 and</p>
+        <p>h(the class size) = 5.</p>
+        <div>
+            <span>Using the formula, Median = l + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">
+                    <span> ( </span>
+                    <span style="display: inline-block;vertical-align: middle;"> 
+                        <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                        <div style="text-align: center;">2</div>
+                    </span>
+                    <span> - cf )</span>
+                </div>
+                <div style="text-align: center;vertical-align: middle;">f</div>
+            </span>
+            <span> &times; h</span>
+        </div>
+        <div>
+            <span>Median = <input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="145"/> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">(<input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="25.5"/> - <input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="11"/>)</div>
+                <div style="text-align: center;">18</div>
+            </span>
+            <span> &times; <input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="5"/></span>
+        </div>
+        <div>
+            <span>&emsp;&emsp; = <input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="145"/>+ </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input6" maxlength="4" size="1" data-answer="72.5"/></div>
+                <div style="text-align: center;">18</div>
+            </span>
+            <span> = <input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="149"/>.03</span>
+        </div>
+        <p>So, the median height of the girls is <input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="149"/>.03 cm. This means that the height of about 50% of the girls is less than this height, and that of other 50% is greater than this height.</p>
+    
+      
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

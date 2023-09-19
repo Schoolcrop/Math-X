@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 10px;
+       }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+       }
+       td{
+           border: 2px solid black; width: 90px; height: 30px;
+       }
+       th{
+           border: 2px solid black; width: 220px;text-align:center;height:50px;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <h2>(Q3) The following frequency distribution gives the monthly consumption of electricity of 68 consumers of a locality. Find the median, mean and mode of the data and compare them.</h2>
+        <table >
+            <tr>
+                <td style="width: 170px; text-align: left;">Monthly consumption (in units)</td>
+                <td>65-85</td>
+                <td>85-105</td>
+                <td>105-125</td>
+                <td>125-145</td>
+                <td>145-165</td>
+                <td>165-185</td>
+                <td>185-205</td>
+            </tr>
+            <tr>
+                <td style="width: 170px; text-align: left;">Number of consumers</td>
+                <td>4</td>
+                <td>5</td>
+                <td>13</td>
+                <td>20</td>
+                <td>14</td>
+                <td>8</td>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <p><b>Answer :</b></p>
+    </div>
+    <div style="padding: 20px;">
+        <table>
+            <tr>
+                <th>Monthly Consumption (in units)</th>
+                <th>Number of Consumers (f<sub>i</sub>)</th>
+                <th>Cumulative frequency (x<sub>i</sub>)</th>
+                <th>Class marks</th>
+                <th>
+                    <span>u<sub>i</sub> = </span>
+                    <span style="display: inline-block;vertical-align: middle;"> 
+                        <div style="text-align: center; border-bottom: 1px solid black;">x<sub>i</sub> - a </div>
+                        <div style="text-align: center;">h</div>
+                    </span><br>
+                    <span>(h = 20)</span>    
+                </th>
+                <th>f<Sub>i</Sub>u<sub>i</sub></th>
+            </tr>
+            <tr>
+                <td>65-85</td>
+                <td>4</td>
+                <td>4</td>
+                <td>75</td>
+                <td>-3</td>
+                <td>-<input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="12"/></td>
+            </tr>
+            <tr>
+                <td>85-105</td>
+                <td>5</td>
+                <td>9</td>
+                <td>95</td>
+                <td>-2</td>
+                <td>-<input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="10"/></td>
+            </tr>
+            <tr>
+                <td>105-125</td>
+                <td>13</td>
+                <td>22</td>
+                <td>115</td>
+                <td>-1</td>
+                <td>-<input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="13"/></td>
+            </tr>
+            <tr>
+                <td>125-145</td>
+                <td>20</td>
+                <td>42</td>
+                <td>135 (a)</td>
+                <td>0</td>
+                <td><input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="0"/></td>
+            </tr>
+            <tr>
+                <td>145-165</td>
+                <td>14</td>
+                <td>56</td>
+                <td>155</td>
+                <td>1</td>
+                <td><input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="14"/></td>
+            </tr>
+            <tr>
+                <td>165-185</td>
+                <td>8</td>
+                <td>64</td>
+                <td>175</td>
+                <td>2</td>
+                <td><input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="16"/></td>
+            </tr>
+            <tr>
+                <td>185-205</td>
+                <td>4</td>
+                <td>68</td>
+                <td>195</td>
+                <td>3</td>
+                <td><input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="12"/></td>
+            </tr>
+            <tr>
+                <td>&#8721;f<sub>i</sub> = 68</td>
+                <td>4</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>&#8721;f<sub>i</sub>x<sub>i</sub> = <input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="7"/></td>
+            </tr>
+        </table> 
+        <p>Sum of the frequencies = 68</p>
+        <div> 
+            <span>&#8756; </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span> = </span> 
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">68</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span> = 34</span>
+        </div>
+        <p>Hence median class = 125-145</p>
+        <p>Lower boundary of the median class, l = 125</p>
+        <p>cf - cumulative frequency of the class preceding the median class = 22</p>
+        <p>f - frequency of the median class = 20</p>
+        <p>h = class size = 20</p>
+        <div>
+            <span>Median = l + </span>
+                <span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">
+                        <span> ( </span>
+                        <span style="display: inline-block;vertical-align: middle;"> 
+                            <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                            <div style="text-align: center;">2</div>
+                        </span>
+                        <span> - cf )</span>
+                    </div>
+                    <div style="text-align: center;vertical-align: middle;">f</div>
+                </span>
+            <span> &times; h</span>
+        </div>
+        <div>
+            <span>Median = <input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="125"/> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">[<input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="34"/> - <input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="22"/>]</div>
+                <div style="text-align: center;">20</div>
+            </span>
+            <span> &times; <input type="text" class="answer" id="input12" maxlength="3" size="1" data-answer="20"/></span>
+        </div>
+        <p>&#8756; Median = <input type="text" class="answer" id="input13" maxlength="3" size="1" data-answer="125"/> + <input type="text" class="answer" id="input14" maxlength="3" size="1" data-answer="12"/> = <input type="text" class="answer" id="input15" maxlength="3" size="1" data-answer="137"/></p>
+        <p>Maximum number of consumers lie in the class 125-145</p>
+        <p>Modal class is 125-145</p>
+        <p>l - lower limit of the modal class =125</p>
+        <p>f<sub>1</sub> - frequency of the modal class = 20</p>
+        <p>f<sub>0</sub> - frequency of the class preceding the modal class = 13</p>
+        <p>f<sub>2</sub> - frequency of the class succeeding the modal class = 14</p>
+        <p>h - size of the class = 20</p>
+        <div>
+            <span>&#8756; Mode (Z) = l + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">f<sub>1</sub> - f<sub>0</sub> </div>
+                <div style="text-align: center;">2f<sub>1</sub> - f<sub>0</sub> - f<sub>2</sub></div>
+            </span>
+            <span>  &#215; h </span>
+        </div>
+        <div>
+            <span> Mode (Z) =  <input type="text" class="answer" id="input16" maxlength="3" size="1" data-answer="125"/> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input17" maxlength="3" size="1" data-answer="20"/>  - <input type="text" class="answer" id="input18" maxlength="3" size="1" data-answer="13"/> </div>
+                <div style="text-align: center;">(<input type="text" class="answer" id="input19" maxlength="3" size="1" data-answer="20"/>  - <input type="text" class="answer" id="input20" maxlength="3" size="1" data-answer="13"/> )+(<input type="text" class="answer" id="input21" maxlength="3" size="1" data-answer="20"/>  - <input type="text" class="answer" id="input22" maxlength="3" size="1" data-answer="14"/> )</div>
+            </span>
+            <span>  &#215; 20 </span>
+        </div>
+        <p>Mode(Z) = <input type="text" class="answer" id="input23" maxlength="3" size="1" data-answer="135"/> .769</p>
+        <div>
+            
+            <span>Mean = x&#772; = a + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">&#8721;f<sub>i</sub>u<sub>i</sub></div>
+                <div style="text-align: center;">&#8721;f<sub>i</sub></div>
+            </span>
+            <span> &#215; h</span>
+        </div>
+        <p>a = assumed mean = 135</p>
+        <div>
+            <span>&#8756; x = 135 + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input24" maxlength="3" size="1" data-answer="7"/> </div>
+                <div style="text-align: center;">68</div>
+            </span>
+            <span>= <input type="text" class="answer" id="input25" maxlength="3" size="1" data-answer="135"/>.102  </span>
+        </div>
+        <p>Mean, Median and Mode are approximately same in this case.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>        
+</body>
+</html>

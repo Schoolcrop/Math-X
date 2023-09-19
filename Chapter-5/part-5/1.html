@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q1)Some points are plotted on a plane. Each point is joined with all remaining points by line segments. Find the number of points if the number of line segments are 10.</h2>
+    <div id="answer">
+        <h4><u>Answer</u></h4>
+        <div>
+            Number of distinct line segments that can be formed out of n-points = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">n(n-1)</div>
+                <div style="text-align: center;">2</div>
+                </span>
+        </div>
+        <div>Given:Number of line segments  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">n(n-1)</div>
+            <div style="text-align: center;">2</div>
+            </span> = 10
+        </div>
+        <p>n<sup>2</sup> - n = 20</p>
+        <p>n<sup>2</sup> - n - 20 = 0</p>
+        <p>n<sup>2</sup> - <input type="text" class="answer" id="input1" maxlength="6" size="1" data-answer="5"/>n + 4n - 20 = 0</p>
+        <p>n(n-<input type="text" class="answer" id="input2" maxlength="6" size="1" data-answer="5"/>) +4(n-<input type="text" class="answer" id="input3" maxlength="6" size="1" data-answer="5"/>) = 0</p>
+        <p>(n-<input type="text" class="answer" id="input4" maxlength="6" size="1" data-answer="5"/>)(n + 4) = 0</p>
+        <p>n-<input type="text" class="answer" id="input5" maxlength="6" size="1" data-answer="5"/> = 0 (or) n + 4 = 0</p>
+        <p>n = <input type="text" class="answer" id="input6" maxlength="6" size="1" data-answer="5"/> (o)r -4</p>
+        <p>&there4;n = <input type="text" class="answer" id="input7" maxlength="2" size="1" data-answer="5"/>[n - can't be negative]</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+
+</body>
+</html>

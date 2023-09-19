@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        .t1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>(Q8) How will you find the distance between two points in which x or y coordinates are same but not zero? .</h2>
+    <div id="answer">
+        <p>Let the points be A(2,3),B(2,5)</p>
+        <p>Here the x-coordinates are same,then the distance between two points A and B is |y<sub>2</sub> - y<sub>1</sub>| = |<input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="5"/> - <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="3"/>| = <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="2"/> units</sub></p>
+        <p>If the points are P(4,3),Q(-8,3) here the y-coordinates are same,in such a case </p>
+        <p>The distance is given by |x<sub>2</sub> - x<sub>1</sub>| = |-<input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="8"/> - <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="4"/>| = |-<input type="text" class="answer" id="input6" maxlength="2" size="1" data-answer="12"/>|</p>
+        <p>B is |y<sub>2</sub> - y<sub>1</sub>| = |<input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="5"/> - <input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="3"/>|= <input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="2"/> units</p>
+        <p>If the points are P(4,3),Q(-8,3)</p>
+        <p>Here the y-coordinates are same.In such a case, the distance is given by |x<sub>2</sub> - x<sub>1</sub>| = |-<input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="8"/> - <input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="4"/>| = |-<input type="text" class="answer" id="input12" maxlength="2" size="1" data-answer="12"/>|</p>
+        <p>= <input type="text" class="answer" id="input13" maxlength="2" size="1" data-answer="12"/>units</p>
+        <table  class="t1"  border="1" width="500">
+               <tr>
+                  <th>case</th>
+                  <th>Distance</th>
+               </tr>
+               <tr>
+                  <td>x-coordinates same</td>
+                  <td>|y<sub>2</sub> - y<sub>1</sub>|</td>
+               </tr>
+               <tr>
+                  <td>y-coordinates same</td>
+                  <td>|x<sub>2</sub> - x<sub>1</sub>|</td>
+               </tr>
+        </table>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q14)find  cos 36&#176; cos 54&#176; - sin 36&#176; sin 54&#176;</h2>
+    <div id="answer">
+        <p>L.H.S=cos 36&#176; cos 54&#176; - sin 36&#176; sin 54&#176;</p>
+
+        <p>=cos(90&#176;- <input type="text" class="answer" id="input1" maxlength="5" size="1" data-answer="54" />&#176;).
+            cos(90&#176;-<input type="text" class="answer" id="input2" maxlength="8" size="1" data-answer="36" />&#176;) - sin 36&#176;.sin 54&#176;
+        </p>
+        <p>[ cos(90-&theta;)= sin&theta;]</p>
+        <p> =sin  <input type="text" class="answer" id="input3" maxlength="5" size="1" data-answer="54" />&#176;.sin 
+            <input type="text" class="answer" id="input4" maxlength="5" size="1" data-answer="36" />&#176; - sin 36&#176; sin 54&#176; 
+            =<input type="text" class="answer" id="input5" maxlength="5" size="1" data-answer="0" />
+        </p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers();clear_Answers();">clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+    
+</body>
+</html>

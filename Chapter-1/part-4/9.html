@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q9).Prove that &#8730;5 is irrational .</h2>
+    <div style="padding-left: 20px;">
+        <p>&#8730;5</p>
+        <p>Let &#8730;5 be a rational number.</p>
+        <div>
+            <span>So it can be expressed in the form </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">p</div>
+                <div style="text-align: center;">q</div>
+            </span>
+            <span>where p,q are co-prime integers and q &ne; 0</span>
+        </div>
+        <div>
+            <span>&#8730;5 = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">p</div>
+                <div style="text-align: center;">q</div>
+            </span>
+        </div>
+        <div>
+            <span>5 =</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">p<sup>2</sup></div>
+                <div style="text-align: center;">q<sup>2</sup></div>
+            </span>
+        </div>
+        <p>5q<sup>2</sup> = p<sup>2</sup></p>
+        <p>p<sup>2</sup>/5 = q<sup>2</sup></p>
+        <p>So 5 divides p<sup>2</sup>,p is a multiple of 5</p>
+        <p>Let p = 5m</p>
+        <p>p<sup>2</sup> = 25m<sup>2</sup>.................2</p>
+        <p>From equation 1 and 2 we get ,</p>
+        <p>5q<sup>2</sup> = 25m<sup>2</sup></p>
+        <p>q<sup>2</sup>5 = 5m<sup>2</sup></p>
+        <p>q<sup>2</sup> is multiple of 5</p>
+        <p>q is multiple of 5</p>
+        <p>Thus p,q have common factor <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="5"> .</p>
+        <p>This contradicts our assumption that they are co-primes</p>
+        <div>
+            <span>Therefore,</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">p</div>
+                <div style="text-align: center;">q</div>
+            </span>
+            <span>is not a <input type="text" class="answer" id="input2" maxlength="8" size="8" data-answer="rational"> number</span>
+        </div>
+        <p>Hence, &#8730;5 is an <input type="text" class="answer" id="input3" maxlength="10" size="10" data-answer="irrational"> number</p>
+        <p>So &#8730;5 is an <input type="text" class="answer" id="input4" maxlength="10" size="10" data-answer="irrational"> number</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

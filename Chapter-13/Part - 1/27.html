@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>(Q27) Sangeeta and Reshma, play a tennis match. It is known that the probability of Sangeeta winning the match is 0.62. What is the probability of Reshma winning the match ?</h2>
+    </div>
+    <div>
+        <b>Solution :</b>
+        <p>Let S and R denote the events that Sangeeta wins the match and Reshma wins the match, respectively</p>
+        <p>The probability of Sangeeta's winning chances = P(S) = 0.62 (given)</p>
+        <p>The probability of Reshma's winning chances = P(R) = <input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="1"/> - P(S)</p>
+        <p>Therefore, The probability of Reshma's winning chances = <input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="1"/> - 0.62 = <input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="0.38"/> [R and S are complementary]</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

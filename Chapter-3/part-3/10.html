@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q10)What is the quadratic polynomial whose sum of zeros is <span style="display: inline-block;vertical-align: middle; text-align: center;">
+        <div style="text-align: center; border-bottom: 1px solid black;">-3</div>
+        <div style="text-align: center;"> 2</div>
+        </span> and the product of the zeros is -1.
+    </h2>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>Let the quadratic polynomial be ax<sup>2</sup>+bx+c and its zeros be  &#x3B1; and &#x3B2;</p>
+        <div>Here &#x3B1;+&#x3B2; =<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">-3</div>
+            <div style="text-align: center;">2</div>
+            </span>and &#x3B1;&#x3B2;=-1
+        </div> 
+        <p>Thus,the polynomials formed=x<sup>2</sup> - ( &#x3B1;+&#x3B2;)x+ &#x3B1;&#x3B2;</p>
+        <div>
+            =x<sup>2</sup> - (<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input1" maxlength="5" size="1" data-answer="-3"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input2" maxlength="5" size="1" data-answer="2"/></div>
+                </span>)x+(-<input type="text" class="answer" id="input3" maxlength="5" size="1" data-answer="1"/>)
+        </div><br/>
+        <div>
+            =x<sup>2</sup>+<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input4" maxlength="5" size="1" data-answer="3"/>x</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input5" maxlength="5" size="1" data-answer="2"/></div>
+                </span> - <input type="text" class="answer" id="input6" maxlength="5" size="1" data-answer="1"/>
+        </div>
+        <div>
+            the other polynomials are(x<sup>2</sup>+<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input7" maxlength="5" size="1" data-answer="3"/>x</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input8" maxlength="5" size="1" data-answer="2"/></div>
+                </span> - <input type="text" class="answer" id="input9" maxlength="5" size="1" data-answer="1"/>)
+        </div>
+        <p>Then the polynomial is 2x<sup>2</sup>+<input type="text" class="answer" id="input11" maxlength="5" size="1" data-answer="3"/>x-2</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

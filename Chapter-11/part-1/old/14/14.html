@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+<body>
+    <div id="question">
+        <h4>In the right angled triangle ABC with right angle at B,in which a=24 units,b=25 units and  &#8736;BAC 
+               =&theta; then,find cos&theta; and tan&theta;
+        </h4>
+    </div>
+    <div id="answer">
+        <svg height="250" width="450" viewBox="-130 -110 500 500">
+            <polygon points="100 20,100 350,550 350" style="fill:none;stroke:black;stroke-width:2" />
+            <line x1 = "130" y1 ="350" x2 ="130"  y2="320" stroke ="black" stroke-width="4"/>
+            <line x1 = "133" y1 ="320" x2 ="100"  y2="320" stroke ="black" stroke-width="4"/>
+        </svg>
+        <p style="color: black; position: relative; bottom: 55px; left: 440px;">C</p>
+        <p style="color: black; position: relative; bottom: 70px; left: 210px;">B</p>
+        <p style="color: black; position: relative; bottom: 320px; left: 210px;">A</p>
+        <p style="color: black; position: relative; bottom: 280px; left: 330px;">25cm</p>
+        <p style="color: black; position: relative; bottom: 200px; left: 280px;">24cm</p>
+        <h4><u>Solution:</u></h4>
+        <p><u>Given:</u></p>
+        <p>AC=25cm BC=24cm</p>
+        <p>From the figure</p>
+        <p>AC<sup>2</sup>=AB<sup>2</sup>+BC<sup>2</sup></p>
+        <p>AB<sup>2</sup>=AC<sup>2</sup>-BC<sup>2</sup></p>
+        <p>AB<sup>2</sup>=<input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="49" /></p>
+        <p>AB=<input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="7" />cm</p>
+        <p>Now,</p>
+        <div>
+            cos&theta;=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> AB</div>
+            <div style="text-align: center;"> AC</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="7" /></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="25" /></div>
+            </span>
+        </div><br/>
+        <div>tan&theta;=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> BC</div>
+            <div style="text-align: center;"> AB</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="24" /></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input4" maxlength="4" size="1" data-answer="7" /></div>
+            </span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+    
+    
+</body>
+</html>

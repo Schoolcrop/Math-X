@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q23).Two APs have the same common difference. The difference between their 100th terms is 100, what is the difference between their 1000th terms?</h2>
+    <div style="margin-left: 20px;">
+        <p>Let the first A.P be:</p>
+        <p>a, a + d, a + 2d, ……..</p>
+        <p>Second A.P be:</p>
+        <p>b, b + d, b + 2d, b + 3d, ………</p>
+        <p>Also, general term, a<sub>n</sub> = a + (n – 1)d</p>
+        <p>Given that, a<sub>100</sub> – b<sub>100</sub> = 100</p>
+        <p>⇒ a + <input type="text" class="answer" id="input1" maxlength="2" size="2" data-answer="99">d – (b + <input type="text" class="answer" id="input2" maxlength="2" size="2" data-answer="99">d) = <input type="text" class="answer" id="input3" maxlength="3" size="3" data-answer="100"></p>
+        <p>⇒ a – b = <input type="text" class="answer" id="input1" maxlength="3" size="3" data-answer="100"></p>
+        <p>Now the difference between their 1000th terms,</p>
+        <p>a<sub>1000</sub> = a + <input type="text" class="answer" id="input5" maxlength="3" size="3" data-answer="999">d</p>
+        <p>b<sub>1000</sub> = b + <input type="text" class="answer" id="input6" maxlength="3" size="3" data-answer="999">d</p>
+        <hr width="130px" style="margin-left: 60px;">
+        <p> (-) &emsp; &ensp; a - b </p>
+        <p>∴ The difference between their 1000<sup>th</sup> terms is (a – b) = <input type="text" class="answer" id="input7" maxlength="3" size="3" data-answer="100">.</p>
+        <p> Note: If the common difference for any two A.Ps are equal then difference between n<sup>th</sup> terms of two A.Ps is same for all natural values of n.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

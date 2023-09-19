@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q7).Find the 10th and nth term of G.P.: 5, 25, 125,…..</h2>
+    <div style="margin-left: 20px;">
+        <p>Given G.P.: 5, 25, 125,....</p>
+        <div>
+            <span> a = <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="5">, r = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">a<sub>2</sub></div>
+                <div style="text-align: center;">a<sub>1</sub></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input2" maxlength="2" size="2" data-answer="25"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="5"></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="5"></span>
+        </div>
+        <p>a<sub>n</sub> = a.r<sup>n-1</sup> = <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="5"> × (<input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="5">)<sup>n-1</sup> = <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="5"><sup>1+n-1</sup> = <input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="5"><sup>n</sup></p>
+        <p>a<sub>10</sub> = a.r<sup>9</sup> = <input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="5"> × <input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="5"><sup>9</sup> = <input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="5"><sup>10</sup></p>
+        <p>∴ a<sub>10</sub> = <input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="5"><sup>10</sup>; a<sub>n</sub> = <input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="5"><sup>n</sup></p>
+        
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

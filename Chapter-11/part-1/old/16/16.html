@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+<body>
+    <div id="question">
+    <h3>If 3 tan A=4,then find sin A and cos A</h3>
+    </div>
+    <div id="answer">
+        <svg height="250" width="450" viewBox="-130 -110 500 500">
+            <polygon points="100 20,100 350,550 350" style="fill:none;stroke:black;stroke-width:2" />
+            <line x1 = "130" y1 ="350" x2 ="130"  y2="320" stroke ="black" stroke-width="4"/>
+            <line x1 = "133" y1 ="320" x2 ="100"  y2="320" stroke ="black" stroke-width="4"/>
+                <g transform="translate(535, 250) rotate(-150 20,70)">
+                    <path d="M95,50 A 45, 45, 0, 0, 0, 65, 8
+                         " />              
+                    </g>
+            </svg>
+            <p style="color: black; position: relative; bottom: 55px; left: 450px;">A</p>
+            <p style="color: black; position: relative; bottom: 70px; left: 210px;">B</p>
+            <p style="color: black; position: relative; bottom: 320px; left: 218px;">C</p>
+            <p style="color: black; position: relative; bottom: 160px; left: 290px;">3k</p>
+            <p style="color: black; position: relative; bottom: 280px; left: 190px;">4k</p>
+            <h4><u>Solution:</u></h4>
+            <p>Let ABC is a right angle triangle</p>
+            <p>Given that: BC=4,BA=3 <br/>3tan A=4</p>
+            <div>tan A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> 4</div>
+                <div style="text-align: center;"> 3</div>
+            </span>=
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> BC</div>
+                <div style="text-align: center;"> AB</div>
+            </span></div><br/>
+            <p>By using pythogras theroem</p>
+            <p>AC<sup>2</sup>=AB<sup>2</sup>+BC<sup>2</sup></p>
+            <p>AC<sup>2</sup>=<input type="text" class="answer" id="input1" maxlength="8" size="1" data-answer="25" /></p>
+            <p>AC=<input type="text" class="answer" id="input2" maxlength="8" size="1" data-answer="5" /></p>
+            <div>(i)sin A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> oppsite side of A</div>
+                <div style="text-align: center;"> hypotenous</div>
+                </span>=
+                <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> BC</div>
+                <div style="text-align: center;"> AC</div>
+                </span>=
+                <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input3" maxlength="8" size="1" data-answer="4" /></div>
+                <div style="text-align: center;"> <input type="text" class="answer" id="input4" maxlength="8" size="1" data-answer="5" /></div>
+                </span>
+            </div><br/>
+            <div>(ii)cos A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> adjacent side of A</div>
+                <div style="text-align: center;"> hypotenous</div>
+                </span>=
+                <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> AB</div>
+                <div style="text-align: center;"> AC</div>
+                </span>=
+                <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input5" maxlength="8" size="1" data-answer="3" /></div>
+                <div style="text-align: center;"> <input type="text" class="answer" id="input6" maxlength="8" size="1" data-answer="5" /></div>
+                </span>
+            </div>
+    </div>
+    <div class="button-container">
+    <button id="check-button" onclick="checkAnswers()">check Answer</button>
+    <button id="clear-button" onclick="clearAnswers()">clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+
+
+    
+</body>
+</html>

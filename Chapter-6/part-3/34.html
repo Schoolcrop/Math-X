@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h2>(Q34).In a school, students thought of planting trees in and around the school to reduce air pollution. It was decided that the number of trees, that each section of each class will plant, will be the same as the class, in which they are studying, e.g., a section of Class I will plant 1 tree, a section of Class II will plant 2 trees and so on till Class XII. There are three sections of each class. How many trees will be planted by the students?</h2>
+    <div style="margin-left: 20px;">
+        <p>Given: Classes: From I to XII</p>
+        <p>Section: 3 in each class.</p>
+        <p>∴ Trees planted by each class = 3 × class number</p>
+        <table>
+            <tr>
+              <th> Class </th>
+              <th> I </th>
+              <th> II </th>
+              <th> III </th>
+              <th> IV </th>
+              <th> V </th>
+              <th> VI </th>
+              <th> VII </th>
+              <th> VIII </th>
+              <th> IX </th>
+              <th> X </th>
+              <th> XI </th>
+              <th> XII </th>
+            </tr>
+            <tr>
+              <th> Trees planted </th>
+              <td> 3 × <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="1"> = <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="3"> </td>
+              <td> 3 × <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="2"> = <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="6"> </td>
+              <td> 3 × <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="3"> = <input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="9"> </td>
+              <td> 3 × <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="4"> = <input type="text" class="answer" id="input8" maxlength="2" size="2" data-answer="12"> </td>
+              <td> 3 × <input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="5"> = <input type="text" class="answer" id="input10" maxlength="2" size="2" data-answer="15"> </td>
+              <td> 3 × <input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="6"> = <input type="text" class="answer" id="input12" maxlength="2" size="2" data-answer="18"> </td>
+              <td> 3 × <input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="7"> = <input type="text" class="answer" id="input14" maxlength="2" size="2" data-answer="21"> </td>
+              <td> 3 × <input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="8"> = <input type="text" class="answer" id="input16" maxlength="2" size="2" data-answer="24"> </td>
+              <td> 3 × <input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="9"> = <input type="text" class="answer" id="input18" maxlength="2" size="2" data-answer="27"> </td>
+              <td> 3 × <input type="text" class="answer" id="input19" maxlength="2" size="2" data-answer="10"> = <input type="text" class="answer" id="input20" maxlength="2" size="2" data-answer="30"> </td>
+              <td> 3 × <input type="text" class="answer" id="input21" maxlength="2" size="2" data-answer="11"> = <input type="text" class="answer" id="input22" maxlength="2" size="2" data-answer="33"> </td>
+              <td> 3 × <input type="text" class="answer" id="input23" maxlength="2" size="2" data-answer="12"> = <input type="text" class="answer" id="input24" maxlength="2" size="2" data-answer="36"> </td>
+            </tr>
+        </table>
+        <p>∴ Total trees planted = 3 + 6 + 9 + 12 + …… + 36 is an A.P.</p>
+        <p>Here, a = <input type="text" class="answer" id="input25" maxlength="1" size="1" data-answer="3"> and l = <input type="text" class="answer" id="input26" maxlength="2" size="2" data-answer="36">; n = <input type="text" class="answer" id="input27" maxlength="2" size="2" data-answer="12"></p>
+        <div>
+            <span> ∴ S<sub>n</sub> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>(a+l)</span>
+        </div>
+        <div>
+            <span> S<sub>12</sub> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input28" maxlength="2" size="2" data-answer="12"></div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>[<input type="text" class="answer" id="input29" maxlength="1" size="1" data-answer="3"> + <input type="text" class="answer" id="input30" maxlength="2" size="2" data-answer="36">]</span>
+        </div>
+        <p>= <input type="text" class="answer" id="input31" maxlength="1" size="1" data-answer="6"> × <input type="text" class="answer" id="input32" maxlength="2" size="2" data-answer="39"></p>
+        <p>= <input type="text" class="answer" id="input33" maxlength="3" size="3" data-answer="234"></p>
+        <p>∴ Total plants = <input type="text" class="answer" id="input34" maxlength="3" size="3" data-answer="234"></p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

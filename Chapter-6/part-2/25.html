@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q25).How many multiples of 4 lie between 10 and 250?</h2>
+    <div style="margin-left: 20px;">
+        <p>Given numbers: 10 to 250</p>
+        <div style="display: flex; text-align: center;">
+            <div style="margin-left: 40px;">
+                <div style="margin-left: 20px;">
+                    <span> 4 ) </span>
+                    <span> 10 </span>
+                    <span> ( <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="2"></span>
+                </div>
+                <p style="margin-top: 10px;"> <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="8"> </p>
+                <hr width="50px" style="margin-top: -10px;">
+                <p style="margin-top: 10px;"> <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="2"> </p>
+            </div>
+            <div style="margin-left: 80px;">
+                <div style="margin-left: 10px;">
+                    <span> 4 ) </span>
+                    <span> 250 </span>
+                    <span> ( <input type="text" class="answer" id="input4" maxlength="2" size="2" data-answer="62"></span>
+                </div>
+                <p style="margin-top: 10px; margin-right: 20px;"> <input type="text" class="answer" id="input5" maxlength="2" size="2" data-answer="24"> </p>
+                <hr width="50px" style="margin-top: -10px;">
+                <p style="margin-top: 10px;"> <input type="text" class="answer" id="input6" maxlength="2" size="2" data-answer="10"> </p>
+                <p style="margin-top: -10px;"> <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="8"> </p>
+                <hr width="50px" style="margin-top: -10px;">
+                <p style="margin-top: 10px;"> <input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="2"> </p>
+            </div>
+        </div>
+        <p>∴ Multiples of 4 between 10 and 250 are</p>
+        <p>First term: <input type="text" class="answer" id="input9" maxlength="2" size="2" data-answer="10"> + (<input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="4"> – <input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="2">) = <input type="text" class="answer" id="input12" maxlength="2" size="2" data-answer="12"></p>
+        <p>Last term: 250 – <input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="2"> = <input type="text" class="answer" id="input14" maxlength="3" size="3" data-answer="248"></p>
+        <p>∴ 12, 16, 20, 24, ….., 248</p>
+        <p>a = a<sub>1</sub> = <input type="text" class="answer" id="input15" maxlength="2" size="2" data-answer="12">; d = <input type="text" class="answer" id="input16" maxlength="1" size="1" data-answer="4">; a<sub>n</sub> = <input type="text" class="answer" id="input17" maxlength="3" size="3" data-answer="248"></p>
+        <p>a<sub>n</sub> = a + (n – 1)d</p>
+        <p><input type="text" class="answer" id="input18" maxlength="3" size="3" data-answer="248"> = <input type="text" class="answer" id="input19" maxlength="2" size="2" data-answer="12"> + (n – 1) × <input type="text" class="answer" id="input20" maxlength="1" size="1" data-answer="4"></p>
+        <p>⇒ (n – 1)<input type="text" class="answer" id="input21" maxlength="1" size="1" data-answer="4"> = <input type="text" class="answer" id="input22" maxlength="3" size="3" data-answer="248"> – <input type="text" class="answer" id="input23" maxlength="2" size="2" data-answer="12"></p>
+        <div>
+            <span> ⇒ n - 1 = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input24" maxlength="3" size="3" data-answer="236"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input25" maxlength="1" size="1" data-answer="4"></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input26" maxlength="2" size="2" data-answer="59"> </span>
+        </div>
+        <p>∴ n = <input type="text" class="answer" id="input27" maxlength="2" size="2" data-answer="59"> + <input type="text" class="answer" id="input28" maxlength="1" size="1" data-answer="1"> = <input type="text" class="answer" id="input29" maxlength="2" size="2" data-answer="60"></p>
+        <p>There are <input type="text" class="answer" id="input30" maxlength="2" size="2" data-answer="60"> numbers between 10 and 250 which are divisible by 4.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

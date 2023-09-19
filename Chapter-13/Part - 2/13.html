@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{padding: 10px;}
+    </style>
+</head>
+<body>
+    <div>
+        <h2>(Q13) Five cards-the ten, jack, queen, king and ace of diamonds, are well-shuffled with their face downwards. One card is then picked up at random.</h2>
+        <h3>(i) What is the probability that the card is the queen?</h3>
+        <h3>(ii) If the queen is drawn and put aside, what is the probability that the second card picked is <br> (a) an ace? (b) a queen?</h3>
+    </div>
+    <div id="answer">
+        <p><b>Answer : </b></p>
+        <p>Total number of cards =  <input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="5"/>.</p>
+        <p>&#8756; Number of total outcomes in picking up a card at random =  <input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="5"/>.</p>
+        <p>(i) Number of outcomes favourable to queen =  <input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="1"/>.</p>
+        <div>
+            <span>&#8756; Probability of getting the queen</span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">No. of favourable outcomes to the 'Q'</div>
+                <div style="text-align: center;">No. of total outcomes</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="1"/></div>
+                <div style="text-align: center;"> <input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="5"/></div>
+            </span>
+        </div>
+        <p>(ii) When queen is drawn and put aside, remaining cards are four.</p>
+        <p>&#8756; Number of total outcomes in drawing a card at random =  <input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="4"/>.</p>
+        <p>(a) Number of favourable outcomes to ace  <input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="1"/></p>
+        <div>
+            <span>&#8756; Probability of getting an Ace</span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">No. of favourable outcomes</div>
+                <div style="text-align: center;">No. of total outcomes</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="1"/></div>
+                <div style="text-align: center;"> <input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="4"/></div>
+            </span>
+        </div>
+        <p>(b) Number of favourable outcomes to 'Q' = 0 (as it was already drawn and put aside)</p>
+        <div>
+            <span>&#8756; Probability that the card is Q = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="0"/></div>
+                <div style="text-align: center;"> <input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="4"/></div>
+            </span>
+            <span> =  <input type="text" class="answer" id="input12" maxlength="3" size="1" data-answer="0"/></span>
+        </div>
+        <p>After putting queen aside, selecting the queen from the rest is an impossible event and hence the probability is  <input type="text" class="answer" id="input13" maxlength="3" size="1" data-answer="0"/>.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

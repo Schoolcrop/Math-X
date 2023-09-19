@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 10px;
+        }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+        }
+       td{
+           border: 2px solid black; width: 90px; height: 30px;
+        }
+       th{
+           border: 2px solid black; width: 220px;text-align:center;height:50px;
+        }
+   </style>
+</head>
+<body>
+    <div>
+        <h2>(Q9) The distribution below gives the weights of 30 students of a class. Find the median weight of the students.</h2>
+        <table>
+            <tr>
+                <td style="width: 150px;">Weight (in kg)</td>
+                <td>40-45</td>
+                <td>45-50</td>
+                <td>50-55</td>
+                <td>55-60</td>
+                <td>60-65</td>
+                <td>65-70</td>
+                <td>70-75</td>
+            </tr>
+            <tr>
+                <td>Number of students</td>
+                <td>2</td>
+                <td>3</td>
+                <td>8</td>
+                <td>6</td>
+                <td>6</td>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h4>Answer :</h4>
+        <table>
+            <tr>
+                <th>Class Interval</th>
+                <th>Frequency</th>
+                <th>Cumulative Frequency</th>
+            </tr>
+            <tr>
+                <td>40-45</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>45-50</td>
+                <td>3</td>
+                <td>cf 15</td>
+            </tr>
+            <tr>
+                <td>50-55 (l)</td>
+                <td>f 8</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>55-60</td>
+                <td>6</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>60-65</td>
+                <td>6</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>65-70</td>
+                <td>3</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <td>70-75</td>
+                <td>2</td>
+                <td>30</td>
+            </tr>
+        </table>
+        <p>Number of observations (n) = &#8721;f<sub>i</sub></p>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="30"/></div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span> = <input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="15"/></span>
+        </div>
+        <p>15 lies in the class 50-55</p>
+        <p>&#8756; Median class = 50-55</p>
+        <p>l-lower boundary of the median class = <input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="50"/></p>
+        <p>f-frequency of the median class = 8</p>
+        <p>Class size h = 6 , c.f = 5</p>
+        <div>
+        <span>Median = l + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">
+                    <span> ( </span>
+                    <span style="display: inline-block;vertical-align: middle;"> 
+                        <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                        <div style="text-align: center;">2</div>
+                    </span>
+                    <span> - cf )</span>
+                </div>
+                <div style="text-align: center;vertical-align: middle;">f</div>
+            </span>
+            <span> &times; h</span>
+        </div>
+        <div>
+            <span> Median = <input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="50"/> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="15"/>- <input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="5"/></div>
+                <div style="text-align: center;">8</div>
+            </span>
+            <span> &times; <input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="6"/></span>
+        </div>
+        <p>Median = <input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="50"/>+ <input type="text" class="answer" id="input9" maxlength="3" size="3" data-answer="7.5"/> = <input type="text" class="answer" id="input10" maxlength="4" size="4" data-answer="57.5"/></p>
+        <p>&#8756; Median weight = <input type="text" class="answer" id="input11" maxlength="4" size="4" data-answer="57.5"/> kg.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

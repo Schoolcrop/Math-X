@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 10px;
+       }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+       }
+       td{
+           border: 2px solid black; width: 90px; height: 30px;
+       }
+       th{
+           border: 2px solid black; width: 90px;text-align:center;height:50px;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <h2>(Q6) The lengths of 40 leaves of a plant are measured correct to the nearest millimetre, and the data obtained is represented in the following table:</h2>
+        <table>
+            <tr>
+                <td style="width: 120px;">Length(in mm)</td>
+                <td>118-126</td>
+                <td>127-135</td>
+                <td>136-144</td>
+                <td>144-153</td>
+                <td>154-162</td>
+                <td>163-171</td>
+                <td>172-180</td>
+            </tr>
+            <tr>
+                <td>Number of leaves</td>
+                <td>3</td>
+                <td>5</td>
+                <td>9</td>
+                <td>12</td>
+                <td>5</td>
+                <td>4</td>
+                <td>2</td>
+            </tr>
+        </table>
+        <h2>(Q6)Find the median length of the leaves. (Hint: The data needs to be converted to continuous classes for finding the median, since the formula assumes continuous classes. The classes then change to 117.5-126.5, 126.5-135.5,..., 171.5-180.5.)</h2>
+    </div>
+    <div>
+        <h4>Answer :</h4>
+        <span>Since the formula, Median = l +</span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">
+                <span> ( </span>
+                <span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                    <div style="text-align: center;">2</div>
+                </span>
+                <span> - cf )</span>
+            </div>
+            <div style="text-align: center;vertical-align: middle;">f</div>
+        </span>
+        <span> &times; h</span>
+        <span>assumes continuous classes assumes continuous class, the data needs to be converted to continuous classes.</span>
+        <p>The classes then changes to 117.5-126.5; 126.5-133.5,.... 171.5-180.5.</p>
+        <table>
+            <tr>
+                <th style="width: 120px;">Length (in mm) (C.I.)</th>
+                <th style="width: 160px;">Number of leaves [Frequency (f)]
+                <th>c.f.</th>
+            </tr>
+            <tr>
+                <td>117.5-126.5</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>126.5-135.5</td>
+                <td>5</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>135.5-144.5</td>
+                <td>9</td>
+                <td>17 c.f</td>
+            </tr>
+            <tr>
+                <td>144.5-153.5</td>
+                <td>12 (f)</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>153.5-162.5</td>
+                <td>5 (f)</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>162.5-171.5</td>
+                <td>4</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>171.5-180.5</td>
+                <td>2</td>
+                <td>40</td>
+            </tr>
+
+        </table>
+        <p>&#8721;f = n = <input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="40"/></p>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="40"/></div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span> = <input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="20"/></span>
+        </div>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>th observation lie in the class 144.5-153.5</span>
+        </div>
+        <p>&#8756; Median class = 144.5-153.5</p>
+        <p>Lower boundary, l = <input type="text" class="answer" id="input4" maxlength="5" size="1" data-answer="144.5"/></p>
+        <p>Frequency of the median class, f = 12 , c.f. = 17, h = 9</p>
+        <div>
+            <span>Median = l + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">
+                    <span> ( </span>
+                    <span style="display: inline-block;vertical-align: middle;"> 
+                        <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                        <div style="text-align: center;">2</div>
+                    </span>
+                    <span> - cf )</span>
+                </div>
+                <div style="text-align: center;vertical-align: middle;">f</div>
+            </span>
+            <span> &times; h</span>
+        </div>
+        <div>
+            <span> Median = <input type="text" class="answer" id="input5" maxlength="5" size="1" data-answer="144.5"/> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input6" maxlength="5" size="1" data-answer="20"/> - <input type="text" class="answer" id="input7" maxlength="5" size="1" data-answer="17"/></div>
+                <div style="text-align: center;">12</div>
+            </span>
+            <span> &times; <input type="text" class="answer" id="input8" maxlength="5" size="1" data-answer="9"/></span>
+        </div>
+        <div>
+            <span> Median = <input type="text" class="answer" id="input9" maxlength="5" size="1" data-answer="144.5"/> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input10" maxlength="5" size="1" data-answer="9"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input11" maxlength="5" size="1" data-answer="4"/></div>
+            </span>
+            
+        </div>
+        <p>&#8756; Median Length = <input type="text" class="answer" id="input12" maxlength="6" size="2" data-answer="146.75"/> mm</p>  
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

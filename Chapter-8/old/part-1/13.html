@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{padding: 10px;}
+    </style>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <div>
+        <h2>(Q13) What value(s) of x will make DE || AB, in the given figure?</h2>
+        <h2>AD = 8x + 9, CD = x + 3, BE = 3x + 4, CE = x.</h2>
+    </div>
+    <div>
+        <p><b>Solution : </b></p>
+        <img src="" alt="image">
+        <p><b>Given : </b> In AABC, DE &#8741; AB AD = 8x + 9, CD = x + 3, BE = 3x + 4, CE = x</p>
+        <p>By Basic proportionality theorem,</p>
+        <p>If DE &#8741; AB then we should have</p>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">CD</div>
+                <div style="text-align: center;">DA</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">CE</div>
+                <div style="text-align: center;">EB</div>
+            </span>
+        </div>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input1" maxlength="3" size="3" data-answer="x+3"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input2" maxlength="4" size="4" data-answer="8x+9"></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input3" maxlength="1" size="2" data-answer="x"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="4" size="4" data-answer="3x+4"></div>
+            </span>
+        </div>
+        <p>⇒ (x + 3) (3x + 4) = x (8x + 9)</p>
+        <p>⇒ x (3x + 4) + 3 (3x + 4) - 8x<sup>2</sup> + 9x</p>
+        <p>⇒ 3x<sup>2</sup> + 4x + 9x + 12 = 8x<sup>2</sup> + 9x</p>
+        <p>⇒ 8x<sup>2</sup> + 9x - 3x<sup>2</sup> - 4x - 9x -12 = 0</p>
+        <p>⇒ <input type="text" class="answer" id="input5" maxlength="1" size="2" data-answer="5">x<sup>2</sup> - <input type="text" class="answer" id="input6" maxlength="1" size="2" data-answer="4">x - <input type="text" class="answer" id="input7" maxlength="2" size="2" data-answer="12"> = 0</p>
+        <p>⇒ 5x<sup>2</sup> - 10x + 6x - 12 = 0</p>
+        <p>⇒ 5x (x - 2) + 6 (x - 2) = 0</p>
+        <p>⇒ (5x + 6) (x - 2) = 0</p>
+        <p>⇒ 5x + 6 = 0 or x - 2 = 0</p>
+        <div>
+            <span>⇒ x =</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input8" maxlength="1" size="2" data-answer="-6"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input9" maxlength="1" size="2" data-answer="5"></div>
+            </span>
+            <span> or x = <input type="text" class="answer" id="input10" maxlength="1" size="2" data-answer="2">;</span>
+        </div>
+        <p>x cannot be negative.</p>
+        <p>∴ The value x = 2 will make DE &#8741; AB.</p>
+        <div class="button-container">
+            <button id="check-button" onclick="checkAnswers()">check Answer</button>
+            <button id="clear-button" onclick="clearAnswers()">clear</button>
+        </div> 
+    </div>
+</body>
+</html>

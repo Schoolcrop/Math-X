@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>
+        (Q11)A motor boat whose speed is 18 km/h in still water.It takes 1 hour more to go 24km upstream than to  return downstream to the same spot.
+        Find the speed of the stream.
+    </h2>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>Let the speed of the stream be x km/h.</p>
+        <p>Therefore, the speed of the boat upstream = (18 - x)km/h and the speed of the boat downstream = (18 + x)km/h.</p>
+        <div>
+            The time taken to go upstream = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">distance</div>
+                <div style="text-align: center;">speed</div>
+            </span> =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">24</div>
+                <div style="text-align: center;">18-x</div>
+            </span> hours.
+        </div>
+        <div>
+            Similarly, the time taken to go downstream = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">24</div>
+                <div style="text-align: center;">18 + x</div>
+            </span> hours.
+        </div>
+        <div>
+            According to the question, <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">24</div>
+                <div style="text-align: center;">18 - x</div>
+            </span> - <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">24</div>
+                <div style="text-align: center;">18 + x</div>
+            </span> = 1
+        </div>
+        <p>i.e 24(18 + x) - 24(18 - x) = (18 - x)(18 + x)</p>
+        <p>i.e x<sup>2</sup> + 48x - 324 = 0</p>
+        <p>Using the quadratic formula, we get</p>
+        <div>
+            x = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-48&#xB1;&radic;48<sup>2</sup>+&radic;<input type="text" class="answer" id="input1" maxlength="6" size="1" data-answer="1296"/></div>
+                <div style="text-align: center;">2</div>
+            </span> =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-48&#xB1;&radic;<input type="text" class="answer" id="input2" maxlength="6" size="1" data-answer="3600"/></div>
+                <div style="text-align: center;">2</div>
+            </span>
+
+        </div>
+        <div>
+            = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-48&#xB1;<input type="text" class="answer" id="input3" maxlength="6" size="1" data-answer="60"/></div>
+                <div style="text-align: center;">2</div>
+            </span>=<input type="text" class="answer" id="input4" maxlength="6" size="1" data-answer="6"/> or -54
+        </div>
+        <p>Since x is the speed of the stream, it cannot be negative. So,we ignore the root x= -54.</p>
+        <p>Therefore, x=<input type="text" class="answer" id="input5" maxlength="6" size="1" data-answer="6"/> gives the speed of the stream as <input type="text" class="answer" id="input6" maxlength="6" size="1" data-answer="6"/>km/h.</p>
+
+    </div>
+
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

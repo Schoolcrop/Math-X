@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q9) Represent the following situations in the form of quadratic equations: </h2>
+        <h3>(iv)A train travels a distance of 480km at a uniform speed. If the speed had been 8km/h less, then it would have taken 3 hours more to cover the same distance. We need to find the speed of the train. </h3>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>Let the speed of the train be x km/h.</p>
+        <div>
+            Then time taken to travel a distance of 480km = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> distance</div>
+                <div style="text-align: center;">speed</div>
+                   </span> = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">480</div>
+                    <div style="text-align: center;">x</div>
+                   </span>
+        </div>
+        <div>
+            If the speed is 8km/h less, then time needed to cover the same distance would be <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">480</div>
+                <div style="text-align: center;">x -<input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="8"/></div>
+                 </span>
+        </div>
+        <div>
+            By problem <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">480</div>
+                <div style="text-align: center;">x-<input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="8"/></div>
+                 </span> - <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">480</div>
+                    <div style="text-align: center;">x</div>
+                     </span> = 3 
+        </div>
+        <div>
+            480[<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">x-<input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="8"/></div>
+                 </span> - <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;">x</div>
+                     </span>] = 3
+        </div>
+        <div>
+            480[<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">x-(x-<input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="8"/>)</div>
+                <div style="text-align: center;">x(x-<input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="8"/>)</div>
+                 </span>] = 3
+        </div>
+        <div>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">480[x-x+<input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="8"/>]</div>
+                <div style="text-align: center;">x<sup>2</sup>-<input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="8"/>x</div>
+                 </span> = 3
+        </div>
+        <p>x<sup>2</sup>-<input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="8"/>x = <input type="text" class="answer" id="input8" maxlength="5" size="1" data-answer="1280"/></p>
+        <p>x<sup>2</sup>-<input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="8"/>x-<input type="text" class="answer" id="input10" maxlength="5" size="1" data-answer="1280"/> = 0</p>
+        <p>where x is the speed of the train.</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers()">clear</button>
+    
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

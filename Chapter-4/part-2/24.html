@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h2>(Q24).Places A and B are 100 km apart on a highway One car starts from A and another from B at the same time at different speeds. If the cars travel in the same direction, they meet in 5 hours. If they travel towards each other, they meet in 1 hour. What are the speeds of the two cars?</h2>
+    <div style="margin-left: 20px;">
+        <p>Let the speed of the car which started from the</p>
+        <p>place A = x kmph</p>
+        <p>and B = y kmph</p>
+        <p>Distance travelled by first car in 5h = <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="5">x and in 1h = x</p>
+        <p>The distance covered by second car in 5h = <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="5">y and in 1h = y</p>
+        <p>By problem when travelled in same direction,</p>
+        <p><input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="5">x – <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="5">y = <input type="text" class="answer" id="input5" maxlength="3" size="3" data-answer="100"> ⇒ x – y = <input type="text" class="answer" id="input6" maxlength="2" size="2" data-answer="20"> …… (1)</p>
+        <p>and when travelled towards each other</p>
+        <p>x + y = <input type="text" class="answer" id="input7" maxlength="3" size="3" data-answer="100"> ……. (2)</p>
+        <p>Solving (1) and (2),</p>
+        <p> x - y = <input type="text" class="answer" id="input8" maxlength="2" size="2" data-answer="20"></p>
+        <p> x + y = <input type="text" class="answer" id="input9" maxlength="3" size="3" data-answer="100"></p>
+        <hr style="width: 100px; margin-left: 1px;">
+        <div>
+            <span><input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="2">x</span>
+            <span>= <input type="text" class="answer" id="input11" maxlength="3" size="3" data-answer="120"></span>
+        </div>
+        <div>
+            <span>∴ x = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input12" maxlength="3" size="3" data-answer="120"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input14" maxlength="2" size="2" data-answer="60"></span>
+        </div>
+        <p>Substituting x = <input type="text" class="answer" id="input15" maxlength="2" size="2" data-answer="60"> in equation (1) we get</p>
+        <p><input type="text" class="answer" id="input16" maxlength="2" size="2" data-answer="60"> – y = 20</p>
+        <p>⇒ y = <input type="text" class="answer" id="input17" maxlength="2" size="2" data-answer="60"> – 20 = <input type="text" class="answer" id="input18" maxlength="2" size="2" data-answer="40"> kmph</p>
+        <p>Thus the speed of the cars are <input type="text" class="answer" id="input19" maxlength="2" size="2" data-answer="60"> kmph and <input type="text" class="answer" id="input20" maxlength="2" size="2" data-answer="40"> kmph.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

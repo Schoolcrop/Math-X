@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>
+       (Q26) A train travels 360 km at a uniform speed. If the speed had been 5 km/h more, it would have taken 1 hour less for the same journey.
+        Find the speed of the train.
+    </h2>
+    <div id="answer">
+        <p>The distancce travelled = 360 km.</p>
+        <p>Let the speed of the train = x kmph.</p>
+        <div>
+            Time taken to complete a journey = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">distance</div>
+                <div style="text-align: center;">speed</div>
+                </span>
+        </div><br/>
+        <div>
+            By problem  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">360</div>
+                <div style="text-align: center;">x</div>
+                </span>  -  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">360</div>
+                    <div style="text-align: center;">x+5</div>
+                    </span> = 1
+        </div><br/>
+        <div>
+            360( <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">x</div>
+                </span> -  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;">x+5</div>
+                    </span>)=1
+        </div><br/>
+        <div>
+            360( <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">x+5-x</div>
+                <div style="text-align: center;">x(x+5)</div>
+                </span>)=1
+        </div><br/>
+        <div>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input1" maxlength="5" size="1" data-answer="5"/></div>
+                <div style="text-align: center;">x<sup>2</sup>+5x</div>
+                </span> =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;">360</div>
+                    </span>
+        </div>
+        <p>x<sup>2</sup> + 5x = <input type="text" class="answer" id="input2" maxlength="5" size="1" data-answer="1800"/></p>
+        <p>x<sup>2</sup> + 5x - <input type="text" class="answer" id="input3" maxlength="5" size="1" data-answer="1800"/> = 0</p>
+        <p>x<sup>2</sup> + 45x - <input type="text" class="answer" id="input4" maxlength="5" size="1" data-answer="40"/>x - <input type="text" class="answer" id="input5" maxlength="5" size="1" data-answer="1800"/> = 0</p>
+        <p>x(x + 45) - <input type="text" class="answer" id="input6" maxlength="5" size="1" data-answer="40"/>(x + 45)</p>
+        <p>(x + 45)(x - <input type="text" class="answer" id="input7" maxlength="5" size="1" data-answer="40"/>) = 0</p>
+        <P>x + 45 = 0 or x - <input type="text" class="answer" id="input8" maxlength="5" size="1" data-answer="40"/> = 0</P>
+        <p>x = -45 or x = <input type="text" class="answer" id="input9" maxlength="5" size="1" data-answer="40"/></p>
+        <p>But x can't be negative.</p>
+        <p>&there4; The speed of the train =<input type="text" class="answer" id="input10" maxlength="5" size="1" data-answer="40"/> kmph.</p>
+
+
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q23)In a class test, the sum of Moulika's marks in Mathematics and English is 30. If she got 2 marks more in Mathematics and 3 marks less in English,
+        the product of her marks would have been 210. Find her marks in the two subjects.
+    </h2>
+    <p>Sum of the marks in mathematics and English = 30</p>
+    <p>Let Moulika's marks in Mathematics be x Then her marks in English = 30 - x</p>
+    <p>If she got 2 more marks in Mathematics, then her marks would be = x + 2.</p>
+    <p>If she got 3 marks less in English then her marks wolud be 30 - x - 3 = 27 - x</p>
+    <p>By problem (x + 2)(27 - x) = 210</p>
+    <p>x(27 - x) + 2(27 - x) = 210</p>
+    <p>27x - x<sup>2</sup> + 54 - 2x = 210</p>
+    <p>-x<sup>2</sup> + 25x + 54 = 210</p>
+    <p>x<Sup>2</Sup> - 25x - 54 + 210 = 0</p>
+    <p>x<sup>2</sup> - <input type="text" class="answer" id="input1" maxlength="5" size="1" data-answer="12"/>x - 13x + 156 = 0</p>
+    <p>x(x - <input type="text" class="answer" id="input2" maxlength="5" size="1" data-answer="12"/>)- 13(x - <input type="text" class="answer" id="input3" maxlength="5" size="1" data-answer="12"/>)</p>
+    <p>(x - <input type="text" class="answer" id="input4" maxlength="5" size="1" data-answer="12"/>)(x - 13) = 0</p>
+    <p>x - <input type="text" class="answer" id="input5" maxlength="5" size="1" data-answer="12"/>= 0 or x - 13 = 0</p>
+    <p>x = <input type="text" class="answer" id="input6" maxlength="5" size="1" data-answer="12"/> or x = 13</p>
+    <p>If x = <input type="text" class="answer" id="input7" maxlength="5" size="1" data-answer="12"/>, then marks in Mathematics = 12 and English = 30 - <input type="text" class="answer" id="input8" maxlength="5" size="1" data-answer="12"/> = <input type="text" class="answer" id="input9" maxlength="5" size="1" data-answer="18"/>.</p>
+    <p>If x = 13, then marks in Mathematics = 13 and English = 30 - 13 = 17</p>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

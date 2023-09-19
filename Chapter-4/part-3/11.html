@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h2>(Q11).Solve each of the following pairs of equations by reducing them to a pair of linear equations.</h2>
+    <h3>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">3x+y</div>
+            </span>
+            <span> + </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">3x-y</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">3</div>
+                <div style="text-align: center;">4</div>
+            </span>
+        </div>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">2(3x+y)</div>
+            </span>
+            <span> - </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">2(3x-y)</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-1</div>
+                <div style="text-align: center;">8</div>
+            </span>
+        </div>
+    </h3>
+    <div style="margin-left: 20px;">
+        <p>Given</p>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">3x+y</div>
+            </span>
+            <span> + </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">3x-y</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">3</div>
+                <div style="text-align: center;">4</div>
+            </span> and 
+        </div>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">2(3x+y)</div>
+            </span>
+            <span> - </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">2(3x-y)</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-1</div>
+                <div style="text-align: center;">8</div>
+            </span>
+        </div>
+        <div>
+            <span>Take </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">3x+y</div>
+            </span>
+            <span> = <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="a"> and</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">3x-y</div>
+            </span>
+            <span> = <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="b">, then </span>
+        </div>
+        <p>the given equations reduce to</p>
+        <div>
+            <span> a + b = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">3</div>
+                <div style="text-align: center;">4</div>
+            </span>
+            <span> ⇒ <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="4">a + <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="4">b = 3 ……… (1)</span>
+        </div>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">a</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+            <span> - </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">b</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-1</div>
+                <div style="text-align: center;">8</div>
+            </span>
+            <span> ⇒ </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">a-b</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-1</div>
+                <div style="text-align: center;">8</div>
+            </span>
+        </div>
+        <div>
+            <span>⇒ a - b = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="4"></div>
+            </span>
+            <span> ⇒ <input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="4">a – <input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="4">b = – 1 ……… (2)</span>
+        </div>
+        <div>
+            <span>equation (1) ⇒</span>
+            <span><input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="4">a + <input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="4">b = 3</span>
+        </div>
+        <div>
+            <span>equation (2) ⇒</span>
+            <span><input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="4">a - <input type="text" class="answer" id="input14" maxlength="1" size="1" data-answer="4">b = -1</span>
+        </div>
+        <hr style="width: 200px; margin-left: 120px;">
+        <div style="margin-left: 150px;">
+            <span> <input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="8">a </span>
+            <span style="margin-left: 62px;"> = <input type="text" class="answer" id="input16" maxlength="1" size="1" data-answer="2"> </span>
+        </div>
+        <div>
+            <span>⇒ a =  </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="2"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input18" maxlength="1" size="1" data-answer="8"></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input19" maxlength="1" size="1" data-answer="1"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input20" maxlength="1" size="1" data-answer="4"></div>
+            </span>
+        </div>
+        <div>
+            <span>Substituting a =</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input21" maxlength="1" size="1" data-answer="4"></div>
+            </span>
+            <span> in equation (1) we get</span>
+        </div>
+        <div>
+            <span> 4( </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input22" maxlength="1" size="1" data-answer="4"></div>
+            </span>
+            <span>) + 4b = 3 ⇒ <input type="text" class="answer" id="input23" maxlength="1" size="1" data-answer="1"> + 4b = 3 </span>
+        </div>
+        <div>
+            <span> ⇒ 4b = 3 - <input type="text" class="answer" id="input24" maxlength="1" size="1" data-answer="1"> ⇒ b = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input25" maxlength="1" size="1" data-answer="2"></div>
+                <div style="text-align: center;">4</div>
+            </span> 
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input26" maxlength="1" size="1" data-answer="1"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input27" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+        </div>
+        <div>
+            <span> but a = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">3x-y</div>
+            </span>
+            <span>=</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input28" maxlength="1" size="1" data-answer="4"></div>
+            </span>
+            <span> ⇒ 3x + y = <input type="text" class="answer" id="input29" maxlength="1" size="1" data-answer="4"> ............(3) </span>
+        </div>
+        <div>
+            <span> b = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">3x-y</div>
+            </span>
+            <span>=</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input30" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+            <span> ⇒ 3x - y = <input type="text" class="answer" id="input31" maxlength="1" size="1" data-answer="2"> ............(4) </span>
+        </div>
+        <p>Solving (3) and (4)</p>
+        <p> 3x + y = <input type="text" class="answer" id="input32" maxlength="1" size="1" data-answer="4"> </p>
+        <p> 3x - y = <input type="text" class="answer" id="input33" maxlength="1" size="1" data-answer="2"> </p>
+        <hr style="width: 130px; margin-left: 1px;">
+        <div>
+            <span><input type="text" class="answer" id="input34" maxlength="1" size="1" data-answer="6">x </span>
+            <span style="margin-left: 10px;"> = <input type="text" class="answer" id="input35" maxlength="1" size="1" data-answer="6"> </span>
+        </div>
+        <div>
+            <span> ⇒ x = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input36" maxlength="1" size="1" data-answer="6"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input37" maxlength="1" size="1" data-answer="6"></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input38" maxlength="1" size="1" data-answer="1"> </span>
+        </div>
+        <p>Substituting x = <input type="text" class="answer" id="input39" maxlength="1" size="1" data-answer="1"> in 3x + y = 4</p>
+        <p>⇒ 3(<input type="text" class="answer" id="input40" maxlength="1" size="1" data-answer="1">) + y = 4</p>
+        <p>⇒ y = 4 – <input type="text" class="answer" id="input41" maxlength="1" size="1" data-answer="3"> = <input type="text" class="answer" id="input42" maxlength="1" size="1" data-answer="1"></p>
+        <p>∴ The solution (x, y) = (<input type="text" class="answer" id="input43" maxlength="1" size="1" data-answer="1">, <input type="text" class="answer" id="input44" maxlength="1" size="1" data-answer="1">)</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

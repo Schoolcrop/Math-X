@@ -1,0 +1,71 @@
+x<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+<body>
+    <div id="question">
+        <h2><B>Example-3</B> Consider a triangle &#9651;PQR,right angled at R ,in witch PQ=29cm units,QR=21cm units &#8736;PQR
+            =&theta;,then find the values of<br/>(i)cos<sup>2</sup>&theta;+sin<sup>2</sup>&theta;(ii)cos<sup>2</sup>&theta;-sin<sup>2</sup>&theta;
+        </h2>
+    </div>
+    <div id="answer">
+        <img src="E:\project\assets\images\11(11).png" height="200" width="200">
+        <p style="color: black; position: relative; bottom: 20px; left: 5px;">P</p>
+        <p style="color: black; position: relative; bottom: 60px; left: 190px;">Q</p>
+        <p style="color: black; position: relative; bottom: 310px; left: 190px;">R</p>
+        <h4><u>Solution:</u></h4>
+        <p>In &#9651;PQR,we have</p>
+        <p>we know PQ=29cm QR=21cm</p>
+        <p>PR<sup>2</sup>=PQ<sup>2</sup>-QR<sup>2</sup></p>
+        <p>PR<sup>2</sup>=<input type="text" class="answer" id="input1" maxlength="8" size="1" data-answer="400" /></p>
+       
+        <p>PR=<input type="text" class="answer" id="input2" maxlength="8" size="1" data-answer="20" />units</p>
+        <div>sin &theta;=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> PR</div>
+            <div style="text-align: center;"> PQ</div></span>=
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input3" maxlength="8" size="1" data-answer="20" /></div>
+                <div style="text-align: center;"> <input type="text" class="answer" id="input4" maxlength="8" size="1" data-answer="29" /></div></span>
+        </div><br/>
+        <div>cos &theta;=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> QR</div>
+            <div style="text-align: center;"> PQ</div></span>=
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input5" maxlength="8" size="1" data-answer="21" /></div>
+                <div style="text-align: center;"> <input type="text" class="answer" id="input6" maxlength="8" size="1" data-answer="29" /></div></span>
+        </div>
+        <div>Now (i)cos<sup>2</sup>&theta;+sin<sup>2</sup>&theta;=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> PR<sup>2</sup></div>
+                <div style="text-align: center;"> PQ<sup>2</sup></div></span>+
+                <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"> QR<sup>2</sup></div>
+                    <div style="text-align: center;"> PQ<sup>2</sup></div></span>=<input type="text" class="answer" id="input6" maxlength="8" size="1" data-answer="1" /></div>
+        </div><br/>
+        <div>(ii)cos<sup>2</sup>&theta;-sin<sup>2</sup>&theta;=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> PR<sup>2</sup></div>
+                <div style="text-align: center;"> PQ<sup>2</sup></div></span>-
+                <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> QR<sup>2</sup></div>
+                <div style="text-align: center;"> PQ<sup>2</sup></div></span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input7" maxlength="8" size="1" data-answer="41" /></div>
+                <div style="text-align: center;"> <input type="text" class="answer" id="input8" maxlength="8" size="1" data-answer="841" /></div>
+                            
+                </span>
+        </div>
+    </div>
+    <div class="button-container">
+        <button id="check-button" onclick="checkAnswers()">check Answer</button>
+        <button id="clear-button" onclick="clearAnswers()">clear</button>
+                        
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+                
+
+    
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q18)
+        Find the quadratic polynomial in each case,with the given numbers as the sum and product of its zeros respectively.
+        <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+            <div style="text-align: center;">4</div>
+            </span>,-1
+     </h2>
+     <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>Let the polynomial be ax<sup>2</sup>+bx+c and its zeros be &alpha; and &#947;</p>
+        <div>Here,&alpha;+&#947;=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+            <div style="text-align: center;">4</div>
+            </span>and &alpha;&#947;=-1
+        </div> 
+        <p>Thus,the polynomial formed=x<sup>2</sup>-(sum of the zeros )x+product of the zeros</p>
+        <div>
+            =x<sup>2</sup> - (<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="1"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="4"/></div>
+                </span>)x-<input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="1"/>
+        </div><br/>
+        <div >
+           = x<sup>2</sup>- <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">x</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="4"/></div>
+                </span> -1
+        </div>
+        <p>then the polynomial is <input type="text" class="answer" id="input7" maxlength="4" size="1" data-answer="4"/>x<sup>2</sup>-x-<input type="text" class="answer" id="input8" maxlength="4" size="1" data-answer="4"/></p>
+
+     </div>
+     <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+
+</body>
+</html>

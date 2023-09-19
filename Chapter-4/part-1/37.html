@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h2>(Q.37). 10 students of Class-X took part in a mathematics quiz. If the number of girls is 4 more than the number of boys then, find the number of boys and the number of girls who took part in the quiz.</h2>
+    <div>
+      <img src="../../Assets/images/4-1(38).png">
+    </div>
+    <div>
+        <p>Let the number of boys be x.</p>
+        <p>Then the number of girls = x + <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="4"></p>
+        <p>By problem, x + x + <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="4"> = 10</p>
+        <p>∴ 2x + <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="4"> = 10</p>
+        <p>2x = 10 - <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="4"></p>
+        <div>
+            <span>x = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="6"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="3"></span>
+        </div>
+        <p>∴ Boys = <input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="3"> Girls = <input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="3"> + 4 = <input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="7"> (or)</p>
+        <p>Boys = x, Girls = y</p>
+        <p>By problem x + y = 10 (total)</p>
+        <p>and y = x + 4 (girls)</p>
+        <p>⇒ x + y = 10 and x – y = – 4</p>
+        <div style="display: flex; margin-bottom: 10px;">
+            <div style="padding-left: 10px;">
+                <table style="text-align: center; width: 310px;">
+                  <tr style="height: 50px;">
+                    <th colspan="5"> x + y = 10</th>
+                  </tr>
+                  <tr style="height: 50px;">
+                    <td style="width: 100px;">x</td>
+                    <td style="width: 100px;">y</td>
+                    <td>(x,y)</td>
+                  </tr>
+                  <tr style="height: 50px;">
+                    <td>6</td>
+                    <td><input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="4"></td>
+                    <td>(6,<input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="4">)</td>
+                  </tr>
+                  <tr style="height: 50px;">
+                    <td>4</td>
+                    <td><input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="6"></td>
+                    <td>(4,<input type="text" class="answer" id="input14" maxlength="1" size="1" data-answer="6">)</td>
+                  </tr>
+                </table>
+            </div>
+            <div style="padding-left: 10px;">
+                <table style="text-align: center; width: 310px;">
+                  <tr style="height: 50px;">
+                    <th colspan="5">x - y = - 4 </th>
+                  </tr>
+                  <tr style="height: 50px;">
+                    <td style="width: 50px;">x</td>
+                    <td>y</td>
+                    <td>(x,y)</td>
+                  </tr>
+                  <tr style="height: 50px;">
+                    <td>4</td>
+                    <td><input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="8"></td>
+                    <td>(4,<input type="text" class="answer" id="input16" maxlength="1" size="1" data-answer="8">)</td>
+                  </tr> 
+                  <tr style="height: 50px;">
+                    <td>2</td>
+                    <td><input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="6"></td>
+                    <td>(2,<input type="text" class="answer" id="input18" maxlength="1" size="1" data-answer="6">)</td>
+                  </tr>  
+                </table>
+            </div>
+        </div>
+        <p>∴ Number of boys = <input type="text" class="answer" id="input19" maxlength="1" size="1" data-answer="3"> and the number of girls = <input type="text" class="answer" id="input20" maxlength="1" size="1" data-answer="7"></p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

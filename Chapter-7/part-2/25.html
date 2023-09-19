@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q25) Find the ratio in which the line segment joining the points (-3,10) and (6,-8) is divided by(-1,6).</h2>
+    <div id="answer">
+        <h4><u>Answer</u></h4>
+        <p>Let the point (-1,6) divides the line segment joining the points (-3,10) and (6,-8) in a ratio m:n.</p>
+        
+        <div>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">mx<sub>2</sub>+nx<sub>1</sub></div>
+                <div style="text-align: center;">m+n</div>
+            </span> , 
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">my<sub>2</sub>+ny<sub>1</sub></div>
+                <div style="text-align: center;">m+n</div>
+            </span> 
+            <span>= (-1,6)</span>
+        </div>
+        <p>Where x<sub>1</sub>= -3, x<sub>2</sub>=6, y<sub>1</sub>=10, y<sub>2</sub>= -8</p>
+        <div>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">m(<input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="6"/>)+n(-<input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="3"/>)</div>
+                <div style="text-align: center;">m+n</div>
+            </span>
+            <span> = -1</span>
+        </div>
+        <p><input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="6"/>m-<input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="3"/>n= -(m+n)= -m-n</p>
+        <p><input type="text" class="answer" id="input5" maxlength="2" size="1" data-answer="6"/>m+m= -n+<input type="text" class="answer" id="input6" maxlength="2" size="1" data-answer="3"/>n</p>
+        <p><input type="text" class="answer" id="input7" maxlength="2" size="1" data-answer="6"/>m=<input type="text" class="answer" id="input8" maxlength="2" size="1" data-answer="2"/>n</p>
+        <div>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">m</div>
+                <div style="text-align: center;">n</div>
+            </span> =   
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input9" maxlength="2" size="1" data-answer="2"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input10" maxlength="2" size="1" data-answer="7"/></div>
+            </span> 
+        </div>
+        <p>m:n=<input type="text" class="answer" id="input11" maxlength="2" size="1" data-answer="2"/>:<input type="text" class="answer" id="input12" maxlength="2" size="1" data-answer="7"/></p>
+        <p>The point (-1,6) divides the given line segment in a ratio of <input type="text" class="answer" id="input13" maxlength="2" size="1" data-answer="2"/>:<input type="text" class="answer" id="input14" maxlength="2" size="1" data-answer="7"/>.</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

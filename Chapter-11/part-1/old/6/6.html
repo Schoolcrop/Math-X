@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+<body>
+    <div id="question">
+        <h2>6.In a triangle  &#9651;PQR,with right angle at Q,the value of &#8736;p is x,PQ=7cm and QR=24cm,then find sinx
+            and cosx.
+        </h2>
+    </div>
+    <div id="answer">
+        <svg height="250" width="450" viewBox="-130 -110 500 500">
+            <polygon points="100 20,100 350,550 350" style="fill:none;stroke:black;stroke-width:2" />h
+            <line x1 = "130" y1 ="350" x2 ="130"  y2="320" stroke ="black" stroke-width="4"/>
+            <line x1 = "133" y1 ="320" x2 ="100"  y2="320" stroke ="black" stroke-width="4"/>
+            <g transform="translate(80,0) rotate(-250 50, 35)">
+                <path d="M95,50 A 45, 45, 0, 0, 0, 65, 8 " />  
+                </g>
+         </svg>
+            <p style="color: black; position: relative; bottom: 55px; left: 450px;">R</p>
+            <p style="color: black; position: relative; bottom: 70px; left: 210px;">Q</p>
+            <p style="color: black; position: relative; bottom: 320px; left: 218px;">P</p>
+            <p style="color: black; position: relative; bottom: 240px; left: 175px;">7cm</p>
+            <p style="color: black; position: relative; bottom: 340px; left: 310px;">24cm</p>
+            <h4><u>Given:</u></h4>
+            <p>&#9651;PQR,with right angle at Q,the value of &#8736;p is x,PQ=7cm and QR=24cm</p>
+            <h4><u>Solution:</u></h4>
+            <p>using pyhogras theorem</p>
+            <p>PR<sup>2</sup>=PQ<sup>2</sup>+QR<sup>2</sup></p>
+            <p>PR<sup>2</sup>=<input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="625" /></p>
+            <p>PR=<input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="25" /></p>
+            <div>
+                (i)sin X=
+                <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> oppsite side</div>
+                <div style="text-align: center;"> hypotenus</div>
+                </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="24" /> </div>
+                <div style="text-align: center;"> <input type="text" class="answer" id="input4" maxlength="4" size="1" data-answer="25" /></div>
+               </span>
+            </div><br/>
+            <div>(ii) cos X=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> adjacent</div>
+                <div style="text-align: center;"> hypotenus</div>
+                </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input5" maxlength="4" size="1" data-answer="7" /></div>
+                <div style="text-align: center;"> <input type="text" class="answer" id="input6" maxlength="4" size="1" data-answer="25" /></div>
+                </span>
+            </div>
+        
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+
+    
+</body>
+</html>

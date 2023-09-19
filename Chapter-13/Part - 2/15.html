@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{padding: 10px;}
+    </style>
+</head>
+<body>
+    <div>
+        <h2>(Q15) A lot of 20 bulbs contain 4 defective ones. One bulb is drawn at random from the lot. What is the probability that this bulb is defective? Suppose the bulb drawn in previous case is not defective and is not replaced. Now one bulb is drawn at random from the rest. What is the probability that this bulb is not defective?</h2>
+    </div>
+    <div>
+        <p><b>Answer : </b></p>
+        <p>Given 4 out of 20 bulbs are defective</p>
+        <p>(i.e.) Number of defective bulbs = 4</p>
+        <p>Number of non-defective bulbs =<input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="16"/></p>
+        <p>If a bulb is drawn at random, the total outcomes are = <input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="20"/></p>
+        <p>Number of outcomes favourable to 'defective bulb' = <input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="4"/></p>
+        <div>
+            <span>&#8756; Probability of getting a defective bulb</span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">No. of favourable outcomes</div>
+                <div style="text-align: center;">No. of total outcomes</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="4"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="20"/></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="5"/></div>
+            </span>
+        </div>
+        <p>Suppose a non-defective bulb is drawn and not replaced, then the bulbs remaining are = 19</p>
+        <p>&#8756; Total outcomes in drawing a bulb from the rest = 19</p>
+        <p>Number of favourable outcomes in drawing non-defective bulb from the rest = <input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="15"/></p>
+        <div>
+            <span>&#8756; Probability of getting a non-defective bulb in the second draw = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">No. of favourable outcomes</div>
+                <div style="text-align: center;">No. of total outcomes</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="15"/></div>
+                <div style="text-align: center;">19</div>
+            </span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

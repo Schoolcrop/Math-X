@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q2)A two digit number is such that the product of its digits, is 8. When 18 is added to the number, they interchange their places. Determine the number.</h2>
+    <div id="answer">
+        <h4><u>Answers</u></h4>
+        <p>Let the digit in the units place = x</p>
+        <p>Let the digit in the tens place = y</p>
+        <p>&there4; The number = 10y + x</p>
+        <p>By interchanging the digits the number becomes 10x + y</p>
+        <p>By problem(10x + y) - (10y + x) = 18</p>
+        <p>9x - 9y = 18</p>
+        <p>9(x-y) = 18</p>
+        <div>
+            x - y = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">18</div>
+                <div style="text-align: center;">9</div>
+                </span> = 2
+        </div>
+        <p>y = x - 2</p>
+        <p>digit in the tens place = x - 2</p>
+        <p>digit in the units place = x</p>
+        <p>product of the digits =(x - 2)x</p>
+        <p>By problem x<sup>2</sup> -2x = 8</p>
+        <p>x<sup>2</sup> - 2x - 8 = 0</p>
+        <p>x<sup>2</sup> - <input type="text" class="answer" id="input1" maxlength="6" size="1" data-answer="4"/>x + 2x - 8 = 0</p>
+        <p>x(x - <input type="text" class="answer" id="input2" maxlength="6" size="1" data-answer="4"/>) + 2(x-<input type="text" class="answer" id="input3" maxlength="6" size="1" data-answer="4"/>) = 0</p>
+        <p>(x - <input type="text" class="answer" id="input4" maxlength="6" size="1" data-answer="4"/>) (x + 2) = 0</p>
+        <p>x - <input type="text" class="answer" id="input5" maxlength="6" size="1" data-answer="4"/> = 0 (or) x + 2 = 0</p>
+        <p>x = <input type="text" class="answer" id="input6" maxlength="6" size="1" data-answer="4"/> (or) x = -2</p>
+        <p>x = <input type="text" class="answer" id="input7" maxlength="6" size="1" data-answer="4"/> [ &because;X can't be negative] </p>
+        <p> &there4; The number is 24.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

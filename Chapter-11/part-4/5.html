@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>
+        (Q5)<span>Evaluate the following and justify your answer.</span>
+        <span style="display: inline-block;vertical-align: middle;">
+            <div style="text-align: center; border-bottom: 1px solid black;">sin<sup>2</sup>15&deg;+sin<sup>2</sup>75&deg;</div>
+            <div style="text-align: center;">cos<sup>2</sup>36&deg;+cos<sup>2</sup>54&deg;</div>
+        </span>
+    </h2>
+    <div style="padding-left: 20px;">
+        <div>
+            <div>
+                <span>Given </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">sin<sup>2</sup> 15&deg; + sin<sup>2</sup> 75&deg;</div>
+                    <div style="text-align: center;">cos<sup>2</sup> 36&deg; + cos<sup>2</sup> 54&deg;</div>
+                </span>
+            </div>
+            <div>
+                <span>= </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">sin<sup>2</sup> 15&deg; + sin<sup>2</sup> (<input type="text" class="answer" id="input1" maxlength="2" size="2" data-answer="90">&deg; - 15&deg;)</div>
+                    <div style="text-align: center;">cos<sup>2</sup> 36&deg; + cos<sup>2</sup> (<input type="text" class="answer" id="input2" maxlength="2" size="2" data-answer="90">&deg; - 36&deg;)</div>
+                </span>
+            </div>
+            <div>
+                <span>= </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">sin<sup>2</sup> 15&deg; + cos<sup>2</sup> <input type="text" class="answer" id="input3" maxlength="2" size="2" data-answer="15">&deg;</div>
+                    <div style="text-align: center;">cos<sup>2</sup> 36&deg; + sin<sup>2</sup> <input type="text" class="answer" id="input4" maxlength="2" size="2" data-answer="36">&deg;</div>
+                </span>
+            </div>
+            <p>[∵ sin (90° – θ) = cos θ; cos (90° – θ) = sin θ]</p>
+            <div>
+                <span> = </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="1"></div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="1"></div>
+                </span>
+                <span>= <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="1"> [By sin<sup>2</sup> θ + cos<sup>2</sup> θ = 1]</span>
+            </div>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers();clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

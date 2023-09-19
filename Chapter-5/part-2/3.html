@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q3)Find the width of the space for spectators discussed in section 5.1. i.e.,</h2>
+    <h2>Sports committee of Dhannur High School wants to construct a Kho-Kho court of dimensions 29 m × 16 m. This is to be laid in a rectangular plot of area 558 m<sup>2</sup>. They want to leave space of equal width all around the court for the spectators. What would be the width of the space for spectators? Would it be enough?</h2>
+    <div id="answer">
+        <h4><u>Answer</u></h4>
+        <p>Here, we found that if the width of the space for spectators is x m, then x satisfies the equation 2x <sup>2</sup> + 45x - 47 = 0. Applying the factorisation method we write this equation as:-</p>
+        
+        <p> 2x<sup>2</sup>-<input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="2"/>x + 47x - 47 = 0</p>
+        <p> <input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="2"/>x(x-<input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="1"/>) + 47(x-<input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="1"/>) = 0</p>
+        <p> (x - <input type="text" class="answer" id="input5" maxlength="2" size="1" data-answer="1"/>)(<input type="text" class="answer" id="input6" maxlength="2" size="1" data-answer="2"/>x + 47) = 0</p>
+        <div>
+            So, the roots of the given equation are x = <input type="text" class="answer" id="input7" maxlength="2" size="1" data-answer="1"/> or x = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-47</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input8" maxlength="2" size="1" data-answer="2"/></div>
+            </span>. Since 'x' is the width of space of the spectators it cannot be negative.
+        </div>
+        <p>Thus, the width is <input type="text" class="answer" id="input9" maxlength="2" size="1" data-answer="1"/> m. So it is not enough for spectators.</p>
+    
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+     <script src="../../Assets/js/javascript.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+    body{
+   padding: 10px;
+   }
+    table {
+   border: 2px solid black;border-collapse: collapse; text-align: center;
+    }
+    td{
+   border: 2px solid black; width: 55px; height: 30px;
+    }
+    th{
+   border: 2px solid black; width: 100px;text-align:center;height:50px;
+    }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h2>(Q10). Consider the following distribution of daily wages of 50 workers of a factory.</h2>
+        <table>
+            <tr>
+                <td style="width: 180px;">Daily wages in Rupees</td>
+                <td>200-250</td>
+                <td>250-300</td>
+                <td>300-350</td>
+                <td>350-400</td>
+                <td>400-450</td>
+            </tr>
+            <tr>
+                <td>Number of workers</td>
+                <td>12</td>
+                <td>14</td>
+                <td>8</td>
+                <td>6</td>
+                <td>10</td>
+            </tr>
+        </table>
+        <h2>Find the mean daily wages of the workers of the factory by using an appropriate method.</h2>
+    </div>
+    <div>
+        <h4>Solution: </h4>
+        <table>
+            <tr>
+                <th style="width: 200px;">Daily wages in Rupees(Class Interval)</th>
+                <th>Number of workers(f<sub>i</sub>)</th>
+                <th>Class marks(x<sub>i</sub>)</th>
+                <th>d<sub>i</sub> = x<sub>i</sub> - 275 [(x<sub>i</sub> - a)]</th>
+                <th>f<sub>i</sub>d<sub>i</sub></th>
+            </tr>
+            <tr>
+                <td>200-250</td>
+                <td>12</td>
+                <td>225</td>
+                <td>-50</td>
+                <td>-<input type="text" class="answer" id="input1" maxlength="3" size="3" data-answer="600"/></td>
+            </tr>
+            <tr>
+                <td>250-300</td>
+                <td>14</td>
+                <td>275 a </td>
+                <td>0</td>
+                <td><input type="text" class="answer" id="input2" maxlength="1" size="2" data-answer="0"/></td>
+            </tr>
+            <tr>
+                <td>300-350</td>
+                <td>8</td>
+                <td>325</td>
+                <td>50</td>
+                <td><input type="text" class="answer" id="input3" maxlength="3" size="3" data-answer="400"/></td>
+            </tr>
+            <tr>
+                <td>350-400</td>
+                <td>6</td>
+                <td>375</td>
+                <td>100</td>
+                <td><input type="text" class="answer" id="input4" maxlength="3" size="3" data-answer="600"/></td>
+            </tr>
+            <tr>
+                <td>400-450</td>
+                <td>10</td>
+                <td>425</td>
+                <td>150</td>
+                <td><input type="text" class="answer" id="input5" maxlength="4" size="4" data-answer="1500"/></td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>&#8721;f<sub>i</sub> = 50</td>
+                <td>-</td>
+                <td>-</td>
+                <td>&#8721;f<sub>i</sub>d<sub>i</sub> = <input type="text" class="answer" id="input6" maxlength="4" size="4" data-answer="1900"/></td>
+            </tr>
+
+        </table>
+        <p>Here the x<sub>i</sub> are of large numerical values.</p>
+        <p>So we use deviation method then,</p>
+        <div>
+            <span>x&#772; = a + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">&#8721;f<sub>i</sub>d<sub>i</sub></div>
+                <div style="text-align: center;">&#8721;f<sub>i</sub></div>
+            </span>
+        </div>
+        <p>Here the assumed mean is taken as 275.</p>
+        <div>
+            <span>&#8756; x&#772; = 275 + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input7" maxlength="4" size="4" data-answer="1900"/></div>
+                <div style="text-align: center;">50</div>
+            </span>
+            <span> = 275 + <input type="text" class="answer" id="input8" maxlength="2" size="2" data-answer="38"/> = <input type="text" class="answer" id="input9" maxlength="3" size="3" data-answer="313"/></span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

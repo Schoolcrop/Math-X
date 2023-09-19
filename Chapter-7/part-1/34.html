@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q34)Find the point on the X-axis which is equidistant form (2,-5) and (-2,9).</h2>
+    <div id="answer">
+        <h4><u>Answer</u></h4>
+        <p>Given points A(2,-5),B(-2,9)</p>
+        <p>Let P(x,0) be the point on X-axis </p>
+        <p>which is equidistant from A and B PA=PB</p>
+        <p>Distance formula = &radic;((x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup>)</p>
+        <p>PA=&radic;((<input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="2"/>-x)<sup>2</sup> + (-<input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="5"/>-0)<sup>2</sup>)</p>
+        <p>=&radic;x<sup>2</sup>-&radic;4x + <input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="4"/> + <input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="25"/></p>
+        <p>=&radic;x<sup>2</sup>-&radic;4x + <input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="29"/></p>
+        <p>PB=&radic;(-<input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="2"/>-x)<sup>2</sup> + (<input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="9"/>-0)<sup>2</sup></p>
+        <p>=&radic;x<sup>2</sup> + 4x + <input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="4"/> + <input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="81"/></p>
+        <p>=&radic;x<sup>2</sup> + 4x + <input type="text" class="answer" id="input12" maxlength="3" size="1" data-answer="85"/></p>
+        <p>But PA=PB</p>
+        <p>&radic;x<sup>2</sup>-&radic;4x + <input type="text" class="answer" id="input13" maxlength="3" size="1" data-answer="29"/> = &radic;x<sup>2</sup> + 4x + <input type="text" class="answer" id="input14" maxlength="3" size="1" data-answer="85"/></p>
+        <p>Squaring on both sides we get</p>
+        <p>x<sup>2</sup>-4x+<input type="text" class="answer" id="input15" maxlength="3" size="1" data-answer="29"/> = x<sup>2</sup>+4x+<input type="text" class="answer" id="input16" maxlength="3" size="1" data-answer="85"/></p>
+        <p>-4x-4x=<input type="text" class="answer" id="input17" maxlength="3" size="1" data-answer="85"/>-<input type="text" class="answer" id="input18" maxlength="3" size="1" data-answer="29"/></p>
+        <p>-8x=<input type="text" class="answer" id="input19" maxlength="3" size="1" data-answer="56"/></p>
+        <P>x=-<input type="text" class="answer" id="input20" maxlength="3" size="1" data-answer="7"/></P>
+        <p>(x,0)=(-<input type="text" class="answer" id="input21" maxlength="3" size="1" data-answer="7"/>,0) is the point which is equidistant from the given points.</p>
+        
+
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

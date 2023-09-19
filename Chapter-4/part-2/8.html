@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h2>(Q8).Solve the following pair of linear equations using elimination method.</h2>
+    <h3>3x + 2y = 11</h3>
+    <h3>2x + 3y = 4</h3>
+    <div>
+        <p>3x + 2y = 11 ...........(1)</p>
+        <p>2x + 3y = 4 ............(2)</p>
+        <p>Let us eliminate 'y' from the given equations. The coefficients of 'y' in the given equations are 2 and 3. L.C.M.of 2 and 3 is 6. So, multiply equation (1) by 3 and equation (2) by 2.</p>
+        <div>
+            <span>Equation (1) × <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="3">⇒</span>
+            <span><input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="9">x + <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="6">y = <input type="text" class="answer" id="input4" maxlength="2" size="2" data-answer="33"></span>
+        </div>
+        <div>
+            <span>Equation (2) × <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="2">⇒</span>
+            <span><input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="4">x + <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="6">y = <input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="8"></span>
+        </div>
+        <div style="margin-left: 200px;">
+            <span>(-)</span>
+            <span style="margin-left: 50px;">(-)</span>
+            <span style="margin-left: 50px;">(-)</span> 
+        </div>
+        <hr style="width: 250px; margin-left: 200px;">
+        <div>
+            <span style="margin-left: 210px;"> <input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="5">x </span>
+            <span style="margin-left: 80px;"> = <input type="text" class="answer" id="input10" maxlength="2" size="2" data-answer="25"></span>
+        </div>
+        <div>
+            <span> x = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input11" maxlength="2" size="2" data-answer="25"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="5"></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="5"> </span>
+        </div>
+        <p>Substitute x = <input type="text" class="answer" id="input14" maxlength="1" size="1" data-answer="5">, in equation (1)</p>
+        <p>3(<input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="5">) + 2y = 11</p>
+        <div>
+            <span> 2y = 11 - <input type="text" class="answer" id="input16" maxlength="2" size="2" data-answer="15"> = - <input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="4"> ⇒ y = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input18" maxlength="1" size="1" data-answer="4"></div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span> = -<input type="text" class="answer" id="input19" maxlength="1" size="1" data-answer="2"> </span>
+        </div>
+        <p>Therefore, the required solution is x = <input type="text" class="answer" id="input20" maxlength="1" size="1" data-answer="5">, y = - <input type="text" class="answer" id="input21" maxlength="1" size="1" data-answer="2">.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+<body>
+    <div id="question">
+        <h2><B style="color:orangered">Example-2</B> If &#8736;A and &#8736;p are acute angles such that sin A =sin P then 
+            prove that &#8736;A=&#8736;p
+        </h2>
+        <img src="E:\project\assets\images\11(9).png" width="150" height="150"/>
+        <img  style="margin-left:70px"src="E:\project\assets\images\sc.png" width="150" height="150"/>
+        <p style="color: black; position: relative; bottom: 30px; left: 210px;">P</p>
+        <p style="color: black; position: relative; bottom: 240px; left: 360px;">Q</p>
+        <p style="color: black; position: relative; bottom: 110px; left: 360px;">R</p>
+        
+    </div>
+    <div id="answer">
+        <h4 style="color:orangered">Solution:</h4>
+        <p>Given sin A=sin P</p>
+        <div>From &#9651;ABC,sin A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> BC</div>
+            <div style="text-align: center;"> AC</div>
+            </span>
+        </div>
+        <div>From &#9651;PQR,sin <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> QR</div>
+            <div style="text-align: center;"> PQ</div>
+            </span>
+       </div>
+        <div>Then <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> BC</div>
+            <div style="text-align: center;"> AC</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> QR</div>
+            <div style="text-align: center;"> PQ</div>
+            </span>
+        </div>
+        <div>Let,<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> BC</div>
+            <div style="text-align: center;"> AC</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> QR</div>
+            <div style="text-align: center;"> PQ</div>
+            </span>=k
+        </div>
+        <p>By using Pythagoras theorem</p>
+        <div><span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> AB<sup>2</sup></div>
+            <div style="text-align: center;"> PR<sup>2</sup></div><br/>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> AC<sup>2</sup> - BC<sup>2</sup></div>
+            <div style="text-align: center;">PQ<sup>2</sup> - QR<sup>2</sup></div><br/>
+            </span>
+        </div>
+       <div> <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> AB<sup>2</sup></div>
+            <div style="text-align: center;"> PR<sup>2</sup></div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">  <input type="text" class="answer" id="input10" maxlength="8" size="1" data-answer="AC,CA" /><sup>2</sup></div>
+            <div style="text-align: center;">  <input type="text" class="answer" id="input10" maxlength="8" size="1" data-answer="PQ,QP" /><sup>2</sup></div>
+            </span>
+       </div><br/>
+        <div><span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> AB</div>
+            <div style="text-align: center;"> PR</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input10" maxlength="8" size="1" data-answer="AC" /></div>
+            <div style="text-align: center;">  <input type="text" class="answer" id="input10" maxlength="8" size="1" data-answer="PQ" /></div>
+            </span>
+       </div>
+        <div><span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> AC</div>
+            <div style="text-align: center;"> PQ</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> AB</div>
+            <div style="text-align: center;"> PR</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> BC</div>
+            <div style="text-align: center;"> QR</div>
+            </span>
+       </div>
+       <p>then&#9651;ABC~&#9651;PQR</p>
+        <p>&#8736;A=&#8736;P</p>
+
+    </div>
+    <div class="button-container">
+        <button id="check-button" onclick="checkAnswers()">check Answer</button>
+        <button id="clear-button" onclick="clearAnswers()">clear</button>
+    
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+    
+</body>
+</html>

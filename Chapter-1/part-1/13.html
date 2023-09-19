@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <div>
+        <h2>(Q13).Show use division algorithm to show that the square of any positive integer is of the form 3p or 3p + 1 ?</h2>
+        <p>Let a be any positive <input type="text" class="answer" id="input1" maxlength="3" size="3" data-answer="odd"> integer</p>
+        <p>Let b = 3</p>
+        <p>By dividing algorithm rule for a and b : a = 3q + r, for q > 0,and 0 ≤ r < <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="3"></p>
+        <p>The possible remainders are 0, 1, <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="2"></p>
+        <p>So, a = 3q , 3q+1, 3q+2, 3q+3, where q is the <input type="text" class="answer" id="input4" maxlength="8" size="8" data-answer="quotient"></p>
+        <p>Let us consider a = 3q+0,3q+1</p>
+        <p>a = 3q+0</p>
+        <p>a = 3q</p>
+        <p>a<sup>2</sup> = (3q)<sup>2</sup></p>
+        <p>a<sup>2</sup> = <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="9">q<sup>2</sup></p>
+        <p>a<sup>2</sup> = <input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="3">(3q<sup>2</sup>)</p>
+        <p>Here 3(3q<sup>2</sup>) is in the form of 3p</p>
+        <p>p = <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="3">q<sup>2</sup></p>
+        <p>Let us consider a = 3q+0,3q+1</p>
+        <p>a = 3q+1</p>
+        <p>a<sup>2</sup> = (3q+1)<sup>2</sup></p>
+        <p>a<sup>2</sup> = (3q)<sup>2</sup>+(<input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="1">)<sup>2</sup> + 2(3q)(<input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="1">)</p>
+        <p>a<sup>2</sup> = <input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="3">(3q<sup>2</sup>)+ <input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="1"> + <input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="6">q</p>
+        <p>a<sup>2</sup> = <input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="3">(3q<sup>2</sup>+2q) + 1</p>
+        <p>Here a is in the form of <input type="text" class="answer" id="input14" maxlength="1" size="1" data-answer="3">p+1</p>
+        <p>p = <input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="3">q<sup>2</sup> + 2q</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

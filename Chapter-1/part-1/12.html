@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <div>
+        <h2>(Q12).Show that every positive odd integer is of the form 6q + 1 or 6q + 3, or 6q+5 where q is some integer.?</h2>
+        <p>Let a be any positive <input type="text" class="answer" id="input1" maxlength="3" size="3" data-answer="odd"> integer</p>
+        <p>Let b = 6</p>
+        <p>By dividing algorithm rule for a and b : a = 6q + r, for q > 0,and 0 ≤ r < <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="6"></p>
+        <p>The possible remainders are 0, 1, <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="2">, <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="3">, <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="4">, <input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="5"></p>
+        <p>So, a = 6q , 6q+1, 6q+2, 6q+3, where q is the <input type="text" class="answer" id="input7" maxlength="8" size="8" data-answer="quotient"></p>
+        <p>However, since a is <input type="text" class="answer" id="input8" maxlength="3" size="3" data-answer="odd"></p>
+        <p>a cannot be 6q = 2(3q) or 6q+2 = 2(3q+1), since they were divisible by <input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="2"></p>
+        <p>Therefore, any odd integer is of the form 6q + <input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="1"> or 6q + <input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="3"> or 6q + <input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="5"></p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

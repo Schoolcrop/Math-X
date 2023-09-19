@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h2>(Q.11). Two rails of a railway track are represented by the equations. x + 2y – 4 = 0 and 2x + 4y – 12 = 0. Represent this situation graphically.</h2>
+    <div>
+      <img src="../../Assets/images/4-1(12).png">
+    </div>
+    <div style="display: flex;">
+      <div style="padding-left: 10px;">
+        <p> x + 2y – 4 = 0</p> 
+        <p> 2y = <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="4"> – x </p>
+        <div>
+            <span>y = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="4"> -  x</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+        </div>
+        <table style="text-align: center; width: 320px;">
+          <tr>
+            <th colspan="3"> 2x – y = 4</th>
+          </tr>
+          <tr>
+            <th>x</th>
+            <th>
+                <span>y = </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">4 -  x</div>
+                    <div style="text-align: center;">2</div>
+                </span>
+            </th>
+            <th>(x,y)</th>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td><input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="2"></td>
+            <td>(0,<input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="2">)</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td><input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="0"></td>
+            <td>(4,<input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="0">)</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="1"></td>
+            <td>(2,<input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="1">)</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>-<input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="1"></td>
+            <td>(6,-<input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="1">)</td>
+          </tr>
+        </table>
+      </div>
+      <div style="padding-left: 10px;">
+        <p> 2x + 4y – 12 = 0</p>
+        <p> 4y = 12 – <input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="2">x</p>
+        <div>
+            <span>y = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">6 -  x</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="2"></div>
+            </span>
+        </div>
+        <table style="text-align: center; width: 320px;">
+          <tr>
+            <th colspan="3">2x + 4y – 12 = 0</th>
+          </tr>
+          <tr>
+            <th>x</th>
+            <th>
+                <span>y = </span>
+                <span style="display: inline-block;vertical-align: middle;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">6 -  x</div>
+                    <div style="text-align: center;">2</div>
+                </span>
+            </th>
+            <th>(x,y)</th>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td><input type="text" class="answer" id="input14" maxlength="1" size="1" data-answer="3"></td>
+            <td>(0,<input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="3">)</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><input type="text" class="answer" id="input16" maxlength="1" size="1" data-answer="2"></td>
+            <td>(2,<input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="2">)</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td><input type="text" class="answer" id="input18" maxlength="1" size="1" data-answer="0"></td>
+            <td>(6,<input type="text" class="answer" id="input19" maxlength="1" size="1" data-answer="0">)</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <p>These lines are <input type="text" class="answer" id="input20" maxlength="8" size="8" data-answer="parallel"> and hence no solution.</p>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

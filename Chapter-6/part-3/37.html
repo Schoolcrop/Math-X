@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q37).In a bucket and ball race, a bucket is placed at the starting point, which is 5 m from the first ball, and the other balls are placed 3 m apart in a straight line. There are ten balls in the line.A competitor starts from the bucket, picks up the nearest ball, runs back with it, drops it in the bucket, runs back to pick up the next ball, runs to the bucket to drop it in, and she continues in the same way until all the balls are in the bucket. What is the total distance the competitor has to run?</h2>
+    <p>[Hint: To pick up the first ball and the second ball, the total distance (in metres) run by a competitor is 2 × 5 + 2 × (5 + 3)]</p>
+
+    <div>
+        <img src="../../Assets/images/6-3(37).png" alt="">
+    </div>
+    <div style="margin-left: 20px;">
+        <p>Given: Balls are placed at an equal distance of 3 m from one another.</p>
+        <p>Distance of first ball from the bucket = 5 m</p>
+        <p>Distance of second ball from the bucket = <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="5"> + 3 = <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="8"> m (<input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="5"> + 1 × 3)</p>
+        <p>Distance of third ball from the bucket = <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="8"> + 3 = <input type="text" class="answer" id="input5" maxlength="2" size="2" data-answer="11"> m (<input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="5"> + 2 × 3)</p>
+        <p>Distance of fourth ball from the bucket = <input type="text" class="answer" id="input7" maxlength="2" size="2" data-answer="11"> + 3 = <input type="text" class="answer" id="input8" maxlength="2" size="2" data-answer="14"> m (<input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="5"> + 3 × 3)</p>
+        <p> ................... </p>
+        <p>∴ Distance of the tenth ball from the bucket = <input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="5"> + 9 × <input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="3"> = <input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="5"> + <input type="text" class="answer" id="input13" maxlength="2" size="2" data-answer="27"> = <input type="text" class="answer" id="input14" maxlength="2" size="2" data-answer="32"> m.</p>
+        <p>1st ball: Distance covered by the competitor in picking up and dropping it in the bucket = 2 × <input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="5"> = <input type="text" class="answer" id="input16" maxlength="2" size="2" data-answer="10"> m.</p>
+        <p>2nd ball: Distance covered by the competitor in picking up and dropping it in the bucket = 2 × <input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="8"> = <input type="text" class="answer" id="input18" maxlength="2" size="2" data-answer="16"> m.</p>
+        <p>3rd ball: Distance covered by the competitor in picking up and dropping it in the bucket = 2 × <input type="text" class="answer" id="input19" maxlength="2" size="2" data-answer="11"> = <input type="text" class="answer" id="input20" maxlength="2" size="2" data-answer="22"> m.</p>
+        <p> ..................... </p>
+        <p>10th ball: Distance covered by the competitor in picking up and dropping it in the bucket = 2 × <input type="text" class="answer" id="input21" maxlength="2" size="2" data-answer="32"> = <input type="text" class="answer" id="input22" maxlength="2" size="2" data-answer="64"> m.</p>
+        <p>Total distance = 10 m + 16 m + 22 m + …… + 64 m.</p>
+        <p>Clearly, this is an A.P in which a = <input type="text" class="answer" id="input23" maxlength="2" size="2" data-answer="10">; d = a<sub>2</sub> – a<sub>1</sub> = <input type="text" class="answer" id="input24" maxlength="2" size="2" data-answer="16"> – <input type="text" class="answer" id="input25" maxlength="2" size="2" data-answer="10"> = <input type="text" class="answer" id="input26" maxlength="1" size="1" data-answer="6"> and n = <input type="text" class="answer" id="input27" maxlength="2" size="2" data-answer="10">.</p>
+        <div>
+            <span>∴ S<sub>n</sub> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>[2a + (n-1)d]</span>
+        </div>
+        <div>
+            <span> S<sub>10</sub> = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input28" maxlength="2" size="2" data-answer="10"></div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>[2×<input type="text" class="answer" id="input29" maxlength="2" size="2" data-answer="10"> + (<input type="text" class="answer" id="input30" maxlength="2" size="2" data-answer="10">-1)<input type="text" class="answer" id="input31" maxlength="1" size="1" data-answer="6">]</span>
+        </div>
+        <p>= <input type="text" class="answer" id="input32" maxlength="1" size="1" data-answer="5"> [<input type="text" class="answer" id="input33" maxlength="2" size="2" data-answer="20"> + <input type="text" class="answer" id="input34" maxlength="2" size="2" data-answer="54">]</p>
+        <p>= <input type="text" class="answer" id="input35" maxlength="1" size="1" data-answer="5"> × <input type="text" class="answer" id="input36" maxlength="2" size="2" data-answer="74"></p>
+        <p>= <input type="text" class="answer" id="input37" maxlength="3" size="3" data-answer="370"> m</p>
+        <p>∴ Total distance = <input type="text" class="answer" id="input38" maxlength="3" size="3" data-answer="370"> m.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

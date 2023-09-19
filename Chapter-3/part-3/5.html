@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q5)Find the zeros of the quadratic polynomial x<sup>2</sup>+7x+10, and verify the relationship between the zeros and the coefficients.</h2>
+    <div id="answer">
+        <h4><u>We have</u></h4>
+        <p>x<sup>2</sup>+7x+10=(x+<input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="2"/> )(x+5)</p>
+        <p>So,the value of x<sup>2</sup>+7x+10 is zero when x+<input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="2"/> =0 or x+5=0,</p>
+        <p>when x= -<input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="2"/>  or x= -5</p>
+        <p>Therefore, the zeros of x<sup>2</sup>+7x+10 are -<input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="2"/>  and -5.</p>
+        <div>
+            Now,sum of the zeros = -<input type="text" class="answer" id="input5" maxlength="2" size="1" data-answer="2"/> +(-5)= -(<input type="text" class="answer" id="input6" maxlength="2" size="1" data-answer="7"/> )= <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> -<input type="text" class="answer" id="input7" maxlength="2" size="1" data-answer="7"/> </div>
+            <div style="text-align: center;"> 1</div>
+           </span>  =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> -(coefficient of x)</div>
+            <div style="text-align: center;"> coefficient of x<sup>2</sup></div>
+           </span>
+        </div>
+        <div>
+            product of the zeros = -<input type="text" class="answer" id="input8" maxlength="2" size="1" data-answer="2"/> &times;(-5)=<input type="text" class="answer" id="input110" maxlength="2" size="1" data-answer="10"/> = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input11" maxlength="2" size="1" data-answer="10"/> </div>
+                <div style="text-align: center;"> 1</div>
+            </span> =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">constant term</div>
+                <div style="text-align: center;">coefficient of x<sup>2</sup></div>
+            </span>
+        </div>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

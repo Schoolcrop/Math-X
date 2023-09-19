@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>
+        (Q3)A piece of wire 8m in length is cut into two pieces and each piece is bent into a square. Where should the cut in the wire be made if the sum of the areas of these squares is to be 2m<sup>2</sup>?
+        [<b>Hint:</b>x + y = 8,( <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> x</div>
+            <div style="text-align: center;">4</div>
+            </span>)<sup>2</sup> + (<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> y</div>
+                <div style="text-align: center;">4</div>
+                </span>)<sup>2</sup> = 2<br/> = (<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"> x</div>
+                    <div style="text-align: center;">4</div>
+                    </span>)<sup>2</sup> + (<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                        <div style="text-align: center; border-bottom: 1px solid black;">8 - x</div>
+                        <div style="text-align: center;">4</div>
+                        </span>)<sup>2</sup> = 2]
+    </h2>
+    <div id="answer">
+        <p>let the length of the first peice = x m</p>
+        <p>Then length of the second piece = 8 - x m</p>
+        <div>
+             &there4;Side of the 1 st square = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> x</div>
+                <div style="text-align: center;">4</div>
+                </span>m and
+        </div>
+        <div>
+            side of the second square = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">8 - x</div>
+                <div style="text-align: center;">4</div>
+                </span>m
+        </div>
+        <p>Sum of the areas = 2 m<sup>2</sup></p>
+        <div> 
+            (<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> x</div>
+                <div style="text-align: center;">4</div>
+                </span>)<sup>2</sup>+(<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;"> 8 - x</div>
+                    <div style="text-align: center;">4</div>
+                </span>)<sup>2</sup> = 2
+        </div><br/>
+        <div>
+            =<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> x<sup>2</sup></div>
+                <div style="text-align: center;">16</div>
+                </span>+<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">64 + x<sup>2</sup> - 16x</div>
+                    <div style="text-align: center;">16</div>
+                    </span> = 2 
+        </div>
+        <p>x<sup>2</sup> + 64 + x<sup>2</sup>-16x=<input type="text" class="answer" id="input1" maxlength="6" size="1" data-answer="32"/></p>
+        <p>2x<sup>2</sup> - 16x + 64 = <input type="text" class="answer" id="input2" maxlength="6" size="1" data-answer="32"/></p>
+        <p>2x<sup>2</sup> - 16x + <input type="text" class="answer" id="input3" maxlength="6" size="1" data-answer="32"/> = 0</p>
+        <p>2(x<sup>2</sup> - 8x + <input type="text" class="answer" id="input4" maxlength="6" size="1" data-answer="16"/>) = 0</p>
+        <p>x<sup>2</sup> - 8x + <input type="text" class="answer" id="input5" maxlength="6" size="1" data-answer="16"/> = 0</p>
+        <p>x<sup>2</sup> - <input type="text" class="answer" id="input6" maxlength="6" size="1" data-answer="4"/>x - 4x +<input type="text" class="answer" id="input5" maxlength="6" size="1" data-answer="16"/> = 0</p>
+        <p>x(x - <input type="text" class="answer" id="input7" maxlength="6" size="1" data-answer="4"/>) - 4(x-<input type="text" class="answer" id="input8" maxlength="6" size="1" data-answer="4"/>) = 0</p>
+        <p>(x -<input type="text" class="answer" id="input9" maxlength="6" size="1" data-answer="4"/>)(x - 4) = 0</p>
+        <p>&there4;x = <input type="text" class="answer" id="input10" maxlength="6" size="1" data-answer="4"/></p>
+        <p>&there4;The cut should be made at the centre making two equal pieces of length <input type="text" class="answer" id="input11" maxlength="6" size="1" data-answer="4"/>m,<input type="text" class="answer" id="input12" maxlength="6" size="1" data-answer="4"/>m.</p>
+        
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

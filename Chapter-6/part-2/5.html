@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q5).How many two-digit numbers are divisible by 3?</h2>
+    <div style="margin-left: 20px;">
+        <p>The list of two-digit numbers divisible by 3 is :</p>
+        <p>12, <input type="text" class="answer" id="input1" maxlength="2" size="2" data-answer="15">, <input type="text" class="answer" id="input2" maxlength="2" size="2" data-answer="18">, . . . , 99</p>
+        <p>Is this an AP ? Yes it is. Here, a = <input type="text" class="answer" id="input3" maxlength="2" size="2" data-answer="12">, d = <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="3">, a<sub>n</sub> = 99.</p>
+        <p>As a<sub>n</sub>= a + (n – 1) d,</p>
+        <p>we have <input type="text" class="answer" id="input5" maxlength="2" size="2" data-answer="99"> = <input type="text" class="answer" id="input6" maxlength="2" size="2" data-answer="12"> + (n – 1) × <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="3"></p>
+        <p>i.e., <input type="text" class="answer" id="input8" maxlength="2" size="2" data-answer="87"> = (n – 1) × <input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="3"></p>
+        <div>
+            <span> i.e., n – 1 = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input10" maxlength="2" size="2" data-answer="87"></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="3"></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input12" maxlength="2" size="2" data-answer="29"></span>
+        </div>
+        <p>i.e., n = <input type="text" class="answer" id="input13" maxlength="2" size="2" data-answer="29"> + 1 = <input type="text" class="answer" id="input14" maxlength="2" size="2" data-answer="30"> (So, 99 is the <input type="text" class="answer" id="input15" maxlength="2" size="2" data-answer="30">th term)</p>
+        <p>So, there are <input type="text" class="answer" id="input16" maxlength="2" size="2" data-answer="30"> two-digit numbers divisible by 3.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

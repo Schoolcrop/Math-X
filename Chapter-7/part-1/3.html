@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>
+        (Q3)What is the distance between two points H and C? And also find the distance between two points A and B Therefore A(-1,2),B(1,2),C(2,1),D(2,-1),E(1,-2),F(-1,-2),G(-2,-1),H(-2,1)
+    .</h2>
+    <div id="answer">
+        <p>Given: A(-1,2),B(1,2),C(2,1),D(2,-1),E(1,-2),F(-1,-2),G(-2,-1),H(-2,1)</p>
+        <p>Distance between any two points P(x<sub>1</sub>,y<sub>1</sub>) and Q(x<sub>2</sub>,y<sub>2</sub>)is</p>
+        <p>PQ=&radic;(x<sub>2</sub>-x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub>-y<sub>1</sub>)<sup>2</sup></p>
+        <p>Distance between H and C is HC</p>
+        <p>= &radic;( (2 - (-<input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="2"/>))<sup>2</sup> + (1 - <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="1"/>)<sup>2</sup>)</p>
+        <p>= &radic;<input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="16"/></p>
+        <p>= <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="4"/>units</p>
+        <p>Distance between the A and B is </p>
+        <p>AB = &radic;( (1 - (-<input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="1"/>) )<sup>2</sup> + (2 - <input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="2"/>)<sup>2</sup>)</p>
+        <p>= &radic;<input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="4"/></p>
+        <p>= <input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="2"/></p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

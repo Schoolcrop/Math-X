@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>
+        (Q12)In a class of 60 students, each boy contributed rupees equal to the number of girls and each girl contributed rupees equal to the 
+        number of boys. If the total money then collected was Rs. 1600, how many boys are there in the class?
+    </h2>
+    <div id="answer">
+        <p>Let the number of boys in the class = x</p>
+        <p>Then number of girls in the class = 60 - x[&because;total students = 60]</p>
+        <p>Money contributed by the boys = x(60 - x) = 60 - x<sup>2</sup>[&because; given]</p>
+        <p>Money contributed by the girls = (60 - x)x = 60x - x<sup>2</sup></p>
+        <p>&#8756; Money contributed by the class = 120x - 2x<sup>2</sup></p>
+        <p>By problem 120x - 2x<sup>2</sup> = 1600</p>
+        <p>2x<sup>2</sup> - 120x + 1600 = 0</p>
+        <p>x<sup>2</sup> - 60x + 800 = 0</p>
+        <p>x<sup>2</sup>-<input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="40"/>x - 20x + 800 = 0</p>
+        <p>x(x - <input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="40"/>) - 20(x - <input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="40"/>) = 0</p>
+        <p>(x - <input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer = "40"/>)(x - 20) = 0</p>
+        <p>x = <input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="40"/> (or) 20</p>
+        <p>&there4;Boys=<input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="40"/> or 20 Girls = 20 or <input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="40"/>.</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

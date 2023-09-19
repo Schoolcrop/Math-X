@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+<body>
+    <div id="question">
+        <h3>For which value of acute angle <br/>(i)<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> cos&theta;</div>
+            <div style="text-align: center;"> 1-sin&theta;</div>
+        </span>+<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> cos&theta;</div>
+            <div style="text-align: center;"> 1+sin&theta;</div>
+        </span>=4 is true? For witch value of 0&#176; &#8804; &theta; 90&#176;,above equation is not defined?</h3>
+    </div>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        Given <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> cos&theta;</div>
+            <div style="text-align: center;"> 1-sin&theta;</div>
+        </span>+<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> cos&theta;</div>
+            <div style="text-align: center;"> 1+sin&theta;</div>
+        </span>=4<br/><br/>
+        <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> cos&theta;(1+sin&theta;)+cos&theta;(1-sin&theta;)</div>
+            <div style="text-align: center;"> (1-sin&theta;)(1+sin&theta;)</div>
+        </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> 4</div>
+            <div style="text-align: center;"> 1</div>
+        </span><br/><br/>
+        <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> cos&theta;+cos&theta;.sin&theta;+cos&theta;-cos&theta;.sin&theta;</div>
+            <div style="text-align: center;"> 1-sin<sup>2</sup>&theta;</div>
+        </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> 4</div>
+            <div style="text-align: center;"> 1</div>
+        </span><br/><br/>
+        <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> 2cos&theta;</div>
+            <div style="text-align: center;"> cos<sup>2</sup>&theta;</div>
+        </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> 4</div>
+            <div style="text-align: center;"> 1</div>
+        </span><br/><br/>
+        <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> 2</div>
+            <div style="text-align: center;"> cos&theta;</div>
+        </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> 4</div>
+            <div style="text-align: center;"> 1</div>
+        </span>[by cross multiplication]<br/><br/>
+        cos&theta;=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">  <input type="text" class="answer" id="input1" maxlength="8" size="1" data-answer="1" /></div>
+            <div style="text-align: center;">  <input type="text" class="answer" id="input2" maxlength="8" size="1" data-answer="2" /></div>
+        </span><br/><br/>
+        cos&theta;=cos <input type="text" class="answer" id="input3" maxlength="8" size="1" data-answer="60" />&#176;<br/><br/>
+        &theta;=<input type="text" class="answer" id="input3" maxlength="8" size="1" data-answer="60" />&#176;<br/><br/>
+         Is given statement is <input type="radio" name="r" value="true"/>true<input type="radio" name="r" value="false" />false
+        </div>
+        <div class="button-container">
+            <button id="check-button" onclick="checkAnswers()">check Answer</button>
+            <button id="clear-button" onclick="clearAnswers()">clear</button>
+            </div>
+            <script src="../../Assets/js/javascript.js"></script>
+    
+</body>
+</html>

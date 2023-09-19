@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <div style="padding-left: 20px;">
+        <h2>(Q7).Show that every positive even integer is of the form 2q, and that every positive odd integer is of the form 2q + 1, where q is some integer.</h2>
+        <div>
+            <p>Let a be any positive integer and b = 2.</p>
+            <p>Then, by division algorithm, a = 2q + r,</p>
+            <p>for some integer q > 0, and r = 0 or r = 1,</p>
+            <p>because 0 < r < 2. So, a = 2q or 2q + 1.</p>
+            <p>If a is of the form 2q, then a is an <input type="text" class="answer" id="input1" maxlength="4" size="4" data-answer="even"> integer.</p>
+            <p>Also, a positive integer can be either even or <input type="text" class="answer" id="input2" maxlength="3" size="3" data-answer="odd">.</p>
+            <p>it is in the form of 2q + 1, so it is called as positive <input type="text" class="answer" id="input3" maxlength="3" size="3" data-answer="odd"> integer.</p>
+            <p>Example => q = 1</p>
+            <p style="padding-left: 96px;"> = 2q + 1</p>
+            <p style="padding-left: 96px;"> = 2(<input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="1">) + 1 = <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="3"></p>
+        </div>
+        <div class="button-container">
+            <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+            <button id="clear-button" onclick="clearAnswers()">Clear</button>
+        </div>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        table{
+            border: 2px solid black;border-collapse: collapse;
+        }
+        td{
+            border: 2px solid black;text-align: center;border-collapse: collapse;width: 150px;height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h2>(Q2) Does y = x+7 represent a straight line ? Draw the line on the coordinate plane.At which point does this line intersect Y- axis? How much angle does it make with X axis? Discuss with your friends.</h2>
+    <div id="answer">
+         <p>Yes. y=x+7 represents a straight line.</p>
+         <table>
+            <tr>
+                <th colspan="4">y = x+7</th>
+            </tr>
+            <tr>
+                <td>x</td>
+                <td><input type="text" class="answer" id="input1"  maxlength="1" size="1" data-answer="0"/></td>
+                <td>-<input type="text" class="answer" id="input2"  maxlength="1" size="1" data-answer="7"/></td>
+                <td><input type="text" class="answer" id="input3"  maxlength="1" size="1" data-answer="2"/></td>
+            </tr>
+             <tr>
+                <td>y</td>
+                <td><input type="text" class="answer" id="input4"  maxlength="1" size="1" data-answer="7"/></td>
+                <td><input type="text" class="answer" id="input5"  maxlength="1" size="1" data-answer="0"/></td>
+                <td><input type="text" class="answer" id="input6"  maxlength="1" size="1" data-answer="9"/></td>
+             </tr>
+             <tr>
+                <td>(x,y)</td>
+                <td>(<input type="text" class="answer" id="input7"  maxlength="1" size="1" data-answer="0"/>,<input type="text" class="answer" id="input8"  maxlength="1" size="1" data-answer="7"/>)</td>
+                <td>(-<input type="text" class="answer" id="input9"  maxlength="1" size="1" data-answer="7"/>,<input type="text" class="answer" id="input10"  maxlength="1" size="1" data-answer="0"/>)</td>
+                <td>(<input type="text" class="answer" id="input11"  maxlength="1" size="1" data-answer="2"/>,<input type="text" class="answer" id="input12"  maxlength="1" size="1" data-answer="9"/>)</td>
+             </tr>
+
+
+         </table>
+         <p>Angle made by y = x+7 with X-axis is 45&deg; ((0,7) and (-7,0) are equidistant from the origin and hence the triangle formed is right isosceles triangle).</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

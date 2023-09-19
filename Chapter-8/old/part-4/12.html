@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{padding: 10px;}
+    </style>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <div>
+        <h2>(Q12) Prove that three times the square of any side of an equilateral triangle is equal to four times the square of the altitude.</h2>
+    </div>
+    <div>
+        <p><b>Solution : </b></p>
+        <img src="" alt="image">
+        <p><b>Given :</b>&#8710;ABC, an equilateral triangle;</p>
+        <p>AD - altitude and the side is a units, altitude h units.</p>
+        <p><b>R.T.P :</b> 3a<sup>2</sup> = 4h<sup>2</sup></p>
+        <p><b>Proof : </b> In &#8710;ABD, &#8710;ACD</p>
+        <p>&#8736;B = &#8736; <input type="text" class="answer" id="input1" maxlength="1" size="1"data-answer="C"> [&#8757; 60&deg;]</p>
+        <p>&#8736;ADB = &#8736; <input type="text" class="answer" id="input2" maxlength="3" size="3"data-answer="ADC,CDA"> [&#8757; 90&deg;]</p>
+        <p>&#8756; &#8736;BAD = &#8736; <input type="text" class="answer" id="input3" maxlength="3" size="3"data-answer="DAC,CAD"> [&#8757; Angle sum property]</p>
+        <p>Also, BA = CA</p>
+        <p>&#8756; &#8710;ABD s &#8710;ACD (by SAS congruence condition)</p>
+        <div>
+            <span>Hence, BD = CD = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span><input type="text" class="answer" id="input4" maxlength="2" size="2"data-answer="BC,CB"> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input5" maxlength="1" size="1"data-answer="a"></div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>[&#8757; c.p.c.t]</span>
+        </div>
+        <p>Now in &#8710;ABD, AB<sup>2</sup> = ( <input type="text" class="answer" id="input6" maxlength="2" size="2"data-answer="AD,DA"> )<sup>2</sup> + BD<sup>2</sup></p>
+        <p>[&#8757; Pythagoras theorem]</p>
+        <div>
+            <span>( <input type="text" class="answer" id="input7" maxlength="1" size="1"data-answer="a"> )<sup>2</sup> = ( <input type="text" class="answer" id="input8" maxlength="1" size="1"data-answer="h"> )<sup>2</sup> + (</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">a</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>)<sup>2</sup></span>
+        </div>
+        <div>
+            <span>( <input type="text" class="answer" id="input9" maxlength="1" size="1"data-answer="a"> )<sup>2</sup> = ( <input type="text" class="answer" id="input10" maxlength="1" size="1"data-answer="h"> )<sup>2</sup> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">a<sup>2</sup></div>
+                <div style="text-align: center;">4</div>
+            </span>
+        </div>
+        <div>
+            <span>h<sup>2</sup> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">4a<sup>2</sup> - a<sup>2</sup></div>
+                <div style="text-align: center;">4</div>
+            </span>
+        </div>
+        <div>
+            <span>&#8756; h<sup>2</sup> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">3a<sup>2</sup></div>
+                <div style="text-align: center;">4</div>
+            </span>
+        </div>
+        <p>&rArr; 4h<sup>2</sup> = 3a<sup>2</sup></p>
+    </div>
+    <div class="button-container">
+        <button id="check-button" onclick="checkAnswers()">Check Answer</button>
+        <button id="clear-button" onclick="clearAnswers()">Clear</button>
+    </div>
+</body>
+</html>

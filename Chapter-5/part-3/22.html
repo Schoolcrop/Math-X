@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q22)The sum of the reciprocals of Rehman's ages,(in years )3 years ago and 5 years from now is  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+        <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+        <div style="text-align: center;">3</div>
+        </span>. Find his present age.
+    </h2>
+    <div id="answer">
+        <p>Let the present age of Rehman be x years.</p>
+        <div>
+            3 years ago Rehman's age = x - 3 and its reciprocal is  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">x-3</div>
+                </span>
+        </div>
+        <div>
+            Rehman's age 5 years from now = x + 5 and its reciprocal is  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">x+5</div>
+                </span>
+        </div>
+        <p>The sum of reciprocals </p>
+        <div>
+              = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">x-3</div>
+                </span> +  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;">x+5</div>
+                    </span> =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                        <div style="text-align: center; border-bottom: 1px solid black;">(x+5)+(x-3)</div>
+                        <div style="text-align: center;">(x-3)(x+5)</div>
+                        </span>
+        </div><br/>
+        <div>
+            =   <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">x+5+x-3</div>
+                <div style="text-align: center;">x(x+5)-3(x+5)</div>
+                </span>
+        </div><br/>
+        <div>
+            =    <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">2x+2</div>
+                <div style="text-align: center;">x<sup>2</sup> + 5x - 3x - 15</div>
+                </span>
+        </div><br/>
+        <div>
+            =    <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">2x + 2</div>
+                <div style="text-align: center;">x<sup>2</sup> + 2x - 15</div>
+                </span>
+        </div>
+        <div>
+            By problem  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">2(x+1)</div>
+                <div style="text-align: center;">x<sup>2</sup> + 2x - 15</div>
+                </span> =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;">3</div>
+                    </span>
+        </div>
+        <p>x<sup>2</sup> + 2x - 15 = 3(2x+2)</p>
+        <p>x<sup>2</sup> + 2x - 15 = 6x + 6</p>
+        <p>x<sup>2</sup> + 2x - 15 - 6x - 6 = 0</p>
+        <p>x<sup>2</sup> - 4x - 21 = 0</p>
+        <p>x<sup>2</sup> - <input type="text" class="answer" id="input1" maxlength="5" size="1" data-answer="7"/>x + 3x - 21 = 0</p>
+        <p>x(x - <input type="text" class="answer" id="input2" maxlength="5" size="1" data-answer="7"/>) + 3(x - <input type="text" class="answer" id="input3" maxlength="5" size="1" data-answer="7"/>)=0</p>
+        <p>(x - <input type="text" class="answer" id="input4" maxlength="5" size="1" data-answer="7"/>)(x + 3) = 0</p>
+        <p>x - <input type="text" class="answer" id="input5" maxlength="5" size="1" data-answer="7"/>= 0 or x + 3 = 0</p>
+        <p>x = <input type="text" class="answer" id="input6" maxlength="5" size="1" data-answer="7"/> or x = -3</p>
+        <p>But x can't be negative, x = <input type="text" class="answer" id="input7" maxlength="5" size="1" data-answer="7"/> </p>
+        <p>Present age of Rehman =<input type="text" class="answer" id="input8" maxlength="5" size="1" data-answer="7"/> years.</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q2).show that &#8730;2 is irrational .</h2>
+    <div>
+        <p>Let us assume that &#8730;2 is rational.</p>
+        <span>If it is rational, then there must exist two integers r and s (s &ne; 0) such that &#8730;2=</span>
+        <span style="display: inline-block;vertical-align: middle;">
+            <div style="text-align: center; border-bottom: 1px solid black;">r</div>
+            <div style="text-align: center;">s</div>
+        </span> .
+        <p>If r and s have a common factor other than 1, then,</p>
+        <span>we divide r and s by their highest common factor to get &#8730;2=</span>
+        <span style="display: inline-block;vertical-align: middle;">
+            <div style="text-align: center; border-bottom: 1px solid black;">a</div>
+            <div style="text-align: center;">b</div>
+        </span> ,
+        <p>where a and b are co-prime. So,b&#8730;2 = a.</p>
+        <p>we get 2b<sup>2</sup> = a<sup>2 . Therefore, 2 divides a2.</sup></p>
+        <p>On squaring both sides and rearranging</p>
+        <p>Now, by Theorem 1.6, it follows that since 2 is dividing a<sup>2</sup>, it also divides a.</p>
+        <p>So, we can write a= 2c for some integer c.</p>
+        <p>Substituting for a, we get 2b<sup>2</sup>=4c<sup>2</sup>, that is , b<sup>2</sup>=2c<sup>2</sup>.</p>
+        <p>This means that 2 divides b<sup>2</sup>, and so 2 divides b</p>
+        <p>(again using Theorem 1.6 with p-2)</p>
+        <p>Therefore, both a and b have 2 as a common factor.</p>
+        <p>But this contradicts the fact that a and b are <input type="text" class="answer" id="input1" maxlength="8" size="8" data-answer="co-prime">.</p>
+        <p>This contradiction has arisen because of our assumption that &#8730;2 is rational.</p>
+        <p>Thus our assumption is false. So, we conclude that &#8730;2 is irrational.</p>
+        <p>So it is &#8730;2 is <input type="text" class="answer" id="input2" maxlength="10" size="10" data-answer="irrational"></p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

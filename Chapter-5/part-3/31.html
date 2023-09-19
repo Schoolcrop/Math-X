@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2> 
+        (Q31)An object is thrown upwards with an initial velocity od 17 m/sec from a building with 12m height. It is at a height of S = 12 + 17t -5t<sup>2</sup>
+        from the ground after a flight of 't' seconds. Find the time taken by the object to touch the ground.
+    </h2>
+    <div id="answer">
+        <p>Let the time taken by the object to reach the ground= 't' sec</p>
+        <p>Then the distance between the object and the ground becomes '0'<br/> i.e S=0</p>
+        <p>12 + 17t - 5t<sup>2</sup> = 0</p>
+        <p>5t<sup>2</sup> - 17t - 12 = 0</p>
+        <p>5t<sup>2</sup> - <input type="text" class="answer" id="input1" maxlength="5" size="1" data-answer="20"/>t + 3t - 12 = 0</p>
+        <p>5t(t - <input type="text" class="answer" id="input2" maxlength="5" size="1" data-answer="4"/>) + 3(t - <input type="text" class="answer" id="input3" maxlength="5" size="1" data-answer="4"/>) = 0</p>
+        <p>(t - <input type="text" class="answer" id="input4" maxlength="5" size="1" data-answer="4"/>)(5t + 3) = 0</p>
+        <p>t - <input type="text" class="answer" id="input5" maxlength="5" size="1" data-answer="4"/> = 0  or  5t + 3 = 0</p>
+        <div>
+            t = <input type="text" class="answer" id="input6" maxlength="5" size="1" data-answer="4"/>  or 5t = -3 <br/> t= <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-3</div>
+                <div style="text-align: center;">5</div>
+                </span>
+        </div>
+        <p>Since 't' is time, it must be positive.</p>
+        <p>After 4 seconds the object touches the ground.</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

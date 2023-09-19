@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q30)Show that the following points form an equilateral triangle A(a,0) , B(-a,0) , C(0,a&radic;3).</h2>
+    <div id="answer">
+        <p>Given A(a,0) , B(-a,0) C(0,a&radic;3)</p>
+        <p>Distance = <span>&#8730;</span><span  style="border-top: 1px solid black">((x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup>)</span></p>
+        <p>AB = <span>&#8730;</span><span  style="border-top: 1px solid black">((-<input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="a"/> - <input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="a"/>)<sup>2</sup> + (<input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="0"/> - <input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="0"/>)<sup>2</sup>)</span> = <span>&#8730;</span><span  style="border-top: 1px solid black"><input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="4"/></span>a<sup>2</sup> = <input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="2"/>a</p>
+        <p>BC = <span>&#8730;</span><span  style="border-top: 1px solid black">((<input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="0"/> + <input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="a"/>)<sup>2</sup> + (a<span>&#8730;</span>3 <span  style="border-top: 1px solid black">- <input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="0"/>)<sup>2</sup>)</span></span>  = <span>&#8730;</span><span  style="border-top: 1px solid black"><input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="4"/></span>a<sup>2</sup> = <input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="2"/>a </p>
+        <p>CA = <span>&#8730;</span><span  style="border-top: 1px solid black">((<input type="text" class="answer" id="input12" maxlength="3" size="1" data-answer="0"/> -<input type="text" class="answer" id="input13" maxlength="3" size="1" data-answer="a"/>)<sup>2</sup>+ (a <span>&#8730;</span><span  style="border-top: 1px solid black">3 - <input type="text" class="answer" id="input14" maxlength="3" size="1" data-answer="0"/>)<sup>2</sup>)</span> </span> = <span>&#8730;</span><span  style="border-top: 1px solid black"><input type="text" class="answer" id="input15" maxlength="3" size="1" data-answer="4"/></span>a<sup>2</sup> = <input type="text" class="answer" id="input16" maxlength="3" size="1" data-answer="2"/>a </p>
+        <p>Now AB = BC = CA </p>
+        <p>&#8756; ABC is an equilateral triangle.</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q7).A sum of ₹ 1000 is invested at 8% simple interest per year. Calculate the interest at the end of each year. Do these interests form an AP? If so, find the interest at the end of 30 years.</h2>
+    <div style="margin-left: 20px;">
+        <p> We know that the formula to calculate simple interest is given by</p>
+        <div>
+            <span> Simple Interest = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">P &times; R &times; T</div>
+                <div style="text-align: center;">100</div>
+            </span>
+        </div>
+        <div>
+            <span> So, the interest at the end of the 1<sup>st</sup>year = ₹ </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1000 &times; 8 &times; <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="1"></div>
+                <div style="text-align: center;">100</div>
+            </span>
+            <span> = ₹<input type="text" class="answer" id="input2" maxlength="2" size="2" data-answer="80"></span>
+        </div>
+        <div>
+            <span>The interest at the end of the 2<sup>nd</sup> year =  ₹ </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1000 &times; 8 &times; <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="2"></div>
+                <div style="text-align: center;">100</div>
+            </span>
+            <span> = ₹<input type="text" class="answer" id="input4" maxlength="3" size="3" data-answer="160"></span>
+        </div>
+        <div>
+            <span>The interest at the end of the 3<sup>rd</sup> year = ₹ </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1000 &times; 8 &times; <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="3"></div>
+                <div style="text-align: center;">100</div>
+            </span>
+            <span> = ₹<input type="text" class="answer" id="input6" maxlength="3" size="3" data-answer="240"></span>
+        </div>
+        <p>Similarly, we can obtain the interest at the end of the 4<sup>th</sup> year, 5<sup>th</sup> year, and so on. So, the interest (in Rs) at the end of the 1<sup>st</sup>, 2<sup>nd</sup>, 3<sup>rd</sup>, . . . years, respectively are <input type="text" class="answer" id="input7" maxlength="2" size="2" data-answer="80">, <input type="text" class="answer" id="input8" maxlength="3" size="3" data-answer="160">, <input type="text" class="answer" id="input9" maxlength="3" size="3" data-answer="240">, . . .</p>
+        <p>It is an AP as the difference between the consecutive terms in the list is <input type="text" class="answer" id="input10" maxlength="2" size="2" data-answer="80">,</p>
+        <p>i.e., d = <input type="text" class="answer" id="input11" maxlength="2" size="2" data-answer="80">. Also, a = <input type="text" class="answer" id="input12" maxlength="2" size="2" data-answer="80"></p>
+        <p>So, to find the interest at the end of 30 years, we shall find a<sub>30</sub></p>
+        <p>Now, a<sub>30</sub> = a + (<input type="text" class="answer" id="input13" maxlength="2" size="2" data-answer="30"> – 1) d = <input type="text" class="answer" id="input14" maxlength="2" size="2" data-answer="80"> + <input type="text" class="answer" id="input15" maxlength="2" size="2" data-answer="29"> × <input type="text" class="answer" id="input16" maxlength="2" size="2" data-answer="80"> = <input type="text" class="answer" id="input17" maxlength="4" size="4" data-answer="2400"></p>
+        <p>So, the interest at the end of 30 years will be ₹ <input type="text" class="answer" id="input18" maxlength="4" size="4" data-answer="2400"></p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

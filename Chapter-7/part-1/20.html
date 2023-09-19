@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q20)Do the points (3,2),(-2,-3) and (2,3) from a triangle?</h2>
+    <div id="answer">
+        <h4><u>Answer</u></h4>
+        <p>Let us apply the distance formula to find the lengths PQ,QR, and PR, where P(3,2),Q(-2,-3) and R(2,3) are the given points.We have</p>
+        <p>PQ=&radic;((-<input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="2"/>-<input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="3"/>)<sup>2</sup> + (-<input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="3"/>-<input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="2"/>)<sup>2</sup>)</p>
+        <p>=&radic;((-<input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="5"/>)<sup>2</sup> + (-<input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="5"/>)<sup>2</sup>)</p>
+        <p>=&radic;<input type="text" class="answer" id="input5" maxlength="2" size="1" data-answer="50"/></p>
+        <p>=<input type="text" class="answer" id="input6" maxlength="2" size="1" data-answer="7"/>.07units(approx)</p>
+        <p> QR=&radic;((<input type="text" class="answer" id="input7" maxlength="2" size="1" data-answer="2"/>-(-<input type="text" class="answer" id="input8" maxlength="2" size="1" data-answer="2"/>))<sup>2</sup> + (<input type="text" class="answer" id="input9" maxlength="2" size="1" data-answer="3"/>-(-<input type="text" class="answer" id="input10" maxlength="2" size="1" data-answer="3"/>))<sup>2</sup>)</p>
+        <p>=&radic;(<input type="text" class="answer" id="input11" maxlength="2" size="1" data-answer="4"/><sup>2</sup> + <input type="text" class="answer" id="input12" maxlength="2" size="1" data-answer="6"/><sup>2</sup>)</p>
+        <p>=&radic;<input type="text" class="answer" id="input13" maxlength="2" size="1" data-answer="52"/></p>
+        <p>=<input type="text" class="answer" id="input14" maxlength="2" size="1" data-answer="7"/>.21units(approx)</p>
+        <p>PR=&radic;((<input type="text" class="answer" id="input15" maxlength="2" size="1" data-answer="2"/>-<input type="text" class="answer" id="input16" maxlength="2" size="1" data-answer="3"/>)<sup>2</sup> + (<input type="text" class="answer" id="input17" maxlength="2" size="1" data-answer="3"/>-<input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="2"/>)<sup>2</sup>)</p>
+        <p>=&radic;((-<input type="text" class="answer" id="input18" maxlength="2" size="1" data-answer="1"/>)<sup>2</sup> + <input type="text" class="answer" id="input19" maxlength="2" size="1" data-answer="1"/><sup>2</sup>)</p>
+        <p>=&radic;<input type="text" class="answer" id="input20" maxlength="2" size="1" data-answer="2"/></p>
+        <p>=<input type="text" class="answer" id="input21" maxlength="2" size="1" data-answer="1"/>.41units(approx)</p>
+        <p>Since the sum of any two of these lengths is greater than the third length, the points P,Q and R from a triangle and all the sides of triangle are unequal.</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

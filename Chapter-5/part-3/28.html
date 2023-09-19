@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>
+       (Q28) An express train takes 1 hour less than a passenger train to travel 132 km between Mysore and Bangalore (without taking into consideration the time 
+        they stop at intermediate stations). If the average speed of the express train is 11km/hr more than that of the passenger train, find the average speed of the two trains.
+    </h2>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>Let the speed of the passenger train = x kmph</p>
+        <p>Then speed of the express train = x + 11 kmph</p>
+        <p>Distance travelled = 132 km</p>
+        <div>
+           We know that time = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">distance</div>
+            <div style="text-align: center;">speed</div>
+            </span> 
+        </div>
+        <div>
+            By problem <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">132</div>
+                <div style="text-align: center;">x</div>
+                </span> - <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">132</div>
+                    <div style="text-align: center;">x + 11</div>
+                    </span> = 1
+        </div><br/>
+        <div>
+            = 132(<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">x</div>
+                </span> - <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;">x + 11</div>
+                    </span> ) = 1
+        </div><br/>
+        <div>
+            = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">x + 11 - x</div>
+                <div style="text-align: center;">x(x + 11)</div>
+                </span> = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;">132</div>
+                    </span> 
+        </div><br/>
+        <div>
+            = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">11</div>
+                <div style="text-align: center;">x<sup>2</sup> + 11x</div>
+                </span> = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;">132</div>
+                    </span> 
+        </div>
+        <p>x<sup>2</sup> + 11x = 13 &times; 11</p>
+        <p>x<sup>2</sup> + 11x - 1452 = 0</p>
+        <p>x<sup>2</sup> + 44x - <input type="text" class="answer" id="input1" maxlength="5" size="1" data-answer="33"/>x - 1452 = 0</p>
+        <p>x(x + 44) - <input type="text" class="answer" id="input2" maxlength="5" size="1" data-answer="33"/>(x + 44) = 0</p>
+        <p>(x + 44) (x - <input type="text" class="answer" id="input3" maxlength="5" size="1" data-answer="33"/>) = 0</p>
+        <p>x + 44 = 0 or x-<input type="text" class="answer" id="input4" maxlength="5" size="1" data-answer="33"/> = 0</p>
+        <p>x = -44 or x = <input type="text" class="answer" id="input5" maxlength="5" size="1" data-answer="33"/></p>
+        <p>But x can't be negative. </p>
+        <p>&there4; Speed of the passenger train = x = <input type="text" class="answer" id="input6" maxlength="5" size="1" data-answer="33"/> kmph.</p>
+        <p>Speed of the express train = x + 11 = <input type="text" class="answer" id="input7" maxlength="5" size="1" data-answer="44"/> kmph.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

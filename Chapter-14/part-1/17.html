@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+            padding: 10px;
+         }
+         table {
+            border: 2px solid black;border-collapse: collapse; text-align: center;
+         }
+         td{
+            border: 2px solid black; width: 55px; height: 30px;
+         }
+         th{
+            border: 2px solid black; width: 200px;text-align:center;height:50px;
+         }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>(Q17). The following table gives the literacy rate (in percentage) of 35 cities. Find the mean literacy rate.</h2>
+        <table>
+            <tr>
+                <td style="width: 200px;">Literacy rate in %</td>
+                <td>45-55</td>
+                <td>55-65</td>
+                <td>65-75</td>
+                <td>75-85</td>
+                <td>85-95</td>
+            </tr>
+            <tr>
+                <td>Number of cities</td>
+                <td>3</td>
+                <td>10</td>
+                <td>11</td>
+                <td>8</td>
+                <td>3</td>
+            </tr>
+        </table>
+    </div> 
+    <div id="answer">
+        <h4>Solution :</h4>
+        <table>
+            <tr>
+                <th>Number of days</th>
+                <th>Number of students (f<sub>i</sub>)</th>
+                <th> Class marks x<sub>i</sub></th>
+                <th>
+                    <span>u<sub>i</sub> = </span>
+                    <span style="display: inline-block;vertical-align: middle;"> 
+                        <div style="text-align: center; border-bottom: 1px solid black;">x<sub>i</sub> - a</div>
+                        <div style="text-align: center;">h</div>
+                    </span>
+                </th>
+                <th>f<sub>i</sub>u<sub>i</sub></th>
+            </tr>
+            <tr>
+                <td>45-55</td>
+                <td>3</td>
+                <td>50</td>
+                <td>-2</td>
+                <td>-<input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="6"/></td>
+            </tr>
+            <tr>
+                <td>55-65</td>
+                <td>10</td>
+                <td>60</td>
+                <td>-1</td>
+                <td>-<input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="10"/></td>
+            </tr>
+            <tr>
+                <td>65-75</td>
+                <td>11</td>
+                <td>70 a</td>
+                <td>0</td>
+                <td><input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="0"/></td>
+            </tr>
+            <tr>
+                <td>75-85</td>
+                <td>8</td>
+                <td>80</td>
+                <td>1</td>
+                <td><input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="8"/></td>
+            </tr>
+            <tr>
+                <td>85-95</td>
+                <td>3</td>
+                <td>90</td>
+                <td>2</td>
+                <td><input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="6"/></td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>&#8721;f<sub>i</sub> = 35 </td>
+                <td>-</td>
+                <td>-</td>
+                <td>&#8721;f<sub>i</sub>u<sub>i</sub> = -<input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="2"/></td>
+            </tr>
+        </table>
+        <p>Here a = 70, h = 10,</p>
+        <p>Now, </p>
+        <div>
+            <span> x&#772; = a + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">&#8721;f<sub>i</sub>u<sub>i</sub></div>
+                <div style="text-align: center;">&#8721;f<sub>i</sub></div>
+            </span>
+            <span>&times; h </span>
+        </div>
+        <div>
+            <span> x&#772; = 70 - </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="2"/></div>
+                <div style="text-align: center;">35</div>
+            </span>
+            <span> &times; 10 = <input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="69"/>.4285</span>
+        </div>
+    </div>   
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script> 
+</body>
+</html>

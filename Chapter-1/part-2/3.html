@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <div style="padding-left: 20px;">
+        <h2>(Q3).Consider the numbers of the form 4<sup>n</sup> where n is a natural number. Check whether there is any value of n for which 4<sup>n</sup> ends with zero?</h2>
+        <p>If 4<sup>n</sup> is to end with zero for a natural number n, it should be divisible by 2 and 5</p>
+        <p>Prime factors of 4<sup>n</sup> should contain 2 and 5</p>
+        <p>4<sup>n</sup> = 2<sup>2n</sup></p>
+        <p>Here only 2 is <input type="text" class="answer" id="input1" maxlength="5" size="5" data-answer="prime"> factor.</p>
+        <p>Hence no natural number n for which 4<sup>n</sup> ends with the digit <input type="text" class="answer" id="input2" maxlength="4" size="4" data-answer="zero">.</p>
+        <div class="button-container">
+            <!--<button id="check-button" onclick="checkAnswers()">Check Answer</button>-->
+            <button id="clear-button" onclick="clearAnswers()">Clear</button>
+        </div>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

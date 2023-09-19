@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>(Q2)Harpreet tosses two different coins simultaneously (say, one is of &#8377;1 and other of &#8377;2). What is the probability that she gets at least one head?</h2>
+    </div>
+    <div>
+        <b>Solution : </b>
+        <p>We write H for 'head' and T for 'tail'. When two coins are tossed simultaneously, the possible outcomes are (H, H), (H, T), (T, H), (T, T), which are all equally likely. Here (H, H) means heads on the first coin (say on &#8377;1) and also heads on the second coin (&#8377;2). Similarly (H,T) means heads up on the first coin and tail up on the second coin and so on</p>
+        <p>The outcomes favourable to the event E, 'at least one head' are (H, H), (H, T) and (T, H).</p>
+        <p>So, the number of outcomes favourable to E is <input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="3"/>.</p>
+        <div>
+            <span>&emsp; &#8756; P(E) = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="3"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="4"/></div>
+            </span>
+            <span>[Since the total possible outcomes = <input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="4"/>]</span><br>
+            <span>i.e., the probability that Harpreet gets at least one head is </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input5" maxlength="2" size="1" data-answer="3"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input6" maxlength="2" size="1" data-answer="4"/></div>
+            </span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q2).Which term of the AP : 21, 18, 15, . . . is – 81? Is there any term 0? Give reason for your answer</h2>
+    <div style="margin-left: 20px;">
+        <p>Here, a = 21, d = <input type="text" class="answer" id="input1" maxlength="2" size="2" data-answer="18"> – <input type="text" class="answer" id="input2" maxlength="2" size="2" data-answer="21"> = – <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="3"> and if a<sub>n</sub> = – <input type="text" class="answer" id="input4" maxlength="2" size="2" data-answer="81">, we have to find n.</p>
+        <p>As a<sub>n</sub> = a + ( n – 1) d,</p>
+        <p>we have – <input type="text" class="answer" id="input5" maxlength="2" size="2" data-answer="81"> = 21 + (n – 1)(– <input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="3">)</p>
+        <p>– <input type="text" class="answer" id="input7" maxlength="2" size="2" data-answer="81"> = <input type="text" class="answer" id="input8" maxlength="2" size="2" data-answer="24"> – <input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="3">n</p>
+        <p>– <input type="text" class="answer" id="input10" maxlength="3" size="3" data-answer="105"> = – <input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="3">n</p>
+        <p>So, n = <input type="text" class="answer" id="input12" maxlength="2" size="2" data-answer="35"></p>
+        <p>Therefore, the 35th term of the given AP is – 81</p>
+        <p>Next, we want to know if there is any n for which a<sub>n</sub> = 0. If such n is there, then</p>
+        <p> a + (n - 1) d = 0</p>
+        <p><input type="text" class="answer" id="input13" maxlength="2" size="2" data-answer="21"> + (n – 1) (–<input type="text" class="answer" id="input14" maxlength="1" size="1" data-answer="3">) = 0,</p>
+        <p>i.e., <input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="3">(n – 1) = <input type="text" class="answer" id="input16" maxlength="2" size="2" data-answer="21"></p>
+        <p>i.e., n = <input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="8"></p>
+        <p>So, the eighth term is <input type="text" class="answer" id="input18" maxlength="1" size="1" data-answer="0">.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

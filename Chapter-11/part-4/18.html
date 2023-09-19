@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q18)Simplify sec A (1 – sin A) (sec A + tan A)</h2>
+    <div style="padding-left: 20px;">
+        <p>L.H.S. = sec A (1 – sin A) (sec A + tan A)</p>
+        <p>= (<input type="text" class="answer" id="input1" maxlength="3" size="3" data-answer="sec"> A – <input type="text" class="answer" id="input2" maxlength="3" size="3" data-answer="sec"> A . sin A) (sec A + tan A)</p>
+        <div>
+            <span> = (<input type="text" class="answer" id="input3" maxlength="3" size="3" data-answer="sec"> A - </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="3" size="3" data-answer="cos"> A</div>
+            </span>
+            <span> . sin A) (sec A + tan A)</span>
+        </div>
+        <P>= (<input type="text" class="answer" id="input5" maxlength="3" size="3" data-answer="sec"> A – <input type="text" class="answer" id="input6" maxlength="3" size="3" data-answer="tan"> A) (sec A + tan A)</P>
+        <P>= <input type="text" class="answer" id="input7" maxlength="3" size="3" data-answer="sec"><sup>2</sup> A – <input type="text" class="answer" id="input8" maxlength="3" size="3" data-answer="tan"><sup>2</sup> A [∵ sec<sup>2</sup> A – tan<sup>2</sup> A = 1]</P>
+        <P>= <input type="text" class="answer" id="input9" maxlength="3" size="3" data-answer="1"></P>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers();clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 10px;
+       }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+       }
+       td{
+           border: 2px solid black; width: 80px; height: 30px;
+       }
+       th{
+           border: 2px solid black; width: 120px;text-align:center;height:50px;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <h2>(Q19). Two dice are rolled simultaneously and counts are added</h2>
+        <h3>Q(i) Complete the table given below:</h3>
+        <table>
+            <tr>
+                <td style="width: 100px;">Event : 'Sum on 2 Dice'</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Probability</td>
+                <td><span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;">36</div>
+                </span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">5</div>
+                    <div style="text-align: center;">36</div>
+                </span></td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">12</div>
+                    <div style="text-align: center;">36</div>
+                </span></td>
+            </tr>
+        </table>
+        <h3><span>(ii) A student argues that 'there are 11 possible outcomes 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 and 12. Therefore, each of them has a probability</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+            <div style="text-align: center;">11</div>
+        </span><span> Do you agree with this argument? Justify your answer.</span></h3>
+    </div>
+    <div>
+        <p><b>Answer : </b></p>
+        <p>When two dice are rolled, total number of outcomes = <input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="36"/> (see the given table).</p>
+        <table>
+            <tr>
+                <td>-</td>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+            </tr>
+            <tr>
+                <td><b>1</b></td>
+                <td>1,1</td>
+                <td>1,2</td>
+                <td>1,3</td>
+                <td>1,4</td>
+                <td>1,5</td>
+                <td>1,6</td>
+            </tr>
+            <tr>
+                <td><b>2</b></td>
+                <td>2,1</td>
+                <td>2,2</td>
+                <td>2,3</td>
+                <td>2,4</td>
+                <td>2,5</td>
+                <td>2,6</td>
+            </tr>
+            <tr>
+                <td><b>3</b></td>
+                <td>3,1</td>
+                <td>3,2</td>
+                <td>3,3</td>
+                <td>3,4</td>
+                <td>3,5</td>
+                <td>3,6</td>
+            </tr>
+            <tr>
+                <td><b>4</b></td>
+                <td>4,1</td>
+                <td>4,2</td>
+                <td>4,3</td>
+                <td>4,4</td>
+                <td>4,5</td>
+                <td>4,6</td>
+            </tr>
+            <tr>
+                <td><b>5</b></td>
+                <td>5,1</td>
+                <td>5,2</td>
+                <td>5,3</td>
+                <td>5,4</td>
+                <td>5,5</td>
+                <td>5,6</td>
+            </tr>
+            <tr>
+                <td><b>6</b></td>
+                <td>6,1</td>
+                <td>6,2</td>
+                <td>6,3</td>
+                <td>6,4</td>
+                <td>6,5</td>
+                <td>6,6</td>
+            </tr>
+        </table>
+        <p>(i)</p>
+        <table>
+            <tr>
+                <th style="width: 100px;">Event : Sum on 2 dice</th>
+                <th style="width: 200px;">Favourable outcomes</th>
+                <th style="width: 130px;">No. of favourable outcomes</th>
+                <th style="width: 200px;"><span>Probability = </span>
+                    <span style="display: inline-block;vertical-align: middle;"> 
+                        <div style="text-align: center; border-bottom: 1px solid black;">No. of favourable outcomes</div>
+                        <div style="text-align: center;">No. of total outcomes</div>
+                    </span></th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>(1,1)</td>
+                <td>1</td>
+                <td><span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="36"/></div>
+                </span></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>(1,2),(2,1)</td>
+                <td>2</td>
+                <td><span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">2</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="36"/></div>
+                </span><span> = </span>
+                <span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="18"/></div>
+                </span></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>(1,3),(2,2),(3,1)</td>
+                <td>3</td>
+                <td><span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">3</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input5" maxlength="2" size="1" data-answer="36"/></div>
+                </span><span> = </span>
+                <span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input6" maxlength="2" size="1" data-answer="12"/></div>
+                </span></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>(1,4),(2,3),(3,2),(4,1)</td>
+                <td>4</td>
+                <td><span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">4</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input7" maxlength="2" size="1" data-answer="36"/></div>
+                </span><span> = </span>
+                <span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input8" maxlength="2" size="1" data-answer="9"/></div>
+                </span></td> 
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>(1,5),(2,4),(3,3),(4,2),(5,1)</td>
+                <td>5</td>
+                <td><span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">5</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input9" maxlength="2" size="1" data-answer="36"/></div>
+                </span>
+                </td> 
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)</td>
+                <td>6</td>
+                <td><span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">6</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input10" maxlength="2" size="1" data-answer="36"/></div>
+                </span><span> = </span>
+                <span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input11" maxlength="2" size="1" data-answer="6"/></div>
+                </span></td> 
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>(2,6),(3,5),(4,4),(5,3),(6,2)</td>
+                <td>5</td>
+                <td><span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">5</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input12" maxlength="2" size="1" data-answer="36"/></div>
+               </td> 
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>(3,6),(4,5),(5,4),(6,3)</td>
+                <td>4</td>
+                <td><span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">4</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input13" maxlength="2" size="1" data-answer="36"/></div>
+                </span><span> = </span>
+                <span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input14" maxlength="2" size="1" data-answer="9"/></div>
+                </span></td> 
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>(4,6),(5,5),(6,4)</td>
+                <td>3</td>
+                <td><span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">3</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input15" maxlength="2" size="1" data-answer="36"/></div>
+                </span><span> = </span>
+                <span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input16" maxlength="2" size="1" data-answer="12"/></div>
+                </span></td> 
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>(5,6),(6,5)</td>
+                <td>2</td>
+                <td><span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">2</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input17" maxlength="2" size="1" data-answer="36"/></div>
+                </span><span> = </span>
+                <span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input18" maxlength="2" size="1" data-answer="18"/></div>
+                </span></td> 
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>(6,6)</td>
+                <td>1</td>
+                <td><span style="display: inline-block;vertical-align: middle;"> 
+                    <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input19" maxlength="2" size="1" data-answer="36"/></div></span>
+                </td> 
+            </tr>
+        </table>
+        <p>(ii) The above (given) argument is wrong [from the above table].</p>
+        <p>The sum 2, 3, 4, ………… and 12 have different no. of favourable outcomes, moreover total number of outcomes are <input type="text" class="answer" id="input20" maxlength="2" size="1" data-answer="36"/>.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

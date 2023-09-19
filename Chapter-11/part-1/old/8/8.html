@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+<body>
+    <div id="question">
+        <h2>8.Express sec A and Cos A in terms of sides of right angled triangle</h2>
+    </div>
+    <div id="answer">
+        
+       <svg height="250" width="450" viewBox="-130 -110 500 500">
+         <polygon points="100 20,100 350,550 350" style="fill:none;stroke:black;stroke-width:2" />
+         <line x1 = "130" y1 ="350" x2 ="130"  y2="320" stroke ="black" stroke-width="4"/>
+         <line x1 = "133" y1 ="320" x2 ="100"  y2="320" stroke ="black" stroke-width="4"/>
+       </svg>
+       <p style="color: black; position: relative; bottom: 55px; left: 450px;">C</p>
+       <p style="color: black; position: relative; bottom: 70px; left: 210px;">B</p>
+       <p style="color: black; position: relative; bottom: 320px; left: 218px;">A</p>
+       <p style="color: black; position: relative; bottom: 280px; left: 320px;">hypotenous</p>
+       <p style="color: black; position: relative; bottom: 210px; left: 260px;">adjacent side</p>
+       <p style="color: black; position: relative; bottom: 340px; left: 110px;">oppsite side</p>
+       <div> (i)sec A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+           <div style="text-align: center; border-bottom: 1px solid black;"> hypotenous</div>
+           <div style="text-align: center;"> adjacent</div>
+           </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+           <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="AC,CA"/></div>
+           <div style="text-align: center;"> <input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="BC,CB" /></div>
+           </span>
+      </div><br/>
+      <div>(ii)cos A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+        <div style="text-align: center; border-bottom: 1px solid black;"> adjacent</div>
+        <div style="text-align: center;"> hypotenous</div>
+        </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+        <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="BC,CB" /></div>
+        <div style="text-align: center;"> <input type="text" class="answer" id="input4" maxlength="4" size="1" data-answer="AC,CA" /></div>
+         </span>
+      </div>
+    </div>
+    <div class="button-container">
+        <button id="check-button" onclick="checkAnswers()">check Answer</button>
+        <button id="clear-button" onclick="clearAnswers()">clear</button>
+    
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+    
+</body>
+</html>

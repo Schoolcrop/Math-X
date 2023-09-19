@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q9)Find the dimensions of the rectangle whose perimeter is 28 meters and whose area is 40 square meters.</h2>
+    <div id="answer">
+        <h4><u>Answer</u></h4>
+        <p>Let the length of the rectangle = x</p>
+        <p>Given perimeter = 2(1 + b) = 28</p>
+        <div>
+            (1 + b)=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">28</div>
+                <div style="text-align: center;">2</div>
+               </span> = 14
+        </div>
+        <p>Breadth of the rectangle = 14 - x</p>
+        <p>Area = length.breadth = x(14 - x) = 14x - x<sup>2</sup></p>
+        <p>
+            By problem 14x - x<sup>2</sup> = 40</p><p>
+            x<sup>2</sup> - 14x + 40 = 0</p><p>
+            x<sup>2</sup> - <input type="text" class="answeer" id="input1" maxlength="3" size="1" data-answer="10"/>x - 4x + 40 = 0</p><p>
+            x(x - <input type="text" class="answeer" id="input2" maxlength="3" size="1" data-answer="10"/>) - 4(x-<input type="text" class="answeer" id="input3" maxlength="3" size="1" data-answer="10"/>) = 0</p><p>
+            (x - <input type="text" class="answeer" id="input4" maxlength="3" size="1" data-answer="10"/>)(x - 4) = 0</p><p>
+            x - <input type="text" class="answeer" id="input5" maxlength="3" size="1" data-answer="10"/> = 0(or)x - 4 = 0</p><p>
+            x = <input type="text" class="answeer" id="input6" maxlength="3" size="1" data-answer="10"/>(or) 4</p><p>
+            &there4;Length=<input type="text" class="answeer" id="input7" maxlength="3" size="1" data-answer="10"/> m or 4 m 
+        </p>
+        <p>The breadth = 14 - <input type="text" class="answeer" id="input8" maxlength="3" size="1" data-answer="10"/> = <input type="text" class="answeer" id="input9" maxlength="3" size="1" data-answer="4"/>m (or) 14 - 4 = 10 m</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

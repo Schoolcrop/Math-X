@@ -1,0 +1,75 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+   
+ </head>
+ <body>
+    <h2>(Q9)Draw the graphs of the given polynomial and find the zeros justify the answer P(x) = x<sup>2</sup> - 1.</h2>
+    <div id="answer">
+        <p>Given polynomial p(x) = x<sup>2</sup> - 1</p>
+        <p>List of the values of p(x):</p>
+        <table border="1">
+            <tr>
+               <td>x</td>
+               <td>-2</td>
+               <td>-1</td>
+               <td>0</td>
+               <td>1</td>
+               <td>2</td>
+            </tr>
+            <tr>
+                <td>x<sup>2</sup></td>
+                <td><input type="text" class="answer" id="input1" maxlength="1" size="1" size="1" data-answer="4"></td>
+                <td><input type="text" class="answer" id="input2" maxlength="1" size="1" size="1" data-answer="1"></td>
+                <td><input type="text" class="answer" id="input3" maxlength="1" size="1" size="1" data-answer="0"></td>
+                <td><input type="text" class="answer" id="input4" maxlength="1" size="1" size="1" data-answer="1"></td>
+                <td><input type="text" class="answer" id="input5" maxlength="1" size="1" size="1" data-answer="4"></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><input type="text" class="answer" id="input6" maxlength="1" size="1" size="1" data-answer="1"></td>
+                <td><input type="text" class="answer" id="input7" maxlength="1" size="1" size="1" data-answer="1"></td>
+                <td><input type="text" class="answer" id="input8" maxlength="1" size="1" size="1" data-answer="1"></td>
+                <td><input type="text" class="answer" id="input9" maxlength="1" size="1" size="1" data-answer="1"></td>
+                <td><input type="text" class="answer" id="input10" maxlength="1" size="1" size="1" data-answer="1"></td>
+            </tr>
+            <tr>
+                <td>p(x)</td>
+                <td><input type="text" class="answer" id="input11" maxlength="1" size="1" size="1" data-answer="3"></td>
+                <td><input type="text" class="answer" id="input12" maxlength="1" size="1" size="1" data-answer="0"></td>
+                <td>-<input type="text" class="answer" id="input13" maxlength="1" size="1" size="1" data-answer="1"></td>
+                <td><input type="text" class="answer" id="input14" maxlength="1" size="1" size="1" data-answer="0"></td>
+                <td><input type="text" class="answer" id="input15" maxlength="1" size="1" size="1" data-answer="3"></td>
+            </tr>
+            <tr>
+                <td>(x,y)</td>
+                <td>(-<input type="text" class="answer" id="input16" maxlength="1" size="1" size="1" data-answer="2">,<input type="text" class="answer" id="input17" maxlength="1" size="1" size="1" data-answer="3">)</td>
+                <td>(-<input type="text" class="answer" id="input18" maxlength="1" size="1" size="1" data-answer="1">,<input type="text" class="answer" id="input19" maxlength="1" size="1" size="1" data-answer="0">)</td>
+                <td>(<input type="text" class="answer" id="input20" maxlength="1" size="1" size="1" data-answer="0">,-<input type="text" class="answer" id="input21" maxlength="1" size="1" size="1" data-answer="1">)</td>
+                <td>(<input type="text" class="answer" id="input22" maxlength="1" size="1" size="1" data-answer="1">,<input type="text" class="answer" id="input23" maxlength="1" size="1" size="1" data-answer="0">)</td>
+                <td>(<input type="text" class="answer" id="input24" maxlength="1" size="1" size="1" data-answer="2">,<input type="text" class="answer" id="input25" maxlength="1" size="1" size="1" data-answer="3">)</td>
+            </tr>
+
+        </table>
+        <p>Now lets locate the points listed above on a graph paper and draw the graph,</p>
+        <img src="../../Assets/images/3-2(9).png" height="250" width="300"/>
+        <p>Result: We observe that the graph cuts the X-axis at (-1,0) and (1,0).</p>
+        <p>So the zeros of the polynomial are 1 and 1.</p>
+        <p>Justification:</p>
+        <p>p(x) = (x+<input type="text" class="answer" id="input26" maxlength="2" size="1" data-answer="1"/>) (x-<input type="text" class="answer" id="input27" maxlength="2" size="1" data-answer="1"/>) = 0</p>
+        <p>x+<input type="text" class="answer" id="input28" maxlength="2" size="1" data-answer="1"/> = 0 and x-<input type="text" class="answer" id="input29" maxlength="2" size="1" data-answer="1"/> = 0</p>
+        <p>x = -<input type="text" class="answer" id="input30" maxlength="2" size="1" data-answer="1"/>and x =<input type="text" class="answer" id="input31" maxlength="2" size="1" data-answer="1"/> </p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers();clear_Answers();">clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+ </body>
+ </html>

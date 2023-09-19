@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q25)The difference of squares of two numbers is 180. The square of the smaller number is 
+        8 times the larger number. Find the two numbers.
+    </h2>
+    <div id="answer">
+         <h4><u>Answer</u></h4>
+         <p>Let the large number be x.</p>
+         <p>8 times larger number = Square of the smaller number = 8x</p>
+         <p>Square of the larger number = x<sup>2</sup></p>
+         <p>By problem, x<sup>2</sup>-8x=180</p>
+         <p>x<sup>2</sup> - 8x - 180 = 0</p>
+         <p>x<sup>2</sup> - <input type="text" class="answer" id="input1" maxlength="5" size="1" data-answer="18"/>x + 10x - 180 = 0</p>
+         <p>x(x - <input type="text" class="answer" id="input2" maxlength="5" size="1" data-answer="18"/>) + 10(x-<input type="text" class="answer" id="input3" maxlength="5" size="1" data-answer="18"/>) = 0</p>
+         <p>(x + 10)(x - <input type="text" class="answer" id="input4" maxlength="5" size="1" data-answer="18"/>) = 0</p>
+         <p>x + 10 = 0 or x - <input type="text" class="answer" id="input5" maxlength="5" size="1" data-answer="18"/> = 0</p>
+         <p>x = -10 or x = <input type="text" class="answer" id="input6" maxlength="5" size="1" data-answer="18"/></p>
+         <p>If x = <input type="text" class="answer" id="input7" maxlength="5" size="1" data-answer="18"/>, the larger number = <input type="text" class="answer" id="input8" maxlength="5" size="1" data-answer="18"/>;</p>
+         <p>(smaller number)<sup>2</sup> = 8 &times; <input type="text" class="answer" id="input9" maxlength="5" size="1" data-answer="18"/> = <input type="text" class="answer" id="input10" maxlength="5" size="1" data-answer="144"/></p>
+         <p>&there4; Small number = &radic;<input type="text" class="answer" id="input11" maxlength="5" size="1" data-answer="144"/> = <input type="text" class="answer" id="input12" maxlength="5" size="1" data-answer="12"/></p>
+         <p>The numbers are <input type="text" class="answer" id="input13" maxlength="5" size="1" data-answer="18"/>, <input type="text" class="answer" id="input14" maxlength="5" size="1" data-answer="12"/></p>
+         <p>Note: Discard x = -10.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

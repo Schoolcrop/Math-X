@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h2>(Q7).Solve each pair of equations by using the substitution method.</h2>
+    <h3>√2x + √3y = 0</h3>
+    <h3>√3x – √8y = 0</h3>
+    <div>
+        <p>Given:</p>
+        <p>√2x + √3y = 0 ……. (1)</p>
+        <p>√3x – √8y = 0 ……. (2)</p>
+        <p>Substitute x = <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="0"> in (1),</p>
+        <p>√2(<input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="0">) + √3y = 0</p>
+        <p>√3y = 0</p>
+        <p>∴ y = <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="0"></p>
+        <p>∴ The solution is x = <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="0">, y = <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="0"></p>
+        <p>Note: a<sub>1</sub>x + b<sub>1</sub>y + c<sub>1</sub> = 0</p>
+        <p>a<sub>2</sub>x + b<sub>2</sub>y + c<sub>2</sub> = 0, if c<sub>1</sub> = c<sub>2</sub> = 0</p>
+        <p>then, x = <input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="0">, y = <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="0"> is a solution.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

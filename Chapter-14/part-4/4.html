@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 10px;
+        }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+        }
+       td{
+           border: 2px solid black; width: 90px; height: 30px;
+        }
+       th{
+           border: 2px solid black; width: 200px;text-align:center;height:50px;
+        }
+   </style>
+</head>
+<body>
+    <div>
+        <h2>(Q4) The following table gives production yield per hectare of wheat of 100 farms of a village.</h2>
+        <table>
+            <tr>
+                <td style="width: 150px;">Production Yield(Qui/Hec)</td>
+                <td>50-55</td>
+                <td>55-60</td>
+                <td>60-65</td>
+                <td>65-70</td>
+                <td>70-75</td>
+                <td>75-80</td>
+            </tr>
+            <tr>
+                <td>Number of farmers</td>
+                <td>2</td>
+                <td>8</td>
+                <td>12</td>
+                <td>24</td>
+                <td>38</td>
+                <td>16</td>
+            </tr>
+        </table>
+        <h2>Change the distribution to a more than type distribution, and draw its ogive.</h2>
+    </div>
+    <div>
+        <h4>Answer : </h4>
+        <p>The given data is to be changed to more than frequency distribution type.</p>
+        <table>
+            <tr>
+                <th>Production Yield (Qui/Hec)</th>
+                <th>More than c.f.</th>
+                <th>Number of farmers</th>
+                <th>Points</th>
+            </tr>
+            <tr>
+                <td>More than 50</td>
+                <td>100</td>
+                <td>2</td>
+                <td>(<input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="50"/>,<input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="100"/>)</td>
+            </tr>
+            <tr>
+                <td>More than 55</td>
+                <td>98</td>
+                <td>8</td>
+                <td>(<input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="55"/>,<input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="98"/>)</td>
+            </tr>
+            <tr>
+                <td>More than 60</td>
+                <td>90</td>
+                <td>12</td>
+                <td>(<input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="60"/>,<input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="90"/>)</td>
+            </tr>
+            <tr>
+                <td>More than 65</td>
+                <td>78</td>
+                <td>24</td>
+                <td>(<input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="65"/>,<input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="78"/>)</td>
+            </tr>
+            <tr>
+                <td>More than 70</td>
+                <td>54</td>
+                <td>38</td>
+                <td>(<input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="70"/>,<input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="54"/>)</td>
+            </tr>
+            <tr>
+                <td>More than 75</td>
+                <td>16</td>
+                <td>16</td>
+                <td>(<input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="75"/>,<input type="text" class="answer" id="input12" maxlength="3" size="1" data-answer="16"/>)</td>
+            </tr>
+        </table>
+        <p>A graph is plotted by taking the lower limits on the X-axis and respective of Y-axis.</p>
+        <p>Scale:</p>
+        <p>X - axis: 1 cm = 5 units</p>
+        <p>Y - axis: 1 cm = 5 units</p>
+        <img src="../../Assets/images/14-4(4).png" height="250" width="250"/>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers()">clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

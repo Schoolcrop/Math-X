@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 10px;
+       }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+       }
+       td{
+           border: 2px solid black; width: 90px; height: 30px;
+       }
+       th{
+           border: 2px solid black; width: 150px;text-align:center;height:50px;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <h2>(Q7) The following table gives the distribution of the life-time of 400 neon lamps.</h2>
+        <table>
+            <tr>
+                <td style="width: 120px;">Life time(in hours)</td>
+                <td>1500-2000</td>
+                <td>2000-2500</td>
+                <td>2500-3000</td>
+                <td>3000-3500</td>
+                <td>3500-4000</td>
+                <td>4000-4500</td>
+                <td>4500-5000</td>
+            </tr>
+            <tr>
+                <td>Number of lamps</td>
+                <td>14</td>
+                <td>56</td>
+                <td>60</td>
+                <td>86</td>
+                <td>74</td>
+                <td>62</td>
+                <td>48</td>
+            </tr>
+        </table>
+        <h2>Find the median life-time of a lamp.</h2>
+    </div>
+    <div>
+        <h4>Answer : </h4>
+        <table>
+            <tr>
+                <th>Class Interval</th>
+                <th>Frequency</th>
+                <th>c.f.</th>
+            </tr>
+            <tr>
+                <td>1500-2000</td>
+                <td>14</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>2000-2500</td>
+                <td>56</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>2500-3000</td>
+                <td>60</td>
+                <td>130</td>
+            </tr>
+            <tr>
+                <td>3000-3500</td>
+                <td>86</td>
+                <td>216</td>
+            </tr>
+            <tr>
+                <td>3500-4000</td>
+                <td>74</td>
+                <td>290</td>
+            </tr>
+            <tr>
+                <td>4000-4500</td>
+                <td>62</td>
+                <td>352</td>
+            </tr>
+            <tr>
+                <td>4500-5000</td>
+                <td>48</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>n = &#8721;f<sub>i</sub> = 400 </td>
+                <td>-</td>
+            </tr>
+        </table>
+        <p>Total observations are n = <input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="400"/></p>
+        <div>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>th observation i.e.,</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="400"/></div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span> = <input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="200"/></span>
+        </div>
+        <p>200 lies in the class 3000-3500</p>
+        <p>&#8756; Median class = 3000 - 3500</p>
+        <p>Lower boundary l = <input type="text" class="answer" id="input4" maxlength="4" size="1" data-answer="3000"/></p>
+        <p>frequency of the median class f = 86</p>
+        <p>c.f = 130; Class size, h = 500</p>
+        <div>
+            <span>Median = l + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">
+                    <span> ( </span>
+                    <span style="display: inline-block;vertical-align: middle;"> 
+                        <div style="text-align: center; border-bottom: 1px solid black;">n</div>
+                        <div style="text-align: center;">2</div>
+                    </span>
+                    <span> - cf )</span>
+                </div>
+                <div style="text-align: center;vertical-align: middle;">f</div>
+            </span>
+            <span> &times; h</span>
+        </div>
+        <div>
+            <span> Median = <input type="text" class="answer" id="input5" maxlength="4" size="1" data-answer="3000"/> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input6" maxlength="4" size="1" data-answer="200"/> - <input type="text" class="answer" id="input7" maxlength="4" size="1" data-answer="130"/></div>
+                <div style="text-align: center;">86</div>
+            </span>
+            <span> &times; <input type="text" class="answer" id="input8" maxlength="4" size="1" data-answer="500"/></span>
+        </div>
+        <div>
+            <span> Median = <input type="text" class="answer" id="input9" maxlength="4" size="1" data-answer="3000"/> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input10" maxlength="4" size="1" data-answer="70"/></div>
+                <div style="text-align: center;">86</div>
+            </span>
+            <span>&times; <input type="text" class="answer" id="input11" maxlength="4" size="1" data-answer="500"/></span>
+        </div>
+        <p> = <input type="text" class="answer" id="input12" maxlength="4" size="1" data-answer="3406"/>.98</p>
+        <p>&#8756; Median life &#8771; <input type="text" class="answer" id="input13" maxlength="4" size="1" data-answer="3406"/>.98 hours</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+
+</body>
+</html>

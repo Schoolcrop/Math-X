@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        body{
+           padding: 15px;
+       }
+       table {
+           border: 2px solid black;border-collapse: collapse; text-align: center;
+       }
+       td{
+           border: 2px solid black; width: 65px; height: 30px;
+       }
+       th{
+           border: 2px solid black; width: 220px;text-align:center;height:50px;
+       }
+   </style>
+</head>
+<body>
+    <div>
+        <h2>(Q10) The following table shows the ages of the patients admitted in a hospital during a year:</h2>
+        <table>
+            <tr>
+                <td style="width: 170px;">Age (in years)</td>
+                <td>5-15</td>
+                <td>15-25</td>
+                <td>25-35</td>
+                <td>35-45</td>
+                <td>45-55</td>
+                <td>55-65</td>
+            </tr>
+            <tr>
+                <td style="width: 170px;">Number of Patients</td>
+                <td>6</td>
+                <td>11</td>
+                <td>21</td>
+                <td>23</td>
+                <td>14</td>
+                <td>5</td>
+            </tr>
+        </table>
+        <h2>Find the mode and the mean of the data given above. Compare and interpret the two measures of central tendency.</h2>
+    </div>
+    <div>
+        <h4>Solution :</h4>
+        <p>Maximum number of patients joined in the age group 35-45.</p>
+        <p>&#8756; Modal class is 35-45.</p>
+        <p>Lower limit of the Modal Class 'l' = 35</p>
+        <p>Class size h = 10</p>
+        <p>Frequency of modal class, f<sub>1</sub> = 23</p>
+        <p>Frequency of the class preceding the modal class f<sub>0</sub> = 21</p>
+        <p>Frequency of the class succeeding the modal class f<sub>2</sub> = 14</p>
+        <table>
+            <tr>
+                <th>Age</th>
+                <th>Number of Patients(f<sub>i</sub>)</th>
+                <th>x<sub>i</sub></th>
+                <th>f<sub>i</sub>x<sub>i</sub></th>
+            </tr>
+            <tr>
+                <td>5-15</td>
+                <td>6</td>
+                <td>10</td>
+                <td><input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="60"/></td>
+            </tr>
+            <tr>
+                <td>15-25</td>
+                <td>11</td>
+                <td>20</td>
+                <td><input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="220"/></td>
+            </tr>
+            <tr>
+                <td>25-35</td>
+                <td>21</td>
+                <td>30</td>
+                <td><input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="630"/></td>
+            </tr>
+            <tr>
+                <td>35-45</td>
+                <td>23</td>
+                <td>40</td>
+                <td><input type="text" class="answer" id="input4" maxlength="4" size="1" data-answer="920"/></td>
+            </tr>
+            <tr>
+                <td>45-55</td>
+                <td>14</td>
+                <td>50</td>
+                <td><input type="text" class="answer" id="input5" maxlength="4" size="1" data-answer="700"/></td>
+            </tr>
+            <tr>
+                <td>55-65</td>
+                <td>5</td>
+                <td>60</td>
+                <td><input type="text" class="answer" id="input6" maxlength="4" size="1" data-answer="300"/></td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>&#8721;f<sub>i</sub> = 80</td>
+                <td>-</td>
+                <td>&#8721;f<sub>i</sub>x<sub>i</sub> = <input type="text" class="answer" id="input7" maxlength="4" size="1" data-answer="2830"/></td>
+            </tr>
+        </table>
+        <div>
+            <span>Mode = l +  </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">f<sub>1</sub> - f<sub>0</sub> </div>
+                <div style="text-align: center;">2f<sub>1</sub> - f<sub>0</sub> - f<sub>2</sub></div>
+            </span>
+            <span>  &#215; h </span>
+        </div>
+        <div>
+            <span>Mode = 35 +  </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input8" maxlength="4" size="1" data-answer="23"/> - <input type="text" class="answer" id="input9" maxlength="4" size="1" data-answer="21"/></div>
+                <div style="text-align: center;">2  &#215; <input type="text" class="answer" id="input10" maxlength="4" size="1" data-answer="23"/> - <input type="text" class="answer" id="input11" maxlength="4" size="1" data-answer="21"/> - <input type="text" class="answer" id="input12" maxlength="4" size="1" data-answer="14"/></div>
+            </span>
+            <span>  &#215; <input type="text" class="answer" id="input13" maxlength="4" size="1" data-answer="10"/> = 35 + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input14" maxlength="4" size="1" data-answer="2"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input15" maxlength="4" size="1" data-answer="11"/></div>
+            </span>
+            <span>  &#215; <input type="text" class="answer" id="input16" maxlength="4" size="1" data-answer="10"/> = <input type="text" class="answer" id="input17" maxlength="4" size="1" data-answer="36"/>.8 years </span>
+        </div>
+        <div>
+            <span>Mean x = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">&#8721;f<sub>i</sub>x<sub>i</sub></div>
+                <div style="text-align: center;">&#8721;f<sub>i</sub></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input18" maxlength="4" size="1" data-answer="2830"/></div>
+                <div style="text-align: center;">80</div>
+            </span>
+            <span> = <input type="text" class="answer" id="input19" maxlength="4" size="1" data-answer="35"/>.37 years</span>
+        </div>
+        <p>Mode age is <input type="text" class="answer" id="input20" maxlength="4" size="1" data-answer="36"/>.8 years, Mean age = <input type="text" class="answer" id="input21" maxlength="4" size="1" data-answer="35"/>.37 years.</p>
+        <p>Maximum number of patients admitted in the hospital are of the age 36.8 years, while on an average the age of patients admitted to the hospital is 35.37 years. Mode is less than the Mean.</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

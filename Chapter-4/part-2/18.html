@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<style>
+    table, th, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <h2>(Q18). A publisher is planning to produce a new textbook. The fixed costs (reviewing, editing, typesetting and so on) are &#8377;320000. Besides that, he also spends another &#8377;31.25 in producing the book. The wholesale price (the amount received by the publisher) is &#8377;43.75 per book. How many books must the publisher sell to break even, i.e., so that the cost of production will equal revenues?</h2>
+    <div>
+        <p>The publisher breaks even when costs equal revenues. If x represents the number of books printed and sold and y be the breakeven point, then the cost and revenue equations for the publisher are</p>
+        <div>
+            <span>Cost equation is given by</span>
+            <span>y = 320000 + <input type="text" class="answer" id="input1" maxlength="5" size="5" data-answer="31.25">x</span>
+        </div>
+        <div>
+            <span>Revenue equation is given by</span>
+            <span>y = <input type="text" class="answer" id="input2" maxlength="5" size="5" data-answer="43.75">x</span>
+        </div>
+        <p>Using the second equation to substitute for y in the first equation, we have</p>
+        <p><input type="text" class="answer" id="input3" maxlength="5" size="5" data-answer="43.75">x = &#8377;320000 + <input type="text" class="answer" id="input4" maxlength="5" size="5" data-answer="31.25">x</p>
+        <p><input type="text" class="answer" id="input5" maxlength="4" size="4" data-answer="12.5">x = &#8377;320000</p>
+        <div>
+            <span> x = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">320000</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input6" maxlength="4" size="4" data-answer="12.5"></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input7" maxlength="5" size="5" data-answer="25600"></span>
+        </div>
+        <p>Thus, the publisher will break even when <input type="text" class="answer" id="input8" maxlength="5" size="5" data-answer="25600"> books are printed and sold.</p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q31) Find the coordinates of the point which divide the line segment joining the points (a+b,a-b) and (a-b,a+b) in the ratio 3:2 internally.</h2>
+    <div id="answer">
+        <h4><u>Answer</u></h4>
+        <p>Given A(a+b,a-b) and B(a-b,a+b).</p>
+        <p>Let P(x,y) divides AB in the ratio 3:2 internally. </p>
+        <div>
+            <span>section formula= </span>
+            (<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">m<sub>1</sub>x<sub>2</sub>+m<sub>2</sub>x<sub>1</sub></div>
+                <div style="text-align: center;">m<sub>1</sub>+m<sub>2</sub></div>
+            </span> , 
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">m<sub>1</sub>y<sub>2</sub>+m<sub>2</sub>y<sub>1</sub></div>
+                <div style="text-align: center;">m<sub>1</sub>+m<sub>2</sub></div>
+            </span>)
+        </div>
+        <div>
+           =  
+            (<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">3(a-b)+2(a+b)</div>
+                <div style="text-align: center;">3+2</div>
+            </span> , 
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">3(a+b)+2(a-b)</div>
+                <div style="text-align: center;">3+2</div>
+            </span>)
+        </div>
+        <div>
+           =
+           (<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">3a-3b+2a+2b</div>
+                <div style="text-align: center;">5</div>
+            </span> , 
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">3a+3b+2a-2b</div>
+                <div style="text-align: center;">5</div>
+            </span>)
+        </div>
+        <div>
+            =
+            (<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="5"/>a-<input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="1"/>b</div>
+                <div style="text-align: center;">5</div>
+            </span> , 
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="5"/>a+<input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="1"/>b</div>
+                <div style="text-align: center;">5</div>
+            </span>)
+        </div>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

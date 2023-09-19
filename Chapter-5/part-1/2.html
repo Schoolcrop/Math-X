@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q2)Represent the following situtations with suitable mathematical equations</h2>
+    <h3>
+        Sridhar and Rajendar together have 45 marbles.Both of them lost 5 marbles each,and the product of the number of marbles now they have is 124.
+        we would like to find out of how many marbles each of them had previously
+    </h3> 
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>Let the number of marbles.Sridhar had be x.</p>
+        <p>Then the number of marbles Rajendar had=45-x</p>
+        <p>The number of marbles left with Sridhar,when he lost 5 marbles =x-5</p>
+        <p>The number of marbles left with Rajendar,when he lost 5 marbles=(45-x)-5=40-x</p>
+        <p>
+            Therefore,their product<br/>
+            =(x-5)(40-x)<br/>
+            =<input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="40"/>x-x<sup>2</sup>-<input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="200"/>+5x<br/>
+            =-x<sup>2</sup>+<input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="45"/>x-<input type="text" class="answer" id="input4" maxlength="4" size="1" data-answer="200"/>
+        </p>
+        <p>
+            so, -x<sup>2</sup>+<input type="text" class="answer" id="input5" maxlength="4" size="1" data-answer="45"/>x-<input type="text" class="answer" id="input6" maxlength="4" size="1" data-answer="200"/>=124(given that product=124)<br/><br/>
+            -x<sup>2</sup>+<input type="text" class="answer" id="input7" maxlength="4" size="1" data-answer="45"/>x-<input type="text" class="answer" id="input8" maxlength="4" size="1" data-answer="324"/>=0<br/>
+             (multiple by -1)<br/>
+              x<sup>2</sup>- <input type="text" class="answer" id="input9" maxlength="4" size="1" data-answer="45"/>x+<input type="text" class="answer" id="input10" maxlength="4" size="1" data-answer="324"/>=0<br/>
+        </p>
+        <p>Therefore,the number of marbles Sridhar had 'x' should satisfy the qudratic equation<br/>
+            x<sup>2</sup>-<input type="text" class="answer" id="input11" maxlength="4" size="1" data-answer="45"/>x+<input type="text" class="answer" id="input12" maxlength="4" size="1" data-answer="324"/>=0
+        </p>
+
+    </div>
+    <div class="button-container">
+        <!--<button id="check-button" onclick="checkAnswers()">check Answer</button>-->
+        <button id="clear-button" onclick="clearAnswers()">clear</button>
+    
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

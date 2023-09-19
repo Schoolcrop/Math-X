@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <div>
+        <h2>(Q10) Prove that the sum of the squares of the sides of a rhombus is equal to the sum of the squares of its diagonals.</h2>
+    </div>
+    <div>
+        <p><b>Solution :</b></p>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="661.3333740234375" height="301.3333435058594" style="
+        width:661.3333740234375px;
+        height:301.3333435058594px;
+        background: #FFF;
+        fill: none;
+">
+        <svg xmlns="http://www.w3.org/2000/svg"/>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" class="role-diagram-draw-area"><g class="shapes-region" style="stroke: black; fill: none;"><g class="composite-shape"><path class="real" d=" M179.17,35 L258.33,115.5 L179.17,196 L100,115.5 Z" style="stroke-width: 1; stroke: rgb(0, 0, 0); fill: none; fill-opacity: 1;"/></g><g class="arrow-line"><path class="connection real" stroke-dasharray="" d="  M179.17,35 L179.17,196" style="stroke: rgb(0, 0, 0); stroke-width: 1; fill: none; fill-opacity: 1;"/></g><g class="arrow-line"><path class="connection real" stroke-dasharray="" d="  M100,115.5 L258.33,115.5" style="stroke: rgb(0, 0, 0); stroke-width: 1; fill: none; fill-opacity: 1;"/></g><g class="composite-shape"><path class="real" d=" M171.55,115.51 L171.54,107.46 L179.15,107.45" style="stroke-width: 1; stroke: rgb(0, 0, 0); fill: none; fill-opacity: 1;"/></g><g/></g><g/><g/><g/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="660" height="300" style="width:660px;height:300px;font-family:Asana-Math, Asana;background:#FFF;"><g><g><g><text x="164.66668701171875" y="117.66668701171875" style="white-space:pre;stroke:none;fill:rgb(0,0,0);fill-opacity:1;font-size:15px;font-family:Arial, Helvetica, sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none solid rgb(0, 0, 0);">O</text></g></g></g><g><g><g><text x="87.66665649414062" y="107.66668701171875" style="white-space:pre;stroke:none;fill:rgb(0,0,0);fill-opacity:1;font-size:15px;font-family:Arial, Helvetica, sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none solid rgb(0, 0, 0);">A</text></g></g></g><g><g><g><text x="174.66668701171875" y="196.66668701171875" style="white-space:pre;stroke:none;fill:rgb(0,0,0);fill-opacity:1;font-size:15px;font-family:Arial, Helvetica, sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none solid rgb(0, 0, 0);">B</text></g></g></g><g><g><g><text x="263.66668701171875" y="107.66668701171875" style="white-space:pre;stroke:none;fill:rgb(0,0,0);fill-opacity:1;font-size:15px;font-family:Arial, Helvetica, sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none solid rgb(0, 0, 0);">C</text></g></g></g><g><g><g><text x="175.66668701171875" y="16.666671752929688" style="white-space:pre;stroke:none;fill:rgb(0,0,0);fill-opacity:1;font-size:15px;font-family:Arial, Helvetica, sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none solid rgb(0, 0, 0);">D</text></g></g></g></svg>
+</svg>
+
+        <p><b>Given :</b>&#9633;ABCD is a rhombus.</p>
+        <p>Let its diagonals AC and BD bisect each other at 'O'.We know that “the diagonals in a rhombus are perpendicular to each other”.</p>
+        <p>In &#8710;AOD; AD<sup>2</sup> = ( <input type="text" class="answer" id="input1" maxlength="2" size="2"data-answer="OA,AO"> )<sup>2</sup> + OD<sup>2</sup> ..... (1)</p>
+        <p>[Pythagoras theorem]</p>
+        <p>In &#8710;COD; CD<sup>2</sup> = ( <input type="text" class="answer" id="input2" maxlength="2" size="2"data-answer="OC,CO"> )<sup>2</sup> + OD<sup>2</sup> ..... (2)</p>
+        <p>[Pythagoras theorem]</p>
+        <p>In &#8710;AOB; AB<sup>2</sup> = ( <input type="text" class="answer" id="input3" maxlength="2" size="2"data-answer="OA,AO"> )<sup>2</sup> + OB<sup>2</sup> ..... (3)</p>
+        <p>[Pythagoras theorem]</p>
+        <p>In &#8710;BOC; BC<sup>2</sup> = ( <input type="text" class="answer" id="input4" maxlength="2" size="2"data-answer="OB,BO"> )<sup>2</sup> + OC<sup>2</sup> ..... (4)</p>
+        <p>[Pythagoras theorem]</p>
+        <p>Adding the above equations we get AD<sup>2</sup> + CD<sup>2</sup> + AB<sup>2</sup> + BC<sup>2</sup> = 2 (( <input type="text" class="answer" id="input5" maxlength="2" size="2"data-answer="OA,AO"> )<sup>2</sup> + ( <input type="text" class="answer" id="input6" maxlength="2" size="2"data-answer="OB,BO"> )<sup>2</sup> + ( <input type="text" class="answer" id="input7" maxlength="2" size="2"data-answer="OC,CO"> )<sup>2</sup> + ( <input type="text" class="answer" id="input8" maxlength="2" size="2"data-answer="OD,DO"> )<sup>2</sup>)</p>
+        <div>
+            <span>= 2[(</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>AC)<sup>2</sup> +  (</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>BD)<sup>2</sup> +  (</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>AC)<sup>2</sup> +  (</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>BD)<sup>2</sup> ]</span>
+        </div>
+        <div>
+            <span>[&#8757; AO = OC = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>AC</span>
+        </div>
+        <div>
+            <span>BO = OD = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>BD ]</span>
+        </div>
+        <div>
+            <span> = 2[</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input9" maxlength="2" size="2"data-answer="AC,CA"><sup>2</sup></div>
+                <div style="text-align: center;">4</div>
+            </span>
+            <span> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input10" maxlength="2" size="2"data-answer="AC,CA"><sup>2</sup></div>
+                <div style="text-align: center;">4</div>
+            </span>
+            <span> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input11" maxlength="2" size="2"data-answer="BD,DB"><sup>2</sup></div>
+                <div style="text-align: center;">4</div>
+            </span>
+            <span> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input12" maxlength="2" size="2"data-answer="BD,DB"><sup>2</sup></div>
+                <div style="text-align: center;">4</div>
+            </span>
+            <span>]</span>
+    `   </div>
+        <div>
+            <span> = 2[</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input13" maxlength="2" size="2"data-answer="AC,CA"><sup>2</sup> + <input type="text" class="answer" id="input14" maxlength="2" size="2"data-answer="AC,CA"><sup>2</sup> </div>
+                <div style="text-align: center;">4</div>
+            </span>
+            <span> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input15" maxlength="2" size="2"data-answer="BD,DB"><sup>2</sup> + <input type="text" class="answer" id="input16" maxlength="2" size="2"data-answer="BD,DB"><sup>2</sup></div>
+                <div style="text-align: center;">4</div>
+            </span>
+            <span>]</span>
+        </div>
+        <div>
+            <span> = 2[</span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">2( <input type="text" class="answer" id="input17" maxlength="2" size="2"data-answer="AC,CA"> )<sup>2</sup> + 2( <input type="text" class="answer" id="input18" maxlength="2" size="2"data-answer="BD,DB"> )<sup>2</sup> </div>
+                <div style="text-align: center;">4</div>
+            </span>
+            <span>]</span>
+        </div>
+        <div>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">4( <input type="text" class="answer" id="input19" maxlength="2" size="2"data-answer="AC,CA"> )<sup>2</sup></div>
+                <div style="text-align: center;">4</div>
+            </span>
+            <span> + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">4( <input type="text" class="answer" id="input20" maxlength="2" size="2"data-answer="BD,DB"> )<sup>2</sup> </div>
+                <div style="text-align: center;">4</div>
+            </span>
+        </div>
+        <p>= ( <input type="text" class="answer" id="input21" maxlength="2" size="2"data-answer="AC,CA"> )<sup>2</sup> + ( <input type="text" class="answer" id="input22" maxlength="2" size="2"data-answer="BD,DB"> )<sup>2</sup></p>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

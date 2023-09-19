@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q13)Find the roots of the following quadratic equation, if they exist by the method of completing the square.</h2>
+    <h3>(ii) 4x<sup>2</sup> +4&radic; 3x + 3 = 0</h3>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>Given: 4x<sup>2</sup> + 4&radic; 3x + 3 = 0</p>
+        <p>4x<sup>2</sup> + 4&radic;3x = -3</p>
+        <p>(2x)<sup>2</sup> + 2(2x)&radic;3 = -3</p>
+        <p>LHS is of the form a<sup>2</sup> + 2ab where b = &radic;3</p>
+        <p>&there4; Adding b<sup>2</sup> = (&radic;3)<sup>2</sup> = 3 on both sides, we get</p>
+        <p>(2x)<sup>2</sup> + 2(2x)(&radic;3) + (&radic;3)<sup>2</sup> = -3 + (&radic;3)<sup>2</sup></p>
+        <p> (<input type="text" class="answer" id="input1" maxlength="5" size="1" data-answer="2"/>x +&radic;<input type="text" class="answer" id="input2" maxlength="5" size="1" data-answer="3"/>)<sup>2</sup> = -3 + 3 = 0</p>
+        <p>(<input type="text" class="answer" id="input3" maxlength="5" size="1" data-answer="2"/>x +&radic;<input type="text" class="answer" id="input4" maxlength="5" size="1" data-answer="3"/>)<sup>2</sup> = 0</p>
+        <p>(<input type="text" class="answer" id="input5" maxlength="5" size="1" data-answer="2"/>x +&radic;<input type="text" class="answer" id="input6" maxlength="5" size="1" data-answer="3"/>) = 0</p>
+        <p><input type="text" class="answer" id="input7" maxlength="5" size="1" data-answer="2"/>x = -&radic;<input type="text" class="answer" id="input8" maxlength="5" size="1" data-answer="3"/></p>
+        <div>
+            x = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-&radic;<input type="text" class="answer" id="input2" maxlength="5" size="1" data-answer="3"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input9" maxlength="5" size="1" data-answer="2"/></div>
+            </span> 
+        </div>
+        <div>
+            &there4; The roots are <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-&radic;<input type="text" class="answer" id="input10" maxlength="5" size="1" data-answer="3"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input11" maxlength="5" size="1" data-answer="2"/></div>
+            </span> ,<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-&radic;<input type="text" class="answer" id="input12" maxlength="5" size="1" data-answer="3"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input13" maxlength="5" size="1" data-answer="2"/></div>
+            </span> 
+            <span>.</span>
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

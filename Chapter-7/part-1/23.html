@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q23)Find the relation between x and y such that the point (x,y) is equidistant from the points(7,1) and (3,5).</h2>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>Given P(x,y) be equidistant from the points A(7,1) and B(3,5)</p>
+        <p>AP=BP. So, AP<sup>2</sup>=BP<sup>2</sup></p>
+        <p>(x-7)<sup>2</sup>+(y-1)<sup>2</sup>=(x-3)<sup>2</sup>+(y-5)<sup>2</sup></p>
+        <p>
+            (x<sup>2</sup>-14x+<input type="text" class="answer" id="input=1" maxlength="3" size="1" data-answer="49"/>)+(y<sup>2</sup>-2y+<input type="text" class="answer" id="input=2" maxlength="3" size="1" data-answer="1"/>)=
+            (x<sup>2</sup>-6x+<input type="text" class="answer" id="input=3" maxlength="3" size="1" data-answer="9"/>)+(y<sup>2</sup>-10y+<input type="text" class="answer" id="input=4" maxlength="3" size="1" data-answer="25"/>)
+        </p>
+        <p>(x<sup>2</sup>+y<sup>2</sup>-14x-2y+<input type="text" class="answer" id="input=5" maxlength="3" size="1" data-answer="50"/>) - (x<sup>2</sup>+y<sup>2</sup>-6x-10y+<input type="text" class="answer" id="input=6" maxlength="3" size="1" data-answer="34"/>)=0</p>
+        <p>-8x+8y= - <input type="text" class="answer" id="input=7" maxlength="3" size="1" data-answer="16"/></p>
+        <p>x-y=<input type="text" class="answer" id="input=8" maxlength="3" size="1" data-answer="2"/> which is the required relation.</p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

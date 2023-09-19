@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+<body>
+    <div id="question">
+        <h2>5.In a triangle &#9651;XYZ,&#8736;Y is right angle,XZ=17m and YZ=15cm,then find (i)sin X(ii)vcos Z tanX</h2>
+    </div>
+    <div id="answer">
+            
+       <svg height="250" width="450" viewBox="-130 -110 500 500">
+           <polygon points="100 20,100 350,550 350" style="fill:none;stroke:black;stroke-width:2" />
+           <line x1 = "130" y1 ="350" x2 ="130"  y2="320" stroke ="black" stroke-width="4"/>
+           <line x1 = "133" y1 ="320" x2 ="100"  y2="320" stroke ="black" stroke-width="4"/>
+            <g transform="translate(535, 250) rotate(-150 20,70)">
+                <path d="M95,50 A 45, 45, 0, 0, 0, 65, 8
+                     " />              
+            </g>
+        </svg>
+        <p style="color: black; position: relative; bottom: 55px; left: 450px;">Z</p>
+        <p style="color: black; position: relative; bottom: 70px; left: 210px;">Y</p>
+        <p style="color: black; position: relative; bottom: 320px; left: 218px;">X</p>
+        <p style="color: black; position: relative; bottom: 280px; left: 320px;">17m</p>
+        <p style="color: black; position: relative; bottom: 260px; left: 165px;">15cm</p>
+        <h4><u> Given:</u></h4>
+        <p>&#9651;XYZ,&#8736;Y is right angle,XZ=17m and YZ=15cm,</p>
+        <H4><u>To Find:</u></H4>
+        <p>(i)sin X<br/>(ii)cos Z<br/>(iii)tan X</p>
+        <h4><u>SOLUTION:</u></h4>
+        <p> By Pythagoras theorem,</p>
+        <p>XZ<sup>2</sup>=YZ<sup>2</sup>+XY<sup>2</sup></p>
+        <p><input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="17" /><sup>2</sup>=
+           <input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="15" /><sup>2</sup>+XY<sup>2</sup>
+        </p>
+        <p>XY<sup>2</sup>=<input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="64" /></p>
+        <p>XY=<input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="8" /></p>
+        
+        <div>(i)sin(X)=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> oppsite side of x</div>
+            <div style="text-align: center;"> hypotenus</div>
+            </span>
+        </div>
+        <div>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> YZ</div>
+            <div style="text-align: center;"> XZ</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input4" maxlength="6" size="1" data-answer="15" /></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input5" maxlength="6" size="1" data-answer="17" /></div>
+            </span>
+        </div>
+        
+        <div>
+            
+            (ii)cos(Z)=
+                 <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> adjacent side ton z</div>
+                <div style="text-align: center;"> hypotenous</div>
+                </span>
+
+        </div>
+        <div>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> YZ</div>
+            <div style="text-align: center;"> ZX</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input6" maxlength="6" size="1" data-answer="15" /></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input7" maxlength="6" size="1" data-answer="17" /></div>
+            </span>
+        </div>
+        <div>(iii)tan(x)=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> oppsite side of x</div>
+            <div style="text-align: center;"> adjacent side of x</div>
+            </span>
+        </div>
+        <div>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> YZ</div>
+            <div style="text-align: center;"> XY</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input8" maxlength="6" size="1" data-answer="15" /></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input9" maxlength="6" size="1" data-answer="8" /></div>
+            </span>
+        </div>
+    </div>    
+     <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

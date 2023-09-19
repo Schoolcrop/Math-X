@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>
+        (Q29)Sum of the areas of two squares is 468 m<sup>2</sup>. If the difference of their perimeters is 24m, find the sides of the two squares.
+    </h2>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>Let the side of the first square = x m say</p>
+        <p>Then perimeter of the first square = 4x</p>
+        <p>[&because; p=4.side]</p>
+        <p>By problem, perimeter of the second square = 4x + 24 (or) 4x -24 </p>
+        <div>
+            &there4; Side of the second square = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">4x + 24</div>
+                <div style="text-align: center;">4</div>
+                </span> = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">4(x+6)</div>
+                    <div style="text-align: center;">4</div>
+                    </span> = x + 6 (or)
+        </div>
+        <div>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">4x - 24</div>
+                <div style="text-align: center;">4</div>
+                </span> = x - 6
+        </div>
+        <p>Now sum of the areas of the two squares is given as 468 m<sup>2</sup></p>
+        <p>x<sup>2</sup> (x + 6)<sup>2</sup> = <input type="text" class="answer" id="input1" maxlength="5" size="1" data-answer="468"/></p>
+        <p>x<sup>2</sup> + x<sup>2</sup> + 12x + 36 = <input type="text" class="answer" id="input2" maxlength="5" size="1" data-answer="468"/></p>
+        <p>2x<sup>2</sup> + 12x + 36 - <input type="text" class="answer" id="input3" maxlength="5" size="1" data-answer="468"/> = 0</p>
+        <p>2x<sup>2</sup> + 12x - <input type="text" class="answer" id="input4" maxlength="5" size="1" data-answer="432"/> = 0</p>
+        <p>x<sup>2</sup> + 6x - <input type="text" class="answer" id="input5" maxlength="5" size="1" data-answer="216"/> = 0</p>
+        <p>x<sup>2</sup> + 18x - <input type="text" class="answer" id="input6" maxlength="5" size="1" data-answer="12"/>x - <input type="text" class="answer" id="input7" maxlength="5" size="1" data-answer="216"/> = 0</p>
+        <p>x(x + 18) - <input type="text" class="answer" id="input8" maxlength="5" size="1" data-answer="12"/>(x + 18) = 0</p>
+        <p>(x + 18)(x - <input type="text" class="answer" id="input9" maxlength="5" size="1" data-answer="12"/>) = 0</p>
+        <p>x + 18 = 0 (or) x - <input type="text" class="answer" id="input10" maxlength="5" size="1" data-answer="12"/> = 0</p>
+        <p>x = -18 (or) <input type="text" class="answer" id="input11" maxlength="5" size="1" data-answer="12"/></p>
+        <p>But x can't be negative. </p>
+        <p>&there4; x = <input type="text" class="answer" id="input12" maxlength="5" size="1" data-answer="12"/></p>
+        <p>i.e., side of the first square = <input type="text" class="answer" id="input13" maxlength="5" size="1" data-answer="12"/></p>
+        <p>&there4;Perimeter = 4 &times; <input type="text" class="answer" id="input14" maxlength="5" size="1" data-answer="12"/> = <input type="text" class="answer" id="input15" maxlength="5" size="1" data-answer="48"/></p>
+        <p>&there4; Perimeter of the second square <input type="text" class="answer" id="input16" maxlength="5" size="1" data-answer="48"/> + 24 = <input type="text" class="answer" id="input17" maxlength="5" size="1" data-answer="72"/></p>
+        <div>
+            &there4; side of the second square =<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input18" maxlength="5" size="1" data-answer="72"/></div>
+                <div style="text-align: center;">4</div>
+                </span> =<input type="text" class="answer" id="input19" maxlength="5" size="1" data-answer="18"/>m
+        </div>
+    </div>
+     <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+
+    
+</body>
+</html>

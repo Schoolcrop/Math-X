@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q11) Find the area of the shaded region in figure, where ABCD is a square of side 10 cm. and semicircles are drawn with each side of the square as diameter (use π = 3.14).</h2>
+    <img src="../../Assets/images/9-3(11).png" height="200" width="200"/>
+    <div id="answer">
+        <p>Let Us mark  the four unshaded regions as I, II, III and IV </p>
+        <p>Area of I + Area of II = Area of ABCD - Area of two semicircles with radius 5 cm</p>
+        <div>
+            <span>= 10 &times;<input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="10"/> - 2 &times;</span>
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">2</div>
+            </span>
+            <span>&times;&#960;&times;<input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="5"/><sup>2</sup></span>
+        </div>
+        <p> = <input type="text" class="answer" id="input3" maxlength="3" size="3" data-answer="100"/> - 3.14&times;<input type="text" class="answer" id="input4" maxlength="2" size="2" data-answer="25"/></p>
+        <p>= <input type="text" class="answer" id="input5" maxlength="3" size="3" data-answer="100"/> - <input type="text" class="answer" id="input6" maxlength="2" size="2" data-answer="78"/>.5 = <input type="text" class="answer" id="input7" maxlength="2" size="1" data-answer="21"/>.5cm<sup>2</sup></p>
+        <p>Similarly Area of II + Area of IV = <input type="text" class="answer" id="input8" maxlength="2" size="1" data-answer="21"/>.5cm<sup>2</sup></p>
+        <p>So , area of the shaded region = Area of ABCD - Area of unshaded region</p>
+        <p>= <input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="100"/> -2 &times;<input type="text" class="answer" id="input10" maxlength="2" size="1" data-answer="21"/>.5 = <input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="100"/> - <input type="text" class="answer" id="input12" maxlength="2" size="1" data-answer="43"/> = <input type="text" class="answer" id="input13" maxlength="2" size="1" data-answer="57"/>cm<sup>2</sup> </p>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers()">clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

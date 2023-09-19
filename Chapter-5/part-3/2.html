@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schoolcrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q2)find the roots of 4x<sup>2</sup> + 3x + 5 = 0 by method of completing the square.</h2>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>Given: 4x<sup>2</sup> + 3x + 5 = 0</p>
+        <div>
+            x<sup>2</sup> + <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">3</div>
+                <div style="text-align: center;">4</div>
+            </span>x + <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">5</div>
+                <div style="text-align: center;">4</div>
+            </span> = 0
+        </div><br/>
+        <div>
+            x<sup>2</sup> + <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">3</div>
+                <div style="text-align: center;">4</div>
+            </span>x = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-5</div>
+                <div style="text-align: center;">4</div>
+            </span>
+        </div><br/>
+        <div>
+            x<sup>2</sup> + <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">3</div>
+                <div style="text-align: center;">4</div>
+            </span>x + (<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">3</div>
+                <div style="text-align: center;">8</div>
+            </span>)<sup>2</sup> = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-5</div>
+                <div style="text-align: center;">4</div>
+            </span> + (<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">3</div>
+                <div style="text-align: center;">8</div>
+            </span>)<sup>2</sup>
+        </div><br/>
+        <div>
+            (x + <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="3"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="8"/></div>
+            </span>)<sup>2</sup> = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-5</div>
+                <div style="text-align: center;">4</div>
+            </span> + <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="9"/></div>
+                <div style="text-align: center;">64</div>
+            </span>
+        </div><br/>
+        <div>
+            (x + <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="3"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="8"/></div>
+            </span>)<sup>2</sup> = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> - <input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="71"/></div>
+                <div style="text-align: center;">64</div>
+            </span> &#60; 0
+    
+        </div><br/>
+        <div>
+            But (x + <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="3"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="8"/></div>
+            </span>)<sup>2</sup> cannot be negative for any real value of x.(Why?) So, there is no real value of x satisfying the given equation.
+                  therefore, the given equation has no real roots.
+        </div>
+        <div class="button-container">
+            <!-- <button id="check-button" onclick="checkAnswers()">check Answer</button> -->
+            <!-- <button id="clear-button" onclick="clearAnswers()">clear</button> -->
+        </div>
+        <script src="../../Assets/js/javascript.js"></script>
+
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

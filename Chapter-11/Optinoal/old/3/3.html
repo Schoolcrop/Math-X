@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+<body>
+    <h2>
+        Prove that(cosec A - sin A)(sec A - cos A)=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">  1</div>
+            <div style="text-align: center;">tan A + cot A </div>
+        </span>
+    </h2>
+    <div id="answer">
+        <h4><u>Answer:</u></h4>
+        <p>L.H.S=(cosec A - sin A)(sec A - cos A)</p>
+        <div>
+            [  cosec A = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  1</div>
+                <div style="text-align: center;"> sin  A </div>
+            </span>; sec A = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  1</div>
+                <div style="text-align: center;"> cos A </div>
+            </span>]
+        </div><br/>
+        <div>
+            =(<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  1</div>
+                <div style="text-align: center;">sin A</div>
+            </span> - sin A)(<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  1</div>
+                <div style="text-align: center;"> cos A </div>
+            </span> - cos A)
+        </div><br/>
+        <div>=
+            (<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  1 - sin<sup>2</sup>A</div>
+                <div style="text-align: center;">sin  A </div>
+            </span>)<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  1 - cos<sup>2</sup>A</div>
+                <div style="text-align: center;">cos A </div>
+            </span>
+        </div>
+        <p>[1 - sin<sup>2</sup>A= cos<sup>2</sup>A and 1-cos<sup>2</sup>A=<input type="text" class="answer" id="input1" maxlength="6" size="1" data-answer="sin"/><sup>2</sup>A]</p>
+        <div>=
+            <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  cos<sup>2</sup>A</div>
+                <div style="text-align: center;">sin A </div>
+            </span> &times; <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input2" maxlength="6" size="1" data-answer="sin"/><sup>2</sup>A</div>
+                <div style="text-align: center;">cos A </div>
+            </span> 
+        </div><br/>
+        <p>cos A.<input type="text" class="answer" id="input3" maxlength="6" size="1" data-answer="sin"/>A----------(1)</p>
+        <div>
+            R.H.S=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  1</div>
+                <div style="text-align: center;">tan A + cot A </div>
+            </span>
+        </div><br/>
+        <div>
+            =<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  1</div>
+                <div style="text-align: center;"><span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">  sin A</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="6" size="1" data-answer="cos"/> A</div>
+                </span> + <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">  <input type="text" class="answer" id="input5" maxlength="6" size="1" data-answer="cos"/> A</div>
+                    <div style="text-align: center;">sin A</div>
+                </span> </div>
+            </span>
+        </div><br/>
+        <div>
+            =<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  1</div>
+                <div style="text-align: center;"><span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">sin <sup>2</sup>A + <input type="text" class="answer" id="input6" maxlength="6" size="1" data-answer="cos"/><sup>2</sup>A</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input7" maxlength="6" size="1" data-answer="cos"/> A.sin A </div>
+                </span></div>
+            </span>
+        </div><br/>
+        <p>[sin <sup>2</sup>A + <input type="text" class="answer" id="input8" maxlength="6" size="1" data-answer="cos"/><sup>2</sup>A=1]</p>
+        <div>
+            =<span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;">  1</div>
+                <div style="text-align: center;"><span style="display: inline-block;vertical-align: middle; text-align: center;">
+                    <div style="text-align: center; border-bottom: 1px solid black;">  1</div>
+                    <div style="text-align: center;"><input type="text" class="answer" id="input9" maxlength="6" size="1" data-answer="cos"/> A . sin A</div>
+                </span></div>
+            </span>
+        </div><br/>
+        <div>
+            =1 &times; <span style="display: inline-block;vertical-align: middle; text-align: center;">
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input10" maxlength="6" size="1" data-answer="cos"/> A . sin A</div>
+                <div style="text-align: center;">1 </div>
+            </span>
+        </div><br/>
+        <p>=<input type="text" class="answer" id="input11" maxlength="6" size="1" data-answer="cos"/> A. sin A ------------(2)</p>
+        <p>From (1)and(2),we get <br/>L.H.S=R.H.S</p>
+        <div>[ (cosec A - sin A)(sec A - cos A)=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">  1</div>
+            <div style="text-align: center;">tan A + cot A </div>
+        </span>]</div>
+
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+    
+</body>
+</html>

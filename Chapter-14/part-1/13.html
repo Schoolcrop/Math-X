@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <title>Schoolcrop</title>
+    <style>
+        
+        body{
+        padding: 10px;
+        }
+        table {
+        border: 2px solid black;border-collapse: collapse; text-align: center;
+        }
+        td{
+        border: 2px solid black; width: 55px; height: 30px;
+        }
+        th{
+        border: 2px solid black; width: 250px;text-align:center;height:50px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div>
+        <h2>(Q13). In a retail market, fruit vendors were selling oranges kept in packing baskets. These baskets contained varying number of oranges. The following was the distribution of oranges.</h2>
+        <table>
+            <tr>
+                <td style="width: 200px;">Number of oranges</td>
+                <td>10-14</td>
+                <td>15-19</td>
+                <td>20-24</td>
+                <td>25-29</td>
+                <td>30-34</td>
+            </tr>
+            <tr>
+                <td>Number of baskets</td>
+                <td>15</td>
+                <td>110</td>
+                <td>135</td>
+                <td>115</td>
+                <td>25</td>
+            </tr>
+        </table>
+        <h2>Find the mean number of oranges kept in each basket. Which method of finding the mean did you choose?</h2>
+    </div> 
+    <div>
+        <h4>Solution :</h4>
+        <table>
+            <tr>
+                <th>Number of oranges (C.I) </th>
+                <th>Number of baskets (f<sub>i</sub>)</th>
+                <th>x<sub>i</sub></th>
+                <th>
+                    <span>u<sub>i</sub> = </span>
+                    <span style="display: inline-block;vertical-align: middle;"> 
+                        <div style="text-align: center; border-bottom: 1px solid black;">x<sub>i</sub> - a</div>
+                        <div style="text-align: center;">h</div>
+                    </span><br>
+                    <span>h = 5</span>
+                </th>
+                <th>f<sub>i</sub>u<sub>i</sub></th>
+            </tr>
+            <tr>
+                <td>10-14</td>
+                <td>15</td>
+                <td>12</td>
+                <td>-2</td>
+                <td>-<input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="30"/></td>
+            </tr>
+            <tr>
+                <td>15-19</td>
+                <td>110</td>
+                <td>17</td>
+                <td>-1</td>
+                <td>-<input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="110"/></td>
+            </tr>
+            <tr>
+                <td>20-24</td>
+                <td>135</td>
+                <td>22 a</td>
+                <td>0</td>
+                <td><input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="0"/></td>
+            </tr>
+            <tr>
+                <td>25-29</td>
+                <td>115</td>
+                <td>27</td>
+                <td>1</td>
+                <td><input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="115"/></td>
+            </tr>
+            <tr>
+                <td>30-34</td>
+                <td>25</td>
+                <td>32</td>
+                <td>2</td>
+                <td><input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="50"/></td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>&#8721;f<sub>i</sub> = 400 </td>
+                <td>-</td>
+                <td>-</td>
+                <td>&#8721;f<sub>i</sub>u<sub>i</sub> = <input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="25"/></td>
+            </tr>
+        </table>
+        <p>Here we use step deviation method where a = 135, h = 5,a multiple of all d<sub>i</sub></p>
+        <div>
+            <span> x&#772; = a + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">&#8721;f<sub>i</sub>u<sub>i</sub></div>
+                <div style="text-align: center;">&#8721;f<sub>i</sub></div>
+            </span>
+            <span>&times; h </span>
+        </div>
+        <div>
+            <span> x&#772; = 22 + </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="25"/></div>
+                <div style="text-align: center;">400</div>
+            </span>
+            <span> &times; 5 = <input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="22"/>.31 </span>
+        </div>
+        
+    </div> 
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>  
+</body>
+</html>

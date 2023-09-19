@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+<body>
+    <div id="question">
+        <h3><B style="color:orangered">Example-1</B>.If tan A=3/4,then find the other trignometric ratio of angle A.</h3>
+        <img src="E:\project\assets\images\11(9).png"/>
+        <p style="color: black; position: relative; bottom: 280px; left: 580px;">3k</p>
+        <p style="color: black; position: relative; bottom: 100px; left: 280px;">4K</p>
+    </div>
+    <div id="answer">
+        <h4 style="color:orangered">solution:</h4>
+        <p>Given tan A=3/4</p>
+        <p>Hence tan A=Opposite side/Adjacent side=3/4</p>
+        <p>Therefore,</p>
+        <p>opposite side:adjacent side=<input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="3" />:
+          <input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="4" />
+        </p>
+        <p>For angle A,let,opposite side=BC=3k(where k is any positive number)</p>
+        
+        <p>Adjacent side=AB=4k</p>
+        <p>Now,we have a triangle ABC (by pythogras theorem)</p>
+        <p>AC<sup>2</sup>=AB<sup>2</sup>+BC<sup>2</sup></p>
+        <p>AC<sup>2</sup>=<input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="25" />K<sup>2</sup></p>
+        <p>AC=<input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="5" />k=Hypotenuse</p>
+        <p>Now,we can easily write the other ratios of trignometry</p>
+        <div>sin A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> oppsite</div>
+            <div style="text-align: center;"> hypotenus</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="3" /></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="5" /></div>
+             </span>
+       </div><br/>
+            <div>cos A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> adjacent</div>
+            <div style="text-align: center;"> hypotenus</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="4" /></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="5" /></div>
+            </span>
+       </div><br/>
+       <div>Hence cosec A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> 1</div>
+            <div style="text-align: center;"> sin A</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="5" /></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="3" /></div>
+            </span>
+       </div><br/>
+        <div>sec A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> 1</div>
+            <div style="text-align: center;"> cos A</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">  <input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="5" /></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input12" maxlength="3" size="1" data-answer="4" /></div>
+            </span>
+        </div><br/>
+        <div>cot A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> 1</div>
+            <div style="text-align: center;"> tan A</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input13" maxlength="3" size="1" data-answer="4" /></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input14" maxlength="3" size="1" data-answer="3" /></div>
+            </span>
+       </div><br/>
+    </div>
+    <div class="button-container">
+        <button id="check-button" onclick="checkAnswers()">check Answer</button>
+        <button id="clear-button" onclick="clearAnswers()">clear</button>
+    
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+
+    
+</body>
+</html>

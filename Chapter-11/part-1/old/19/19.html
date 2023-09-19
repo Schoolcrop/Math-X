@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+<body>
+    <div id="question">
+        <h3> In a right angled triangle ABC,right angle is at B.if tan A=&radic;3 then find the vakue of<br/>
+             (i) sin A cos C+ cos A sin C     (ii) cos A cos C-sinA sin C
+        </h3>
+    </div>
+    <div id="answer">
+        <h4><u>Solution:</u></h4>
+        <img  src="E:\project\assets\images\11(11).png" height="150" width="150"/>
+        <p style="color: black; position: relative; bottom: 30px; left: 0px;">A</p>
+        <p style="color: black; position: relative; bottom: 70px; left: 150px;">B</p>
+        <p style="color: black; position: relative; bottom: 270px; left: 150px;">C</p>
+        <p style="color: black; position: relative; bottom: 230px; left: 150px;">&radic;3k</p>
+        <p style="color: black; position: relative; bottom: 200px; left: 80px;">1k</p>
+        
+        <div>Given,tan A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> &radic;3</div>
+            <div style="text-align: center;"> 1</div>
+            </span> 
+        </div>
+        <div>Hence , <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> oppsite side</div>
+            <div style="text-align: center;"> adjacent side</div>
+            </span>  =<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> &radic;3</div>
+            <div style="text-align: center;"> 1</div>
+            </span>
+        </div>
+        <p>Let oppsite side =&radic;3k and adjacent side=1k</p>
+        <p>In right angled triangle ABC,</p>
+        <p>AC<sup>2</sup>=AB<sup>2</sup>+BC<sup>2</sup></p>
+        <p>(By pythogas theroem)</p>
+        <p>
+            AC<sup>2</sup>=<input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="4" />k<sup>2</sup>
+        </p>
+        <p>AC=<input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="2" />k</p>
+        <p>Now,</p>
+        <div>sin A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> BC</div>
+            <div style="text-align: center;"> AC</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="&radic;3" /></div>
+            <div style="text-align: center;"><input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="2" /></div>
+            </span>
+        </div><br/>
+        <div>cos A=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> AB</div>
+            <div style="text-align: center;"> AC</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="1" /></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input4" maxlength="4" size="1" data-answer="2" /></div>
+            </span>
+        </div><br/>
+        <div>sin C=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> AB</div>
+            <div style="text-align: center;"> AC</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input5" maxlength="4" size="1" data-answer="1" /></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input6" maxlength="4" size="1" data-answer="2" /></div>
+            </span>
+        </div><br/>
+        <div>cos C=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> BC</div>
+            <div style="text-align: center;"> AC</div>
+            </span>=<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input7" maxlength="4" size="1" data-answer="&radic;3" /></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input8" maxlength="4" size="1" data-answer="2" /></div>
+
+            </span>
+        </div><br/>
+        <p>(i) sin A cos C+ cos A sin C =<input type="text" class="answer" id="input8" maxlength="4" size="1" data-answer="1" /></p>
+        <p>(ii) cos A cos C-sinA sin C=<input type="text" class="answer" id="input8" maxlength="4" size="1" data-answer="0" /></p>
+    </div>
+    <div class="button-container">
+       <button id="check-button" onclick="checkAnswers()">check Answer</button>
+       <button id="clear-button" onclick="clearAnswers()">clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+    
+</body>
+</html>

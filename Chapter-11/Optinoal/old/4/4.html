@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../../assets/css/styles.css">
+</head>
+<body>
+    <h2>Prove that <span style="display: inline-block;vertical-align: middle; text-align: center;">
+        <div style="text-align: center; border-bottom: 1px solid black;">  1 +sec A</div>
+        <div style="text-align: center;">sec A </div>
+       </span> = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+        <div style="text-align: center; border-bottom: 1px solid black;">  sin <sup>2</sup>A</div>
+        <div style="text-align: center;">1 - cos A </div>
+       </span>
+   </h2>
+   <div id="answer">
+       <h4><u>Answer:</u></h4>
+       <div>
+        L.H.S = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">1 +sec A</div>
+            <div style="text-align: center;">sec A </div>
+        </span> 
+       </div><br/>
+       <div>
+          = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">  1</div>
+            <div style="text-align: center;">sec A </div>
+           </span> + <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">sec A</div>
+            <div style="text-align: center;">sec A</div>
+            </span>
+       </div><br/>
+       <p>= <input type="text" class="answer" id="input1" maxlength="6" size="1" data-answer="cos"/> A+1</p>
+       <div>
+         =  <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">(<input type="text" class="answer" id="input2" maxlength="6" size="1" data-answer="cos"/> A+1)(<input type="text" class="answer" id="input3" maxlength="6" size="1" data-answer="cos"/> A-1)</div>
+            <div style="text-align: center;">(cos A-1) </div>
+           </span>
+       </div><br/>
+       <div>
+          = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">  <input type="text" class="answer" id="input4" maxlength="6" size="1" data-answer="cos"/><sup>2</sup>A - 1</div>
+            <div style="text-align: center;"> cos A - 1 </div>
+           </span>
+       </div><br/>
+       <div>
+          = <span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> -1(1 - <input type="text" class="answer" id="input5" maxlength="6" size="1" data-answer="cos"/><sup>2</sup>A)</div>
+            <div style="text-align: center;">-1 (1- cos A) </div>
+           </span>
+       </div><br/>
+       <div>
+          =<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;"> 1 - <input type="text" class="answer" id="input6" maxlength="6" size="1" data-answer="cos"/> <sup>2</sup>A</div>
+            <div style="text-align: center;">1 - cos A </div>
+           </span>
+       </div>
+       <p>[1 - <input type="text" class="answer" id="input7" maxlength="6" size="1" data-answer="cos"/><sup>2</sup>A = sin<sup>2</sup>A]</p>
+       <div>
+          =<span style="display: inline-block;vertical-align: middle; text-align: center;">
+            <div style="text-align: center; border-bottom: 1px solid black;">  sin <sup>2</sup>A</div>
+            <div style="text-align: center;">1 - cos A </div>
+           </span>
+       </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
+    </div>
+    <script src="../../../assets/js/javascript.js"> </script>   
+
+   
+        
+    
+</body>
+</html>

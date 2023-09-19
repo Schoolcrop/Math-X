@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h2>(Q7)What can you say about the values of sin A and cos A, as the value of angle A increases from 0&deg; to 90&deg;?</h2>
+    <h2>(i) If A &ge; B, then sin A &ge; sin B. Is it true ?</h2>
+    <h2>(ii) If A &ge; B, then cos A &ge; cos B. Is it true ?Discuss.</h2>
+    <div style="padding-left: 20px;">
+        <p>(i) Given statement “If A ≥ B, then sin A ≥ sin B”</p>
+        <div class="question">
+            <p>Is this statement is</p>
+            <div class="answer"></div>
+            <form>
+                <input type="radio" name="option" value="correct"> True <input type="radio" name="option" value="incorrect"> False<br>
+                    
+            </form>
+        </div>
+        <p>Because, it is clear from the table below that the sin A increases as A increases.</p>
+        <table style="width: 90%;">
+            <tr>
+                <th> A </th>
+                <th> 0&deg; </th>
+                <th> 30&deg; </th>
+                <th> 45&deg; </th>
+                <th> 60&deg; </th>
+                <th> 90&deg; </th>
+            </tr>
+            <tr style="text-align: center;">
+                <td> sin A </td>
+                <td> <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="0"> </td>
+                <td> 
+                    <div>
+                        <span style="display: inline-block;vertical-align: middle;">
+                            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                            <div style="text-align: center;"><input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="2"></div>
+                        </span>
+                    </div> 
+                </td>
+                <td> 
+                    <div>
+                        <span style="display: inline-block;vertical-align: middle;">
+                            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                            <div style="text-align: center;">&#8730;<input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="2"></div>
+                        </span>
+                    </div> 
+                </td>
+                <td> 
+                    <div>
+                        <span style="display: inline-block;vertical-align: middle;">
+                            <div style="text-align: center; border-bottom: 1px solid black;">&#8730;<input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="3"></div>
+                            <div style="text-align: center;">2</div>
+                        </span>
+                    </div> 
+                </td>
+                <td> <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="1"> </td>
+            </tr>
+        </table>
+        <p>(ii) Given statement “If A ≥ B, then cos A ≥ cos B”</p>
+        <div class="question">
+            <p>Is this statement is</p>
+            <div class="answer"></div>
+            <form>
+                <input type="radio" name="option" value="incorrect"> True <input type="radio" name="option" value="correct"> False<br>
+                    
+            </form>
+        </div>
+        
+        <p>Because, it is clear from the table below that cos A decreases as A increases.</p>
+        <table style="width: 90%;">
+            <tr>
+                <th> A </th>
+                <th> 0&deg; </th>
+                <th> 30&deg; </th>
+                <th> 45&deg; </th>
+                <th> 60&deg; </th>
+                <th> 90&deg; </th>
+            </tr>
+            <tr style="text-align: center;">
+                <td> cos A </td>
+                <td> <input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="1"> </td>
+                <td> 
+                    <div>
+                        <span style="display: inline-block;vertical-align: middle;">
+                            <div style="text-align: center; border-bottom: 1px solid black;">&#8730;<input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="3"></div>
+                            <div style="text-align: center;">2</div>
+                        </span>
+                    </div> 
+                </td>
+                <td> 
+                    <div>
+                        <span style="display: inline-block;vertical-align: middle;">
+                            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                            <div style="text-align: center;">&#8730;<input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="2"></div>
+                        </span>
+                    </div> 
+                </td>
+                <td> 
+                    <div>
+                        <span style="display: inline-block;vertical-align: middle;">
+                            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                            <div style="text-align: center;"><input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="2"></div>
+                        </span>
+                    </div> 
+                </td>
+                <td> <input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="0"> </td>
+            </tr>
+        </table>
+        <!-- <img src="../Assets/image-1.jpg.png" alt="" width="250px" height="250px"> -->
+    </div>
+    <div class="button-container">
+        <button id="check-button" onclick="checkAnswers()">Check Answer</button>
+        <button id="clear-button" onclick="clearAnswers();clear_Answers();">Clear</button>
+    </div>
+   <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SchoolCrop</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
+</head>
+<body>
+    <h2>(Q20)Simplify (1 – cos θ) (1 + cos θ) (1 + cot<sup>2</sup> θ)</h2>
+    <div style="padding-left: 20px;">
+        <p>Given that</p>
+        <p>= (1 – cos θ) (1 + cos θ) (1 + cot<sup>2</sup> θ)</p>
+        <p>= (1 – <input type="text" class="answer" id="input1" maxlength="3" size="3" data-answer="cos"><sup>2</sup> θ) (1 + cot<sup>2</sup> θ)</p>
+        <p>[∵ (a – b) (a + b) = a<sup>2</sup> – b<sup>2</sup>]</p>
+        <p>= <input type="text" class="answer" id="input2" maxlength="3" size="3" data-answer="sin"><sup>2</sup> θ. <input type="text" class="answer" id="input3" maxlength="5" size="5" data-answer="cosec"><sup>2</sup> θ</p>
+        <p>[∵ 1 – cos<sup>2</sup> θ = sin<sup>2</sup> θ; 1 + cot<sup>2</sup> θ = cosec<sup>2</sup> θ]</p>
+        <div>
+            <span> = <input type="text" class="answer" id="input4" maxlength="3" size="3" data-answer="sin"><sup>2</sup> θ .</span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input5" maxlength="3" size="3" data-answer="sin"><sup>2</sup> θ</div>
+            </span>
+            <span>[∵ cosec θ = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;">sin θ</div>
+            </span>]
+        </div>
+        <P>= <input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="1"></P>
+    </div>
+    <div class="button-container">
+        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="clear-button" onclick="clearAnswers();clear_Answers();">Clear</button>
+    </div>
+    <script src="../../Assets/js/javascript.js"></script>
+</body>
+</html>
