@@ -547,7 +547,7 @@ button.btn.btn-secondary {
  }
 
  .needs_iframe {
-     height: 37vh !important;
+     height: 70vh !important;
      width: 100% !important;
  }
 
@@ -567,13 +567,13 @@ button.btn.btn-secondary {
      }
 
      .needs_iframe {
-         height: 39vh !important;
+         height: 70vh !important;
      }
  }
 
  @media screen and (max-width: 770px) {
      .question {
-         font-size: 13px;
+         font-size: 12px;
          padding: 0;
          margin: 0;
      }
@@ -583,7 +583,7 @@ button.btn.btn-secondary {
      }
 
      .needs_iframe {
-         height: 39vh !important;
+         height: 70vh !important;
 
      }
  }
