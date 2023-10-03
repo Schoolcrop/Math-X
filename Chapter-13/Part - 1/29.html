@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schoolcrop</title>
     <link rel="stylesheet" href="../../Assets/css/styles.css">
@@ -14,51 +13,53 @@
 </head>
 <body>
     <div>
-        <h2>(Q29) There are 40 students in Class X of a school of whom 25 are girls and 15 are boys. The class teacher has to select one student as a class representative. She writes the name of each student on separate cards, the cards being identical. Then she puts cards in a box and stirs them thoroughly. She then draws one card from the box. What is the probability that the name written on the card is the name of (i) a girl? (ii) a boy? </h2>
-    </div>
-    <div>
-        <b>Solution : </b>
-        <p>There are 40 students, and only one name card has to be chosen.</p>
-        <p>The number of all possible outcomes is <input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="40"/>.</p>
-        <p>(i) The number of outcomes favourable for a card with the name of a girl = <input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="25"/></p>
-        <span>&emsp; &#8756; P (card with name of a girl) = P(Girl) = </span>
-        <span style="display: inline-block;vertical-align: middle;"> 
-            <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="25"/></div>
-            <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="40"/></div>
-        </span>
-        <span> = </span>
-            <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;">5</div>
-                <div style="text-align: center;"><input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="8"/></div>
-            </span>
-            <p>(ii) The number of outcomes favourable for a card with the name of a boy = <input type="text" class="answer" id="input16" maxlength="3" size="1" data-answer="15"/>.</p>
-            <div>
-            <span>&emsp; &#8756; P(card with name of a boy) = P(Boy) = </span>
-            <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input17" maxlength="3" size="1" data-answer="15"/></div>
-                <div style="text-align: center;"><input type="text" class="answer" id="input18" maxlength="3" size="1" data-answer="40"/></div>
-            </span>
-            <span> = </span>
-            <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;">3</div>
-                <div style="text-align: center;"><input type="text" class="answer" id="input19" maxlength="3" size="1" data-answer="8"/></div>
-            </span>
-        </div>
-        <div>
-            <span>&emsp; (or) P(Boy) = 1 - P(not Boy) = 1 - P(Girl) = 1 - </span>
-            <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;">5</div>
-                <div style="text-align: center;"><input type="text" class="answer" id="input20" maxlength="3" size="1" data-answer="8"/></div>
-            </span>
-            <span> = </span>
-            <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;">3</div>
-                <div style="text-align: center;"><input type="text" class="answer" id="input21" maxlength="3" size="1" data-answer="8"/></div>
-            </span>
-        </div>
+        <h2>(Q29)Complete the following statements:</h2>
+        <div id="answer">
+            <div class="question">
+                <h3>(i)Probability of an event E + Probability of the event 'not E'</h3>
+                <div class="answer"></div>
+                <form>
+                    <input type="radio" name="option" value="incorrect"> 0<br>
+                        <input type="radio" name="option" value="correct"> 1<br>
+                        <input type="radio" name="option" value="incorrect"> 2<br>
+                        <input type="radio" name="option" value="incorrect"> 3<br>
+                        <div class="answer"></div>
+                </form>
+            </div>
+            <div class="question">
+                <h3>(ii) The probability of an event that cannot happen is <u>Zero</u>.Such an event is called an</h3>
+                <div class="answer"></div>
+                <form>
+        	    <input type="radio" name="option" value="incorrect"> Possible event <input type="radio" name="option" value="correct"> Impossible event <br>
+                    <div class="answer"></div>
+                </form>
+            </div>
+            <div class="question">
+                <h3>(iii)The sum of the probabilities of all the elementary events of an experiment is</h3>
+                <div class="answer"></div>
+                <form>
+                    <input type="radio" name="option" value="correct"> 1<br>
+                        <input type="radio" name="option" value="incorrect"> 2<br>
+                        <input type="radio" name="option" value="incorrect"> 0<br>
+                        <input type="radio" name="option" value="incorrect"> -1<br>
+                        <div class="answer"></div>
+                </form>
+            </div>
+            <div class="question">
+                <h3>(iv)The probability of an event is greater than or equal to <u>zero</u> and less than or equal to</h3>
+                <div class="answer"></div>
+                <form>
+                    <input type="radio" name="option" value="incorrect"> 0<br>
+                        <input type="radio" name="option" value="correct"> 1<br>
+                        <input type="radio" name="option" value="incorrect"> 2<br>
+                        <input type="radio" name="option" value="incorrect"> 3<br>
+                        <div class="answer"></div>
+                </form>
+            </div>
+        </div>    
     </div>
     <div class="button-container">
-        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="check-button" onclick="checkAnswers()">Check Answer</button>
         <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
     </div>
     <script src="../../Assets/js/javascript.js"></script>

@@ -2,83 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schoolcrop</title>
     <link rel="stylesheet" href="../../Assets/css/styles.css">
     <style>
-        body{padding: 10px;}
+        body{
+            padding: 10px;
+        }
     </style>
 </head>
 <body>
     <div>
-        <h2>(Q20)Which of the following arguments are correct and which are not correct? Give reasons.</h2>
+        <h2>(Q20) One card is drawn from a well-shuffled deck of 52 cards. Calculate the probability that the card will (i) be an ace, (ii) not be an ace.</h2>
     </div>
-    
-    <h3>(i) If two coins are tossed simultaneously, there are three possible outcomes - two heads, two tails or one of each. Therefore, for each of these outcomes, the probability is</h3>
     <div>
-        <p><b>Reason : </b></p>
-        <p>All possible outcomes =<input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="4"/></p>
+        <p><b>Solution : </b>: Well-shuffling ensures equally likely outcomes.</p>
+        <p>(i) There are 4 aces in a deck.</p>
+        <p>Let E be the event 'the card is an ace'.</p>
+        <p>The number of outcomes favourable to E = <input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="4"/></p>
+        <p>The number of possible outcomes = <input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="52"/></p>
         <div>
-            <span>Thus, probability of two heads = </span>
+            <span>Therefore, P(E) = </span>
             <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input2" maxlength="4" size="1" data-answer="1"/></div>
-                <div style="text-align: center;"><input type="text" class="answer" id="input3" maxlength="4" size="1" data-answer="4"/></div>
-            </span>
-        </div>
-        <div>
-            <span>Probability of two tails = </span>
-            <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input1" maxlength="4" size="1" data-answer="1"/></div>
-                <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="4" size="1" data-answer="4"/></div>
-            </span>
-        </div>
-        <div>
-            <span>Probability of one each = </span>
-            <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input5" maxlength="4" size="1" data-answer="2"/></div>
-                <div style="text-align: center;"><input type="text" class="answer" id="input6" maxlength="4" size="1" data-answer="4"/></div>
+                <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="4"/></div>
+                <div style="text-align: center;"> <input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="52"/></div>
             </span>
             <span> = </span>
             <span style="display: inline-block;vertical-align: middle;"> 
                 <div style="text-align: center; border-bottom: 1px solid black;">1</div>
-                <div style="text-align: center;"><input type="text" class="answer" id="input7" maxlength="4" size="1" data-answer="2"/></div>
+                <div style="text-align: center;"> <input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="13"/></div>
             </span>
         </div>
-        <p>This statement is (correct,incorrect)=<input type="text" class="answer" id="input8" maxlength="10" size="1" data-answer="incorrect"/></p>
-    </div>
-    <div>
-        <h3>
+        <p>(ii)  Let F be the event 'card drawn is not an ace'.</p>
+        <p>The number of outcomes favourable to the event F = 52 - 4 = 48</p>
+        <p>The number of possible outcomes =  <input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="52"/></p>
         <div>
-            <span>ii) If a dice is thrown, there are two possible outcomes - an odd number or an even number. Therefore, the probability of getting an odd number is </span>
+            <span>Therefore, P(E) = </span>
             <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
-                <div style="text-align: center;">2</div>
-            </span> 
-        </h3>
-        </div>
-    </div>
-    <div>
-        <p><b>Reason : </b></p>
-        <p>All possible outcomes  = <input type="text" class="answer" id="input9" maxlength="4" size="1" data-answer="6"/></p>
-        <p>Outcomes favourable to an odd number  = <input type="text" class="answer" id="input10" maxlength="4" size="1" data-answer="3"/></p>
-        <p>Outcomes favourable to an even number = <input type="text" class="answer" id="input11" maxlength="4" size="1" data-answer="3"/></p>
-        <div>
-            <span>&#8756;Probability(odd number) = </span>
-            <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;">No. of favourable outcomes</div>
-                <div style="text-align: center;">Total no. of outcomes </div>
+                <div style="text-align: center; border-bottom: 1px solid black;">48</div>
+                <div style="text-align: center;"> <input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="52"/></div>
             </span>
             <span> = </span>
             <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input12" maxlength="4" size="1" data-answer="3"/></div>
-                <div style="text-align: center;"><input type="text" class="answer" id="input13" maxlength="4" size="1" data-answer="6"/></div>
-            </span> 
-            <span> = </span>
-            <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
-                <div style="text-align: center;"><input type="text" class="answer" id="input14" maxlength="4" size="1" data-answer="2"/></div>
-            </span> 
+                <div style="text-align: center; border-bottom: 1px solid black;">12</div>
+                <div style="text-align: center;"> <input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="13"/></div>
+            </span>
         </div>
+    </div>
+    <div>
+        <b>Alternate Method : </b>
+        <p>Note that F is nothing but E&#772;.</p>
+        <p>Therefore, we can also calculate P(F) as follows:</p>
+        <span>P(F) = P(E&#772;) = 1 - P(E) = 1 - </span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="13"/></div>
+        </span>
+        <span> = </span>
+        <span style="display: inline-block;vertical-align: middle;"> 
+            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="12"/></div>
+            <div style="text-align: center;"> <input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="13"/></div>
+        </span>
     </div>
     <div class="button-container">
         <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->

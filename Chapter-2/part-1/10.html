@@ -8,16 +8,30 @@
     <link rel="stylesheet" href="../../Assets/css/styles.css">
 </head>
 <body>
-    <h2>(Q10).Write some sets of your choice, involving algebraic and geometrical ideas. </h2>
-    <div style="padding-left: 20px;">
-        <p>The set of all natural numbers ‘x’ such that 4x + 9 < <input type="text" class="answer" id="input1" maxlength="2" size="2" data-answer="50">,</p> 
-        <p>(ii) A = {x : x is an integer and -3 ≤ x ≤ <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="7">}</p>
-        <p>(iii) B = {Equilateral triangle, Right angled triangle, Scalene triangle, Obtuse angled triangle, Acute angled triangle}</p>
-        <p>(iv) C = {Rectangle, <input type="text" class="answer" id="input3" maxlength="6" size="6" data-answer="square">, Parallelogram, <input type="text" class="answer" id="input4" maxlength="7" size="7" data-answer="Rhombus">, Trapezium}</p>
+    <h2>(Q10).Match roster forms with the set builder form.</h2>
+    <div style="padding-left: 20px; display: flex;">
+        <div>
+            <p>(i){P, R, I, N, C, A, L}</p>
+            <p>(ii){0}</p>
+            <p>(iii){1, 2, 3, 6, 9, 18}</p>
+            <p>(iv){3, -3}</p>
+        </div>
+        <div style="padding-left: 20px;">
+            <p><input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="d"></p>
+            <p><input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="c"></p>
+            <p><input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="a"></p>
+            <p><input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="b"></p>
+        </div>
+        <div style="padding-left: 20px;">
+            <p>(a) {x : x is a positive integer and is a divisor of 18}</p>
+            <p>(b) {x : x is an integer and x<sup>2</sup> - 9 = 0}</p>
+            <p>(c) {x : x is an integer and x + 1 = 1}</p>
+            <p>(d) {x : x is a letter of the word PRINCIPAL}</p>
+        </div>
     </div>    
     <div class="button-container">
         <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
-        <!-- <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button> -->
+        <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
     </div>
     <script src="../../Assets/js/javascript.js"></script>
 </body>

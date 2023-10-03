@@ -2,68 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schoolcrop</title>
     <link rel="stylesheet" href="../../Assets/css/styles.css">
     <style>
-        body{
-            padding: 10px;
-        }
+        body{padding: 10px;}
     </style>
 </head>
 <body>
     <div>
-        <h2>(Q21) One card is drawn from a well-shuffled deck of 52 cards. Calculate the probability that the card will (i) be an ace, (ii) not be an ace.</h2>
+        <h2>(Q21)You have a single deck of well shuffled cards.</h2> 
+        <h3> Then, what is the probability that the card drawn will be a queen?</h3>
     </div>
     <div>
-        <p><b>Solution : </b>: Well-shuffling ensures equally likely outcomes.</p>
-        <p>(i) There are 4 aces in a deck.</p>
-        <p>Let E be the event 'the card is an ace'.</p>
-        <p>The number of outcomes favourable to E = <input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="4"/></p>
-        <p>The number of possible outcomes = <input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="52"/></p>
+        <p><b>Answer : </b></p>
+        <p>Number of all possible outcomes = <input type="text" class="answer" id="input1" maxlength="3" size="1" data-answer="52"/></p>
+        <p>Number of outcomes favourable to Queen = 4 [♥ Q, ♦ Q, ♠ Q, ♣ Q]</p>
         <div>
-            <span>Therefore, P(E) = </span>
+            <span>&#8756; Probability P(E) = </span>
             <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="4"/></div>
-                <div style="text-align: center;"> <input type="text" class="answer" id="input4" maxlength="3" size="1" data-answer="52"/></div>
+                <div style="text-align: center; border-bottom: 1px solid black;">No. of favourable outcomes</div>
+                <div style="text-align: center;">Total No. of outcomes</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">4</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input2" maxlength="3" size="1" data-answer="52"/></div>
             </span>
             <span> = </span>
             <span style="display: inline-block;vertical-align: middle;"> 
                 <div style="text-align: center; border-bottom: 1px solid black;">1</div>
-                <div style="text-align: center;"> <input type="text" class="answer" id="input5" maxlength="3" size="1" data-answer="13"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input3" maxlength="3" size="1" data-answer="13"/></div>
             </span>
         </div>
-        <p>(ii)  Let F be the event 'card drawn is not an ace'.</p>
-        <p>The number of outcomes favourable to the event F = 52 - 4 = 48</p>
-        <p>The number of possible outcomes =  <input type="text" class="answer" id="input6" maxlength="3" size="1" data-answer="52"/></p>
-        <div>
-            <span>Therefore, P(E) = </span>
-            <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;">48</div>
-                <div style="text-align: center;"> <input type="text" class="answer" id="input7" maxlength="3" size="1" data-answer="52"/></div>
-            </span>
-            <span> = </span>
-            <span style="display: inline-block;vertical-align: middle;"> 
-                <div style="text-align: center; border-bottom: 1px solid black;">12</div>
-                <div style="text-align: center;"> <input type="text" class="answer" id="input8" maxlength="3" size="1" data-answer="13"/></div>
-            </span>
-        </div>
-    </div>
-    <div>
-        <b>Alternate Method : </b>
-        <p>Note that F is nothing but E&#772;.</p>
-        <p>Therefore, we can also calculate P(F) as follows:</p>
-        <span>P(F) = P(E&#772;) = 1 - P(E) = 1 - </span>
-        <span style="display: inline-block;vertical-align: middle;"> 
-            <div style="text-align: center; border-bottom: 1px solid black;">1</div>
-            <div style="text-align: center;"> <input type="text" class="answer" id="input9" maxlength="3" size="1" data-answer="13"/></div>
-        </span>
-        <span> = </span>
-        <span style="display: inline-block;vertical-align: middle;"> 
-            <div style="text-align: center; border-bottom: 1px solid black;"> <input type="text" class="answer" id="input10" maxlength="3" size="1" data-answer="12"/></div>
-            <div style="text-align: center;"> <input type="text" class="answer" id="input11" maxlength="3" size="1" data-answer="13"/></div>
-        </span>
+
     </div>
     <div class="button-container">
         <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->

@@ -13,20 +13,81 @@
 </head>
 <body>
     <div>
-        <h2>(Q33) A bag contains lemon flavoured candies only. Malini takes out one candy without looking into the bag. What is the probability that she takes out</h2>
-        <h3>(i)an orange flavoured candy?</h3>
-        <h3>(ii)a lemon flavoured candy?</h23>
+        <h2>(Q33)Rahim removes all the hearts from the cards. What is the probability of</h2>
+        <h3>(i) Picking out an ace from the remaining pack.</h3>
+        <h3>(ii). Picking out a diamond.</h3>
+        <h3>(iii). Picking out a card that is not a heart</h3>
+        <h3>(iv)Picking out the Ace of hearts.</h3>
     </div>
     <div id="answer">
-            <p>Bag contains only lemon flavoured candies.</p>
-            <p>(i) Taking an orange flavoured candy is an impossible event and hence the probability is <input type="text" class="answer" id="input1" maxlength="2" size="1" data-answer="0"/>.</p>
-            <p>(ii)Also taking a lemon flavoured candy is a sure event and hence its probability is <input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="1"/>.</p>
+        <p><b>Answer : </b></p>
+        <p>Total number of cards in the deck = <input type="text" class="answer" id="input1" maxlength="2" size="2" data-answer="52"/>.</p>
+        <p>Total number of hearts in the deck of cards =13.</p>
+        <p>When Hearts are removed, remaining cards = 52 - 13 = <input type="text" class="answer" id="input2" maxlength="2" size="1" data-answer="39"/>.</p>
+        <p>(i) Picking out an Ace: </p>
+        <p>Number of outcomes favourable to Ace = 3 [&#8757; ♦ A, ♥ A, ♠ A, ♣ A]</p>
+        <p>Total number of possible outcomes from the remaining cards = <input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="39"/> (after removing Hearts.)</p>
+        <div>
+            <span>Probability = P(A) = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">No. of favourable outcomes</div>
+                <div style="text-align: center;">Total no. of outcomes</div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">3</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input4" maxlength="2" size="1" data-answer="39"/></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input5" maxlength="2" size="1" data-answer="13"/></div>
+            </span>
+        </div>
+        <p>(ii) Picking out a diamond:</p>
+        <p>Number of favourable outcomes to diamonds (♦) = 13</p>
+        <p>Total number of possible outcomes = <input type="text" class="answer" id="input6" maxlength="2" size="1" data-answer="39"/></p>
+        <div>
+            <span>&#8756;  p(♦) = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">13</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input7" maxlength="2" size="1" data-answer="39"/></div>
+            </span>
+            <span> = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;">1</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input8" maxlength="2" size="1" data-answer="3"/></div>
+            </span>
+        </div>
+        <p>(iii) Picking out a card that is 'not a heart':</p>
+        <p>As all hearts are removed, the remaining cards are all non-heart cards. So the picked card will be definitely a non-heart card. So this is a sure event.</p>
+        <p>Hence its probability is one </p>
+        <div>
+        <span>P(E) = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input9" maxlength="2" size="1" data-answer="39"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input10" maxlength="2" size="1" data-answer="39"/></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input11" maxlength="2" size="1" data-answer="1"/></span>
+        </div>
+        <p>(iv) Picking out the Ace of Hearts:</p>
+        <p>a) As all the heart cards are removed the left over cards will have three suits (i) spades, (ii), clubs, (iii) diamonds of each 13.</p>
+        <p>Hence total outcomes = <input type="text" class="answer" id="input12" maxlength="2" size="1" data-answer="3"/> &#215; 13 =  <input type="text" class="answer" id="input13" maxlength="2" size="1" data-answer="39"/> But among them there is no Ace of heart. So number of favourable outcomes for picking Ace of heart = <input type="text" class="answer" id="input14" maxlength="2" size="1" data-answer="0"/>.</p>
+        <div>
+            <span>&#8756; Probability P(E) = </span>
+            <span style="display: inline-block;vertical-align: middle;"> 
+                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input15" maxlength="2" size="1" data-answer="0"/></div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input16" maxlength="2" size="1" data-answer="39"/></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input17" maxlength="2" size="1" data-answer="0"/></span>
+        </div>
+        <p>So it is an impossible event.</p>
+        <p>b) If picking from the rest of the cards, it is an impossible event and hence probability is <input type="text" class="answer" id="input18" maxlength="2" size="1" data-answer="0"/>.</p>
     </div>
     <div class="button-container">
         <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
         <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
     </div>
     <script src="../../Assets/js/javascript.js"></script>
-
 </body>
 </html>
