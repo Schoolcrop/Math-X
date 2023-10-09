@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 597.8 527.94">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-width: 2.26px;
+      }
+
+      .cls-3 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #231f20;
+        font-size: 30px;
+      }
+
+      .cls-4 {
+        font-family: TimesNewRomanPS-ItalicMT, 'Times New Roman';
+        font-style: italic;
+      }
+
+      .cls-5 {
+        font-family: TimesNewRomanPSMT, 'Times New Roman';
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="m501.92,479.14s-17.75-25.45,15.36-37.02"/>
+  <polygon class="cls-1" points="7.84 41.19 7.84 480.25 565.49 480.25 7.84 41.19"/>
+  <text class="cls-3" transform="translate(0 25.11)"><tspan x="0" y="0">R</tspan></text>
+  <text class="cls-3" transform="translate(2.28 520.44)"><tspan x="0" y="0">Q</tspan></text>
+  <text class="cls-3" transform="translate(565.49 512.47)"><tspan x="0" y="0">P</tspan></text>
+  <text class="cls-4" transform="translate(469.33 455.37)"><tspan x="0" y="0">x</tspan></text>
+  <text class="cls-5" transform="translate(239.65 471.96)"><tspan x="0" y="0">7 cm</tspan></text>
+  <text class="cls-5" transform="translate(34.4 319.51) rotate(-90)"><tspan x="0" y="0">24 cm</tspan></text>
+  <rect class="cls-1" x="7.84" y="442.11" width="38.01" height="38.01"/>
+</svg>
