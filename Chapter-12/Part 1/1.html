@@ -2,26 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schoolcrop</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Assets/css/styles.css">
     <style>
         body{padding: 10px;}
     </style>
-    <link rel="stylesheet" href="../../Assets/css/styles.css">
 </head>
 <body>
-    <div>
-        <h2>(Q1) Discuss with your friends that in what way similarity of triangles is different from similarity of other polygons?</h2>
-    </div>
-    <div>
-        <p><b>Answer :</b></p>
-        <p>In two triangles if the corresponding angles are equal then they are <input type="text" class="answer" id="input1" maxlength="7" size="7"data-answer="similar">, whereas in two polygons if the corresponding angles are equal, they may not be similar, i.e., In triangles,</p>
-        <p>(Pairs of corresponding angles are equal) ⇔ (Ratio of corresponding sides are equal).</p>
-        <p>But this is not so with respect to polygons.</p>
+    <div id="question-container">
+       
+        <div class="question">
+            <h2>(Q1). Rinky observes a flower on the ground from the balcony of the first floor of a building at an angle of depression &#946;&deg;. The height of the first floor of the building is x meters.Draw the diagram for this data.</h2>
+            <p>Here, &#8736;DAC = &#8736;ACB = &#946;</p>
+            <div class="answer"></div>
+            <form>
+                <input type="radio" name="option" value="incorrect">(a)<img src="../../Assets/images/12-1-2.svg" height="200" width="250"/> <br>
+                    <input type="radio" name="option" value="incorrect">(b)<img src="../../Assets/images/12-1(2(2)).jpg" height="200" width="250"/> <br>
+                    <input type="radio" name="option" value="incorrect">(c)<img src="../../Assets/images/12-1(2(3)).jpg" height="200" width="250"/> <br>
+                    <input type="radio" name="option" value="correct">(d)<img src="../../Assets/images/12-1(2(4)).jpg" height="200" width="250"/> <br>
+                    <div class="answer"></div>
+            </form>
+        </div>
     </div>
     <div class="button-container">
-        <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
+        <button id="check-button" onclick="checkAnswers()">Check Answer</button>
         <button id="clear-button" onclick="clearAnswers(); clear_Answers();">Clear</button>
     </div>
     <script src="../../Assets/js/javascript.js"></script>
