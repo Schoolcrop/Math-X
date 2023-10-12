@@ -10,35 +10,25 @@
 <body>
     <div>
         <h2>(Q14).Use division algorithm to show that the cube of any positive integer is of the form 9m,9m + 1 or 9m + 8?</h2>
-        <p>Let a be any positive <input type="text" class="answer" id="input1" maxlength="3" size="3" data-answer="odd"> integer</p>
-        <p>Let b = 9</p>
-        <p>By dividing algorithm rule for a and b : a = 9m + r, for m > 0,and 0 ≤ r < <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="9"></p>
-        <p>The possible remainders are 0, 1, <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="2"> and 3</p>
-        <p>So, a = 9m , 9m+1, 9m+2, 9m+3, where m is the <input type="text" class="answer" id="input4" maxlength="8" size="8" data-answer="quotient"></p>
-        <p>Let us consider a = 9m+0,9m+1</p>
-        <p>a = 9m+0</p>
-        <p>a = 9m</p>
-        <p>a<sup>3</sup> = (9m)<sup>3</sup></p>
-        <p>a<sup>3</sup> = <input type="text" class="answer" id="input5" maxlength="3" size="3" data-answer="729">m<sup>3</sup></p>
-        <p>a<sup>3</sup> = <input type="text" class="answer" id="input6" maxlength="1" size="1" data-answer="9">(81m<sup>3</sup>)</p>
-        <p>Here 9(81m<sup>3</sup>) is in the form of 9m</p>
-        <p>m = <input type="text" class="answer" id="input7" maxlength="2" size="2" data-answer="81">m<sup>3</sup></p>
-        <p>Let us consider a = 9m+0,9m+1</p>
-        <p>a = 9m+1</p>
-        <p>a<sup>3</sup> = (9m+1)<sup>3</sup></p>
-        <p>a<sup>3</sup> = (9m)<sup>3</sup>+(<input type="text" class="answer" id="input8" maxlength="1" size="1" data-answer="1">)<sup>3</sup> + 3(9m)(<input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="1"><sup>2</sup>) + 3(9m)<sup>2</sup>(<input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="1">)</p>
-        <p>a<sup>3</sup> = <input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="9">[(81m<sup>3</sup>)+ (<input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="3">m) + (<input type="text" class="answer" id="input13" maxlength="2" size="2" data-answer="27">m<sup>2</sup>)]+1</p>
-        <p>a<sup>3</sup> = <input type="text" class="answer" id="input14" maxlength="1" size="1" data-answer="9">[(81m<sup>3</sup>)+(3m)+(27m<sup>2</sup>)] + 1</p>
-        <p>Here a is in the form of <input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="9">m+1</p>
-        <p>m = [(<input type="text" class="answer" id="input16" maxlength="2" size="2" data-answer="81">m<sup>2</sup>) + (3m) + (27m<sup>2</sup>)]</p>
-        <p>Let us consider a = 9m+0,9m+1,9m+2</p>
-        <p>a = 9m+2</p>
-        <p>a<sup>3</sup> = (9m+2)<sup>3</sup></p>
-        <p>a<sup>3</sup> = (9m)<sup>3</sup>+(<input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="2">)<sup>3</sup> + 3(9m)(<input type="text" class="answer" id="input18" maxlength="1" size="1" data-answer="2"><sup>2</sup>) + 3(9m)<sup>2</sup>(<input type="text" class="answer" id="input19" maxlength="1" size="1" data-answer="2">)</p>
-        <p>a<sup>3</sup> = <input type="text" class="answer" id="input20" maxlength="1" size="1" data-answer="9">[(81m<sup>3</sup>)+ (<input type="text" class="answer" id="input21" maxlength="2" size="2" data-answer="12">m) + (<input type="text" class="answer" id="input22" maxlength="2" size="2" data-answer="54">m<sup>2</sup>)]+8</p>
-        <p>a<sup>3</sup> = <input type="text" class="answer" id="input23" maxlength="1" size="1" data-answer="9">[(81m<sup>3</sup>)+(12m)+(54m<sup>2</sup>)] + 8</p>
-        <p>Here a is in the form of <input type="text" class="answer" id="input24" maxlength="1" size="1" data-answer="9">m+8</p>
-        <p>m = [(<input type="text" class="answer" id="input25" maxlength="2" size="2" data-answer="81">m<sup>3</sup>) + (12m) + (54m<sup>2</sup>)]</p>
+
+        <p>Let a and b be two positive integers, and a > b </p>
+        <p>a = (b × q) + r where q and r are positive integers and 0 ≤ r < b </p>
+        <p>Let b = <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="3"> (If 9 is multiplied by 3 a perfect cube number is obtained) a = 3q + r where 0 ≤ r < 3 </p>
+        <p>(i) if r = 0, a = <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="3">q    (ii) if r = 1, a =3 q + 1      (iii) if r = 2, a = 3q + 2 </p>
+        <p>Consider, cubes of these</p>
+        <p>Case (i) a = 3q</p>
+        <p>a<sup>3</sup> = (3q)<sup>3</sup> = <input type="text" class="answer" id="input3" maxlength="2" size="1" data-answer="27">q<sup>3</sup> = 9(3q<sup>3</sup>) = 9m where m = 3q<sup>3</sup> and 'm' is an integer.</p>
+        <p>Case (ii) a = 3q + 1</p>
+        <p>a<sup>3</sup> = (<input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="3">q+1)<sup>3</sup> [(a+b)<sup>3</sup> = a<sup>3</sup> + b<sup>3</sup> + 3a<sup>2</sup>b + 3ab<sup>2</sup> ]</p>
+        <p>= 27q<sup>3</sup> + 1 + <input type="text" class="answer" id="input5" maxlength="2" size="1" data-answer="27">q<sup>2</sup> + 9q = 27q<sup>3</sup> + 27q<sup>2</sup> + 9q + 1</p>
+        <p>= 9(3q<sup>3</sup> + 3q<sup>2</sup> + q) + 1 = 9m + 1</p>
+        <p>where m = 3q<sup>3</sup> + 3q<sup>2</sup> + q and ' m ' is an integer.</p>
+        <p>Case (iii) a = 3q + 2</p>
+        <p>a<sup>3</sup> = (3q + 2)<sup>3</sup> = <input type="text" class="answer" id="input6" maxlength="2" size="1" data-answer="27">q<sup>3</sup> + 8 + 54q<sup>2</sup>+36q</p>
+        <p>= 27q<sup>3</sup> - 54q<sup>2</sup> + 36q + 8 = 9(3q<sup>3</sup> + <input type="text" class="answer" id="input7" maxlength="2" size="1" data-answer="6">q<sup>2</sup> + 4q) + 8</p>
+        <p>9m + 8, where m = 3q<sup>3</sup> + 6q<sup>2</sup> + 4q and m is an integer.</p>
+        <p>∴ Cube of any positive integer is either of the form 9m,9m+1 or 9m+8 for some integer m.</p>
+        
     </div>
     <div class="button-container">
         <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
