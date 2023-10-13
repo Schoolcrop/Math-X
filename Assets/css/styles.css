@@ -46,6 +46,10 @@ img{
 
 }
 
+.lol {
+    font-size: 8px;
+}
+
 .img:hover{
     color: #ffffff; 
   -webkit-transition: all .3s ease-in;
