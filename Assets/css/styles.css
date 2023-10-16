@@ -46,6 +46,10 @@ img{
 
 }
 
+.imgsz {
+    height: 100%;
+}
+
 .lol {
     font-size: 8px;
 }
