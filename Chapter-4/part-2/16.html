@@ -14,46 +14,29 @@
     }
 </style>
 <body>
-    <h2>(Q16).Mary told her daughter, "Seven years ago, I was seven times as old as you were then. Also, three years from now, I shall be three times as old as you will be." Find the present age of Mary and her daughter</h2>
-    <div style="margin-left: 20px;">
-        <p>Let Mary's present age be x years and her daughter's age be y years.</p>
-        <p>Then, seven years ago Mary's age was x - 7 and daughter's age was y - 7.</p>
-        <p>x - <input type="text" class="answer" id="input1" maxlength="1" size="1" data-answer="7"> = <input type="text" class="answer" id="input2" maxlength="1" size="1" data-answer="7">(y - <input type="text" class="answer" id="input3" maxlength="1" size="1" data-answer="7">)</p>
-        <p>x - <input type="text" class="answer" id="input4" maxlength="1" size="1" data-answer="7"> = <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="7">y - <input type="text" class="answer" id="input6" maxlength="2" size="2" data-answer="49"></p>
-        <p>x - <input type="text" class="answer" id="input7" maxlength="1" size="1" data-answer="7">y + <input type="text" class="answer" id="input8" maxlength="2" size="2" data-answer="42"> = 0 ....................(1)</p>
-        <p>Three years hence, Mary's age will be x + 3 and daughter's age will be y + 3.</p>
-        <p>x + <input type="text" class="answer" id="input9" maxlength="1" size="1" data-answer="3"> = <input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="3"> (y + <input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="3">)</p>
-        <p>x + <input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="3"> = <input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="3">y + <input type="text" class="answer" id="input14" maxlength="1" size="1" data-answer="9"></p>
-        <p>x - <input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="3">y - <input type="text" class="answer" id="input16" maxlength="1" size="1" data-answer="6"> = 0 ......................(2)</p>
-        <p>Elimination method</p>
+    <h2>(Q16). A publisher is planning to produce a new textbook. The fixed costs (reviewing, editing, typesetting and so on) are &#8377;320000. Besides that, he also spends another &#8377;31.25 in producing the book. The wholesale price (the amount received by the publisher) is &#8377;43.75 per book. How many books must the publisher sell to break even, i.e., so that the cost of production will equal revenues?</h2>
+    <div>
+        <p>The publisher breaks even when costs equal revenues. If x represents the number of books printed and sold and y be the breakeven point, then the cost and revenue equations for the publisher are</p>
         <div>
-            <span>Equation 1 ⇒</span>
-            <span>x - <input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="7">y = - <input type="text" class="answer" id="input18" maxlength="2" size="2" data-answer="42"></span>
+            <span>Cost equation is given by</span>
+            <span>y = 320000 + <input type="text" class="answer" id="input1" maxlength="5" size="5" data-answer="31.25">x</span>
         </div>
         <div>
-            <span>Equation 2 ⇒</span>
-            <span>x - <input type="text" class="answer" id="input19" maxlength="1" size="1" data-answer="3">y = <input type="text" class="answer" id="input20" maxlength="1" size="1" data-answer="6"></span>
+            <span>Revenue equation is given by</span>
+            <span>y = <input type="text" class="answer" id="input2" maxlength="5" size="5" data-answer="43.75">x</span>
         </div>
-        <div style="margin-left: 110px;">
-            <span>(-)</span>
-            <span style="margin-left: 20px;">(+)</span>
-            <span style="margin-left: 40px;">(-) </span>
-            <span> same sign for x, so subtract.</span>
-        </div>
-        <hr style="width: 220px; margin-left: 110px;">
-        <p style="margin-left: 145px;">-<input type="text" class="answer" id="input21" maxlength="1" size="1" data-answer="4">y = -<input type="text" class="answer" id="input22" maxlength="2" size="2" data-answer="48"></p>
+        <p>Using the second equation to substitute for y in the first equation, we have</p>
+        <p><input type="text" class="answer" id="input3" maxlength="5" size="5" data-answer="43.75">x = &#8377;320000 + <input type="text" class="answer" id="input4" maxlength="5" size="5" data-answer="31.25">x</p>
+        <p><input type="text" class="answer" id="input5" maxlength="4" size="4" data-answer="12.5">x = &#8377;320000</p>
         <div>
-            <span> y = </span>
+            <span> x = </span>
             <span style="display: inline-block;vertical-align: middle;">
-                <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input23" maxlength="2" size="2" data-answer="48"></div>
-                <div style="text-align: center;">-<input type="text" class="answer" id="input24" maxlength="1" size="1" data-answer="4"></div>
+                <div style="text-align: center; border-bottom: 1px solid black;">320000</div>
+                <div style="text-align: center;"><input type="text" class="answer" id="input6" maxlength="4" size="4" data-answer="12.5"></div>
             </span>
-            <span> = <input type="text" class="answer" id="input25" maxlength="2" size="2" data-answer="12"></span>
+            <span> = <input type="text" class="answer" id="input7" maxlength="5" size="5" data-answer="25600"></span>
         </div>
-        <p>Substitute the value of y in equation (2)</p>
-        <p>x -3(<input type="text" class="answer" id="input26" maxlength="2" size="2" data-answer="12">) - 6 = 0</p>
-        <p>x = <input type="text" class="answer" id="input27" maxlength="2" size="2" data-answer="36"> + 6 = <input type="text" class="answer" id="input28" maxlength="2" size="2" data-answer="42"></p>
-        <p>Therefore, Mary's present age is <input type="text" class="answer" id="input29" maxlength="2" size="2" data-answer="42"> years and her daughter's age is <input type="text" class="answer" id="input30" maxlength="2" size="2" data-answer="30"> years.</p>
+        <p>Thus, the publisher will break even when <input type="text" class="answer" id="input8" maxlength="5" size="5" data-answer="25600"> books are printed and sold.</p>
     </div>
     <div class="button-container">
         <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->

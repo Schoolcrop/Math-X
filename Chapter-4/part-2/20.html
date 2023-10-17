@@ -14,39 +14,41 @@
     }
 </style>
 <body>
-    <h2>(Q20).The sum of a two digit number and the number obtained by reversing the digits is 66. If the digits of the number differ by 2, find the number. How many such numbers are there?</h2>
+    <h2>(Q20).The taxi charges in Hyderabad are fixed, along with the charge for the distance covered. For a distance of 10 km., the charge paid is Rs. 220. For a journey of 15 km. the charge paid is Rs. 310.</h2>
+    <h3>(i) What are the fixed charges and charge per km?</h3>
+    <h3>(ii) How much does a person have to pay for travelling a distance of 25km?</h3>
     <div style="margin-left: 20px;">
-        <p>Let the digit in units place be x</p>
-        <p>and the digit in tens place be y</p>
-        <p>then the value of the number = <input type="text" class="answer" id="input1" maxlength="2" size="2" data-answer="10">y + x</p>
-        <p>Number obtained by reversing the digits = <input type="text" class="answer" id="input2" maxlength="2" size="2" data-answer="10">x + y</p>
-        <p>By problem,</p>
-        <p>(<input type="text" class="answer" id="input3" maxlength="2" size="2" data-answer="10">y + x) + (<input type="text" class="answer" id="input4" maxlength="2" size="2" data-answer="10">x + y) = <input type="text" class="answer" id="input5" maxlength="2" size="2" data-answer="66"></p>
-        <p>and x – y = <input type="text" class="answer" id="input5" maxlength="1" size="1" data-answer="2"></p>
-        <p>⇒ <input type="text" class="answer" id="input7" maxlength="2" size="2" data-answer="11">x – <input type="text" class="answer" id="input8" maxlength="2" size="2" data-answer="11">y = <input type="text" class="answer" id="input9" maxlength="2" size="2" data-answer="66"> and x – y = <input type="text" class="answer" id="input10" maxlength="1" size="1" data-answer="2"></p>
-        <p>⇒ x + y = <input type="text" class="answer" id="input11" maxlength="1" size="1" data-answer="6"> and x – y = <input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="2"></p>
-        <p>Solving these two equations</p>
-        <p>x + y = 6</p>
-        <p>x – y = 2</p>
-        <hr style="width: 100px; margin-left: 0px;">
-        <p>(+) <input type="text" class="answer" id="input13" maxlength="1" size="1" data-answer="2">x = <input type="text" class="answer" id="input14" maxlength="1" size="1" data-answer="8"></p>
+        <p>Let the fixed charge be = Rs. x.</p>
+        <p>and the charge per one km = Rs. y.</p>
+        <p>By problem, x + <input type="text" class="answer" id="input1" maxlength="2" size="2" data-answer="10">y = <input type="text" class="answer" id="input2" maxlength="3" size="3" data-answer="220"> x + <input type="text" class="answer" id="input3" maxlength="2" size="2" data-answer="15">y = <input type="text" class="answer" id="input4" maxlength="3" size="3" data-answer="310"></p>
+        <p>Solving (1) and (2) we get</p>
+        <p>x + <input type="text" class="answer" id="input5" maxlength="2" size="2" data-answer="10">y = <input type="text" class="answer" id="input6" maxlength="3" size="3" data-answer="220"></p>
+        <p>x + <input type="text" class="answer" id="input7" maxlength="2" size="2" data-answer="15">y = <input type="text" class="answer" id="input8" maxlength="3" size="3" data-answer="310"></p>
+        <p>(-)</p>
+        <hr style="width: 100px; margin-left: 1px;">
         <div>
-            <span> x = </span>
-            <span style="display: inline-block;vertical-align: middle;">
-                <div style="text-align: center; border-bottom: 1px solid black;"><input type="text" class="answer" id="input15" maxlength="1" size="1" data-answer="8"></div>
-                <div style="text-align: center;"><input type="text" class="answer" id="input16" maxlength="1" size="1" data-answer="2"></div>
-            </span>
-            <span> = <input type="text" class="answer" id="input17" maxlength="1" size="1" data-answer="4"></span>
+            <span>-<input type="text" class="answer" id="input9" maxlength="" size="1" data-answer="5">y</span>
+            <span>= -<input type="text" class="answer" id="input10" maxlength="2" size="2" data-answer="90"></span>
         </div>
-        <p>Substituting x = <input type="text" class="answer" id="input18" maxlength="1" size="1" data-answer="4"> in x + y = 6</p>
-        <p>we get <input type="text" class="answer" id="input19" maxlength="1" size="1" data-answer="4"> + y = 6 ⇒ y = <input type="text" class="answer" id="input20" maxlength="1" size="1" data-answer="2"></p>
-        <p>Substituting x, y values in equations (10y + x) & (10x + y),</p>
-        <p>We get 10y + x</p>
-        <p>= 10(<input type="text" class="answer" id="input21" maxlength="1" size="1" data-answer="2">) + <input type="text" class="answer" id="input22" maxlength="1" size="1" data-answer="4"> = <input type="text" class="answer" id="input23" maxlength="2" size="2" data-answer="20"> + <input type="text" class="answer" id="input24" maxlength="1" size="1" data-answer="4"> = <input type="text" class="answer" id="input25" maxlength="2" size="2" data-answer="24"></p>
-        <p>and 10x + y = 10(<input type="text" class="answer" id="input26" maxlength="1" size="1" data-answer="4">) + <input type="text" class="answer" id="input27" maxlength="1" size="1" data-answer="2"></p>
-        <p>= <input type="text" class="answer" id="input28" maxlength="2" size="2" data-answer="40"> + <input type="text" class="answer" id="input29" maxlength="1" size="1" data-answer="2"> = <input type="text" class="answer" id="input30" maxlength="2" size="2" data-answer="42"></p>
-        <p>∴ The number is <input type="text" class="answer" id="input31" maxlength="2" size="2" data-answer="42"> or <input type="text" class="answer" id="input32" maxlength="2" size="2" data-answer="24"></p>
-        <p>Thus we have two such numbers.</p>
+        <div>
+            <span>∴ y = </span>
+            <span style="display: inline-block;vertical-align: middle;">
+                <div style="text-align: center; border-bottom: 1px solid black;">-<input type="text" class="answer" id="input11" maxlength="2" size="2" data-answer="90"></div>
+                <div style="text-align: center;">-<input type="text" class="answer" id="input12" maxlength="1" size="1" data-answer="5"></div>
+            </span>
+            <span> = <input type="text" class="answer" id="input13" maxlength="2" size="2" data-answer="18"></span>
+        </div>
+        <p>i.e., charge per one km = Rs. <input type="text" class="answer" id="input14" maxlength="2" size="2" data-answer="18"></p>
+        <p>Substituting y = 18 in equation (1) we get</p>
+        <p>x + 10 × <input type="text" class="answer" id="input15" maxlength="2" size="2" data-answer="18"> = 220</p>
+        <p>⇒ x = 220 – <input type="text" class="answer" id="input16" maxlength="3" size="3" data-answer="180"></p>
+        <p>⇒ x = Rs. <input type="text" class="answer" id="input17" maxlength="2" size="2" data-answer="40"></p>
+        <p>∴ Fixed charge = Rs. <input type="text" class="answer" id="input18" maxlength="2" size="2" data-answer="40">;</p>
+        <p>Charge per km = Rs. <input type="text" class="answer" id="input19" maxlength="2" size="2" data-answer="18">.</p>
+        <p>(ii) Now, the charge for travelling a distance of 25 km</p>
+        <p>= 25 × <input type="text" class="answer" id="input20" maxlength="2" size="2" data-answer="18"></p>
+        <p>= Rs. <input type="text" class="answer" id="input21" maxlength="3" size="3" data-answer="450"> + 40</p>
+        <p>= Rs. <input type="text" class="answer" id="input22" maxlength="3" size="3" data-answer="490"></p>
     </div>
     <div class="button-container">
         <!-- <button id="check-button" onclick="checkAnswers()">Check Answer</button> -->
